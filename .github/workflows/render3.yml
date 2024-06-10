@@ -25,7 +25,7 @@ jobs:
 
       - name: Install R packages
         run: |
-          R -e "install.packages(c('rmarkdown', 'tidyverse', 'GGally'), repos='https://cloud.r-project.org/')"
+          R -e "install.packages(c('rmarkdown', 'tidyverse', 'GGally', 'randomNames'), repos='https://cloud.r-project.org/')"
 
       - name: Setup Quarto
         uses: quarto-dev/quarto-actions/setup@v2
