@@ -1,0 +1,46 @@
+
+```{r Legionella, out.width="50%", out.height="50%", echo=FALSE, fig.cap="False-coloured scanning electron microscopy (SEM) image of a group of Legionella pneumophila cells. Image credit: [CDC](https://phil.cdc.gov/details.aspx?pid=11152)"}
+knitr::include_graphics(rep("images/pathogenA.jpg"))
+```
+
+### Fact Sheet and General Information
+
+* [Legionnaire's Disease Fact Sheet](https://www.cdc.gov/legionella/downloads/fs-legionnaires.pdf)
+
+* [WHO: Legionellosis](https://www.who.int/news-room/fact-sheets/detail/legionellosis)
+
+* [CDC: Legionella](https://www.cdc.gov/legionella/index.html)
+
+### Clinical Microbiology and Diagnosis Resources
+
+* [UK Standards for Microbiology Investigations (UK SMI): Identification of <i>Legionella</i> species](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/422702/ID_18i3.pdf)
+
+* [Clinician Factsheet: Legionnaire's Disease](https://www.cdc.gov/legionella/downloads/fs-legionella-clinicians.pdf)
+
+* [Clinical features of Legionnaire's Disease and Pontiac Fever](https://www.cdc.gov/legionella/clinicians/clinical-features.html)
+
+* [Diagnosis, Treatment, and Prevention - CDC guidelines](https://www.cdc.gov/legionella/clinicians/diagnostic-testing.html)
+
+```{r Legionella-agar, out.width="50%", out.height="50%", echo=FALSE, fig.cap="Legionella grown on BCYE agar. Image credit: [CDC](https://www.cdc.gov/legionella/resources/materials.html)"}
+knitr::include_graphics(rep("images/plateA.jpg"))
+```
+
+### Public Health and Epidemiology Resources
+
+* [Guideline on the management of <i>Legionella</i> cases, incidents,outbreaks and clusters in the community: Health Protection Network Scottish Guidance](https://hpspubsrepo.blob.core.windows.net/hps-website/nss/2070/documents/1_legionella-guidelines-2014-2.pdf)
+
+* [Cluster of <i>Legionella longbeachae</i> cases in Scotland in September/October 2013: Report from a national Incident Management Team](https://hpspubsrepo.blob.core.windows.net/hps-website/nss/1918/documents/1_legionella-outbreak-report-2014.pdf)
+
+* [Legionnaires’ Disease: Use water management programs in buildings to help prevent outbreaks](https://www.cdc.gov/vitalsigns/pdf/2016-06-vitalsigns.pdf) CDC fact-sheet.
+
+* [CDC guidance on processing environmental samples](https://www.cdc.gov/legionella/labs/procedures-manual.html)
+
+### Public Communications Resources
+
+* [CDC <i>Legionella</i> Communications Resources](https://www.cdc.gov/legionella/health-depts/communications-resources.html)
+
+* [Legionnaires' disease outbreak investigation toolbox: Developing Communications](https://legionnaires.ecdc.europa.eu/?pid=600)
+
+* [<i>Legionella</i> awareness campaign highlights deadly <i>Legionella</i> hotspots](https://hydrochemgroup.co.uk/2021/09/22/legionella-awareness-campaign-highlights-deadly-legionella-hotspots/)
+
+* [National Enhanced <i>Legionella</i> Surveillance Scotland](https://publichealthscotland.scot/media/8072/2021-01-surveillance-form-legionella.pdf)

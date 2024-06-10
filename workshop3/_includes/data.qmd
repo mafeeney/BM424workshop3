@@ -1,0 +1,61 @@
+```{r data, include=FALSE}
+# Define the link for the hospital dashboard page based on the group variable
+if (group == "A") {
+  http_address <- "dashboardA.qmd"
+} else if (group == "B") {
+  http_address <- "dashboardB.qmd"
+} else {
+  # Handle other cases if needed
+  link <- "default_link"
+}
+
+# Define an include_statement variable to point to the correct epidemiology data
+include_statement <- paste0('{{< include _includes/epi', group, '.qmd >}}')
+```
+
+### Introduction
+
+These pages provide a `WebR` cells for you to use as a tool and playground to analyse data from and about your city's pandemic scenario. [explain why]
+
+::: callout-tip
+If you are unfamiliar with R, or if this is your first time working with R, you may find some of the following resources helpful:
+-
+:::
+
+The `WebR` instance we will be using has the `tidyverse` package already installed for you, so you do not need to load it using the `library(tidyverse)` command. The [tidyverse](https://www.tidyverse.org/) package contains ggplot2, dplyr, readr, and a number of other packages that make working with data in R easier.
+
+::: {.callout-important collapse="false"}
+Please note that all of these data are available remotely through a cloud server and you can work with them using the webR instance in this browser window - you do not need to install R or download the files to your own computer. 
+
+However, you do need to make sure you are working with the correct data. Please make sure you carefully check the filename(s) for your particular pandemic scenario.
+:::
+
+::: callout-tip
+You may divide the data analysis tasks amongst your group members, and work through the sections/tasks, in any order you choose. 
+
+As  you work through each task, note that there are tips and hints that you can expand for additional help. 
+:::
+
+### City Demographics, Polling, and Budget
+
+*   You will want to understand the demographics of `r city_name` to inform your pandemic responses: for example, you will want to know the number of people living in your city, the number people in demographic groups that might be particularly vulnerable during this pandemic, and so on. You will find the data from the latest census in a file named: demographics_group`r group`.csv, and a suggested workflow for analysing these data here: [Demographic Data Analysis](Data_Demographics.qmd)
+
+* You will want to understand public opinion in `r city_name`, including voting/voting intention data (to understand the level of public support for the city council), and polling data on various public health/epidemiological measure (to understand the level of public support for various health measures/non-pharmaceutical interventions). You will find the latest voting data in a file named: voting_group`r group`.csv, and the polling data in a file named: polling_group`r group`.csv (associated metadata saved in polling_questions\_`r group`.txt). You will find a suggested workflow for analysing these data here: [Polling Data Analysis](Data_Polling.qmd).
+
+* You will want to understand the budget of `r city_name`, especially the funds available for the city's contingency planning budget, which can be used to finance pandemic responses. You will find the data from the latest budget in a file named: budget_group`r group`.csv, and a suggested workflow for analysing these data here: [Demographic Data Analysis](Data_Budget.qmd).
+
+### Hospital and Death Data
+
+* You will want to understand the number of people who have died due to `r dis_name`, by analysing data from death certificates that have been filed in `r city_name` in the past month. You will find the death certificate data in a file named: deaths_group`r group`.csv, and a suggested workflow for analysing these data here: [Death Certificate Data Analysis](Data_Deaths.qmd).
+
+* You will want to understand the status and pandemic preparedness of the `r hosp_name`, including the number of admissions due to `r dis_name`. You will find the hospital admissions data in a file named: hosp_admissions_group`r group`.csv, and a suggested workflow for analysing these data here: [Hospital Admissions Data Analysis](Data_Hospital.qmd) [N.B. Data file done but may require tweaking dates/#s)]
+
+* You can find key information about the main hospital in `r city_name`, the `r hosp_name` in the `r paste0("[Hospital Dashboard](", http_address , ")")`. 
+
+### Epidemiological Data
+
+`r include_statement`
+
+### Any Additional Data Analyses
+
+An additional webR "playground" is available for you to use if you wish to perform any additional data analyses: [WebR](webr-example.qmd).

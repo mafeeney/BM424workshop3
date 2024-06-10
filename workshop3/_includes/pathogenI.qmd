@@ -1,0 +1,46 @@
+
+```{r anthrax, out.width="50%", out.height="50%", echo=FALSE, fig.cap="Scanning electron micrograph of Bacillus anthracis endospores. Image credit: [CDC](https://phil.cdc.gov/details.aspx?pid=10123)"}
+knitr::include_graphics(rep("images/pathogenI.jpg"))
+```
+
+### Fact Sheet and General Information
+
+* [CDC Anthrax Fact Sheet](https://www.cdc.gov/anthrax/basics/index.html)
+
+* [Anthrax (European Centre for Disease Prevention and Control)](https://www.ecdc.europa.eu/en/anthrax)
+
+* [Anthrax: how to spot and report the disease (ScotGov)](https://www.gov.scot/publications/anthrax/)
+
+### Clinical Microbiology and Diagnosis Resources
+
+* [UK Standards for Microbiology Investigations (UK SMI): Identification of Bacillus species](https://assets.publishing.service.gov.uk/media/5ac4e7cc40f0b60a4e1b0e7a/ID_9i3.1.pdf)
+
+* [NICE guidelines: Anthrax Treatment and post-exposure prophylaxis](https://bnf.nice.org.uk/treatment-summaries/anthrax/)
+
+* [BNF: Anthrax vaccine](https://bnf.nice.org.uk/drugs/anthrax-vaccine/#indications-and-dose)
+
+* [BMJ Best Practice - Anthrax](https://bestpractice.bmj.com/topics/en-gb/604)
+
+
+```{r bacillus, echo=FALSE, fig.cap="Bacillus anthracis cultured on sheep's blood agar. Image credit: [CDC](https://phil.cdc.gov/Details.aspx?pid=17097)"}
+knitr::include_graphics(rep("images/plateI.jpg"))
+```
+
+
+### Public Health and Epidemiology Resources
+
+* [Exotic notifiable animal diseases contingency plans - Scottish Regional Resilience Partnerships' framework: August 2022](https://www.gov.scot/publications/scottish-regional-resilience-partnerships-framework-exotic-notifiable-animal-diseases-contingency-plans-august-2022/pages/21/)
+
+* [Public Health Scotland: Gastrointestinal and Zoonoses Biennial report 2020 to 2021](https://publichealthscotland.scot/publications/gastrointestinal-and-zoonoses/gastrointestinal-and-zoonoses-biennial-report-2020-to-2021/)
+
+* [Anthrax: Guidance, Data, and Analysis (GOV.UK)](https://www.gov.uk/government/collections/anthrax-guidance-data-and-analysis)
+
+* [Guidelines for the public health management of tetanus, botulism or anthrax among people who use drugs (Public Health Scotland)](https://publichealthscotland.scot/publications/guidelines-for-the-public-health-management-of-tetanus-botulism-or-anthrax-among-people-who-use-drugs/guidelines-for-the-public-health-management-of-tetanus-botulism-or-anthrax-among-people-who-use-drugs/)
+
+### Public Communications Resources
+
+* [Anthrax Response Resources](https://doh.wa.gov/public-health-provider-resources/emergency-preparedness/emergency-communications-toolkit/resources-specific-emergencies/anthrax)
+
+* [Official Veterinarian Anthrax Instructions (Animal and Plant Health Agency)](http://apha.defra.gov.uk/External_OV_Instructions/Anthrax/index.htm)
+
+* [Construction micro-organisms: Anthrax from contaminated land and buildings (Health and Safety Executive)](https://www.hse.gov.uk/construction/healthrisks/hazardous-substances/harmful-micro-organisms/anthrax.htm)

@@ -1,0 +1,49 @@
+
+```{r influenza, out.width="50%", out.height="50%", echo=FALSE, fig.cap="False-coloured transmission electron microscopy (TEM) image of an influenza virus particle. Image credit: [CDC](https://phil.cdc.gov/Details.aspx?pid=10073)"}
+knitr::include_graphics(rep("images/pathogenB.jpg"))
+```
+
+### Fact Sheet and General Information
+
+* [WHO Influenza Fact Sheet](https://www.who.int/news-room/fact-sheets/detail/influenza-(seasonal))
+
+* [Public Health Scotland Influenza A-Z](https://www.hps.scot.nhs.uk/a-to-z-of-topics/influenza/) 
+
+* [Weekly National Flu Reports (UKHSA)](https://www.gov.uk/government/collections/weekly-national-flu-reports)
+
+### Clinical Microbiology and Diagnosis Resources
+
+* [influenza virus testing methods](https://www.cdc.gov/flu/professionals/diagnosis/table-testing-methods.htm)
+
+* [Guidance on use of antiviral agents for the treatment and prophylaxis of seasonal influenza(UKHSA)](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1058443/ukhsa-guidance-antivirals-influenza-11v4.pdf)
+
+* [Surveillance and Laboratory Testing of Influenza Neuraminidase Inhibitor Resistance](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/757445/surveillance_and_laboratory_testing_of_influenza_neuraminidase_inhibitor_resistance.pdf) 
+
+* [Information for Clinicians on Influenza Virus Testing (CDC)](https://www.cdc.gov/flu/professionals/diagnosis/index.htm)
+
+
+```{r influenza-assay, out.width="30%", out.height="30%", echo=FALSE, fig.cap="A plaque assay for influenza virus. Image credit: [CDC](https://phil.cdc.gov/Details.aspx?pid=23215)"}
+knitr::include_graphics(rep("images/plateB.jpg"))
+```
+
+### Public Health and Epidemiology Resources
+
+* [Pandemic Flu: A Scottish Framework for Responding to an Influenza Pandemic](https://www.gov.scot/binaries/content/documents/govscot/publications/strategy-plan/2007/11/pandemic-flu-scottish-framework-responding-influenza-pandemic/documents/0054442-pdf/0054442-pdf/govscot%3Adocument/0054442.pdf)
+
+* [NatureScot: Highly pathogenic avian influenza (bird flu) - Guidance for site managers](https://www.nature.scot/doc/highly-pathogenic-avian-influenza-bird-flu-guidance-site-managers)
+
+* [Guidelines for PHE health protection teams on the management of outbreaks of influenza-like illness (ILI) in care homes](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/932991/Guidelines_for_the_management_of_outbreaks_of_influenza-like_illness_in_care_homes_05_11_2020.pdf)
+
+* [Investigation and management of outbreaks of suspected acute viral respiratory infection in schools: guidance for health protection teams](https://www.gov.uk/government/publications/influenza-like-illness-ili-managing-outbreaks-in-schools/investigation-and-management-of-outbreaks-of-suspected-acute-viral-respiratory-infection-in-schools-guidance-for-health-protection-teams)
+
+### Public Communications Resources
+
+* [Influenza Pandemic Communication and Public Outreach (CDC)](https://www.cdc.gov/flu/pandemic-resources/planning-preparedness/communication-public-outreach.htm)
+
+* [Flu education pack (Public Health Scotland)](https://publichealthscotland.scot/publications/flu-education-pack/)
+
+* [CDC Communication Resources - Pandemic Flu](https://www.cdc.gov/flu/panfluexercise/resources.htm)
+
+* [Health communication resources on influenza (European Centre for Disease Prevention and Control)](https://www.ecdc.europa.eu/en/infectious-disease-topics/z-disease-list/seasonal-influenza/health-communication-resources)
+
+

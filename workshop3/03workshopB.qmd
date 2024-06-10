@@ -1,0 +1,46 @@
+## BM424 Clinical Microbiology workshop 3 - Pandemic Response 
+
+add news item highlighting first pandemic suspicion news article. 
+
+
+
+::: callout-important
+Each group is dealing with an outbreak in a different city - please see the list below for a link to your group's page, and carefully read through/analyse the data for your pandemic scenario.
+:::
+
+### Overview of tasks:
+
+*1.  Prepare for the team meeting* 
+    
+There are a number of data analysis/literature search tasks that each group will need to perform in preparation for the meeting. As a group, you should decide who will be responsible for which task and how to allocate the work fairly. 
+
+*City Management/Planning Tasks*
+
+- Determine the resources your city has available to deal with this pandemic (budget, hospital resources, etc.)
+- Analyse polling/opinion data, to inform your public communications/outreach strategies
+- Read briefing packets and search the literature for additional pertinent information
+
+*Epidemiologist/Public Health Tasks*
+
+- Analyse case, death, and demographic data
+- Analyse pathogen data
+- Read briefing packets and search the literature for additional pertinent information
+
+*2.  Emergency Pandemic Response Team Meeting*
+
+    ::: callout-tip
+    Your decisions should be evidence-based
+    :::
+
+*3.  submit committee decisions*
+
+### Links to each group's pages
+
+::: callout-important
+Please check the list on the module MyPlace page to find your assigned group.
+:::
+- [Group A](03A.qmd)
+
+
+
+-link to slides for workshop 3

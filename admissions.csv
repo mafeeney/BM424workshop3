@@ -1,0 +1,216 @@
+Code,Description,Rate
+A00-A09,Intestinal infectious diseases,0.008303192
+A15-A19,Tuberculosis,0.000134089
+A20-A28,Certain zoonotic bacterial diseases,9.76E-06
+A30-A49,Other bacterial diseases,0.007270179
+A50-A64,Infections with a predominantly sexual mode of transmission,0.000141162
+A65-A69,Other spirochaetal diseases,2.55E-05
+A70-A74,Other diseases caused by chlamydiae,3.48E-06
+A75-A79,Rickettsioses,1.65E-06
+A80-A89,Viral infections of the central nervous system,0.000182809
+A92-A99,Arthropod-borne viral fevers & viral haemorrhagic fevers,1.33E-05
+B00-B09,Viral infections characterized by skin & mucous mem. lesns.,0.000966853
+B15-B19,Viral hepatitis,0.000152138
+B20-B24,Human immunodeficiency virus [HIV] disease,9.53E-05
+B25-B34,Other viral diseases,0.005174152
+B35-B49,Mycoses,0.000515013
+B50-B64,Protozoal diseases,0.000131528
+B65-B83,Helminthiases,4.04E-05
+B85-B89,"Pediculosis, acariasis and other infestations",1.83E-05
+B95-B98,"Bacterial, viral and other infectious agents",9.76E-07
+B99-B99,Other infectious and parasitic diseases,0.000549343
+C00-C14,Malignant neoplasm of lip-oral cavity and pharynx,0.001687542
+C15-C26,Malignant neoplasm of digestive organs,0.018016358
+C30-C39,Malignant neoplasms of respiratory & intrathoracic organs,0.00681529
+C40-C41,Malignant neoplasm of bone and articular cartilage,0.000459706
+C43-C44,Malignant neoplasms of skin,0.00944633
+C45-C49,Malignant neoplasms of mesothelial and soft tissue,0.001440035
+C50-C50,Malignant neoplasm of breast,0.015637032
+C51-C58,Malignant neoplasms of female genital organs,0.004457732
+C60-C63,Malignant neoplasms of male genital organs,0.005413609
+C64-C68,Malignant neoplasms of urinary tract,0.005715019
+C69-C72,"Malignant neoplasms of eye, brain & other parts of CNS",0.001337716
+C73-C75,Malignant neoplasms of thyroid and other endocrine glands,0.000691298
+C76-C80,"Malignant neoplasms of ill-defined, secondary and unspecified sites",0.010997649
+C81-C96,"Malignant neoplasms of lymphoid, haematopoietic & rel. tiss.",0.024882869
+C97-C97,Malignant neoplasms of independent (primary) multiple sites,0.001705042
+D00-D09,In situ neoplasms,0.002021574
+D10-D36,Benign neoplasms,0.01952481
+D37-D48,Neoplasms of uncertain or unknown behaviour,0.006485282
+D50-D53,Nutritional anaemias,0.010850633
+D55-D59,Haemolytic anaemias,0.003368254
+D60-D64,Aplastic and other anaemias,0.006620712
+D65-D69,"Coagulation defects, purpura and other haemorrhagic conditions",0.001776812
+D70-D77,Other diseases of blood and blood-forming organs,0.001474549
+D80-D89,Certain disorders involving the immune mechanism,0.001536135
+E00-E07,Disorders of thyroid gland,0.001015452
+E10-E14,Diabetes Mellitus,0.003768142
+E15-E16,Other disorders of glucose regulation and pancreatic internal secretion,0.000825508
+E20-E35,Disorders of other endocrine glands,0.001940597
+E40-E46,Malnutrition,4.78E-05
+E50-E64,Other nutritional deficiencies,0.000701176
+E65-E68,Obesity and other hyperalimentation,0.000546965
+E70-E90,Metabolic disorders,0.011991454
+F00-F09,"Organic, including symptomatic, mental disorders",0.002173041
+F10-F19,Mental and behavioural disorders due to psychoactive subst.,0.002360302
+F20-F29,"Schizophrenia, schizotypal and delusional disorders",0.00089612
+F30-F39,Mood [affective] disorders,0.0007788
+F40-F48,"Neurotic, stress-related and somatoform disorders",0.001078319
+F50-F59,Behavioural syndromes associated with physiological disturbances and physical factors,0.000321349
+F60-F69,Disorders of adult personality and behaviour,0.000402632
+F70-F79,Mental retardation,1.62E-05
+F80-F89,Disorders of psychological development,0.00015787
+F90-F98,Behavioural and emotional disorders with onset usually occurring in childhood and adolescence,6.10E-05
+F99-F99,Unspecified mental disorder,2.06E-05
+G00-G09,Inflammatory diseases of the central nervous system,0.000464219
+G10-G14,Systemic atrophies primarily affecting the central nervous system,0.000343606
+G20-G26,Extrapyramidal & movement disorders (incl. Parkinsonism).,0.000775263
+G30-G32,Other degenerative diseases (incl. Alzheimer).,0.000344399
+G35-G37,Demyelinating diseases (incl Multiple Sclerosis) of the CNS.,0.003900218
+G40-G47,Episodic and paroxysmal disorders,0.007086455
+G50-G59,"Nerve, nerve root and plexus disorders",0.004247605
+G60-G64,Polyneuropathies and other disorders of the peripheral nervous system,0.002037306
+G70-G73,Diseases of myoneural junction and muscle,0.000533611
+G80-G83,Cerebral palsy & other paralytic syndromes,0.000819167
+G90-G99,Other diseases & disorders of the nervous syst.,0.001511562
+H00-H06,"Disorders of eyelid, lacrimal system and orbit",0.002979951
+H10-H13,Disorders of conjunctiva (including conjunctivitis),0.00036385
+H15-H22,"Disorders of sclera, cornea, iris and ciliary body",0.000871302
+H25-H28,Disorders of lens (including cataracts),0.03995946
+H30-H36,Disorders of choroid and retina,0.008859365
+H40-H42,Glaucoma,0.001401742
+H43-H45,Disorders of vitreous body and globe,0.000434645
+H46-H48,Disorders of optic nerve and visual pathways,0.000259945
+H49-H52,"Disorders of ocular muscles, binocular movement, accommodation and refraction",0.000834045
+H53-H54,Visual disturbances and blindness,0.000420986
+H55-H59,Other disorders of eye and adnexa,0.00041251
+H60-H62,Diseases of external ear,0.000838435
+H65-H75,Diseases of middle ear and mastoid,0.001962731
+H80-H83,Diseases of inner ear,0.000657333
+H90-H95,Other disorders of ear,0.000588002
+I00-I02,Acute rheumatic fever,3.96E-06
+I05-I09,Chronic rheumatic heart diseases,0.00072014
+I10-I15,Hypertensive diseases,0.002298105
+I20-I25,Ischaemic heart diseases,0.013298742
+I26-I28,Pulmonary heart disease & diseases of pulmonary circulation,0.002626955
+I30-I52,Other forms of heart disease,0.019284743
+I60-I69,Cerebrovascular diseases,0.007077857
+I70-I79,"Diseases of arteries, arterioles & capillaries",0.003504964
+I80-I89,Diseases of veins & lymphatic system nec.,0.007083894
+I95-I99,Other & unspecified disorders of the circulatory system,0.000359399
+J00-J06,Acute upper respiratory infections,0.008488075
+J09-J18,Influenza & pneumonia,0.016432234
+J20-J22,Other acute lower respiratory infections,0.009837559
+J30-J39,Other diseases of upper respiratory tract,0.005441963
+J40-J47,Chronic lower respiratory diseases,0.011438331
+J60-J70,Lung diseases due to external agents,0.001743641
+J80-J84,Other respiratory diseases principally affecting the interstitium,0.001118625
+J85-J86,Suppurative and necrotic conditions of lower respiratory tract,0.000318422
+J90-J94,Other diseases of pleura,0.002142187
+J95-J99,Other diseases of the respiratory system,0.001624308
+K00-K14,"Diseases of oral cavity, salivary glands & jaws",0.011959868
+K20-K31,"Diseases of oesophagus, stomach & duodenum",0.026029605
+K35-K38,Diseases of appendix,0.002812996
+K40-K46,Hernia,0.011732606
+K50-K52,Noninfective enteritis & colitis,0.019981773
+K55-K64,Other diseases of intestines,0.037504521
+K65-K67,Diseases of peritoneum,0.000508915
+K70-K77,Diseases of liver,0.003543075
+K80-K87,"Disorders of gall bladder, biliary tract & pancreas",0.013320999
+K90-K93,Other diseases of the digestive system,0.007669152
+L00-L08,Infections of the skin and subcutaneous tissue,0.010240069
+L10-L14,Bullous disorders,0.000135003
+L20-L30,Dermatitis and eczema,0.00081624
+L40-L45,Papulosquamous disorders (including Psoriasis),0.000523671
+L50-L54,Urticaria and erythems,0.00057977
+L55-L59,Radiation-related disorders of the skin and subcutaneous tissue,0.000894046
+L60-L75,Disorders of skin appendages,0.002897998
+L80-L99,Other disorders of the skin and subcutaneous tissue,0.00564209
+M00-M25,Arthropathies,0.029727318
+M30-M36,Systemic connective tissue disorders,0.001847363
+M40-M54,Dorsopathies,0.015295255
+M60-M79,Soft tissue disorders,0.013232277
+M80-M94,Osteopathies and chondropathies,0.005898255
+M95-M99,Other disorders of the musculoskeletal system & conn. tiss.,0.000667212
+N00-N08,Glomerular diseases,0.000638125
+N10-N16,Renal tubulo-interstitial diseases,0.004911462
+N17-N19,Renal failure,0.006159481
+N20-N23,Urolithiasis,0.00487573
+N25-N29,Other disorders of kidney & ureter,0.000394705
+N30-N39,Other diseases of the urinary system,0.013127519
+N40-N51,Diseases of male genital organs,0.007518844
+N60-N64,Disorders of breast,0.000996305
+N70-N77,Inflammatory diseases of female pelvic organs,0.001352167
+N80-N98,Noninflammatory disorders of female genital tract,0.010948075
+N99,Other disorders of the genitourinary system,0.000203846
+O00-O08,Pregnancy with abortive outcome,0.005726604
+O10-O16,"Oedema, proteinuria and hypertensive disorders in pregnancy, childbirth and the puerperium",0.002460975
+O20-O29,Other maternal disorders predominantly related to pregnancy,0.014362061
+O30-O48,Maternal care related to the fetus and amniotic cavity and possible delivery problems,0.026539373
+O60-O75,Complications of labour and delivery,0.017872635
+O80-O84,Delivery,0.001242348
+O85-O92,Complications predominantly related to the puerperium,0.001729738
+O94-O99,"Other obstetric conditions, not elsewhere classified",0.003212518
+P00-P04,"Fetus and newborn affected by maternal factors and by complications of pregnancy, labour and delivery",9.88E-06
+P05-P08,Disorders related to length of gestation and fetal growth,0.003389108
+P10-P15,Birth trauma,0.000466231
+P20-P29,Respiratory and cardiovascular disorders specific to the perinatal period,0.003728324
+P35-P39,Infections specific to the perinatal period,0.000877887
+P50-P61,Haemorrhagic and haematological disorders of fetus and newborn,0.003030014
+P70-P74,Transitory endocrine and metabolic disorders specific to fetus and newborn,0.000421291
+P75-P78,Digestive system disorders of fetus and newborn,0.000255189
+P80-P83,Conditions involving the integument and temperature regulation of fetus and newborn,0.000651662
+P90-P96,Other disorders originating in the perinatal period,0.00122564
+Q00-Q07,Congenital malformations of the nervous system,0.000239091
+Q10-Q18,"Congenital malformations of eye, ear, face and neck",0.000449035
+Q20-Q28,Congenital malformations of the circulatory system,0.001174724
+Q30-Q34,Congenital malformations of the respiratory system,0.000174334
+Q35-Q37,Cleft lip and cleft palate,0.000160004
+Q38-Q45,Other congenital malformations of the digestive system,0.000681236
+Q50-Q56,Congenital malformations of genital organs,0.00087807
+Q60-Q64,Congenital malformations of the urinary system,0.000284092
+Q65-Q79,Congenital malformations and deformations of the musculoskeletal system,0.000975512
+Q80-Q89,Other congenital malformations,0.000443487
+Q90-Q99,"Chromosomal abnormalities, not elsewhere classified",7.68E-05
+R00-R09,Symptoms & signs inv. the circulatory/respiratory system,0.023726804
+R10-R19,Symptoms & signs inv. the digestive system & abdomen,0.029819881
+R20-R23,Symptoms & signs inv. the skin & subcutaneous tissue,0.002176334
+R25-R29,Symptoms & signs inv. the nervous & musculoskeletal sys.,0.006311375
+R30-R39,Symptoms & signs involving the urinary system,0.00565581
+R40-R46,Symptoms & signs inv. Cognition perception etc.,0.003928207
+R47-R49,Symptoms & signs inv. speech & voice,0.000423486
+R50-R69,General symptoms & signs,0.028349723
+R70-R79,"Abnormal findings on examination of blood, without diagnosis",0.001822423
+R80-R82,"Abnormal findings on examination of urine, without diagnosis",6.83E-05
+R83-R89,"Abnormal findings on examination of other body fluids, substances and tissues, without diagnosis",0.000153906
+R90-R94,Abnormal findings on diagnostic imaging/function studies,0.002914767
+R95-R99,Ill-defined & unknown causes of mortality,1.22E-07
+S00-S09,Injuries to the head,0.008065138
+S10-S19,Injuries to the neck,0.000565197
+S20-S29,Injuries to the thorax,0.002014684
+S30-S39,"Injuries to abdomen, lower back, lumbar spine & pelvis",0.002429389
+S40-S49,Injuries to the shoulder & upper arm,0.002654882
+S50-S59,Injuries to the elbow & forearm,0.003630333
+S60-S69,Injuries to the wrist & hand,0.004707433
+S70-S79,Injuries to the hip & thigh,0.00538745
+S80-S89,Injuries to the knee & lower leg,0.004684811
+S90-S99,Injuries to the ankle & foot,0.000897156
+T00-T07,Injuries involving multiple body regions,0.000232201
+T08-T14,Injuries to unspecified part of trunk limb or body,6.52E-05
+T15-T19,Effects of foreign body entering through natural orifice,0.001050331
+T20-T32,Burns and corrosions,0.00064465
+T33-T35,Frostbite,3.66E-06
+T36-T50,Poisonings by drugs medicaments & biological substances,0.004505233
+T51-T65,Tox. effcts. of substnces. chiefly non-medicinal as to source,0.000330496
+T66-T78,Other and unspecified effects of external causes,0.000996854
+T79-T79,Certain early complications of trauma,0.00024336
+T80-T88,Complications of surgical & medical care nec.,0.012892635
+U00-U49,Provisional assignment of new diseases of uncertain etiology,0.0063504
+U82-U85,Resistance to antimicrobial and antineoplastic drugs,6.10E-08
+Z00-Z13,Examination and investigation,0.013359293
+Z20-Z29,Potential health hazards related to communicable diseases,0.00111332
+Z30-Z39,Health services in circumstances related to reproduction,0.029699695
+Z40-Z54,Persons encountering health services for specific care,0.006284728
+Z55-Z65,Potential health hazards reltd. to socioeconomic & psychosoc.l,4.51E-05
+Z70-Z76,Persons encountering health services in other circs.,0.000994781
+Z80-Z99,Persons with potential health hazards related to family,0.00052983

@@ -1,0 +1,42 @@
+
+```{r DISEASE, out.width="50%", out.height="50%", echo=FALSE, fig.cap="Transmission Electron Microscopy (TEM) image of Listeria monocytogenes. Image credit: [CDC](https://phil.cdc.gov/details.aspx?pid=10828)"}
+knitr::include_graphics(rep("images/pathogenE.jpg"))
+```
+
+### Fact Sheet and General Information
+
+* [WHO Listeriosis Fact Sheet](https://www.who.int/news-room/fact-sheets/detail/listeriosis)
+
+* [Public Health Scotland - Listeria](https://www.hps.scot.nhs.uk/a-to-z-of-topics/listeria/)
+
+* [Listeria (CDC)](https://www.cdc.gov/listeria/index.html)
+
+### Clinical Microbiology and Diagnosis Resources
+
+* [UK SMI for identification of <i>Listeria</i> species](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/889369/UK_SMI_ID_03i4.1.pdf)
+
+* [BMJ Best Practice - Listeriosis](https://bestpractice.bmj.com/topics/en-gb/914)
+
+* [Central nervous system infections, antibacterial therapy (NICE)](https://bnf.nice.org.uk/treatment-summaries/central-nervous-system-infections-antibacterial-therapy/)
+
+* [Neonatal infection: antibiotics for prevention and treatment (NICE)](https://www.nice.org.uk/guidance/ng195/chapter/recommendations)
+
+```{r Listeria, echo=FALSE, fig.cap="Listeria monocytogenes colonies on blood agar. Image credit: [CDC](https://phil.cdc.gov/Details.aspx?pid=21009)"}
+knitr::include_graphics(rep("images/plateE.jpg"))
+```
+
+### Public Health and Epidemiology Resources
+
+* [Public Health Scotland: Annual Summary of <i>Listeria</i> Infections](https://publichealthscotland.scot/publications/annual-summary-of-listeria-infections/annual-summary-of-listeria-infections-2019/)
+
+* [Food Standards Scotland - <i>Listeria monocytogenes</i>](https://www.foodstandards.gov.scot/consumers/food-safety/foodborne-illness/listeria-monocytogenes)
+
+* [Reducing the risk of vulnerable groups contracting Listeriosis (Food Standards Agency)](https://www.food.gov.uk/sites/default/files/media/document/listeria-guidance-june2016-rev.pdf)
+
+* [Listeria: Guidance, Data, and Analysis (GOV.UK)](https://www.gov.uk/government/collections/listeria-guidance-data-and-analysis)
+
+### Public Communications Resources
+
+* [Listeria Information and Guidance (Food Standards Scotland)](https://www.foodstandards.gov.scot/downloads/Factsheet_-_Listeria_-_Website_-_for_businesses_and_professionals_-_May_2019.pdf)
+
+* [<i>Listeria</i> - Information for Health Professionals (CDC)](https://www.cdc.gov/listeria/technical.html)

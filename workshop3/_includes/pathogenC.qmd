@@ -1,0 +1,43 @@
+
+```{r MRSA, out.width="50%", out.height="50%", echo=FALSE, fig.cap="False-coloured scanning electron microscopy (SEM) image of MRSA cells. Image credit: [CDC](https://phil.cdc.gov/Details.aspx?pid=18127)"}
+knitr::include_graphics(rep("images/pathogenC.jpg"))
+```
+
+### Fact Sheet and General Information
+
+* [Staphylococcus aureus basics (CDC)](https://www.cdc.gov/staphylococcus-aureus/about/index.html)
+
+* [CDC MRSA Fact Sheet](https://www.cdc.gov/mrsa/pdf/mrsa_consumerfactsheet_f.pdf) 
+
+* [MRSA (NHS)](https://www.nhs.uk/conditions/mrsa/)
+
+### Clinical Microbiology and Diagnosis Resources
+
+* [UK Standards for Microbiology Investigations (SMI) for identification of Staphylococcus](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/887570/UK_SMI_ID_07i4.pdf)
+
+* [Methicillin-resistant <i>Staphylococcus aureus</i> (MRSA): Laboratory Testing (CDC)](https://www.cdc.gov/mrsa/lab/index.html)
+
+* [Staphylococcus aureus bacteraemia (NHS)](https://www.nss.nhs.scot/antimicrobial-resistance-and-healthcare-associated-infection/data-and-intelligence/staphylococcus-aureus-bacteraemia/)
+
+* [Guidance on the diagnosis and management of PVL-associated <i>Staphylococcus aureus</i> infections (PVL-SA) in England](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/322857/Guidance_on_the_diagnosis_and_management_of_PVL_associated_SA_infections_in_England_2_Ed.pdf)
+
+
+```{r MRSA-MSA, echo=FALSE, out.width="50%", out.height="50%", echo=FALSE, fig.cap="MRSA grown on Mannitol Salt Agar (MSA). Image credit: [CDC](https://phil.cdc.gov/Details.aspx?pid=16810)"}
+knitr::include_graphics(rep("images/plateC.jpg"))
+```
+
+### Public Health and Epidemiology Resources
+
+* [<i>Staphylococcus aureus</i> epidemiology (UKHSA)](https://www.gov.uk/government/collections/staphylococcus-aureus-guidance-data-and-analysis#epidemiology)
+
+* [Prevention and control of infection in care homes – an information resource (Health Protection Agency)](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/214929/Care-home-resource-18-February-2013.pdf)
+
+* [Health protection in children and young people settings, including education](https://www.gov.uk/government/publications/health-protection-in-schools-and-other-childcare-facilities)
+
+* [Infection control in the built environment](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/148493/HFN_30_-_Infection_control.pdf)
+
+### Public Communications Resources
+
+* [CDC MRSA Factsheets and Posters](https://www.cdc.gov/mrsa/communication-resources/index.html)
+
+* [Communication campaigns on antimicrobial resistance (European Centre for Disease Prevention and Control)](https://www.ecdc.europa.eu/en/antimicrobial-resistance/communication)

@@ -1,0 +1,48 @@
+
+```{r Campy, out.width="50%", out.height="50%", echo=FALSE, fig.cap="Scanning electron microscopy (SEM) image of Campylobacter jejuni cells. Image credit: [CDC](https://phil.cdc.gov/Details.aspx?pid=5778)"}
+knitr::include_graphics(rep("images/pathogenD.jpg"))
+```
+
+### Fact Sheet and General Information
+
+* [WHO <i>Campylobacter</i> Fact Sheet](https://www.who.int/news-room/fact-sheets/detail/campylobacter) 
+
+* [Campylobacter Food Poisoning (Food Standards Scotland)](https://www.foodstandards.gov.scot/consumers/food-safety/foodborne-illness/campylobacter)
+
+### Clinical Microbiology and Diagnosis Resources
+
+* [UK Standards for Microbiology Investigations (UK SMI) for Identification of Campylobacter species](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/685065/ID_23i3.1.pdf)
+
+* [Campylobacter Information for Health Professionals (CDC)](https://www.cdc.gov/campylobacter/technical.html)
+
+* [BMJ Best Practice - Campylobacter Infection](https://bestpractice.bmj.com/topics/en-gb/1175)
+
+
+```{r Campylobacter-agar, echo=FALSE, fig.cap="Campylobacter jejuni grown on Skirrow and Butzler growth medium. Image credit: [CDC](https://phil.cdc.gov/Details.aspx?pid=15986)"}
+knitr::include_graphics(rep("images/plateD.jpg"))
+```
+
+### Public Health and Epidemiology Resources
+
+* [Campylobacter guidance, data and surveillance (PHS)](https://www.hps.scot.nhs.uk/a-to-z-of-topics/campylobacter/)
+
+* [Campylobacter: Estimating the burden of gastrointestinal infection in Scotland using data linkage](https://www.foodstandards.gov.scot/downloads/HPS_-_Campylobacter_Data_Linkage_Report.pdf)
+
+* [Campylobacter: guidance, data and analysis (GOV.UK)](https://www.gov.uk/government/collections/campylobacter-guidance-data-and-analysis)
+
+* [Surveillance and disease data for campylobacteriosis (European Centre for Disease Prevention and Control)](https://www.ecdc.europa.eu/en/campylobacteriosis/surveillance)
+
+### Public Communications Resources
+
+* [Campylobacter campaign partner toolkit (Food Standards Scotland)](https://www.foodstandards.gov.scot/publications-and-research/publications/campylobacter-campaign-partner-toolkit)
+
+* [Campylobacter information and guidance (Food Standards Scotland)](https://www.foodstandards.gov.scot/downloads/Factsheet_-_Campylobacter_-_Website_-_for_businesses_and_professionals_-_June_2017.pdf)
+
+* [Campylobacter "Fit for Travel" advice](https://www.fitfortravel.nhs.uk/advice/disease-prevention-advice/campylobacter)
+
+
+
+
+
+
+

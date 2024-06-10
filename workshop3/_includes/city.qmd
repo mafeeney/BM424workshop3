@@ -1,0 +1,106 @@
+```{r city, include=FALSE}
+#define variables for each group
+city_name <- "Inverkeld"
+dis_name <- "Legionellosis"
+inf_agent <- "Legionella pneumophila"
+hosp_name <- "Queen Rose"
+group <- "A"
+
+# Define the link for the city centre image based on the group variable
+if (group == "A") {
+  city <- "images/cityA.jpg"
+} else if (group == "B") {
+  city <- "images/cityB.jpg"
+} else if (group == "C") {
+  city <- "images/cityC.jpg"
+} else if (group == "D") {
+  city <- "images/cityD.jpg"
+} else if (group == "E") {
+  city <- "images/cityE.jpg"
+} else if (group == "F") {
+  city <- "images/cityF.jpg"
+} else if (group == "G") {
+  city <- "images/cityG.jpg"
+} else if (group == "H") {
+  city <- "images/cityH.jpg"
+} else if (group == "I") {
+  city <- "images/cityI.jpg"
+} else if (group == "J") {
+  city <- "images/cityJ.jpg"
+} else if (group == "K") {
+  city <- "images/cityK.jpg"
+} else if (group == "L") {
+  city <- "images/cityL.jpg"
+} else if (group == "M") {
+  city <- "images/cityM.jpg"
+} else {
+  # Handle other cases if needed
+  city <- "images/cityX.jpg"
+}
+
+# Define the link for the hospital dashboard page based on the group variable
+if (group == "A") {
+  http_address <- "dashboardA.qmd"
+} else if (group == "B") {
+  http_address <- "dashboardB.qmd"
+} else {
+  # Handle other cases if needed
+  link <- "default_link"
+}
+
+
+#Define other useful variables to describe the city
+landmark <- sample(c("Ben Morven", "Loch Rannoch", "Glen Afton", "Castle Braemar", "Blackrock Beach", "Eredor Forest", "Alton Moor", "Kilraven Tower", "Glenmore Forest", "Durness Point", "Kilross Abbey", "Dunbar Hill", "Torridon Caves", "Loch Ard", "Ben Lorne", "White Sands Beach", "Loch Ailsa", "Ben Crieff", "Kilmartin Point", "Glenorchy Gorge", "Loch Bracadale", "Dunvalley Castle", "Morven Forest", "Ailsa Falls", "Strathkinness Mill", "Ben Alder", "Loch Maree", "Castle Dunrobin", "Castle Kincardine", "Loch Achray", "River Carron", "Glen Lochay"), 1)
+accomplishments <- sample(c("one of the most famous art festivals in Europe", "its significant role in the North Sea oil industry", "several UNESCO World Heritage sites", "the site of a historic battle", "its medieval cathedral ruins", "its rich maritime history", "a major port town", "its beautiful beaches", "the site of a historic abbey", "its vibrant arts scene", "its well-preserved historic buildings", "its major fishing port", "its famous distillery", "its historic bridges", "its historic castle", "the site of a well-preserved Roman fort", "its world-famous botanical gardens and nature preserves", "its annual literary festival", "its medieval abbey and annual pilgrimage", "its annual film festival", "its annual folk festival featuring traditional music and dance", "its beautiful rose gardens and annual flower shows", "its wind farm and renewable energy projects", "its ancient stone bridge and medieval architecture", "its panoramic views and hiking trails", "its historic lighthouse and coastal walks", "its ancient oak forests and nature reserve"), 1)
+industry1 <- sample(c("engineering", "banking", "biotechnology", "fashion and textiles", "mining", "publishing", "chemicals", "Healthcare technology", "renewable energy", "digital media", "pharmaceuticals", "financial services", "legal services", "maritime and shipping", "research and development (R&D)"), 1)
+industry2 <- sample(c("retail", "manufacturing", "construction", "hospitality and tourism", "automotive", "energy", "food and beverage", "telecommunications", "creative industries (e.g., media, advertising)", "insurance"), 1)
+city1 <- sample(c("Edinburgh", "Dundee", "Stirling", "Inverness",  "Paisley", "Ayr", "Dumfries", "Kilmarnock", "Oban", "Elgin", "Falkirk",  "Berwick-upon-Tweed", "Aviemore", "Pitlochry", "Thurso", "Dornoch", "Arbroath", "Selkirk", "Lanark", "Montrose",  "Kirkcaldy"), 1)
+city2 <- sample(c("Glasgow", "Aberdeen", "Perth", "St Andrews", "Dunfermline", "Greenock", "Fort William", "Nairn", "Melrose", "Fraserburgh", "Peterhead", "Helensburgh", "Crieff", "Stonehaven", "Campbeltown", "Leith", "Motherwell", "Dumfries"), 1)
+destinations <- sample(c("London", "Paris", "Berlin", "Rome", "Madrid", "Barcelona", "Amsterdam", "Vienna", "Prague", "Lisbon", "Brussels", "Copenhagen", "Stockholm", "Oslo", "Helsinki", "Dublin", "Reykjavik", "Athens", "Zurich", "Geneva", "Budapest", "Warsaw", "Krakow", "Venice", "Milan", "Florence", "Nice", "Marseille", "Munich"), 2)
+destinations <- c(paste(destinations, collapse = ", "))
+destination <- sample(c("Frankfurt", "Hamburg", "Cologne", "Stuttgart", "Düsseldorf", "Seville", "Valencia", "Bilbao", "Malaga", "Porto", "Lyon", "Toulouse", "Naples", "Palermo", "Turin", "Bologna", "Luxembourg", "Bratislava", "Ljubljana", "Tallinn", "Riga"), 1)
+building <- sample(c("Brackenridge Hall", "Lochside Pavilion", "Braemar Court", "Heatherfield Library", "Benmore Observatory", "Ailsa House", "Cairnloch Museum", "Drumlin Gallery", "Northbridge Tower", "Kelpie Hall", "Inverloch Theatre", "Hawthorn Abbey", "Cairngorm Centre", "Glenbarron Tower", "Fairhaven Library", "Kinloch House", "Strathmore Hall", "Burnside Gallery", "Linden Court", "Brackenridge House", "Riverside Tower", "Glenview Library", "Braemore Court", "Lochaber Palace", "Thornhill Abbey", "Ravenstone Castle", "Ailsa Gallery", "Glenfield Hall", "Cairnview Court",  "Lochburn House", "Benmore Hall", "Firthview Library", "Invergarry Theatre", "Glenloch Castle", "Lindenwood Museum", "Riverside Hall", "Kelvin Grove Hall", "Drumlin House", "Ben Nevis Observatory", "Kinloch Pavilion", "Dunsmore Mansion",   "Cairnview Palace", "Ravenscroft Hall", "Strathloch Museum", "Glenwood Tower", "Braeside Institute", "Lochwood Hall", "Ayrfield Library", "Thornhill Hall", "Cragwood House", "Glenrose Theatre", "Lochwood Pavilion", "Eaglesham Hall",   "Burnside Hall", "Dunrobin House", "Morven Court"), 1)
+amenities <- sample(c("a number of parks and green spaces", "several museums and art galleries", "a number of shopping districts and markets", "three large cinemas", "libraries and cultural centers", "a number of historic landmarks", "gymns and fitness centres", "large community gardens", "a number of large event venues", "botanical gardens with several greenhouses", "a number of sculpture parks and outdoor art installations"), 1)
+feature <- sample(c("a riverfront promenade", "a waterfront promenade", "a number of architectural landmarks", "a beautiful skyline", "an art district with several murals and examples of street art", "several biking and walking trails", "a nature preserve", "several historic monuments", "a science museum and a planetarium", "several historic bridges"), 1)
+festival <- sample(c("music", "film", "book", "art", "folk", "jazz", "theatre", "whisky", "flower", "heritage", "science", "dance", "comedy", "fashion", "literary", "beer", "opera", "kite", "balloon", "blues", "agricultural", "maritime"), 1)
+month <- sample(c("April", "May", "June", "July", "August"), 1)
+tourism_reason <- sample(c("appreciate the historic architecture", "visit museums", "visit art galleries", "see the historic landmarks", "sample the local cuisine", "shop in the city centre", "take historical walking tours", "take city ghost tours", "take wildlife watching tours", "visit local breweries", "take river cruises", "visit archaeological sites", "take heritage railway journeys", "explore nearby nature reserves"), 1)
+season <- sample(c("spring", "summer", "autumn"), 1)
+art_venue1 <- sample(c("Paramount Theatre", "Bellevue Theatre", "Theatre Royal", "Sunset Theatre", "The Glasshouse", "Knox Hall", "Allison Hall", "Harper Hall", "Wright Hall", "Ravenscroft Playhouse", "Moore Stage", "Bradley Hall", "Stewart Hall", "Holbourn Hall", "Astley Amphitheatre", "Innes House", "Cairngorm Comedy Club", "Royal Concert Hall", "Pavilion Theatre", "Ailsa Arts Centre", "Northgate Theatre", "Westgate Theatre", "Oldgate Theatre", "Summit Hall", "Parkside Hall", "Riverbend Hall", "Rivergate Comedy Club", "Andrews Hall", "Brook Hall"), 1)
+art_venue2 <- sample(c("Greenwood Hall", "Riverfront Theatre", "Ede Hall", "Sunset Theatre", "Harrison Theatre", "Anderson Hall", "Barrett Hall", "Murphy Hall", "Spencer Hall", "The Globe and Gale", "Logan Hall", "Middleton Theatre", "Sinclair Stage", "Mitchell Stage", "Millar House", "Crawford Comedy Club", "The Rose Theatre", "The Improv Shack", "The Dramatic Pause", "The Dramatic Duck", "Act Two Scene Three", "The Theatrical Tortoise", "Brock Hall", "The Golden Globe", "he Peacock Theatre"), 1)
+team_name1 <- sample(c("Blues", "Reds", "Griffins", "Lions", "Foxes", "Eagles", "Canaries", "Magpies", "Seagulls", "Hornets", "Cats", "Bluebirds", "Larks", "Swans"), 1)
+team_name2 <- sample(c("Tigers", "Hornets", "Owls", "Robins", "Cardinals", "Falcons", "Ravens", "Hawks", "Crows", "Starlings"), 1)
+sport1 <- sample(c("football", "rugby union", "field hockey"), 1)
+sport2 <- sample(c("rugby league", "cricket"), 1)
+
+
+```
+
+`r paste0("![The ", city_name , " city centre](", city , ")")`
+
+`r city_name` was granted city status in `r sample(1801:2010, 1)`. Located near `r landmark`, `r city_name` is noted for `r accomplishments`. Major industries in the city include `r industry1`, `r industry2`, and agriculture.
+
+`r city_name` is well-served by public transport: there are `r sample(2:5, 1)` bus companies operating routes that cover the city and outlying areas, and road links to other major cities (the A`r sample(2:90, 1)` to `r city1` and the the A`r sample(2:90, 1)` to `r city2`.) `r city_name` is further connected to regional towns and villages by rail services from the `r city_name` railway station. `r city_name` is also served by `r city_name` Airport, which is `r sample(2:10, 1)` miles from the city centre and which offers daily flights to `r destinations`, and `r destination`.
+
+Notable buildings in the city include `r city_name` Castle, `r city_name` Cathedral, and `r building`. `r city_name` also has `r amenities` and `r feature`. The `r city_name` `r festival` festival is held annually in `r month`, and tourists also flock to `r city_name` to `r tourism_reason` in `r season`. `r city_name` is also noted as a hub of local arts and culture, with `r art_venue1` and `r art_venue2` drawing in crowds for performances from local and international artists. The city is renowned for sports, with the `r team_name1` and `r team_name2` teams representing the city for `r sport1` and `r sport2`, respectively.
+
+Some of the key `r city_name` features are summarized in the list below.
+
+#### Public Facilities/Community Amenities
+
+-   Schools:
+    -   `r sample(4:10, size=1)` primary schools
+    -   `r sample(2:6, size=1)` secondary schools
+    -   1 college
+-   Nurseries: `r sample(8:20, size=1)`
+-   Care Homes: `r sample(2:6, size=1)`
+-   Restaurants and Cafes: `r sample(50:150, size=1)`
+-   Parks and Playgrounds: `r sample(2:15, size=1)`
+-   Libraries: `r sample(2:6, size=1)`
+-   Gyms and Sports Facilities: `r sample(8:12, size=1)`
+-   Prisons: `r sample(1:3, size=1)`
+-   Police and Fire Stations: `r sample(3:6, size=1)`
+-   Surgeries and pharmacies: `r sample(5:15, size=1)`
+-   Hospital: the `r hosp_name`
+
+Refer to the "Data" tab for information about the city demographics, voting and polling data, and more information about the hospital.

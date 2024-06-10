@@ -1,0 +1,473 @@
+---
+title: "Hospital Data"
+format:
+  dashboard
+---
+
+```{r setup, include=FALSE}
+#define variables for each group
+city_name <- "Inverkeld"
+dis_name <- "Legionellosis"
+inf_agent <- "Legionella pneumophila"
+hosp_name <- "Queen Rose"
+group <- "A"
+hosp_units <- sample(c("coronary care", "maternity care", "paediatric care", "dermatology", "gastroenterology", "radiology", "oncology", "neurology", "psychiatry", "nephrology", "endocrinology", "gynecology"), 4, replace = FALSE)
+clinic <- sample(c("an ear, nose, and throat clinic", "an eye clinic", "an orthopaedics department"), 1)
+
+# Define the link for the hospital image based on the group variable
+if (group == "A") {
+  hospital <- "images/hospitalA.jpg"
+} else if (group == "B") {
+  hospital <- "images/hospitalB.jpg"
+} else if (group == "C") {
+  hospital <- "images/hospitalC.jpg"
+} else if (group == "D") {
+  hospital <- "images/hospitalD.jpg"
+} else if (group == "E") {
+  hospital <- "images/hospitalE.jpg"
+} else if (group == "F") {
+  hospital <- "images/hospitalF.jpg"
+} else if (group == "G") {
+  hospital <- "images/hospitalG.jpg"
+} else if (group == "H") {
+  hospital <- "images/hospitalH.jpg"
+} else if (group == "I") {
+  hospital <- "images/hospitalI.jpg"
+} else if (group == "J") {
+  hospital <- "images/hospitalJ.jpg"
+} else if (group == "K") {
+  hospital <- "images/hospitalK.jpg"
+} else if (group == "L") {
+  hospital <- "images/hospitalL.jpg"
+} else if (group == "M") {
+  hospital <- "images/hospitalM.jpg"
+} else {
+  # Handle other cases if needed
+  hospital <- "images/hospital_default.jpg"
+}
+
+# Assign values for hospital metrics and wait times (rows 1-4)
+beds <- sample(100:200, 1)
+icu <- sample(10:20, 1)
+isolation <- sample(5:10, 1)
+bedocc <- sample(86:93, 1)
+icuocc <- sample(90:95, 1)
+isocc <- sample(94:98, 1)
+aeadmiss <- sample(6000:10000, 1)
+aewait <- sample(62:88, 1)
+ambwait <- sample(36:90, 1)
+refwait <- sample(60:85, 1)
+cancwait <- sample(60:85, 1)
+elecwait <- sample(6000:8500, 1)
+
+#include stats for infection control (rows 5-7)
+# Get the current year and the previous year
+current_year <- as.numeric(format(Sys.Date(), "%Y"))
+previous_year <- current_year - 1
+
+# Set the number of MRSA infections
+mrsa1 <- sample(1:10, 1)  # MRSA infections in the previous year
+mrsa2 <- sample(1:10, 1)  # MRSA infections in the current year
+
+if (mrsa2 - mrsa1 == 1) {
+  mrsa_result <- paste0("There was 1 more hospital-acquired MRSA infection in ", current_year, " than there were in ", previous_year, ".")
+} else if (mrsa2 - mrsa1 > 1) {
+  mrsa_result <- paste0("There were ", mrsa2 - mrsa1, " more hospital-acquired MRSA infections in ", current_year, " than there were in ", previous_year, ".")
+} else if (mrsa2 == mrsa1) {
+  mrsa_result <- paste0("There were the same number of hospital-acquired MRSA infections in ", previous_year, " and ", current_year, ".")
+} else if (mrsa1 - mrsa2 == 1) {
+  mrsa_result <- paste0("There was 1 fewer hospital-acquired MRSA infection in ", current_year, " than there were in ", previous_year, ".")
+} else {
+  mrsa_result <- paste0("There were ", mrsa1 - mrsa2, " fewer hospital-acquired MRSA infections in ", current_year, " than there were in ", previous_year, ".")
+}
+
+#Repeat the same code for Cdiff and Cauris
+
+# Set the number of *Clostridiodes difficile* infections
+Cdiff1 <- sample(1:10, 1)  # *Clostridiodes difficile* infections in the previous year
+Cdiff2 <- sample(1:10, 1)  # *Clostridiodes difficile* infections in the current year
+
+if (Cdiff2 - Cdiff1 == 1) {
+  Cdiff_result <- paste0("There was 1 more hospital-acquired *Clostridiodes difficile* infection in ", current_year, " than there were in ", previous_year, ".")
+} else if (Cdiff2 - Cdiff1 > 1) {
+  Cdiff_result <- paste0("There were ", Cdiff2 - Cdiff1, " more hospital-acquired *Clostridiodes difficile* infections in ", current_year, " than there were in ", previous_year, ".")
+} else if (Cdiff2 == Cdiff1) {
+  Cdiff_result <- paste0("There were the same number of hospital-acquired *Clostridiodes difficile* infections in ", previous_year, " and ", current_year, ".")
+} else if (Cdiff1 - Cdiff2 == 1) {
+  Cdiff_result <- paste0("There was 1 fewer hospital-acquired *Clostridiodes difficile* infection in ", current_year, " than there were in ", previous_year, ".")
+} else {
+  Cdiff_result <- paste0("There were ", Cdiff1 - Cdiff2, " fewer hospital-acquired *Clostridiodes difficile* infections in ", current_year, " than there were in ", previous_year, ".")
+}
+
+# Set the number of *Candida auris* infections
+Cauris1 <- sample(1:10, 1)  # *Candida auris* infections in the previous year
+Cauris2 <- sample(1:10, 1)  # *Candida auris* infections in the current year
+
+if (Cauris2 - Cauris1 == 1) {
+  Cauris_result <- paste0("There was 1 more hospital-acquired *Candida auris* infection in ", current_year, " than there were in ", previous_year, ".")
+} else if (Cauris2 - Cauris1 > 1) {
+  Cauris_result <- paste0("There were ", Cauris2 - Cauris1, " more hospital-acquired *Candida auris* infections in ", current_year, " than there were in ", previous_year, ".")
+} else if (Cauris2 == Cauris1) {
+  Cauris_result <- paste0("There were the same number of hospital-acquired *Candida auris* infections in ", previous_year, " and ", current_year, ".")
+} else if (Cauris1 - Cauris2 == 1) {
+  Cauris_result <- paste0("There was 1 fewer hospital-acquired *Candida auris* infection in ", current_year, " than there were in ", previous_year, ".")
+} else {
+  Cauris_result <- paste0("There were ", Cauris1 - Cauris2, " fewer hospital-acquired *Candida auris* infections in ", current_year, " than there were in ", previous_year, ".")
+}
+
+app_therapy <- sample(80:90, 1)
+desc <- sample(10:20, 1)
+amr_rate <- sample(30:60, 1)
+
+#include stats for community health data (rows 8-10)
+
+# Set the number of SARS-CoV2 infections
+covid1 <- sample(50:220, 1) #last week
+covid2 <- sample(50:220, 1) #this week
+
+# Ensure covid1 and covid2 are not the same
+if (covid1 == covid2) {
+  covid2 <- covid2 + 1
+}
+
+if (covid1 > covid2) {
+  Covid_result <- paste0("There were ", sample(10:50, 1), " more COVID-19 cases this week than in the previous week.")
+} else if (covid1 < covid2) {
+  Covid_result <- paste0("There were ", sample(10:50, 1), " fewer COVID-19 cases this week than in the previous week.")
+} else {
+ Covid_result <- paste0("There were ", sample(1:5, 1), " fewer COVID-19 cases this week than in the previous week.")
+}
+
+# Set the number of other viral infections
+virus1 <- sample(50:100, 1) #last week
+virus2 <- sample(150:250, 1) #this week
+
+
+covid_vacc <- sample(60:75, 1)
+vacc_rate <- sample(93:96, 1)
+
+```
+
+# Info
+
+::: card
+
+The `r hosp_name`, built in `r sample(2008:2015, 1)`, is the main hospital in `r city_name`.
+
+The `r hosp_name` has units specialising in `r hosp_units` and `r clinic`.
+
+`r paste0("![The ", hosp_name , " hospital ](", hospital , ")")`
+
+::: 
+
+# Capacity
+
+## Row 1, number of hospital beds
+
+```{r}
+#| content: valuebox
+#| title: "Hospital beds (general)"
+list(
+  icon = "hospital",
+  color = "dark",
+  value = beds
+)
+```
+
+```{r}
+#| content: valuebox
+#| title: "Hospital beds (ICU)"
+list(
+  icon = "thermometer-half",
+  color = "secondary",
+  value = icu
+)
+```
+
+```{r}
+#| content: valuebox
+#| title: "Isolation beds"
+list(
+  icon = "vignette",
+  color = "light",
+  value = isolation
+)
+```
+
+## Row 2, hospital bed occupancy
+
+```{r}
+#| content: valuebox
+#| title: "Average bed occupancy (%)"
+list(
+  icon = "hospital",
+  color = "dark",
+  value = bedocc
+)
+```
+
+```{r}
+#| content: valuebox
+#| title: "Average ICU bed occupancy (%)"
+list(
+  icon = "thermometer-half",
+  color = "secondary",
+  value = icuocc
+)
+```
+
+```{r}
+#| content: valuebox
+#| title: "Average isolation bed occupancy (%)"
+list(
+  icon = "vignette",
+  color = "light",
+  value = isocc
+)
+```
+
+## Row 2b, staff
+
+```{r}
+#| content: valuebox
+#| title: "Number of hospital staff"
+list(
+  icon = "person-fill",
+  color = "success",
+  value = round(beds * (sample(c(0.6, 0.7, 0.8), 1)), digits = 0)
+)
+```
+
+```{r}
+#| content: valuebox
+#| title: "Number of hospital support staff"
+list(
+  icon = "people-fill",
+  color = "warning",
+  value = round(beds/7, digits = 0)
+)
+```
+
+```{r}
+#| content: valuebox
+#| title: "Clinical micro lab capacity (avg. # tests/month)"
+list(
+  icon = "vignette",
+  color = "info",
+  value = sample(1000:2000, 1)
+)
+```
+
+# Key Performance Indicators
+
+## Row 3, a&e stats
+
+::: card
+As part of the `r hosp_name`'s ongoing commitment to excellence, the hospital diligently monitors key performance indicators and strives to meet established targets. While progress has been made, we acknowledge that certain goals remain unmet. We are actively working to address these challenges and enhance patient care.
+
+*Key Performance Targets:*
+
+-   Waiting time for an ambulance (category 2 event) should be no more than 18 minutes
+
+-   95% or more of all patients waiting in A&E should be seen in less than 4 hours
+
+-   85% of all patients waiting for cancer treatment should be seen within 62 days
+:::
+
+## Row 3b
+
+```{r}
+#| content: valuebox
+#| title: "Average number of admissions to A&E (monthly)"
+list(
+  color = ifelse(beds<150, "primary", "secondary"),
+  value = aeadmiss
+)
+```
+
+```{r}
+#| content: valuebox
+#| title: "Average % of patients waiting >4 hours in A&E"
+list(
+  icon = "hourglass", 
+  color = ifelse(aewait>95, "success", "danger"),
+  value = aewait
+)
+```
+
+```{r}
+#| content: valuebox
+#| title: "Ambulance response times (minutes)"
+list(
+  icon = "clock", 
+  color = ifelse(ambwait<18, "success", "danger"),
+  value = ambwait
+)
+```
+
+## Row 4, waiting times
+
+```{r}
+#| content: valuebox
+#| title: "% of patients waiting <62 days for  referral (any)"
+list(
+  icon = "calendar3", 
+  color = ifelse(refwait>84, "success", "danger"),
+  value = refwait
+)
+```
+
+```{r}
+#| content: valuebox
+#| title: "% of patients waiting <62 days for cancer treatment"
+list(
+  icon = "calendar3-event", 
+  color = ifelse(cancwait>84, "success", "danger"),
+  value = cancwait
+)
+```
+
+```{r}
+#| content: valuebox
+#| title: "Number of patients waiting for elective surgery"
+list(
+  icon = "calendar3-week",
+  color = "info",
+  value = elecwait
+)
+```
+
+# Infection Control
+
+## Row 5, header
+
+::: card
+The `r hosp_name` hospital strives to meet stringent targets for infection control and antibiotic stewardship to ensure patient safety and combat antimicrobial resistance. Infection control protocols are critical in maintaining high standards of hygiene and patient care. Similarly, antibiotic stewardship programs are essential for optimizing the use of antimicrobials, thereby reducing the risk of resistance and ensuring effective treatments for future generations.
+
+-   `r mrsa_result`
+
+-   `r Cdiff_result`
+
+-   `r Cauris_result`
+:::
+
+## Row 6, organism stats
+
+```{r}
+#| content: valuebox
+#| title: "Number of hospital-acquired MRSA cases (this year)"
+list(
+  icon = ifelse(mrsa2<mrsa1, "arrow-down-right", "arrow-up-right"), 
+  color = ifelse(mrsa2<mrsa1, "success", "danger"), 
+  value = mrsa2
+)
+```
+
+```{r}
+#| content: valuebox
+#| title: "Number of hospital-acquired Clostridiodes difficile cases (this year)"
+list(
+  icon = ifelse(Cdiff2<Cdiff1, "arrow-down-right", "arrow-up-right"), 
+  color = ifelse(Cdiff2<Cdiff1, "success", "danger"), 
+  value = Cdiff2
+)
+```
+
+```{r}
+#| content: valuebox
+#| title: "Number of hospital-acquired Candida auris cases (this year)"
+list(
+  icon = ifelse(Cauris2<Cauris1, "arrow-down-right", "arrow-up-right"), 
+  color = ifelse(Cauris2<Cauris1, "success", "danger"), 
+  value = Cauris2
+)
+```
+
+## Row 7, overall stats
+
+```{r}
+#| content: valuebox
+#| title: "% of antibiotic prescriptions judged appropriate by an AMR steward"
+list(
+  icon = "prescription",
+  color = ifelse(app_therapy > 95, "success", "warning"),
+  value = app_therapy
+)
+```
+
+```{r}
+#| content: valuebox
+#| title: "Antibiotic Descalation rate (% of prescriptions switched from broad to narrow-spectrum antibiotics)"
+list(
+  icon = "capsule-pill",
+  color = ifelse(desc > 15, "success", "warning"),
+  value = desc
+)
+```
+
+```{r}
+#| content: valuebox
+#| title: "Prevalence of MDR-resistant organisms (% isolated) "
+list(
+  icon = "exclamation-diamond",
+  color = ifelse(amr_rate > 50, "success", "warning"),
+  value = amr_rate
+)
+```
+
+# Community Health Data
+
+## Row 8a, header
+
+::: card
+The `r hosp_name` monitors the prevalence of COVID-19 and other viruses in the community to ensure they are prepared for potential surges in patient admissions, enabling them to allocate resources and staff efficiently. By tracking these trends, the hospital can implement timely public health interventions and provide accurate information to the community to mitigate the spread of infections. Additionally, continuous monitoring helps in identifying emerging outbreaks early, allowing for a rapid response that minimizes the impact on public health and healthcare services.
+
+-   `r Covid_result`
+
+-   We are seeing an increase in infections caused by other respiratory viruses (e.g., influenza, adenovirus, rhinovirus, RSV).
+:::
+
+## Row 8, covid cases (weekly)
+
+```{r}
+#| content: valuebox
+#| title: "Number of COVID-19 cases (weekly)"
+list(
+  icon = "virus",
+  color = ifelse(covid2<covid1, "success", "danger"),
+  value = covid1
+)
+```
+
+```{r}
+#| content: valuebox
+#| title: "Number of other respiratory virus infections (weekly)"
+list(
+  icon = "virus2",
+  color = ifelse(virus2<virus1, "success", "danger"),
+  value = virus1
+)
+```
+
+## Row 9, vaccination rate
+
+```{r}
+#| content: valuebox
+#| title: "SARS-CoV2 vaccination rate (booster campaign)"
+list(
+  icon = "clipboard2-pulse",
+  color = "success",
+  value = covid_vacc
+)
+```
+
+```{r}
+#| content: valuebox
+#| title: "Childhood vaccination rate (DTaP/IPV/Hib/HepB)"
+list(
+  icon = "clipboard2-pulse",
+  color = "warning",
+  value = vacc_rate
+)
+```
+

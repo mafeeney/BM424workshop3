@@ -1,0 +1,196 @@
+---
+title: Budget Data Analysis
+format:
+  html:
+    toc: true
+    toc-location: left
+    number-sections: false
+
+webr:
+  packages: ["tidyverse", "GGally"]
+filters:
+  - webr
+---
+```{r date, include=FALSE}
+# Get the current date
+current_date <- Sys.Date()
+
+# Extract the year from the current date
+current_year <- format(current_date, "%Y")
+```
+
+```{webr-r}
+#| context: setup
+
+# Load required libraries
+library(tidyverse)
+
+# Load required data files
+
+# demographic data files
+download.file('https://raw.githubusercontent.com/sipbs-compbiol/BM214-Workshop-3/main/assets/data/AM_Bay_01/AM_Bay_01_01.csv', 'AM_Bay_01_01.csv')
+```
+
+
+
+## WebR Playground
+
+```{webr-r}
+# Use this WebR cell to experiment with any additional data visualisation(s)  you would like to perform with your pandemic data
+```
+
+# Budget Analysis
+
+## Budget Data: Step 1--Load and Examine Your City's Budget Data
+
+The budget data for your city is in a file `budget_groupX.csv` (where you replace X with your group letter; e.g., the file for group A will be `budget_groupA.csv`). You can load this using the `read_csv()` function. 
+
+Once you have loaded your data, you will want to examine it to ensure that it has loaded correctly, and to ensure that you understand how the data is structured. You can do this using `glimpse()`, which will summarize the number of rows and columns present in your data and give a glimpse of the columns; or by using `head()`, which will output the first part of your dataset.
+
+When you use the `head()` function, it displays the first six rows of your data by default. However, you can customize this to view a different number of rows by specifying the number of rows you want to see. The general syntax for the head() function with a specified number of rows is: head(data_frame, n) where data_frame is your data frame (in this case, you might name your data frame something like "budget") and n is the number of rows you want to view. For example, if you want to view the first 10 rows of your data instead of the default 6, you can use the following command: `head(budget, 10)`
+
+
+::: {.callout-important title="Task"}
+Use the `WebR` cell below to load and examine your data.
+:::
+
+::: {.callout-tip collapse="true"}
+## I need a hint!
+- Use `read_csv()` to load your data.
+- Use `head()` or `glimpse()` to examine your data.
+:::
+
+```{webr-r}
+# Use the read_csv(), and head() or glimpse() functions to load and examine your data.
+
+```
+
+::: {.callout-warning collapse="true"}
+## Help! I'm stuck!
+
+Use the `R` code below to load and examine your data.
+
+```r
+# Replace 'X' with your group letter to load the correct file
+budget <- read_csv("data_sets/budget_groupA.csv")
+
+# View the first few rows of the data
+head(budget)
+
+# Alternatively, you can use glimpse() to get an overview of the data
+glimpse(budget)
+```
+:::
+
+## Budget Data: Step 2--Plot the Data
+
+Now that you have loaded and examined your data, you can visualize it. To begin, you might create plots for both `Revenue` and `Expenditure` over the years, using the `ggplot2` package.
+
+::: {.callout-important title="Task"}
+Use the `WebR` cell below to plot the `Revenue` and `Expenditure` data separately.
+:::
+
+::: {.callout-tip collapse="true"}
+## I need a hint!
+- Use `ggplot()` to initialize the plot.
+- Use `geom_line()` and `geom_point()` to add lines and points to the plot.
+- Use `labs()` to add labels and titles to your plot.
+:::
+
+```{webr-r}
+# Use ggplot2 to plot the Revenue and Expenditure data separately
+
+```
+
+::: {.callout-warning collapse="true"}
+## Help! I'm stuck!
+
+Use the `R` code below to plot the `Revenue` and `Expenditure` data separately.
+
+```r
+# Filter out rows with NA in Revenue - this will give you your budget expenditures
+expenditure <- budget %>%
+  filter(!is.na(Revenue))
+
+# Filter out rows with NA in Expenditure - this will give you your budget revenues
+revenue <- budget %>%
+  filter(!is.na(Expenditure))
+  
+# Examine the filtered data to ensure they have been filtered correctly
+print(expenditure)
+print(revenue)
+
+# Plot Revenue over Year
+ggplot(revenue, aes(x = Year, y = Revenue, color = Category)) +
+  geom_line() +
+  geom_point() +
+  labs(title = "Revenue by Year",
+       x = "Year",
+       y = "Amount",
+       color = "Category") +
+  theme_minimal()
+
+# Plot Expenditure over Year
+ggplot(expenditure, aes(x = Year, y = Expenditure, color = Category)) +
+  geom_line() +
+  geom_point() +
+  labs(title = "Expenditure by Year",
+       x = "Year",
+       y = "Amount",
+       color = "Category") +
+  theme_minimal()
+```
+:::
+
+## Budget Data: Step 3--Summarize the Current Year's Budget
+
+To get a summary of the current year's budget, you can use the `filter()` function to select the data for the current year (`r current_year`) and then use `sum()` to get an overview of the budget (totals for revenues and expenditures).
+
+You also may find it helpful to examine particular aspects of the budget in detail - for instance, the amount of money budgeted for contingency expenditures for the current year. You can do this using the `print()` function.
+
+::: {.callout-important title="Task"}
+Use the `WebR` cell below to get a summary of the current year's budget.
+:::
+
+::: {.callout-tip collapse="true"}
+## I need a hint!
+- Use `filter()` to select the data for the current year.
+- Use `sum()` to get totals for the budgeted revenues and expenditures.
+- Use `print()` to get selected data, such as the contingency expenditure budget for the current year.
+:::
+
+```{webr-r}
+# Use filter(), and sum() to get a sum of the current year's total revenues and expenditures budgets. Use print
+
+```
+
+::: {.callout-warning collapse="true"}
+## Help! I'm stuck!
+
+Use the `R` code below to get a summary of the current year's budget.
+
+```r
+# Filter the data for the current year
+current_budget <- budget %>%
+  filter(Year == `r current_year`)
+
+# View the current year's budget
+print(current_budget)
+
+# Get the sum of Revenues for the current year
+revenue_sum <- sum(current_budget$Revenue, na.rm = TRUE)
+print(revenue_sum)
+
+# Get the sum of Expenditures for the current year
+expenditure_sum <- sum(current_budget$Expenditure, na.rm = TRUE)
+print(expenditure_sum)
+
+#Print the budget for contingency expenditures for the current year
+print(budget$Expenditure[budget$Year == `r current_year` & budget$Category == "Contingency Expenditures"])
+
+```
+:::
+
+
+:::
+

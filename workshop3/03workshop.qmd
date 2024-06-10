@@ -1,0 +1,69 @@
+---
+title: "Workshop 3--Overview"
+---
+
+## BM424 Clinical Microbiology workshop 3 - Pandemic Response
+
+add news item highlighting first pandemic suspicion news article.
+
+### Overview of tasks:
+
+*1. Prepare for the team meeting*
+
+There are a number of data analysis/literature search tasks that each group will need to perform in preparation for the meeting. 
+
+::: callout-tip
+As a group, you should decide who will be responsible for which task(s) and how to allocate the work fairly. One possible way to divide the workload amongst your group is by choosing/allocating roles based on subject specialism, e.g.: 
+
+*Epidemiologist/Public Health Tasks*
+
+-   Analyse case, death, and demographic data
+-   Analyse pathogen data
+-   Read briefing packets and search the literature for additional pertinent information
+
+1.	Clinical microbiologist 
+-   16S_group`r group`.fasta
+
+2.	Public Health Expert: 
+- demographic data
+
+3.	Epidemiologist 
+-   deaths_group`r group`.csv -- DONE
+
+4.	Hospital director
+-   hosp_admissions_group`r group`.csv - DNE (but may require tweaking dates/#s)
+
+8.  Doctor at a major surgery 
+
+*City Management/Planning Tasks*
+
+-   Determine the resources your city has available to deal with this pandemic (budget, hospital resources, etc.)
+-   Analyse polling/opinion data, to inform your public communications/outreach strategies
+-   Read briefing packets and search the literature for additional pertinent information
+
+5.	City planner/civil servant
+-   budget_group`r group`.csv -- DONE
+
+6.	Provost (head of the city council): 
+-   voting_group`r group`.csv -- DONE
+
+7.	Public communications expert 
+-   polling_group`r group`.csv -- DONE and associated metadata polling_questions\_`r group`.txt
+
+:::
+
+
+*2. Emergency Pandemic Response Team Meeting*
+
+        
+::: callout-tip
+Your decisions should be evidence-based
+:::
+
+
+*3. submit committee decisions*
+
+::: callout-important
+:::
+
+

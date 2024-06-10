@@ -1,0 +1,101 @@
+```{r news1, include=FALSE}
+# Load needed libraries
+library(randomNames)
+library(stringr)
+
+# Generate journalist information (name, pronoun, e-mail address)
+# Generate a random journalist name and gender
+journalist <- randomNames(gender = sample(c(0, 1, 2), 1), which.names = "both", return.complete.data = TRUE)
+
+# Extract first and last names and gender for the journalist
+first_name <- journalist$first_name
+last_name <- journalist$last_name
+journ_name <- paste(first_name, last_name)
+gender <- journalist$gender
+
+# Generate a plausible email address
+journ_email <- paste0(tolower(substr(first_name, 1, 1)), tolower(substr(last_name, 1, 1)), 
+                sprintf("%04d", sample(1:9999, 1)), "@", city_name, paper_name, ".com")
+
+# Determine pronoun based on gender
+journ_pronoun <- ifelse(gender == 0, "He", ifelse(gender == 1, "She", "They"))
+
+# Generate a random number for the contact info
+generate_uk_landline_number <- function() {
+  # Generate a random landline number
+  area_code <- sample(c("01382", "01224", "01463", "01786", "01738", "01343"), 1)  # Sample some common area codes
+  part1 <- sprintf("%04d", sample(1000:9999, 1))
+  part2 <- sprintf("%04d", sample(1000:9999, 1))
+  phone_number <- paste0("+44 ", area_code, " ", part1, " ", part2)
+  return(phone_number)
+}
+
+# Generate a random UK landline number
+landline_number <- generate_uk_landline_number()
+
+# Generate some randomness in the news article
+concerns <- sample(c("Concerns", "Worries", "Fears", "Anxieties"))
+rises <- sample(c("is rising", "mounts", "escalate", "increases", "intensifies", "surges"), 1)
+alarming <- sample(c("shocking", "alarming", "troubling", "unsettling", "disturbing", "concerning", "worrying", "frightening", "startling", "surprising", "astonishing", "astounding", "stunning", "disquieting", "distressing", "alarming"))
+growing <- sample(c("growing", "expanding", "escalating", "increasing", "developing"), 1)
+begun <- sample(c("begun", "initiated", "launched", "activated", "instigated"), 1)
+looms <- sample(c("looms large", "casts a shadow", "hovers", "hangs over", "shadows the community", "dominates", "hovers", "emerges as a major concern"), 1)
+responses <- sample(c("precautionary measures", "emergency protocols", "contingency plans", "preventive actions"), 1)
+metaphor1 <- sample(c("exploring every avenue", "leaving nothing to chance", "leaving no option unexplored", "pursuing every lead", "covering all bases", "leaving no stone unturned"), 1)
+statement <- sample(c("While we cannot confirm an outbreak at this time, we are treating this situation with the utmost seriousness.", "Despite the lack of confirmation regarding an outbreak, we are treating this matter with the utmost gravity.", "While there is no confirmation of an outbreak at this time, we are taking this situation very seriously.", "While we cannot confirm the presence of an outbreak right now, we are responding to this issue with the highest degree of seriousness."), 1)
+fear <- sample(c("fear", "consider", "dread", "worry", "weigh", "apprehend"), 1)
+
+# Add a paragraph with specific info about each pathogen. 
+
+# Define the information about each pathogen
+pathogen_info <- list(
+  A = "Legionellosis is caused by *Legionella pneumophila*. It is typically transmitted through the inhalation of contaminated water droplets, such as those from air conditioning systems or hot tubs. Symptoms include fever, chills, cough, muscle aches, and headaches.",
+  B = "Influenza, commonly known as the flu, is caused by influenza viruses. It spreads through respiratory droplets produced when infected individuals cough, sneeze, or talk. Symptoms include fever, cough, sore throat, runny or stuffy nose, body aches, headache, chills, and fatigue.",
+  C = "MRSA (methicillin-resistant *Staphylococcus aureus*) infection is caused by a type of Staph bacteria that has become resistant to many of the antibiotics used to treat ordinary Staph infections. It can be spread through contact with an infected wound or by sharing personal items, such as towels or razors. Symptoms depend on the site of infection but may include skin infections, pneumonia, bloodstream infections, and surgical site infections.",
+  D = "Campylobacter infection is caused by *Campylobacter bacteria.* It is typically spread through contaminated food, water, or contact with infected animals or their feces. Symptoms include diarrhea (often bloody), fever, abdominal pain, nausea, and vomiting.",
+  E = "Listeriosis is caused by the bacterium *Listeria monocytogenes*. It is usually contracted by eating contaminated food, such as unpasteurized dairy products, deli meats, or produce. Symptoms include fever, muscle aches, nausea, and diarrhea.",
+  F = "Meningitis is an inflammation of the protective membranes covering the brain and spinal cord. It can be caused by viruses, bacteria, or other microorganisms. Bacterial meningitis can be transmitted through respiratory droplets, direct contact with an infected person, or by consuming contaminated food or water. Symptoms include headache, fever, stiff neck, nausea, vomiting, and sensitivity to light.",
+  G = "Tuberculosis (TB) is caused by the bacterium *Mycobacterium tuberculosis*. It spreads through the air when an infected person coughs or sneezes. Symptoms include coughing (sometimes with blood), chest pain, fatigue, fever, weight loss, and night sweats.",
+  H = "Group A Streptococcus (GAS) is a bacterium often found in the throat and on the skin. It can cause a wide range of infections, from minor skin infections to severe diseases like strep throat, scarlet fever, and invasive group A streptococcal disease. It is usually spread through respiratory droplets or direct contact with an infected person.",
+  I = "Anthrax is a serious infectious disease caused by the bacterium *Bacillus anthracis*. It can occur in three forms: cutaneous (skin), inhalation, and gastrointestinal. Inhalation anthrax is the most lethal form and can be contracted by inhaling spores from contaminated animal products or bioterrorism. Symptoms vary depending on the type of infection but may include fever, fatigue, cough, shortness of breath, nausea, vomiting, and abdominal pain.",
+  J = "Whooping cough, also known as pertussis, is a highly contagious respiratory infection caused by the bacterium *Bordetella pertussis*. It spreads through respiratory droplets produced when an infected person coughs or sneezes. Symptoms typically start with cold-like symptoms and progress to severe coughing fits followed by a characteristic 'whooping' sound when inhaling.",
+  K = "Acinetobacter infection is caused by the *Acinetobacter baumannii* bacterium. It is often associated with healthcare settings and can cause a variety of infections, including pneumonia, bloodstream infections, wound infections, and urinary tract infections. It can be transmitted through person-to-person contact or contact with contaminated surfaces. Symptoms vary depending on the site of infection.",
+  L = "Aspergillosis is a fungal infection caused by *Aspergillus* molds. It can affect the respiratory system, skin, or other organs. It is commonly acquired by inhaling airborne spores from the environment. Symptoms depend on the type and location of the infection but may include fever, cough, chest pain, shortness of breath, and fatigue."
+)
+
+# Get the correct pathogen information based on the group letter
+
+pathogen_paragraph <- pathogen_info[[group]]
+
+```
+
+### `r city_name` `r paper_name`
+
+#### Breaking News
+
+**`r concerns[1]` Over Possible Outbreak of `r dis_name` in `r city_name`**
+
+`r news_date`
+
+Anxiety `r rises` in `r city_name` as health officials investigate a potential outbreak of `r dis_name`, raising alarm bells across the region. Though yet to be formally confirmed as a pandemic, suspicions have intensified following a recent `r alarming [1]` surge in patients presenting with symptoms indicative of `r dis_name`.
+
+`r pathogen_paragraph` Residents of `r city_name` experiencing any of these symptoms are advised to contact their GP or dial 111 for health advice. 
+
+In a press release, the director of the `r hosp_name` in `r city_name` noted a `r alarming[2]` uptick in individuals reporting symptoms consistent with those associated with `r dis_name`. `r concerns[2]` were first raised when the local GPs began reporting an unusual increase in patients with symptoms of `r dis_name`. While investigations are still ongoing, the possibility of a pandemic outbreak `r looms`, prompting concern from health agencies.
+
+In response to the `r growing` concerns, health officials have `r begun` several `r responses`, and `r city_name` have convened an Emergency Pandemic Response Team, which will be meeting on `r as.Date(workshop3_date, format = "%A %B %d")` and attempting to find solutions that will stop the spread of the pandemic in `r city_name`.
+
+The First Minister assured residents that authorities are leaving `r metaphor1` in their efforts to safeguard public health, and furthermore urged residents to remain vigilant and cooperate with health directives from the `r city_name` City Council. A statement released by the First Minister's office read: "`r statement`" 
+
+The people in `r city_name` have already begun to `r fear` the possibility of a pandemic; potential consequences such as school closures, economic repercussions, and strain on healthcare resources, have sparked apprehension among residents, underscoring the need for swift and decisive action.
+
+**Contact Information for Further Updates:**
+
+* More information will be posted on the `r city_name` website as the situation develops: https://www.`r city_name`Council.co.uk
+
+* The `r city_name` Emergency Pandemic Response Team can be contacted on `r landline_number` or at pandemic_response@`r city_name`.co.uk
+
+**About the Author:**
+
+`r journ_name` is a health correspondent at the `r city_name` `r paper_name`, specializing in public health and safety issues.`r journ_pronoun` can be contacted at `r journ_email`.
+

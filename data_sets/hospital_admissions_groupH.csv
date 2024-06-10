@@ -1,0 +1,1006 @@
+"Code","Description","Admission_ID","Admission_Date"
+"O30-O48","Maternal care related to the fetus and amniotic cavity and possible delivery problems","TIMYOL",2025-02-01
+"S30-S39","Injuries to abdomen, lower back, lumbar spine & pelvis","QRQGCB",2025-02-01
+"J30-J39","Other diseases of upper respiratory tract","M343UE",2025-02-01
+"D10-D36","Benign neoplasms","LQGD60",2025-02-01
+"C76-C80","Malignant neoplasms of ill-defined, secondary and unspecified sites","0YJ4LB",2025-02-02
+"L00-L08","Infections of the skin and subcutaneous tissue","DV55FJ",2025-02-02
+"S00-S09","Injuries to the head","J8HQZJ",2025-02-02
+"Z00-Z13","Examination and investigation","3U459A",2025-02-02
+"T36-T50","Poisonings by drugs medicaments & biological substances","HGI3BV",2025-02-02
+"R25-R29","Symptoms & signs inv. the nervous & musculoskeletal sys.","TC5XJN",2025-02-02
+"N30-N39","Other diseases of the urinary system","NVJE9C",2025-02-02
+"O94-O99","Other obstetric conditions, not elsewhere classified","F43Q4F",2025-02-02
+"Z30-Z39","Health services in circumstances related to reproduction","6Y0GX1",2025-02-02
+"G50-G59","Nerve, nerve root and plexus disorders","WTOY9A",2025-02-03
+"G50-G59","Nerve, nerve root and plexus disorders","K59QZL",2025-02-03
+"O20-O29","Other maternal disorders predominantly related to pregnancy","8C10ZE",2025-02-03
+"F00-F09","Organic, including symptomatic, mental disorders","38AQT2",2025-02-03
+"R90-R94","Abnormal findings on diagnostic imaging/function studies","PRKO41",2025-02-03
+"S60-S69","Injuries to the wrist & hand","4XRJGB",2025-02-04
+"H25-H28","Disorders of lens (including cataracts)","B2565L",2025-02-04
+"C43-C44","Malignant neoplasms of skin","J88OAT",2025-02-04
+"E70-E90","Metabolic disorders","GZNW7W",2025-02-04
+"S60-S69","Injuries to the wrist & hand","2GJDN6",2025-02-04
+"A00-A09","Intestinal infectious diseases","OEZ30L",2025-02-04
+"O30-O48","Maternal care related to the fetus and amniotic cavity and possible delivery problems","RSJ5GL",2025-02-04
+"K90-K93","Other diseases of the digestive system","IV12CG",2025-02-04
+"C60-C63","Malignant neoplasms of male genital organs","L1PEBI",2025-02-04
+"M30-M36","Systemic connective tissue disorders","9AQN0S",2025-02-04
+"C50-C50","Malignant neoplasm of breast","NG8CD8",2025-02-05
+"M40-M54","Dorsopathies","A5Q9B9",2025-02-05
+"M60-M79","Soft tissue disorders","JA0WNF",2025-02-05
+"I60-I69","Cerebrovascular diseases","H6XMQY",2025-02-05
+"I26-I28","Pulmonary heart disease & diseases of pulmonary circulation","QIX9NF",2025-02-05
+"K50-K52","Noninfective enteritis & colitis","ATYKB5",2025-02-05
+"D00-D09","In situ neoplasms","JD1AIQ",2025-02-06
+"K20-K31","Diseases of oesophagus, stomach & duodenum","59SD4B",2025-02-06
+"S40-S49","Injuries to the shoulder & upper arm","L246PN",2025-02-06
+"M00-M25","Arthropathies","EHUTXQ",2025-02-06
+"J95-J99","Other diseases of the respiratory system","SKIBLB",2025-02-06
+"C64-C68","Malignant neoplasms of urinary tract","13MQJI",2025-02-06
+"I20-I25","Ischaemic heart diseases","G36GVW",2025-02-06
+"H25-H28","Disorders of lens (including cataracts)","N89KWD",2025-02-06
+"Z00-Z13","Examination and investigation","TRM7TO",2025-02-06
+"N30-N39","Other diseases of the urinary system","42U1YS",2025-02-07
+"R50-R69","General symptoms & signs","T6C5VG",2025-02-07
+"I20-I25","Ischaemic heart diseases","OHIQ9H",2025-02-07
+"J09-J18","Influenza & pneumonia","ZUQALU",2025-02-07
+"K55-K64","Other diseases of intestines","LG1T3E",2025-02-08
+"C76-C80","Malignant neoplasms of ill-defined, secondary and unspecified sites","SDA0RD",2025-02-08
+"N17-N19","Renal failure","E96IDM",2025-02-08
+"O30-O48","Maternal care related to the fetus and amniotic cavity and possible delivery problems","5R1J9X",2025-02-08
+"R00-R09","Symptoms & signs inv. the circulatory/respiratory system","WNUOMM",2025-02-08
+"H25-H28","Disorders of lens (including cataracts)","UVNCQ3",2025-02-08
+"R10-R19","Symptoms & signs inv. the digestive system & abdomen","0BVP5H",2025-02-08
+"I26-I28","Pulmonary heart disease & diseases of pulmonary circulation","7KLI06",2025-02-08
+"Z30-Z39","Health services in circumstances related to reproduction","6DT10B",2025-02-08
+"J20-J22","Other acute lower respiratory infections","99VZMP",2025-02-08
+"K55-K64","Other diseases of intestines","GATED7",2025-02-08
+"H25-H28","Disorders of lens (including cataracts)","FLXITX",2025-02-08
+"K20-K31","Diseases of oesophagus, stomach & duodenum","5O9GJL",2025-02-08
+"O60-O75","Complications of labour and delivery","HIPGO1",2025-02-08
+"H30-H36","Disorders of choroid and retina","GE944O",2025-02-08
+"M00-M25","Arthropathies","DDQR5M",2025-02-08
+"M00-M25","Arthropathies","Z958FA",2025-02-08
+"A30-A49","Other bacterial diseases","M3R1NB",2025-02-08
+"I30-I52","Other forms of heart disease","PIOTW8",2025-02-08
+"C81-C96","Malignant neoplasms of lymphoid, haematopoietic & rel. tiss.","844OVL",2025-02-08
+"C15-C26","Malignant neoplasm of digestive organs","GSAN20",2025-02-08
+"O00-O08","Pregnancy with abortive outcome","KIQQBH",2025-02-08
+"K20-K31","Diseases of oesophagus, stomach & duodenum","KK6FTF",2025-02-08
+"N10-N16","Renal tubulo-interstitial diseases","QTO0UU",2025-02-08
+"R25-R29","Symptoms & signs inv. the nervous & musculoskeletal sys.","7HBHZC",2025-02-08
+"Z30-Z39","Health services in circumstances related to reproduction","U2W0JO",2025-02-08
+"E70-E90","Metabolic disorders","KNS2BT",2025-02-09
+"R50-R69","General symptoms & signs","VX3KJ5",2025-02-09
+"C81-C96","Malignant neoplasms of lymphoid, haematopoietic & rel. tiss.","TJDZBR",2025-02-09
+"R30-R39","Symptoms & signs involving the urinary system","09ZHQF",2025-02-09
+"Z30-Z39","Health services in circumstances related to reproduction","NPF98S",2025-02-09
+"H30-H36","Disorders of choroid and retina","HJOUDJ",2025-02-09
+"O60-O75","Complications of labour and delivery","PPUBID",2025-02-09
+"C30-C39","Malignant neoplasms of respiratory & intrathoracic organs","FY6W48",2025-02-09
+"Z00-Z13","Examination and investigation","6R7ZXM",2025-02-09
+"C60-C63","Malignant neoplasms of male genital organs","NCQRR5",2025-02-09
+"J20-J22","Other acute lower respiratory infections","LGPYH8",2025-02-09
+"J20-J22","Other acute lower respiratory infections","MDEFHT",2025-02-09
+"I30-I52","Other forms of heart disease","LSR6PX",2025-02-09
+"N30-N39","Other diseases of the urinary system","DEVFFV",2025-02-09
+"C81-C96","Malignant neoplasms of lymphoid, haematopoietic & rel. tiss.","6K1D6L",2025-02-09
+"K90-K93","Other diseases of the digestive system","H2E0C3",2025-02-09
+"S70-S79","Injuries to the hip & thigh","Q1VSXK",2025-02-09
+"M00-M25","Arthropathies","SV2OAW",2025-02-09
+"C30-C39","Malignant neoplasms of respiratory & intrathoracic organs","QO5O5O",2025-02-09
+"Z30-Z39","Health services in circumstances related to reproduction","G0X8I5",2025-02-09
+"O30-O48","Maternal care related to the fetus and amniotic cavity and possible delivery problems","MTYOE7",2025-02-09
+"O94-O99","Other obstetric conditions, not elsewhere classified","U2YMHO",2025-02-09
+"M60-M79","Soft tissue disorders","YZ4379",2025-02-09
+"R25-R29","Symptoms & signs inv. the nervous & musculoskeletal sys.","RLTM05",2025-02-09
+"Z00-Z13","Examination and investigation","9P7MFI",2025-02-09
+"S60-S69","Injuries to the wrist & hand","IXDVNC",2025-02-09
+"J30-J39","Other diseases of upper respiratory tract","BMBE1N",2025-02-09
+"Q80-Q89","Other congenital malformations","7MQE7X",2025-02-09
+"Q38-Q45","Other congenital malformations of the digestive system","4WDVVK",2025-02-09
+"C30-C39","Malignant neoplasms of respiratory & intrathoracic organs","0G10DA",2025-02-09
+"A30-A49","Other bacterial diseases","SWJH1R",2025-02-09
+"R25-R29","Symptoms & signs inv. the nervous & musculoskeletal sys.","64Z77Q",2025-02-10
+"O00-O08","Pregnancy with abortive outcome","0CDX70",2025-02-10
+"G40-G47","Episodic and paroxysmal disorders","B8PH7F",2025-02-10
+"K55-K64","Other diseases of intestines","VXE7V3",2025-02-10
+"R30-R39","Symptoms & signs involving the urinary system","482I5F",2025-02-10
+"M00-M25","Arthropathies","4L42WV",2025-02-10
+"R25-R29","Symptoms & signs inv. the nervous & musculoskeletal sys.","EVMKRM",2025-02-10
+"C50-C50","Malignant neoplasm of breast","DYD3XF",2025-02-10
+"O20-O29","Other maternal disorders predominantly related to pregnancy","JBL28B",2025-02-10
+"R30-R39","Symptoms & signs involving the urinary system","VKIHVU",2025-02-10
+"O30-O48","Maternal care related to the fetus and amniotic cavity and possible delivery problems","OMQ23M",2025-02-10
+"R50-R69","General symptoms & signs","6Y48DW",2025-02-10
+"S70-S79","Injuries to the hip & thigh","EGSF0N",2025-02-10
+"E70-E90","Metabolic disorders","7R7IJI",2025-02-10
+"J30-J39","Other diseases of upper respiratory tract","MGUJT5",2025-02-10
+"H25-H28","Disorders of lens (including cataracts)","1BRIKE",2025-02-10
+"T66-T78","Other and unspecified effects of external causes","A0J4NS",2025-02-10
+"C60-C63","Malignant neoplasms of male genital organs","9D42DH",2025-02-10
+"K55-K64","Other diseases of intestines","GJNDRB",2025-02-10
+"H25-H28","Disorders of lens (including cataracts)","ZE4V0I",2025-02-10
+"Q65-Q79","Congenital malformations and deformations of the musculoskeletal system","LPW1FZ",2025-02-10
+"O30-O48","Maternal care related to the fetus and amniotic cavity and possible delivery problems","P42Z9K",2025-02-10
+"C69-C72","Malignant neoplasms of eye, brain & other parts of CNS","LHORHO",2025-02-10
+"K80-K87","Disorders of gall bladder, biliary tract & pancreas","A5O9V8",2025-02-10
+"C51-C58","Malignant neoplasms of female genital organs","XHEHTV",2025-02-10
+"K20-K31","Diseases of oesophagus, stomach & duodenum","5SNVZK",2025-02-10
+"O30-O48","Maternal care related to the fetus and amniotic cavity and possible delivery problems","14SLAI",2025-02-10
+"H46-H48","Disorders of optic nerve and visual pathways","1JNZZK",2025-02-10
+"H30-H36","Disorders of choroid and retina","YT2XY7",2025-02-11
+"S40-S49","Injuries to the shoulder & upper arm","CTP1PS",2025-02-11
+"C76-C80","Malignant neoplasms of ill-defined, secondary and unspecified sites","K90WRW",2025-02-11
+"R50-R69","General symptoms & signs","41I7JB",2025-02-11
+"I10-I15","Hypertensive diseases","3ON9K4",2025-02-11
+"K80-K87","Disorders of gall bladder, biliary tract & pancreas","FI385K",2025-02-11
+"T80-T88","Complications of surgical & medical care nec.","NLEDOZ",2025-02-11
+"R50-R69","General symptoms & signs","SNI5O9",2025-02-11
+"C69-C72","Malignant neoplasms of eye, brain & other parts of CNS","PE0DUQ",2025-02-11
+"F10-F19","Mental and behavioural disorders due to psychoactive subst.","HOBBNZ",2025-02-11
+"C76-C80","Malignant neoplasms of ill-defined, secondary and unspecified sites","0WU77B",2025-02-11
+"Z30-Z39","Health services in circumstances related to reproduction","6D5CHN",2025-02-11
+"O94-O99","Other obstetric conditions, not elsewhere classified","JZJFN8",2025-02-11
+"S00-S09","Injuries to the head","IYZ8EG",2025-02-11
+"D55-D59","Haemolytic anaemias","EBZBXZ",2025-02-11
+"J09-J18","Influenza & pneumonia","SIYK32",2025-02-11
+"R00-R09","Symptoms & signs inv. the circulatory/respiratory system","NQ0Q1R",2025-02-11
+"G50-G59","Nerve, nerve root and plexus disorders","OXWSAC",2025-02-11
+"R00-R09","Symptoms & signs inv. the circulatory/respiratory system","5UJTEM",2025-02-11
+"Z40-Z54","Persons encountering health services for specific care","SCX9LL",2025-02-11
+"R10-R19","Symptoms & signs inv. the digestive system & abdomen","65P5U8",2025-02-11
+"K55-K64","Other diseases of intestines","UI4QG8",2025-02-11
+"S50-S59","Injuries to the elbow & forearm","6AMCJ6",2025-02-11
+"R10-R19","Symptoms & signs inv. the digestive system & abdomen","A2RD5Y",2025-02-11
+"K55-K64","Other diseases of intestines","QFO7K5",2025-02-11
+"C81-C96","Malignant neoplasms of lymphoid, haematopoietic & rel. tiss.","2IV4EW",2025-02-11
+"K50-K52","Noninfective enteritis & colitis","8BBJHW",2025-02-11
+"C51-C58","Malignant neoplasms of female genital organs","1ELFF6",2025-02-11
+"K20-K31","Diseases of oesophagus, stomach & duodenum","CU5GGX",2025-02-11
+"N40-N51","Diseases of male genital organs","F2KBJS",2025-02-11
+"L80-L99","Other disorders of the skin and subcutaneous tissue","3S3RQU",2025-02-11
+"N17-N19","Renal failure","HVF85O",2025-02-11
+"T80-T88","Complications of surgical & medical care nec.","FORP1A",2025-02-11
+"E70-E90","Metabolic disorders","R2BM60",2025-02-11
+"O20-O29","Other maternal disorders predominantly related to pregnancy","XGQO07",2025-02-11
+"M60-M79","Soft tissue disorders","SSK3PB",2025-02-12
+"R10-R19","Symptoms & signs inv. the digestive system & abdomen","ZE9O0I",2025-02-12
+"M00-M25","Arthropathies","OQ2JYI",2025-02-12
+"T36-T50","Poisonings by drugs medicaments & biological substances","X2QUNM",2025-02-12
+"R50-R69","General symptoms & signs","CRDF4Q",2025-02-12
+"O00-O08","Pregnancy with abortive outcome","QX01RM",2025-02-12
+"H30-H36","Disorders of choroid and retina","HWZU68",2025-02-12
+"J20-J22","Other acute lower respiratory infections","YQBZE2",2025-02-12
+"C50-C50","Malignant neoplasm of breast","HNS1E5",2025-02-12
+"K80-K87","Disorders of gall bladder, biliary tract & pancreas","2SROFT",2025-02-12
+"R10-R19","Symptoms & signs inv. the digestive system & abdomen","VWYTBM",2025-02-12
+"S00-S09","Injuries to the head","CT7IXT",2025-02-12
+"Z30-Z39","Health services in circumstances related to reproduction","SUO8JZ",2025-02-12
+"T15-T19","Effects of foreign body entering through natural orifice","RI06PQ",2025-02-12
+"R20-R23","Symptoms & signs inv. the skin & subcutaneous tissue","3XHZ5U",2025-02-12
+"K50-K52","Noninfective enteritis & colitis","3LNAAR",2025-02-12
+"O20-O29","Other maternal disorders predominantly related to pregnancy","D23LS9",2025-02-12
+"E70-E90","Metabolic disorders","7L68WI",2025-02-12
+"K55-K64","Other diseases of intestines","4RP9EQ",2025-02-12
+"D55-D59","Haemolytic anaemias","8D7OZD",2025-02-12
+"M00-M25","Arthropathies","G4IDSM",2025-02-12
+"M40-M54","Dorsopathies","X2L5AS",2025-02-12
+"J80-J84","Other respiratory diseases principally affecting the interstitium","8NKNZB",2025-02-13
+"R25-R29","Symptoms & signs inv. the nervous & musculoskeletal sys.","RM058F",2025-02-13
+"N40-N51","Diseases of male genital organs","7WGP7C",2025-02-13
+"H25-H28","Disorders of lens (including cataracts)","JDMO78",2025-02-13
+"K00-K14","Diseases of oral cavity, salivary glands & jaws","ZQJCJ3",2025-02-13
+"O60-O75","Complications of labour and delivery","BEIGL5",2025-02-13
+"K20-K31","Diseases of oesophagus, stomach & duodenum","J88YD0",2025-02-13
+"M80-M94","Osteopathies and chondropathies","1JKXTF",2025-02-13
+"O30-O48","Maternal care related to the fetus and amniotic cavity and possible delivery problems","ZGCJQ8",2025-02-13
+"J40-J47","Chronic lower respiratory diseases","0X2SN5",2025-02-13
+"N40-N51","Diseases of male genital organs","R6XDQN",2025-02-13
+"M60-M79","Soft tissue disorders","6F9FJQ",2025-02-13
+"O30-O48","Maternal care related to the fetus and amniotic cavity and possible delivery problems","HMLOIF",2025-02-13
+"P05-P08","Disorders related to length of gestation and fetal growth","U9U6F8",2025-02-13
+"S70-S79","Injuries to the hip & thigh","UYDK6H",2025-02-13
+"N40-N51","Diseases of male genital organs","OPDRM0",2025-02-13
+"J40-J47","Chronic lower respiratory diseases","8A3JCA",2025-02-13
+"R00-R09","Symptoms & signs inv. the circulatory/respiratory system","9UHFM0",2025-02-13
+"D10-D36","Benign neoplasms","SAN7AZ",2025-02-13
+"L00-L08","Infections of the skin and subcutaneous tissue","WNUFI8",2025-02-13
+"Z30-Z39","Health services in circumstances related to reproduction","GNDTM8",2025-02-13
+"O30-O48","Maternal care related to the fetus and amniotic cavity and possible delivery problems","DIZXLW",2025-02-13
+"M00-M25","Arthropathies","OKGWEL",2025-02-13
+"C50-C50","Malignant neoplasm of breast","ILHM3J",2025-02-13
+"K55-K64","Other diseases of intestines","Q5SUKM",2025-02-13
+"K55-K64","Other diseases of intestines","JV752E",2025-02-13
+"K55-K64","Other diseases of intestines","W1LXGC",2025-02-13
+"K50-K52","Noninfective enteritis & colitis","V6IP7E",2025-02-13
+"Q65-Q79","Congenital malformations and deformations of the musculoskeletal system","8KA0LS",2025-02-13
+"I30-I52","Other forms of heart disease","JKBVTV",2025-02-13
+"D50-D53","Nutritional anaemias","1BU2Q5",2025-02-13
+"M00-M25","Arthropathies","ZKJGSN",2025-02-14
+"J30-J39","Other diseases of upper respiratory tract","5NPA2V",2025-02-14
+"O60-O75","Complications of labour and delivery","1E6T8O",2025-02-14
+"O60-O75","Complications of labour and delivery","P7S0D9",2025-02-14
+"P20-P29","Respiratory and cardiovascular disorders specific to the perinatal period","525B43",2025-02-14
+"H25-H28","Disorders of lens (including cataracts)","4RYQEY",2025-02-14
+"N80-N98","Noninflammatory disorders of female genital tract","73TRIO",2025-02-14
+"H25-H28","Disorders of lens (including cataracts)","B2Z4V9",2025-02-14
+"S80-S89","Injuries to the knee & lower leg","Q5MW91",2025-02-14
+"T36-T50","Poisonings by drugs medicaments & biological substances","CZA7VM",2025-02-14
+"A30-A49","Other bacterial diseases","AS1KSL",2025-02-14
+"J95-J99","Other diseases of the respiratory system","Z16H3T",2025-02-14
+"I80-I89","Diseases of veins & lymphatic system nec.","NSCOUW",2025-02-14
+"C81-C96","Malignant neoplasms of lymphoid, haematopoietic & rel. tiss.","6HUZ7H",2025-02-14
+"M40-M54","Dorsopathies","3JEOCJ",2025-02-14
+"H30-H36","Disorders of choroid and retina","GH58DS",2025-02-14
+"G40-G47","Episodic and paroxysmal disorders","10R22Q",2025-02-14
+"O60-O75","Complications of labour and delivery","1YHQGM",2025-02-14
+"C76-C80","Malignant neoplasms of ill-defined, secondary and unspecified sites","R31H8O",2025-02-14
+"R90-R94","Abnormal findings on diagnostic imaging/function studies","XSPF3A",2025-02-14
+"O60-O75","Complications of labour and delivery","HUT8DN",2025-02-14
+"D80-D89","Certain disorders involving the immune mechanism","1U57QJ",2025-02-14
+"K55-K64","Other diseases of intestines","6SO27L",2025-02-14
+"K50-K52","Noninfective enteritis & colitis","SUF4CH",2025-02-14
+"N80-N98","Noninflammatory disorders of female genital tract","QPXQME",2025-02-14
+"D37-D48","Neoplasms of uncertain or unknown behaviour","3QXBVI",2025-02-14
+"G40-G47","Episodic and paroxysmal disorders","OS15XI",2025-02-14
+"N40-N51","Diseases of male genital organs","N9W88R",2025-02-14
+"R10-R19","Symptoms & signs inv. the digestive system & abdomen","UVHJCK",2025-02-14
+"E70-E90","Metabolic disorders","BL19ZQ",2025-02-14
+"K20-K31","Diseases of oesophagus, stomach & duodenum","IX3MU9",2025-02-14
+"O20-O29","Other maternal disorders predominantly related to pregnancy","AYE7XY",2025-02-14
+"D10-D36","Benign neoplasms","IS0NNQ",2025-02-15
+"R10-R19","Symptoms & signs inv. the digestive system & abdomen","2NZ3AJ",2025-02-15
+"K55-K64","Other diseases of intestines","UCU87S",2025-02-15
+"K50-K52","Noninfective enteritis & colitis","NBKSFL",2025-02-15
+"L00-L08","Infections of the skin and subcutaneous tissue","SCJLZ4",2025-02-15
+"S70-S79","Injuries to the hip & thigh","KJGGA3",2025-02-15
+"A30-A49","Other bacterial diseases","2CZ68J",2025-02-15
+"Z40-Z54","Persons encountering health services for specific care","H48OB7",2025-02-15
+"R50-R69","General symptoms & signs","14M4DG",2025-02-15
+"J09-J18","Influenza & pneumonia","YCM5OJ",2025-02-15
+"A30-A49","Other bacterial diseases","8F558J",2025-02-15
+"K80-K87","Disorders of gall bladder, biliary tract & pancreas","7384X9",2025-02-15
+"H30-H36","Disorders of choroid and retina","2XZYXD",2025-02-15
+"C30-C39","Malignant neoplasms of respiratory & intrathoracic organs","NYK59T",2025-02-15
+"K50-K52","Noninfective enteritis & colitis","LASAHW",2025-02-15
+"K20-K31","Diseases of oesophagus, stomach & duodenum","W1R7FL",2025-02-15
+"R25-R29","Symptoms & signs inv. the nervous & musculoskeletal sys.","7JVNV9",2025-02-15
+"M00-M25","Arthropathies","8HSPZO",2025-02-15
+"S20-S29","Injuries to the thorax","Y99HWQ",2025-02-15
+"E70-E90","Metabolic disorders","3MSEBN",2025-02-15
+"I80-I89","Diseases of veins & lymphatic system nec.","ZD1CLR",2025-02-15
+"K50-K52","Noninfective enteritis & colitis","HB0QZ6",2025-02-15
+"C81-C96","Malignant neoplasms of lymphoid, haematopoietic & rel. tiss.","8CHE95",2025-02-15
+"I80-I89","Diseases of veins & lymphatic system nec.","HOZT6Q",2025-02-15
+"C81-C96","Malignant neoplasms of lymphoid, haematopoietic & rel. tiss.","U2PS99",2025-02-15
+"D60-D64","Aplastic and other anaemias","QJCCI5",2025-02-15
+"G40-G47","Episodic and paroxysmal disorders","OUK83Z",2025-02-15
+"E20-E35","Disorders of other endocrine glands","821KP5",2025-02-15
+"S50-S59","Injuries to the elbow & forearm","1B20Y7",2025-02-15
+"R00-R09","Symptoms & signs inv. the circulatory/respiratory system","KTFFF4",2025-02-15
+"S40-S49","Injuries to the shoulder & upper arm","C75RWL",2025-02-15
+"C81-C96","Malignant neoplasms of lymphoid, haematopoietic & rel. tiss.","Q7VOPX",2025-02-15
+"M40-M54","Dorsopathies","I5DRSL",2025-02-15
+"E20-E35","Disorders of other endocrine glands","B0IVGY",2025-02-15
+"C76-C80","Malignant neoplasms of ill-defined, secondary and unspecified sites","TU7QMR",2025-02-15
+"I20-I25","Ischaemic heart diseases","PZ14KE",2025-02-15
+"Z40-Z54","Persons encountering health services for specific care","22Q7XJ",2025-02-15
+"K55-K64","Other diseases of intestines","04I06M",2025-02-15
+"R00-R09","Symptoms & signs inv. the circulatory/respiratory system","PULA7E",2025-02-15
+"K00-K14","Diseases of oral cavity, salivary glands & jaws","Z0WSUM",2025-02-15
+"R50-R69","General symptoms & signs","769D1P",2025-02-15
+"A30-A49","Other bacterial diseases","9CS3LO",2025-02-15
+"A30-A49","Other bacterial diseases","KUVMMJ",2025-02-15
+"S40-S49","Injuries to the shoulder & upper arm","HQZ18L",2025-02-16
+"G90-G99","Other diseases & disorders of the nervous syst.","6IG4UR",2025-02-16
+"O20-O29","Other maternal disorders predominantly related to pregnancy","ZYRCRH",2025-02-16
+"I30-I52","Other forms of heart disease","DY4N08",2025-02-16
+"K55-K64","Other diseases of intestines","13RWM9",2025-02-16
+"O30-O48","Maternal care related to the fetus and amniotic cavity and possible delivery problems","YFTH34",2025-02-16
+"O30-O48","Maternal care related to the fetus and amniotic cavity and possible delivery problems","2W8FXT",2025-02-16
+"G40-G47","Episodic and paroxysmal disorders","PX3BIG",2025-02-16
+"R10-R19","Symptoms & signs inv. the digestive system & abdomen","JQ9U8P",2025-02-16
+"I20-I25","Ischaemic heart diseases","KPSYQ9",2025-02-16
+"L60-L75","Disorders of skin appendages","BQ6M9F",2025-02-16
+"H49-H52","Disorders of ocular muscles, binocular movement, accommodation and refraction","WNNV6L",2025-02-16
+"J40-J47","Chronic lower respiratory diseases","5Q2S51",2025-02-16
+"M00-M25","Arthropathies","D25UE2",2025-02-16
+"R50-R69","General symptoms & signs","6YWPCR",2025-02-16
+"A00-A09","Intestinal infectious diseases","0WB2B9",2025-02-16
+"Z40-Z54","Persons encountering health services for specific care","TLPTH9",2025-02-16
+"M00-M25","Arthropathies","TMCVSV",2025-02-16
+"N40-N51","Diseases of male genital organs","SN8MOO",2025-02-16
+"S30-S39","Injuries to abdomen, lower back, lumbar spine & pelvis","J40JHD",2025-02-16
+"M00-M25","Arthropathies","AEAGJX",2025-02-16
+"O60-O75","Complications of labour and delivery","JUEZ16",2025-02-16
+"K20-K31","Diseases of oesophagus, stomach & duodenum","S240HJ",2025-02-16
+"O30-O48","Maternal care related to the fetus and amniotic cavity and possible delivery problems","1BXJ8B",2025-02-16
+"R00-R09","Symptoms & signs inv. the circulatory/respiratory system","PJ1XW0",2025-02-16
+"J09-J18","Influenza & pneumonia","H4N8GQ",2025-02-16
+"N80-N98","Noninflammatory disorders of female genital tract","PERPH5",2025-02-16
+"K00-K14","Diseases of oral cavity, salivary glands & jaws","EY30SW",2025-02-16
+"L00-L08","Infections of the skin and subcutaneous tissue","IJWIWK",2025-02-16
+"G40-G47","Episodic and paroxysmal disorders","5TR64M",2025-02-16
+"D10-D36","Benign neoplasms","IORRJA",2025-02-16
+"M00-M25","Arthropathies","0N3SKF",2025-02-16
+"E15-E16","Other disorders of glucose regulation and pancreatic internal secretion","AM2TY2",2025-02-16
+"K20-K31","Diseases of oesophagus, stomach & duodenum","ETGGKB",2025-02-16
+"N80-N98","Noninflammatory disorders of female genital tract","8Z8GCY",2025-02-16
+"K55-K64","Other diseases of intestines","173VE3",2025-02-16
+"I30-I52","Other forms of heart disease","ZVA856",2025-02-16
+"N40-N51","Diseases of male genital organs","W8QICN",2025-02-16
+"O30-O48","Maternal care related to the fetus and amniotic cavity and possible delivery problems","9IWKNV",2025-02-16
+"A30-A49","Other bacterial diseases","NHWX3S",2025-02-16
+"T80-T88","Complications of surgical & medical care nec.","ZVVSFI",2025-02-16
+"G20-G26","Extrapyramidal & movement disorders (incl. Parkinsonism).","X428DQ",2025-02-16
+"C50-C50","Malignant neoplasm of breast","PZP6JT",2025-02-16
+"M00-M25","Arthropathies","RSHSYQ",2025-02-16
+"K20-K31","Diseases of oesophagus, stomach & duodenum","LRK1R3",2025-02-16
+"Z30-Z39","Health services in circumstances related to reproduction","OMEVW5",2025-02-16
+"C50-C50","Malignant neoplasm of breast","ZGYXPM",2025-02-16
+"T80-T88","Complications of surgical & medical care nec.","XNEB1A",2025-02-16
+"C30-C39","Malignant neoplasms of respiratory & intrathoracic organs","HTWFOQ",2025-02-16
+"S50-S59","Injuries to the elbow & forearm","JJXJ1O",2025-02-16
+"H30-H36","Disorders of choroid and retina","OY2UCV",2025-02-16
+"R10-R19","Symptoms & signs inv. the digestive system & abdomen","GK3CJH",2025-02-16
+"J09-J18","Influenza & pneumonia","74ZQQJ",2025-02-17
+"B00-B09","Viral infections characterized by skin & mucous mem. lesns.","8ZVXST",2025-02-17
+"K50-K52","Noninfective enteritis & colitis","U8WS1E",2025-02-17
+"R50-R69","General symptoms & signs","ZM4UP1",2025-02-17
+"H25-H28","Disorders of lens (including cataracts)","AT4WXD",2025-02-17
+"T15-T19","Effects of foreign body entering through natural orifice","6N9E8T",2025-02-17
+"K90-K93","Other diseases of the digestive system","JLNRYB",2025-02-17
+"H25-H28","Disorders of lens (including cataracts)","ZA06ZD",2025-02-17
+"T80-T88","Complications of surgical & medical care nec.","H33Y3B",2025-02-17
+"M40-M54","Dorsopathies","RMOUKH",2025-02-17
+"F30-F39","Mood [affective] disorders","MAPUBO",2025-02-17
+"K40-K46","Hernia","ELKLS7",2025-02-17
+"L00-L08","Infections of the skin and subcutaneous tissue","9KNDCI",2025-02-17
+"M00-M25","Arthropathies","1O2N60",2025-02-17
+"R90-R94","Abnormal findings on diagnostic imaging/function studies","IKKBCI",2025-02-17
+"I80-I89","Diseases of veins & lymphatic system nec.","815LN7",2025-02-17
+"C60-C63","Malignant neoplasms of male genital organs","6F264C",2025-02-17
+"I20-I25","Ischaemic heart diseases","W9W1B0",2025-02-17
+"C50-C50","Malignant neoplasm of breast","8CP908",2025-02-17
+"R50-R69","General symptoms & signs","TWC0HQ",2025-02-17
+"K20-K31","Diseases of oesophagus, stomach & duodenum","0A0QYG",2025-02-17
+"I20-I25","Ischaemic heart diseases","EE2Q6P",2025-02-17
+"T80-T88","Complications of surgical & medical care nec.","INMRZ5",2025-02-17
+"R10-R19","Symptoms & signs inv. the digestive system & abdomen","HRFBNU",2025-02-17
+"L00-L08","Infections of the skin and subcutaneous tissue","KB0M3C",2025-02-17
+"R40-R46","Symptoms & signs inv. Cognition perception etc.","MP4Z8E",2025-02-17
+"I30-I52","Other forms of heart disease","HJIIIB",2025-02-17
+"U00-U49","Provisional assignment of new diseases of uncertain etiology","UY9TAG",2025-02-17
+"H30-H36","Disorders of choroid and retina","K8JHP8",2025-02-17
+"K55-K64","Other diseases of intestines","78P6DW",2025-02-17
+"Z00-Z13","Examination and investigation","FWOWKZ",2025-02-17
+"S50-S59","Injuries to the elbow & forearm","2IO3ZR",2025-02-17
+"H00-H06","Disorders of eyelid, lacrimal system and orbit","IK8QB0",2025-02-17
+"M80-M94","Osteopathies and chondropathies","SNBLD3",2025-02-17
+"C50-C50","Malignant neoplasm of breast","MNCOD9",2025-02-17
+"J09-J18","Influenza & pneumonia","RZMFDX",2025-02-17
+"J40-J47","Chronic lower respiratory diseases","OIYTDF",2025-02-17
+"H25-H28","Disorders of lens (including cataracts)","G35PSM",2025-02-17
+"J00-J06","Acute upper respiratory infections","C9ROPZ",2025-02-17
+"K55-K64","Other diseases of intestines","9SK6P6",2025-02-17
+"S00-S09","Injuries to the head","5C77C4",2025-02-17
+"R10-R19","Symptoms & signs inv. the digestive system & abdomen","DPYEZ3",2025-02-17
+"M80-M94","Osteopathies and chondropathies","Q1JK8W",2025-02-18
+"C43-C44","Malignant neoplasms of skin","AKWS4C",2025-02-18
+"Z30-Z39","Health services in circumstances related to reproduction","52FZBI",2025-02-18
+"P80-P83","Conditions involving the integument and temperature regulation of fetus and newborn","XMJRVZ",2025-02-18
+"H30-H36","Disorders of choroid and retina","KJDYB7",2025-02-18
+"N30-N39","Other diseases of the urinary system","ZDT4RD",2025-02-18
+"A00-A09","Intestinal infectious diseases","PZF90S",2025-02-18
+"K50-K52","Noninfective enteritis & colitis","BT1MF3",2025-02-18
+"D10-D36","Benign neoplasms","L43YO7",2025-02-18
+"H25-H28","Disorders of lens (including cataracts)","9Q1URX",2025-02-18
+"T15-T19","Effects of foreign body entering through natural orifice","CSAFB1",2025-02-18
+"D50-D53","Nutritional anaemias","H4UW7G",2025-02-18
+"K35-K38","Diseases of appendix","3SHYVK",2025-02-18
+"K55-K64","Other diseases of intestines","QLKSLP",2025-02-18
+"N30-N39","Other diseases of the urinary system","14LNLP",2025-02-18
+"N30-N39","Other diseases of the urinary system","YMYRS4",2025-02-18
+"J00-J06","Acute upper respiratory infections","H5WK7L",2025-02-18
+"L50-L54","Urticaria and erythems","426O07",2025-02-18
+"C43-C44","Malignant neoplasms of skin","2NWI0J",2025-02-18
+"K20-K31","Diseases of oesophagus, stomach & duodenum","6YK88S",2025-02-18
+"J09-J18","Influenza & pneumonia","WM53QO",2025-02-18
+"Z30-Z39","Health services in circumstances related to reproduction","LCP8NH",2025-02-18
+"J40-J47","Chronic lower respiratory diseases","MHV01J",2025-02-18
+"H25-H28","Disorders of lens (including cataracts)","KUVMMJ",2025-02-18
+"O30-O48","Maternal care related to the fetus and amniotic cavity and possible delivery problems","90JO2H",2025-02-18
+"K50-K52","Noninfective enteritis & colitis","2ZXC9S",2025-02-18
+"K90-K93","Other diseases of the digestive system","43ZSYX",2025-02-18
+"N17-N19","Renal failure","AKZFLV",2025-02-18
+"C60-C63","Malignant neoplasms of male genital organs","M4AV0B",2025-02-18
+"H25-H28","Disorders of lens (including cataracts)","SUGJQK",2025-02-18
+"R25-R29","Symptoms & signs inv. the nervous & musculoskeletal sys.","UIIAKD",2025-02-18
+"L00-L08","Infections of the skin and subcutaneous tissue","5IDHWW",2025-02-18
+"C15-C26","Malignant neoplasm of digestive organs","KFBXA7",2025-02-19
+"H25-H28","Disorders of lens (including cataracts)","JNXE6X",2025-02-19
+"H25-H28","Disorders of lens (including cataracts)","8S04O5",2025-02-19
+"C15-C26","Malignant neoplasm of digestive organs","HC2S1O",2025-02-19
+"K80-K87","Disorders of gall bladder, biliary tract & pancreas","GOY2RX",2025-02-19
+"O60-O75","Complications of labour and delivery","065UAC",2025-02-19
+"C50-C50","Malignant neoplasm of breast","GVVX5X",2025-02-19
+"L55-L59","Radiation-related disorders of the skin and subcutaneous tissue","XTNTLM",2025-02-19
+"M40-M54","Dorsopathies","PSJ1AR",2025-02-19
+"K55-K64","Other diseases of intestines","VWLT8E",2025-02-19
+"H25-H28","Disorders of lens (including cataracts)","V4W9DH",2025-02-19
+"S30-S39","Injuries to abdomen, lower back, lumbar spine & pelvis","SOIK82",2025-02-19
+"C81-C96","Malignant neoplasms of lymphoid, haematopoietic & rel. tiss.","41D5YQ",2025-02-19
+"C15-C26","Malignant neoplasm of digestive organs","TCMPXP",2025-02-19
+"C60-C63","Malignant neoplasms of male genital organs","PYU8GD",2025-02-19
+"K20-K31","Diseases of oesophagus, stomach & duodenum","ROY0ZS",2025-02-19
+"I20-I25","Ischaemic heart diseases","XA0OA6",2025-02-19
+"G90-G99","Other diseases & disorders of the nervous syst.","9L7XDI",2025-02-19
+"O60-O75","Complications of labour and delivery","H0V5SV",2025-02-19
+"O30-O48","Maternal care related to the fetus and amniotic cavity and possible delivery problems","K7C9J3",2025-02-19
+"Z40-Z54","Persons encountering health services for specific care","DZDXEK",2025-02-19
+"C81-C96","Malignant neoplasms of lymphoid, haematopoietic & rel. tiss.","JQMCNM",2025-02-19
+"K55-K64","Other diseases of intestines","NANDYL",2025-02-19
+"Z00-Z13","Examination and investigation","XZN8OR",2025-02-19
+"K50-K52","Noninfective enteritis & colitis","3UQZEK",2025-02-19
+"C81-C96","Malignant neoplasms of lymphoid, haematopoietic & rel. tiss.","2GR5DZ",2025-02-19
+"Z30-Z39","Health services in circumstances related to reproduction","3NPCA5",2025-02-19
+"C50-C50","Malignant neoplasm of breast","KKVC7G",2025-02-19
+"R10-R19","Symptoms & signs inv. the digestive system & abdomen","B0CBMM",2025-02-19
+"I20-I25","Ischaemic heart diseases","S4IGWQ",2025-02-19
+"D10-D36","Benign neoplasms","SLLI4B",2025-02-19
+"T80-T88","Complications of surgical & medical care nec.","Y81XBS",2025-02-19
+"D60-D64","Aplastic and other anaemias","IB3U7V",2025-02-19
+"A00-A09","Intestinal infectious diseases","VNW63N",2025-02-19
+"O30-O48","Maternal care related to the fetus and amniotic cavity and possible delivery problems","5OO7LM",2025-02-19
+"Z30-Z39","Health services in circumstances related to reproduction","SIFMOU",2025-02-19
+"J00-J06","Acute upper respiratory infections","4JFE0G",2025-02-19
+"N30-N39","Other diseases of the urinary system","UV7L6K",2025-02-20
+"C60-C63","Malignant neoplasms of male genital organs","HOXUCF",2025-02-20
+"N80-N98","Noninflammatory disorders of female genital tract","J65XFN",2025-02-20
+"M40-M54","Dorsopathies","U7UB3B",2025-02-20
+"D00-D09","In situ neoplasms","WYF6GY",2025-02-20
+"R50-R69","General symptoms & signs","L3LJ83",2025-02-20
+"C81-C96","Malignant neoplasms of lymphoid, haematopoietic & rel. tiss.","DAMRU8",2025-02-20
+"H25-H28","Disorders of lens (including cataracts)","D4HKOJ",2025-02-20
+"R00-R09","Symptoms & signs inv. the circulatory/respiratory system","4M10FR",2025-02-20
+"C45-C49","Malignant neoplasms of mesothelial and soft tissue","NCW1UJ",2025-02-20
+"O30-O48","Maternal care related to the fetus and amniotic cavity and possible delivery problems","HV5K4Q",2025-02-20
+"E50-E64","Other nutritional deficiencies","WURP6T",2025-02-20
+"K55-K64","Other diseases of intestines","IE2MZ4",2025-02-20
+"C81-C96","Malignant neoplasms of lymphoid, haematopoietic & rel. tiss.","D0PYV2",2025-02-20
+"R30-R39","Symptoms & signs involving the urinary system","5FKS0H",2025-02-20
+"M80-M94","Osteopathies and chondropathies","U6I6Q3",2025-02-20
+"M40-M54","Dorsopathies","VVYLR1",2025-02-20
+"N10-N16","Renal tubulo-interstitial diseases","9F6CIV",2025-02-20
+"S00-S09","Injuries to the head","NR1N9F",2025-02-20
+"R25-R29","Symptoms & signs inv. the nervous & musculoskeletal sys.","H51EMF",2025-02-20
+"S20-S29","Injuries to the thorax","UOW6XR",2025-02-20
+"D50-D53","Nutritional anaemias","6CNHWL",2025-02-20
+"K20-K31","Diseases of oesophagus, stomach & duodenum","7G159U",2025-02-20
+"H90-H95","Other disorders of ear","SAQ9R5",2025-02-20
+"R50-R69","General symptoms & signs","DUKHVG",2025-02-20
+"M40-M54","Dorsopathies","L4Z52J",2025-02-20
+"T36-T50","Poisonings by drugs medicaments & biological substances","3T745A",2025-02-20
+"K20-K31","Diseases of oesophagus, stomach & duodenum","UVAAPN",2025-02-20
+"L80-L99","Other disorders of the skin and subcutaneous tissue","03B0Y6",2025-02-20
+"H25-H28","Disorders of lens (including cataracts)","XUE7XK",2025-02-20
+"H30-H36","Disorders of choroid and retina","JF4GBU",2025-02-20
+"B25-B34","Other viral diseases","72WMXY",2025-02-20
+"K70-K77","Diseases of liver","SE8KH8",2025-02-20
+"O20-O29","Other maternal disorders predominantly related to pregnancy","4BFKJQ",2025-02-20
+"H25-H28","Disorders of lens (including cataracts)","ND8TBJ",2025-02-20
+"C43-C44","Malignant neoplasms of skin","5I466J",2025-02-20
+"Z00-Z13","Examination and investigation","EJQFUY",2025-02-20
+"R00-R09","Symptoms & signs inv. the circulatory/respiratory system","P7VBOB",2025-02-20
+"R30-R39","Symptoms & signs involving the urinary system","2CJQK7",2025-02-20
+"S00-S09","Injuries to the head","SNQFIC",2025-02-20
+"O30-O48","Maternal care related to the fetus and amniotic cavity and possible delivery problems","VTOC9J",2025-02-20
+"S80-S89","Injuries to the knee & lower leg","BL6FYE",2025-02-20
+"R50-R69","General symptoms & signs","9QY101",2025-02-20
+"R90-R94","Abnormal findings on diagnostic imaging/function studies","G2YSQX",2025-02-20
+"R40-R46","Symptoms & signs inv. Cognition perception etc.","G5XV6G",2025-02-20
+"C81-C96","Malignant neoplasms of lymphoid, haematopoietic & rel. tiss.","TJ34LM",2025-02-20
+"M60-M79","Soft tissue disorders","XCQD9Z",2025-02-20
+"R50-R69","General symptoms & signs","VB1Z67",2025-02-20
+"M80-M94","Osteopathies and chondropathies","6ELGEB",2025-02-20
+"S80-S89","Injuries to the knee & lower leg","WILCJ5",2025-02-20
+"N60-N64","Disorders of breast","XM2KDB",2025-02-20
+"H30-H36","Disorders of choroid and retina","FV4W2Z",2025-02-20
+"N30-N39","Other diseases of the urinary system","1P7PDX",2025-02-20
+"N40-N51","Diseases of male genital organs","VWPP2B",2025-02-21
+"I20-I25","Ischaemic heart diseases","K03IMX",2025-02-21
+"C76-C80","Malignant neoplasms of ill-defined, secondary and unspecified sites","HOMQ5K",2025-02-21
+"C15-C26","Malignant neoplasm of digestive organs","CE6QP1",2025-02-21
+"L00-L08","Infections of the skin and subcutaneous tissue","SJ3EA6",2025-02-21
+"M60-M79","Soft tissue disorders","Y9QW0X",2025-02-21
+"N80-N98","Noninflammatory disorders of female genital tract","MJD34Y",2025-02-21
+"C30-C39","Malignant neoplasms of respiratory & intrathoracic organs","L93TLZ",2025-02-21
+"H25-H28","Disorders of lens (including cataracts)","I14MOQ",2025-02-21
+"D10-D36","Benign neoplasms","1XF2C0",2025-02-21
+"R50-R69","General symptoms & signs","Q1U4U6",2025-02-21
+"S60-S69","Injuries to the wrist & hand","IWYJ1S",2025-02-21
+"H25-H28","Disorders of lens (including cataracts)","4I327O",2025-02-21
+"J90-J94","Other diseases of pleura","VHDNQZ",2025-02-21
+"P50-P61","Haemorrhagic and haematological disorders of fetus and newborn","K7NULN",2025-02-21
+"T80-T88","Complications of surgical & medical care nec.","EMVVV6",2025-02-21
+"K55-K64","Other diseases of intestines","1GNDOO",2025-02-21
+"K80-K87","Disorders of gall bladder, biliary tract & pancreas","VYIXQ6",2025-02-21
+"M00-M25","Arthropathies","XU1R25",2025-02-21
+"I26-I28","Pulmonary heart disease & diseases of pulmonary circulation","OOLFWX",2025-02-21
+"Z30-Z39","Health services in circumstances related to reproduction","6N1CYB",2025-02-21
+"K80-K87","Disorders of gall bladder, biliary tract & pancreas","GSF3JT",2025-02-21
+"C30-C39","Malignant neoplasms of respiratory & intrathoracic organs","YYIAV7",2025-02-21
+"K55-K64","Other diseases of intestines","HOE5BA",2025-02-21
+"R00-R09","Symptoms & signs inv. the circulatory/respiratory system","626JX8",2025-02-21
+"O20-O29","Other maternal disorders predominantly related to pregnancy","ZZOTZ8",2025-02-21
+"R50-R69","General symptoms & signs","676J1W",2025-02-21
+"M00-M25","Arthropathies","5LC49E",2025-02-21
+"K00-K14","Diseases of oral cavity, salivary glands & jaws","LLI6ML",2025-02-21
+"H25-H28","Disorders of lens (including cataracts)","R2WT5P",2025-02-21
+"Q60-Q64","Congenital malformations of the urinary system","KY2JCF",2025-02-21
+"Z40-Z54","Persons encountering health services for specific care","X17KZZ",2025-02-21
+"K55-K64","Other diseases of intestines","3ARJVH",2025-02-21
+"K20-K31","Diseases of oesophagus, stomach & duodenum","NMNEY9",2025-02-21
+"N30-N39","Other diseases of the urinary system","77AG03",2025-02-21
+"C81-C96","Malignant neoplasms of lymphoid, haematopoietic & rel. tiss.","L14TWX",2025-02-21
+"A30-A49","Other bacterial diseases","FQFJOP",2025-02-21
+"D10-D36","Benign neoplasms","2YA7SJ",2025-02-21
+"R90-R94","Abnormal findings on diagnostic imaging/function studies","DU1GAR",2025-02-22
+"C97-C97","Malignant neoplasms of independent (primary) multiple sites","DMEYW3",2025-02-22
+"J09-J18","Influenza & pneumonia","XCCU5J",2025-02-22
+"G40-G47","Episodic and paroxysmal disorders","6TPUZM",2025-02-22
+"T80-T88","Complications of surgical & medical care nec.","G8JJLH",2025-02-22
+"T80-T88","Complications of surgical & medical care nec.","BCVQ41",2025-02-22
+"I10-I15","Hypertensive diseases","2WPZNX",2025-02-22
+"C97-C97","Malignant neoplasms of independent (primary) multiple sites","AQP9FC",2025-02-22
+"E70-E90","Metabolic disorders","X3KCGE",2025-02-22
+"M00-M25","Arthropathies","R9JSIK",2025-02-22
+"Z00-Z13","Examination and investigation","QGY1BR",2025-02-22
+"H60-H62","Diseases of external ear","KYX7RE",2025-02-22
+"C76-C80","Malignant neoplasms of ill-defined, secondary and unspecified sites","56RM19",2025-02-22
+"O30-O48","Maternal care related to the fetus and amniotic cavity and possible delivery problems","WYBHC1",2025-02-22
+"R00-R09","Symptoms & signs inv. the circulatory/respiratory system","G3NXOQ",2025-02-22
+"C15-C26","Malignant neoplasm of digestive organs","YP8GNQ",2025-02-22
+"E70-E90","Metabolic disorders","BPX7O9",2025-02-22
+"M00-M25","Arthropathies","S33BNG",2025-02-22
+"D55-D59","Haemolytic anaemias","TWBHKI",2025-02-22
+"T80-T88","Complications of surgical & medical care nec.","NGDT9E",2025-02-22
+"K80-K87","Disorders of gall bladder, biliary tract & pancreas","BUW1OR",2025-02-22
+"P50-P61","Haemorrhagic and haematological disorders of fetus and newborn","6MP4EH",2025-02-22
+"M40-M54","Dorsopathies","2MHXKZ",2025-02-22
+"L80-L99","Other disorders of the skin and subcutaneous tissue","IQQUP9",2025-02-22
+"H25-H28","Disorders of lens (including cataracts)","JSVBRL",2025-02-22
+"G60-G64","Polyneuropathies and other disorders of the peripheral nervous system","UP5QII",2025-02-22
+"D60-D64","Aplastic and other anaemias","4616ZY",2025-02-22
+"K55-K64","Other diseases of intestines","OI3060",2025-02-22
+"R50-R69","General symptoms & signs","H6UF60",2025-02-22
+"U00-U49","Provisional assignment of new diseases of uncertain etiology","I07JWR",2025-02-22
+"J30-J39","Other diseases of upper respiratory tract","1SF8P2",2025-02-22
+"D10-D36","Benign neoplasms","VA966K",2025-02-22
+"Z30-Z39","Health services in circumstances related to reproduction","WUBBAM",2025-02-22
+"T36-T50","Poisonings by drugs medicaments & biological substances","2SG4PP",2025-02-22
+"S70-S79","Injuries to the hip & thigh","Z1DSY5",2025-02-22
+"R10-R19","Symptoms & signs inv. the digestive system & abdomen","DCE3SR",2025-02-22
+"O60-O75","Complications of labour and delivery","Y23BIX",2025-02-22
+"O30-O48","Maternal care related to the fetus and amniotic cavity and possible delivery problems","9QX8R9",2025-02-22
+"O30-O48","Maternal care related to the fetus and amniotic cavity and possible delivery problems","DHTPMP",2025-02-22
+"P05-P08","Disorders related to length of gestation and fetal growth","Z357K2",2025-02-22
+"B25-B34","Other viral diseases","0KDKP2",2025-02-22
+"N80-N98","Noninflammatory disorders of female genital tract","PG96HW",2025-02-22
+"S50-S59","Injuries to the elbow & forearm","BT1R5V",2025-02-22
+"S40-S49","Injuries to the shoulder & upper arm","AP97P0",2025-02-22
+"R50-R69","General symptoms & signs","D8LY37",2025-02-22
+"A30-A49","Other bacterial diseases","1Z6H3O",2025-02-22
+"D55-D59","Haemolytic anaemias","Z0KZCU",2025-02-22
+"E10-E14","Diabetes Mellitus","Y7AKVI",2025-02-22
+"L00-L08","Infections of the skin and subcutaneous tissue","AUFMOZ",2025-02-22
+"K50-K52","Noninfective enteritis & colitis","LETKDO",2025-02-22
+"R10-R19","Symptoms & signs inv. the digestive system & abdomen","VZCO7J",2025-02-22
+"Z00-Z13","Examination and investigation","AI2QR4",2025-02-22
+"C81-C96","Malignant neoplasms of lymphoid, haematopoietic & rel. tiss.","COVEXB",2025-02-22
+"R10-R19","Symptoms & signs inv. the digestive system & abdomen","ZEZ5DH",2025-02-22
+"O60-O75","Complications of labour and delivery","LGXRLJ",2025-02-22
+"C64-C68","Malignant neoplasms of urinary tract","G3QCJH",2025-02-22
+"R10-R19","Symptoms & signs inv. the digestive system & abdomen","2NELEV",2025-02-22
+"I10-I15","Hypertensive diseases","UP0VDC",2025-02-22
+"M40-M54","Dorsopathies","20IXQS",2025-02-22
+"D10-D36","Benign neoplasms","RG6OQY",2025-02-23
+"C15-C26","Malignant neoplasm of digestive organs","0T63WG",2025-02-23
+"E70-E90","Metabolic disorders","1VQGEB",2025-02-23
+"H30-H36","Disorders of choroid and retina","AP9FVK",2025-02-23
+"M80-M94","Osteopathies and chondropathies","2NNQ20",2025-02-23
+"F40-F48","Neurotic, stress-related and somatoform disorders","I3I9XR",2025-02-23
+"J00-J06","Acute upper respiratory infections","KEPNH1",2025-02-23
+"C81-C96","Malignant neoplasms of lymphoid, haematopoietic & rel. tiss.","8XPM02",2025-02-23
+"C50-C50","Malignant neoplasm of breast","1KQU1M",2025-02-23
+"I80-I89","Diseases of veins & lymphatic system nec.","0AP1QJ",2025-02-23
+"C50-C50","Malignant neoplasm of breast","CDQ737",2025-02-23
+"F10-F19","Mental and behavioural disorders due to psychoactive subst.","PGUGYS",2025-02-23
+"N80-N98","Noninflammatory disorders of female genital tract","NYMSCH",2025-02-23
+"R00-R09","Symptoms & signs inv. the circulatory/respiratory system","XNRVHT",2025-02-23
+"N80-N98","Noninflammatory disorders of female genital tract","8IH7BU",2025-02-23
+"D60-D64","Aplastic and other anaemias","JB5PD7",2025-02-23
+"I20-I25","Ischaemic heart diseases","QMP6LY",2025-02-23
+"R50-R69","General symptoms & signs","K7ZBL0",2025-02-23
+"R00-R09","Symptoms & signs inv. the circulatory/respiratory system","ZCQBH9",2025-02-23
+"Z00-Z13","Examination and investigation","GQ75RY",2025-02-23
+"J00-J06","Acute upper respiratory infections","BHE3ZH",2025-02-23
+"O20-O29","Other maternal disorders predominantly related to pregnancy","043EB3",2025-02-23
+"L00-L08","Infections of the skin and subcutaneous tissue","O9IUA7",2025-02-23
+"C81-C96","Malignant neoplasms of lymphoid, haematopoietic & rel. tiss.","5CP4WC",2025-02-23
+"G50-G59","Nerve, nerve root and plexus disorders","7SR1LC",2025-02-23
+"R70-R79","Abnormal findings on examination of blood, without diagnosis","9U2WJQ",2025-02-23
+"K80-K87","Disorders of gall bladder, biliary tract & pancreas","81N1D1",2025-02-23
+"K55-K64","Other diseases of intestines","I4QGF1",2025-02-23
+"H80-H83","Diseases of inner ear","W5WFH8",2025-02-23
+"N10-N16","Renal tubulo-interstitial diseases","RA112Z",2025-02-23
+"R10-R19","Symptoms & signs inv. the digestive system & abdomen","00A9JD",2025-02-23
+"Z00-Z13","Examination and investigation","AO46SN",2025-02-23
+"I60-I69","Cerebrovascular diseases","HYZBAR",2025-02-23
+"D37-D48","Neoplasms of uncertain or unknown behaviour","6MIELE",2025-02-23
+"S80-S89","Injuries to the knee & lower leg","IZZCES",2025-02-23
+"L60-L75","Disorders of skin appendages","K8568H",2025-02-23
+"O30-O48","Maternal care related to the fetus and amniotic cavity and possible delivery problems","WAJW7O",2025-02-23
+"C50-C50","Malignant neoplasm of breast","7TUHNY",2025-02-23
+"D10-D36","Benign neoplasms","O0508W",2025-02-23
+"J20-J22","Other acute lower respiratory infections","RFN087",2025-02-23
+"O30-O48","Maternal care related to the fetus and amniotic cavity and possible delivery problems","YFW1Z0",2025-02-23
+"M00-M25","Arthropathies","1Y4E17",2025-02-23
+"N40-N51","Diseases of male genital organs","GTX0DD",2025-02-23
+"D10-D36","Benign neoplasms","JNILJ0",2025-02-23
+"M60-M79","Soft tissue disorders","SQ88T2",2025-02-23
+"G60-G64","Polyneuropathies and other disorders of the peripheral nervous system","7IB3YA",2025-02-23
+"R25-R29","Symptoms & signs inv. the nervous & musculoskeletal sys.","D8XYND",2025-02-23
+"L50-L54","Urticaria and erythems","BK95CF",2025-02-23
+"H65-H75","Diseases of middle ear and mastoid","73VG9H",2025-02-23
+"O30-O48","Maternal care related to the fetus and amniotic cavity and possible delivery problems","6ATUC3",2025-02-23
+"M80-M94","Osteopathies and chondropathies","SB6BEC",2025-02-23
+"S50-S59","Injuries to the elbow & forearm","5DFPYL",2025-02-23
+"I30-I52","Other forms of heart disease","1MYACI",2025-02-23
+"P20-P29","Respiratory and cardiovascular disorders specific to the perinatal period","LC39H1",2025-02-24
+"J09-J18","Influenza & pneumonia","WXF1FD",2025-02-24
+"C64-C68","Malignant neoplasms of urinary tract","OLXOIE",2025-02-24
+"N40-N51","Diseases of male genital organs","VBAS1M",2025-02-24
+"C50-C50","Malignant neoplasm of breast","M21UG0",2025-02-24
+"M60-M79","Soft tissue disorders","FB16XP",2025-02-24
+"D10-D36","Benign neoplasms","P6X8ZI",2025-02-24
+"N80-N98","Noninflammatory disorders of female genital tract","FZV6SG",2025-02-24
+"H30-H36","Disorders of choroid and retina","ALTK04",2025-02-24
+"R90-R94","Abnormal findings on diagnostic imaging/function studies","DC49VK",2025-02-24
+"M40-M54","Dorsopathies","FXYKLX",2025-02-24
+"Z30-Z39","Health services in circumstances related to reproduction","5JTKKZ",2025-02-24
+"S70-S79","Injuries to the hip & thigh","XP77H3",2025-02-24
+"J09-J18","Influenza & pneumonia","KD5NPY",2025-02-24
+"O00-O08","Pregnancy with abortive outcome","WH8BEW",2025-02-24
+"O30-O48","Maternal care related to the fetus and amniotic cavity and possible delivery problems","OFGZ4A",2025-02-24
+"R50-R69","General symptoms & signs","4FN2VT",2025-02-24
+"Z30-Z39","Health services in circumstances related to reproduction","VGU2I2",2025-02-24
+"D10-D36","Benign neoplasms","QDVCQ2",2025-02-24
+"I30-I52","Other forms of heart disease","BJK2P5",2025-02-24
+"G40-G47","Episodic and paroxysmal disorders","S1ZWWC",2025-02-24
+"M60-M79","Soft tissue disorders","MJHYQK",2025-02-24
+"D50-D53","Nutritional anaemias","11LMT9",2025-02-24
+"E00-E07","Disorders of thyroid gland","25HUWA",2025-02-24
+"G40-G47","Episodic and paroxysmal disorders","WC5CTJ",2025-02-24
+"R10-R19","Symptoms & signs inv. the digestive system & abdomen","D8W7H7",2025-02-24
+"M60-M79","Soft tissue disorders","JG0RU3",2025-02-24
+"I20-I25","Ischaemic heart diseases","ILJ68K",2025-02-24
+"E50-E64","Other nutritional deficiencies","AEFNW4",2025-02-24
+"R00-R09","Symptoms & signs inv. the circulatory/respiratory system","ZQ0LS2",2025-02-24
+"H25-H28","Disorders of lens (including cataracts)","LVWVNY",2025-02-24
+"K55-K64","Other diseases of intestines","ORN8LV",2025-02-24
+"K20-K31","Diseases of oesophagus, stomach & duodenum","LLGO5F",2025-02-24
+"R00-R09","Symptoms & signs inv. the circulatory/respiratory system","J5SZLK",2025-02-24
+"C81-C96","Malignant neoplasms of lymphoid, haematopoietic & rel. tiss.","1MKLTV",2025-02-24
+"R30-R39","Symptoms & signs involving the urinary system","AO1Z81",2025-02-24
+"T80-T88","Complications of surgical & medical care nec.","GAGKUA",2025-02-24
+"R10-R19","Symptoms & signs inv. the digestive system & abdomen","AN1GFK",2025-02-24
+"O30-O48","Maternal care related to the fetus and amniotic cavity and possible delivery problems","GZDFB6",2025-02-24
+"D50-D53","Nutritional anaemias","ZZVTFF",2025-02-24
+"A30-A49","Other bacterial diseases","1JEHP5",2025-02-24
+"N80-N98","Noninflammatory disorders of female genital tract","R00WVH",2025-02-24
+"D55-D59","Haemolytic anaemias","1YPJA8",2025-02-24
+"M60-M79","Soft tissue disorders","CD9ANB",2025-02-24
+"R10-R19","Symptoms & signs inv. the digestive system & abdomen","LRAHHN",2025-02-24
+"I20-I25","Ischaemic heart diseases","7PTWQB",2025-02-24
+"D60-D64","Aplastic and other anaemias","9LLQEG",2025-02-24
+"S00-S09","Injuries to the head","F0LE8R",2025-02-24
+"K80-K87","Disorders of gall bladder, biliary tract & pancreas","LJZTR5",2025-02-24
+"J60-J70","Lung diseases due to external agents","E4FTDP",2025-02-24
+"L55-L59","Radiation-related disorders of the skin and subcutaneous tissue","LPJB78",2025-02-24
+"K55-K64","Other diseases of intestines","VJ31AZ",2025-02-24
+"M00-M25","Arthropathies","18L267",2025-02-24
+"Q38-Q45","Other congenital malformations of the digestive system","7BQDLQ",2025-02-24
+"R10-R19","Symptoms & signs inv. the digestive system & abdomen","YC9GJF",2025-02-24
+"S00-S09","Injuries to the head","QMSGJI",2025-02-24
+"C51-C58","Malignant neoplasms of female genital organs","BPOE3Q",2025-02-24
+"O94-O99","Other obstetric conditions, not elsewhere classified","CUNDMH",2025-02-24
+"J00-J06","Acute upper respiratory infections","JXMZQG",2025-02-24
+"L80-L99","Other disorders of the skin and subcutaneous tissue","W89AFL",2025-02-24
+"H25-H28","Disorders of lens (including cataracts)","J1L8OX",2025-02-24
+"R50-R69","General symptoms & signs","3DAKY9",2025-02-24
+"J40-J47","Chronic lower respiratory diseases","QLLE9G",2025-02-24
+"N40-N51","Diseases of male genital organs","DW71WT",2025-02-24
+"R50-R69","General symptoms & signs","W2E1G3",2025-02-24
+"R50-R69","General symptoms & signs","DCGHOI",2025-02-24
+"K40-K46","Hernia","CQI61M",2025-02-24
+"C50-C50","Malignant neoplasm of breast","15EK1C",2025-02-24
+"K40-K46","Hernia","1NKPZR",2025-02-24
+"O60-O75","Complications of labour and delivery","GEH965",2025-02-24
+"A30-A49","Other bacterial diseases","G107AC",2025-02-24
+"H25-H28","Disorders of lens (including cataracts)","6LXL47",2025-02-25
+"K80-K87","Disorders of gall bladder, biliary tract & pancreas","HHB27Z",2025-02-25
+"K20-K31","Diseases of oesophagus, stomach & duodenum","6EPVUZ",2025-02-25
+"R00-R09","Symptoms & signs inv. the circulatory/respiratory system","Z84UWK",2025-02-25
+"T80-T88","Complications of surgical & medical care nec.","7P6VHR",2025-02-25
+"B35-B49","Mycoses","P9S2QE",2025-02-25
+"E70-E90","Metabolic disorders","VRL59C",2025-02-25
+"I05-I09","Chronic rheumatic heart diseases","ZIFC1M",2025-02-25
+"K20-K31","Diseases of oesophagus, stomach & duodenum","X56KU5",2025-02-25
+"J40-J47","Chronic lower respiratory diseases","OX3YMJ",2025-02-25
+"K50-K52","Noninfective enteritis & colitis","0G3DY6",2025-02-25
+"K20-K31","Diseases of oesophagus, stomach & duodenum","6M5UFZ",2025-02-25
+"Z00-Z13","Examination and investigation","FWGX5C",2025-02-25
+"I60-I69","Cerebrovascular diseases","V4YUXO",2025-02-25
+"L60-L75","Disorders of skin appendages","K47EBY",2025-02-25
+"J40-J47","Chronic lower respiratory diseases","J3SKML",2025-02-25
+"F10-F19","Mental and behavioural disorders due to psychoactive subst.","ST7U7B",2025-02-25
+"S00-S09","Injuries to the head","INBQFQ",2025-02-25
+"C76-C80","Malignant neoplasms of ill-defined, secondary and unspecified sites","ANGEIS",2025-02-25
+"C76-C80","Malignant neoplasms of ill-defined, secondary and unspecified sites","WMB8PY",2025-02-25
+"R50-R69","General symptoms & signs","4914IC",2025-02-25
+"C15-C26","Malignant neoplasm of digestive organs","0XG1UM",2025-02-25
+"R10-R19","Symptoms & signs inv. the digestive system & abdomen","PLTITW",2025-02-25
+"K35-K38","Diseases of appendix","J22SHG",2025-02-25
+"R10-R19","Symptoms & signs inv. the digestive system & abdomen","3ZAX7V",2025-02-25
+"K50-K52","Noninfective enteritis & colitis","UM6C3Q",2025-02-25
+"R00-R09","Symptoms & signs inv. the circulatory/respiratory system","0UUUO1",2025-02-25
+"K50-K52","Noninfective enteritis & colitis","999L4O",2025-02-25
+"I30-I52","Other forms of heart disease","2895FB",2025-02-25
+"O20-O29","Other maternal disorders predominantly related to pregnancy","EWHKAX",2025-02-25
+"H65-H75","Diseases of middle ear and mastoid","ZQTKWS",2025-02-25
+"B35-B49","Mycoses","AB8TL3",2025-02-25
+"O80-O84","Delivery","I3UOPL",2025-02-25
+"N80-N98","Noninflammatory disorders of female genital tract","M6MRKT",2025-02-25
+"J20-J22","Other acute lower respiratory infections","KRAWCM",2025-02-25
+"K55-K64","Other diseases of intestines","MGBACV",2025-02-25
+"R10-R19","Symptoms & signs inv. the digestive system & abdomen","099ERL",2025-02-25
+"H25-H28","Disorders of lens (including cataracts)","63CW6X",2025-02-25
+"K80-K87","Disorders of gall bladder, biliary tract & pancreas","53N9OQ",2025-02-25
+"G60-G64","Polyneuropathies and other disorders of the peripheral nervous system","A3FNI7",2025-02-25
+"A30-A49","Other bacterial diseases","2LM9GP",2025-02-25
+"J40-J47","Chronic lower respiratory diseases","MT4RQO",2025-02-25
+"H65-H75","Diseases of middle ear and mastoid","8HH44J",2025-02-25
+"K55-K64","Other diseases of intestines","42N42A",2025-02-25
+"J30-J39","Other diseases of upper respiratory tract","JVAJW8",2025-02-25
+"N17-N19","Renal failure","6ML1BE",2025-02-25
+"Z30-Z39","Health services in circumstances related to reproduction","NWDH4I",2025-02-25
+"Z00-Z13","Examination and investigation","4YN032",2025-02-25
+"C15-C26","Malignant neoplasm of digestive organs","L5B820",2025-02-25
+"M60-M79","Soft tissue disorders","05L5U1",2025-02-25
+"N17-N19","Renal failure","7LK3JW",2025-02-25
+"L40-L45","Papulosquamous disorders (including Psoriasis)","QA19Y7",2025-02-25
+"E70-E90","Metabolic disorders","QH8XSN",2025-02-25
+"K00-K14","Diseases of oral cavity, salivary glands & jaws","ANKOK2",2025-02-25
+"R10-R19","Symptoms & signs inv. the digestive system & abdomen","RJD7Z8",2025-02-25
+"C81-C96","Malignant neoplasms of lymphoid, haematopoietic & rel. tiss.","C3FOOC",2025-02-25
+"C64-C68","Malignant neoplasms of urinary tract","X7X6DY",2025-02-25
+"K55-K64","Other diseases of intestines","DM1ASW",2025-02-25
+"K55-K64","Other diseases of intestines","LYSHX9",2025-02-25
+"O60-O75","Complications of labour and delivery","0UKBJ1",2025-02-25
+"Z40-Z54","Persons encountering health services for specific care","EFWE0A",2025-02-25
+"J40-J47","Chronic lower respiratory diseases","0KV99T",2025-02-25
+"K20-K31","Diseases of oesophagus, stomach & duodenum","VT6R5C",2025-02-25
+"H25-H28","Disorders of lens (including cataracts)","WMGV1C",2025-02-25
+"R00-R09","Symptoms & signs inv. the circulatory/respiratory system","LNBO8N",2025-02-26
+"C43-C44","Malignant neoplasms of skin","OGTI3K",2025-02-26
+"S80-S89","Injuries to the knee & lower leg","013934",2025-02-26
+"N40-N51","Diseases of male genital organs","ZZK89K",2025-02-26
+"O30-O48","Maternal care related to the fetus and amniotic cavity and possible delivery problems","LJX0SY",2025-02-26
+"C50-C50","Malignant neoplasm of breast","GUYW2X",2025-02-26
+"Z40-Z54","Persons encountering health services for specific care","V7SEZC",2025-02-26
+"J30-J39","Other diseases of upper respiratory tract","1PLY5A",2025-02-26
+"T20-T32","Burns and corrosions","TEQZI8",2025-02-26
+"D10-D36","Benign neoplasms","0BDH47",2025-02-26
+"H25-H28","Disorders of lens (including cataracts)","1TU1AJ",2025-02-26
+"K00-K14","Diseases of oral cavity, salivary glands & jaws","XSN4EH",2025-02-26
+"S00-S09","Injuries to the head","QRHRF8",2025-02-26
+"R70-R79","Abnormal findings on examination of blood, without diagnosis","CL9PX8",2025-02-26
+"N25-N29","Other disorders of kidney & ureter","YPJTLA",2025-02-26
+"K55-K64","Other diseases of intestines","LT7X9K",2025-02-26
+"M40-M54","Dorsopathies","DWKD9I",2025-02-26
+"K00-K14","Diseases of oral cavity, salivary glands & jaws","9FDBCI",2025-02-26
+"R50-R69","General symptoms & signs","ROLUTB",2025-02-26
+"C76-C80","Malignant neoplasms of ill-defined, secondary and unspecified sites","W3O0Y8",2025-02-26
+"H25-H28","Disorders of lens (including cataracts)","GFQ8LG",2025-02-26
+"R90-R94","Abnormal findings on diagnostic imaging/function studies","IN1ULK",2025-02-26
+"R50-R69","General symptoms & signs","Z7LLC2",2025-02-26
+"K70-K77","Diseases of liver","28QAK2",2025-02-26
+"M00-M25","Arthropathies","L5INTP",2025-02-26
+"K50-K52","Noninfective enteritis & colitis","4DY65R",2025-02-26
+"H25-H28","Disorders of lens (including cataracts)","YUKIY0",2025-02-26
+"J60-J70","Lung diseases due to external agents","MJVKYU",2025-02-26
+"C50-C50","Malignant neoplasm of breast","6NQ2SL",2025-02-26
+"J09-J18","Influenza & pneumonia","16JNS0",2025-02-26
+"C81-C96","Malignant neoplasms of lymphoid, haematopoietic & rel. tiss.","RT7ECP",2025-02-26
+"H25-H28","Disorders of lens (including cataracts)","ZBL6Y7",2025-02-26
+"K90-K93","Other diseases of the digestive system","5O4MW0",2025-02-26
+"M40-M54","Dorsopathies","71GJUA",2025-02-26
+"R50-R69","General symptoms & signs","5I9MJH",2025-02-26
+"K80-K87","Disorders of gall bladder, biliary tract & pancreas","5AOLL5",2025-02-26
+"C15-C26","Malignant neoplasm of digestive organs","4CPQ60",2025-02-26
+"J20-J22","Other acute lower respiratory infections","Q9SQYU",2025-02-26
+"B25-B34","Other viral diseases","5K5VR9",2025-02-26
+"K55-K64","Other diseases of intestines","BG25MG",2025-02-26
+"K00-K14","Diseases of oral cavity, salivary glands & jaws","DYFDSM",2025-02-26
+"K20-K31","Diseases of oesophagus, stomach & duodenum","GDOC1R",2025-02-26
+"R00-R09","Symptoms & signs inv. the circulatory/respiratory system","QWEMGI",2025-02-26
+"I05-I09","Chronic rheumatic heart diseases","KHDXV8",2025-02-26
+"C60-C63","Malignant neoplasms of male genital organs","KLRSXC",2025-02-26
+"K90-K93","Other diseases of the digestive system","YUJ816",2025-02-26
+"Z40-Z54","Persons encountering health services for specific care","NDUHK1",2025-02-26
+"T36-T50","Poisonings by drugs medicaments & biological substances","35WZRF",2025-02-26
+"J90-J94","Other diseases of pleura","0FTK7H",2025-02-26
+"R00-R09","Symptoms & signs inv. the circulatory/respiratory system","50TTD5",2025-02-26
+"H25-H28","Disorders of lens (including cataracts)","8I9OSB",2025-02-26
+"K55-K64","Other diseases of intestines","S4O9OY",2025-02-26
+"M95-M99","Other disorders of the musculoskeletal system & conn. tiss.","TG1EF5",2025-02-26
+"Z30-Z39","Health services in circumstances related to reproduction","H2CE79",2025-02-26
+"E70-E90","Metabolic disorders","G107AC",2025-02-26
+"K50-K52","Noninfective enteritis & colitis","I3PJ94",2025-02-26
+"K80-K87","Disorders of gall bladder, biliary tract & pancreas","MYCLKD",2025-02-26
+"A30-A49","Other bacterial diseases","EWL2HD",2025-02-26
+"O30-O48","Maternal care related to the fetus and amniotic cavity and possible delivery problems","85P2EG",2025-02-26
+"M60-M79","Soft tissue disorders","9W08S4",2025-02-26
+"H25-H28","Disorders of lens (including cataracts)","ELK1RU",2025-02-26
+"Z30-Z39","Health services in circumstances related to reproduction","DHLYLS",2025-02-26
+"D10-D36","Benign neoplasms","C9YK7Q",2025-02-26
+"C60-C63","Malignant neoplasms of male genital organs","TP65PO",2025-02-26
+"K55-K64","Other diseases of intestines","4ONYLT",2025-02-26
+"I70-I79","Diseases of arteries, arterioles & capillaries","BAAWB3",2025-02-26
+"Z00-Z13","Examination and investigation","J1KZEV",2025-02-26
+"J30-J39","Other diseases of upper respiratory tract","WYY1QD",2025-02-26
+"E70-E90","Metabolic disorders","50CSM8",2025-02-26
+"M40-M54","Dorsopathies","CUBQ93",2025-02-26
+"K20-K31","Diseases of oesophagus, stomach & duodenum","N8PS0R",2025-02-26
+"R90-R94","Abnormal findings on diagnostic imaging/function studies","A3H0N5",2025-02-26
+"M80-M94","Osteopathies and chondropathies","LPDKW3",2025-02-26
+"D60-D64","Aplastic and other anaemias","QNFK1S",2025-02-26
+"K55-K64","Other diseases of intestines","JC44RV",2025-02-26
+"N30-N39","Other diseases of the urinary system","RBCQ9Q",2025-02-27
+"J40-J47","Chronic lower respiratory diseases","M2WTYH",2025-02-27
+"Z30-Z39","Health services in circumstances related to reproduction","NXT9P3",2025-02-27
+"L00-L08","Infections of the skin and subcutaneous tissue","1TW1AB",2025-02-27
+"O00-O08","Pregnancy with abortive outcome","AZ4JNX",2025-02-27
+"K50-K52","Noninfective enteritis & colitis","EYHOLU",2025-02-27
+"I80-I89","Diseases of veins & lymphatic system nec.","5Y96B3",2025-02-27
+"J20-J22","Other acute lower respiratory infections","OIP27U",2025-02-27
+"S30-S39","Injuries to abdomen, lower back, lumbar spine & pelvis","WWBP7R",2025-02-27
+"K55-K64","Other diseases of intestines","9L3YAA",2025-02-27
+"R10-R19","Symptoms & signs inv. the digestive system & abdomen","3B2FJR",2025-02-27
+"K55-K64","Other diseases of intestines","1XMUIO",2025-02-27
+"I60-I69","Cerebrovascular diseases","RCJIAM",2025-02-27
+"M00-M25","Arthropathies","1B31U2",2025-02-27
+"C30-C39","Malignant neoplasms of respiratory & intrathoracic organs","W72VOI",2025-02-27
+"E70-E90","Metabolic disorders","R4CPI1",2025-02-27
+"H25-H28","Disorders of lens (including cataracts)","8SGZGP",2025-02-27
+"L55-L59","Radiation-related disorders of the skin and subcutaneous tissue","V42AV4",2025-02-27
+"R10-R19","Symptoms & signs inv. the digestive system & abdomen","VCZJBF",2025-02-27
+"K80-K87","Disorders of gall bladder, biliary tract & pancreas","AHNBJ2",2025-02-27
+"I30-I52","Other forms of heart disease","19BC0R",2025-02-27
+"C76-C80","Malignant neoplasms of ill-defined, secondary and unspecified sites","XXM2MX",2025-02-27
+"G60-G64","Polyneuropathies and other disorders of the peripheral nervous system","HB2Y09",2025-02-27
+"R90-R94","Abnormal findings on diagnostic imaging/function studies","4LWFAC",2025-02-27
+"D50-D53","Nutritional anaemias","0OXHXF",2025-02-27
+"L00-L08","Infections of the skin and subcutaneous tissue","9CS3LO",2025-02-27
+"R50-R69","General symptoms & signs","S5T96Q",2025-02-27
+"Q20-Q28","Congenital malformations of the circulatory system","5GDH9E",2025-02-27
+"A00-A09","Intestinal infectious diseases","H2LMX5",2025-02-27
+"R10-R19","Symptoms & signs inv. the digestive system & abdomen","LXY79E",2025-02-27
+"L00-L08","Infections of the skin and subcutaneous tissue","ZKXN25",2025-02-27
+"R30-R39","Symptoms & signs involving the urinary system","UZFWPZ",2025-02-27
+"O85-O92","Complications predominantly related to the puerperium","FAYFB2",2025-02-27
+"O30-O48","Maternal care related to the fetus and amniotic cavity and possible delivery problems","31T53I",2025-02-27
+"D37-D48","Neoplasms of uncertain or unknown behaviour","R5S68B",2025-02-27
+"O60-O75","Complications of labour and delivery","9ZDLS4",2025-02-27
+"O30-O48","Maternal care related to the fetus and amniotic cavity and possible delivery problems","U994IF",2025-02-27
+"E70-E90","Metabolic disorders","O8HX8P",2025-02-27
+"H25-H28","Disorders of lens (including cataracts)","IA0USG",2025-02-27
+"A00-A09","Intestinal infectious diseases","8SYDHI",2025-02-27
+"T80-T88","Complications of surgical & medical care nec.","A3TFIE",2025-02-27
+"M40-M54","Dorsopathies","XPCB79",2025-02-27
+"J00-J06","Acute upper respiratory infections","AZ383K",2025-02-27
+"R50-R69","General symptoms & signs","D4KUW8",2025-02-27
+"H25-H28","Disorders of lens (including cataracts)","7XYIP5",2025-02-27
+"N30-N39","Other diseases of the urinary system","AEJRLT",2025-02-27
+"R10-R19","Symptoms & signs inv. the digestive system & abdomen","ZGM6LU",2025-02-27
+"C50-C50","Malignant neoplasm of breast","VPW3B3",2025-02-27
+"C50-C50","Malignant neoplasm of breast","FAZRAX",2025-02-27
+"K50-K52","Noninfective enteritis & colitis","UIVRVX",2025-02-27
+"D50-D53","Nutritional anaemias","2LUJES",2025-02-27
+"R10-R19","Symptoms & signs inv. the digestive system & abdomen","NEQJ5S",2025-02-27
+"K20-K31","Diseases of oesophagus, stomach & duodenum","AE85S7",2025-02-27
+"K55-K64","Other diseases of intestines","9N3TV0",2025-02-27
+"K55-K64","Other diseases of intestines","YX5LF5",2025-02-27
+"G40-G47","Episodic and paroxysmal disorders","W13415",2025-02-27
+"G60-G64","Polyneuropathies and other disorders of the peripheral nervous system","MUL80W",2025-02-27
+"D65-D69","Coagulation defects, purpura and other haemorrhagic conditions","0MOTRV",2025-02-27
+"N17-N19","Renal failure","18XCW6",2025-02-27
+"C00-C14","Malignant neoplasm of lip-oral cavity and pharynx","VICLC2",2025-02-27
+"M40-M54","Dorsopathies","YWXKOT",2025-02-27
+"N30-N39","Other diseases of the urinary system","8OE17Q",2025-02-27
+"R90-R94","Abnormal findings on diagnostic imaging/function studies","8L7DSI",2025-02-27
+"H30-H36","Disorders of choroid and retina","APHXDW",2025-02-27
+"C64-C68","Malignant neoplasms of urinary tract","LA7K0P",2025-02-27
+"H25-H28","Disorders of lens (including cataracts)","KS51EG",2025-02-27
+"K20-K31","Diseases of oesophagus, stomach & duodenum","PIQSFI",2025-02-27
+"S70-S79","Injuries to the hip & thigh","LT95Q8",2025-02-27
+"C81-C96","Malignant neoplasms of lymphoid, haematopoietic & rel. tiss.","XLPSLU",2025-02-27
+"N30-N39","Other diseases of the urinary system","TW61GX",2025-02-27
+"R00-R09","Symptoms & signs inv. the circulatory/respiratory system","AYTM0V",2025-02-27
+"R00-R09","Symptoms & signs inv. the circulatory/respiratory system","TRGB9H",2025-02-27
+"E70-E90","Metabolic disorders","K1N9ZB",2025-02-27
+"M60-M79","Soft tissue disorders","IY6U64",2025-02-27
+"R10-R19","Symptoms & signs inv. the digestive system & abdomen","TNRG79",2025-02-27
+"R10-R19","Symptoms & signs inv. the digestive system & abdomen","JKO81O",2025-02-27
+"R10-R19","Symptoms & signs inv. the digestive system & abdomen","P546TC",2025-02-27
+"D00-D09","In situ neoplasms","4UKC9O",2025-02-27
+"R20-R23","Symptoms & signs inv. the skin & subcutaneous tissue","G3D329",2025-02-27
+"I05-I09","Chronic rheumatic heart diseases","N4I8BG",2025-02-27
+"J00-J06","Acute upper respiratory infections","MC72FJ",2025-02-28
+"C81-C96","Malignant neoplasms of lymphoid, haematopoietic & rel. tiss.","I2EMUV",2025-02-28
+"H25-H28","Disorders of lens (including cataracts)","F4DRP7",2025-02-28
+"K50-K52","Noninfective enteritis & colitis","1STK1X",2025-02-28
+"O60-O75","Complications of labour and delivery","GH2LYO",2025-02-28
+"M60-M79","Soft tissue disorders","7GKEEF",2025-02-28
+"M00-M25","Arthropathies","LV0HP9",2025-02-28
+"O20-O29","Other maternal disorders predominantly related to pregnancy","0RIMCK",2025-02-28
+"C43-C44","Malignant neoplasms of skin","4RIYAH",2025-02-28
+"K55-K64","Other diseases of intestines","S1EO92",2025-02-28
+"H30-H36","Disorders of choroid and retina","HK2JV9",2025-02-28
+"K55-K64","Other diseases of intestines","1R6PY4",2025-02-28
+"J40-J47","Chronic lower respiratory diseases","7CHWYJ",2025-02-28
+"D60-D64","Aplastic and other anaemias","5DIOUG",2025-02-28
+"C51-C58","Malignant neoplasms of female genital organs","UTBLOZ",2025-02-28
+"C50-C50","Malignant neoplasm of breast","HLYH0J",2025-02-28
+"H25-H28","Disorders of lens (including cataracts)","63F3G8",2025-02-28
+"K70-K77","Diseases of liver","5K3MPU",2025-02-28
+"C81-C96","Malignant neoplasms of lymphoid, haematopoietic & rel. tiss.","8W081X",2025-02-28
+"A30-A49","Other bacterial diseases","N87TN4",2025-02-28
+"C76-C80","Malignant neoplasms of ill-defined, secondary and unspecified sites","9WAKG1",2025-02-28
+"R10-R19","Symptoms & signs inv. the digestive system & abdomen","0ZJ7S4",2025-02-28
+"E70-E90","Metabolic disorders","Z47138",2025-02-28
+"J40-J47","Chronic lower respiratory diseases","3K5ZBV",2025-02-28
+"R50-R69","General symptoms & signs","VZESW4",2025-02-28
+"S70-S79","Injuries to the hip & thigh","1P87YS",2025-02-28
+"M00-M25","Arthropathies","GGJLKC",2025-02-28
+"C97-C97","Malignant neoplasms of independent (primary) multiple sites","J4JBV9",2025-02-28
+"D50-D53","Nutritional anaemias","DAZCZC",2025-02-28
+"P50-P61","Haemorrhagic and haematological disorders of fetus and newborn","6WF76P",2025-02-28
+"K20-K31","Diseases of oesophagus, stomach & duodenum","010XWD",2025-02-28
+"D10-D36","Benign neoplasms","97HWWD",2025-02-28
+"D10-D36","Benign neoplasms","SWJH1R",2025-02-28
+"E50-E64","Other nutritional deficiencies","FEKWCO",2025-02-28
+"U00-U49","Provisional assignment of new diseases of uncertain etiology","K3JRNL",2025-02-28
+"H25-H28","Disorders of lens (including cataracts)","4YHW7K",2025-02-28
+"K55-K64","Other diseases of intestines","F5GAG7",2025-02-28
+"M60-M79","Soft tissue disorders","2MJ6XC",2025-02-28
+"R00-R09","Symptoms & signs inv. the circulatory/respiratory system","05JTI1",2025-02-28
+"C81-C96","Malignant neoplasms of lymphoid, haematopoietic & rel. tiss.","FOSI3I",2025-02-28
+"I30-I52","Other forms of heart disease","9G8MXY",2025-02-28
+"D80-D89","Certain disorders involving the immune mechanism","QWOMTR",2025-02-28
+"M40-M54","Dorsopathies","IS0AV3",2025-02-28
+"K55-K64","Other diseases of intestines","Y4QPRN",2025-02-28
+"R10-R19","Symptoms & signs inv. the digestive system & abdomen","U3GNQ6",2025-02-28
+"R10-R19","Symptoms & signs inv. the digestive system & abdomen","5751KG",2025-02-28
+"Z00-Z13","Examination and investigation","P2YEJ6",2025-02-28
+"G20-G26","Extrapyramidal & movement disorders (incl. Parkinsonism).","9FVZ4B",2025-02-28
+"R00-R09","Symptoms & signs inv. the circulatory/respiratory system","HW0HNF",2025-02-28
+"A00-A09","Intestinal infectious diseases","KJX9UA",2025-02-28
+"N30-N39","Other diseases of the urinary system","62J2SA",2025-02-28
+"K20-K31","Diseases of oesophagus, stomach & duodenum","8GM6MB",2025-02-28
+"K55-K64","Other diseases of intestines","6TFJAG",2025-02-28
+"A30-A49","Other bacterial diseases","QFO7K5",2025-02-28

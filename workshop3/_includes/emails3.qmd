@@ -1,0 +1,82 @@
+```{r emails, echo=FALSE}
+
+clos1 <- c("Yours sincerely,", "Best wishes,", "Kind regards,", "All the best,", "Sincerely,", "Yours truly,", "Respectfully,")
+email1 <- c("gldk", "aptr", "bhr", "tgh", "pbr", "js", "lucy", "amd", "oirl", "jim", "ygg", "oli", "end", "lulu", "rye", "att")
+adj1 <- c("Disgraceful", "Terrible", "Horrible", "Devastating", "Sad", "Bloody")
+emotion1 <- c("outraged", "upset", "extremely vexed", "so angry", "devastated")
+sent1 <- c("As if COVID wasn't enough! Has this city not suffered enough, I ask you.", "This seems to be too much to bear on top of COVID, the cost of living crisis, and the war in Ukraine. It is just one tragedy after another.", "Too many people have already died from COVID and it seems completely cruel to have another pandemic strike our city again so soon.", "There seems to be no end to the suffering that pandemics inflict on our city in these days.", "It seems almost like the apocalypse must be upon us, with this pandemic following so close upon the heels of COVID19.", "Too many people have died and it is such a tragedy.")
+wish1 <- c("hope", "hope very much", "wish", "expect", "sincerely hope")
+state1 <- c("dreadful state of affairs", "horrible pandemic", "all of the poor people dying", "tragedy")
+time1 <- c("immediately", "very soon", "at once", "as soon as possible")
+name1 <- c("Anna", "Luke", "Siobhan", "Su", "Ailidh", "Fiona", "Graham", "Madison", "Eleanor", "Rodrigo", "Kieran", "Wilson", "Anika", "Rosemary", "Alise", "Gordon", "Roman", "Karen")
+verb1 <- c("devastate", "obliterate", "ruin", "destroy", "crush")
+business1 <- c("small coffee shop", "coffee shop", "cafe", "restaurant", "bookshop", "boutique clothing store", "records shop", "used bookstore", "toy store", "sweet shop")
+business2 <- c("The CITYNAME Shop", "Fraser & Co.", "Bella's", "Around the Corner", "Jewels")
+adj2 <- c("nearly", "almost", "virtually", "almost literally", "practically")
+conseq1 <- c("lost my business due to those pandemic lockdowns", "had to close because of all the draconian lockdowns", "went out of business", "went bankrupt", "had to shut our doors during COVID")
+sent2 <- c("I hope you realise how costly the last pandemic was for millions of people across the country, and that we can't afford another one.", "You should be ashamed to think of all the businesses that have had to close because of the coronavirus measures this city took, and all of the people who lost their jobs.", "Businesses must be free to operate, not prosecuted by some nanny state.", "Things are bad enough already with the cost of living crisis, war in Ukraine, and Brexit, we can't afford another pandemic.", "I hope you realise that you need to put businesses first now - we were unfairly forced to bear the costs of the last pandemic.", "I hope you realise how much business we have all lost in recent years, and how much businesses in this city are struggling financially.")
+subj1 <- c("Government Overreach", "Government Overstep", "Stop This Madness", "New Pandemic Measures")
+state2 <- c("awful pandemic", "terrible pandemic", "new crisis", "new pandemic", "new disease")
+conseq2 <- c("another lockdown", "a return to COVID rules", "face masks and gallons of hand sanitizer", "the draconian lockdowns you imposed during COVID", "restrictions that cripple our businesses")
+wish2 <- c("fear", "dread", "abhor the idea", "hate the idea", "am afraid")
+sent3 <- c("This last pandemic was just a typical example of what governments do when given a little too much power.", "Machiavelli said that power corrupts absolutely, and he was absolutely right - look at what happened during the last pandemic.", "I am sick and tired of government interference with my life, I have the right to go about my life without some do-gooder from a public health agency telling me that I need to wear a mask and can't visit my grandmother.", "The mental health consequences of the last pandemic were underappreciated, but very real - people suffered due to the lockdowns and children's development was affected by the wearing of face masks and the closing of schools.")
+sent4 <- c("Please do not use this disaster as another opportunity for oppressive lockdowns and government control of our lives.", "You must not allow the city to suffer through another round of lockdowns, face-masks, and other punitive restrictions that destroy people's lives.", "I hope that you will do the right thing in this time of crisis and that I will be able to vote for you again in the coming elections with a clean conscience.", "Facemasks are just the tyranny of the minority over the majority, I hope that you will not permit them again on your watch.")
+subj2 <- c("This Terrible Tragedy", "Another Terrible Loss")
+rel1 <- c("my mother-in-law", "my aunt", "my auntie", "my niece", "my nephew", "my husband's best friend", "my wife's best friend", "my sister-in-law", "my brother-in-law", "my uncle", "my granddad", "my gran", "my nana", "my nana's best friend")
+sent5 <- c("The family are all devastated as you can surely imagine.", "Words cannot begin to describe our loss.", "This is truly a tragedy.", "This is an unspeakable loss.", "The family are all devastated by this loss.", "You cannot begin to imagine the grief that we are feeling.", "This is especially terrible coming hard on the heels of all of our losses due to COVID-19.")
+sent6 <- c("I don't understand why we haven't learned how to deal with pandemics better, after all our experiences with COVID-19, I don't understand how this could have happened.", "I really wish that our government had better learned its lessons from the COVID-19 pandemic and could have prevented this terrible tragedy.", "I hope that, considering how many other families have also lost loved ones, that you and your office will be doing everything in their power to halt this pandemic and prevent more needless deaths.", "I hope that you will do everything you can to stop this pandemic so that no other families need to suffer this pain.", "I hope that you will do everything you can to stop this pandemic so that no more lives will be lost.", "I am sure that you and your office are doing your best, but I hope that in the fullness of time, there will be a public inquiry into how this pandemic was handled and why so many families have lost loved ones. Especially coming so soon after the lessons that we learned during the COVID-19 pandemic, I would have thought that this tragedy could have been prevented.")
+```
+
+Your office has recently received a great deal of correspondence regarding the pandemic in `r city_name`. A representative sample of these e-mails is shown below.
+
+------------------------------------------------------------------------
+
+<b>From:</b> `r sample(email1, 1)`\_`r sample(1000:100000, size=1)`@gmail.com <br> <b>To:</b> provost\@`r city_name`.co.uk <br> <b>Cc:</b> <b>Subject:</b> This `r sample(adj1, 1)` Pandemic
+
+Dear Provost,
+
+I am `r sample(emotion1, 1)` to hear about this new pandemic in `r city_name`. `r sample(sent1, 1)`
+
+I `r sample(wish1, 1)` that your office is going to do something about `r sample(state1, 1)` `r sample(time1, 1)`.
+
+`r sample(clos1, 1, replace=TRUE)`<br> `r sample(name1, 1)`
+
+------------------------------------------------------------------------
+
+<b>From:</b> `r sample(email1, 1)`\_`r sample(1000:100000, size=1)`@gmail.com <br> <b>To:</b> provost\@`r city_name`.co.uk <br> <b>Cc:</b> city-council\@`r city_name`.co.uk <br> <b>Subject:</b> Pandemic Disaster for Businesses
+
+Dear Provost,
+
+This new pandemic in `r city_name` has the potential to `r sample(verb1, 1)` our businesses. I run a `r sample(business1, 1)` on the high street and `r sample(adj2, 1)` `r sample(conseq1, 1)` due to COVID.
+
+`r sample(sent2, 1)`
+
+I `r sample(wish1, 1)` that your office is going to do something about `r sample(state1, 1)` `r sample(time1, 1)`, keeping in mind the economic interests of businesses in our city and the fact that we cannot afford `r sample(conseq2, 1)`.<br>
+
+`r sample(clos1, 1, replace=TRUE)`<br> `r sample(name1, 1)` (`r sample(business2, 1)`, proprietor)
+
+------------------------------------------------------------------------
+
+<b>From:</b> `r sample(email1, 1)`\_`r sample(1000:100000, size=1)`@gmail.com <br> <b>To:</b> provost\@`r city_name`.co.uk <br> <b>Cc:</b> city-council\@`r city_name`.co.uk <br> <b>Subject:</b> `r sample(subj1, 1)`
+
+Dear Provost,
+
+I `r sample(wish2, 1)` that you and your office are going to use this new pandemic as yet another excuse for government overreach into citizens' lives. `r sample(sent3, 1)`
+
+`r sample(sent4, 1)`
+
+`r sample(clos1, 1, replace=TRUE)`<br> `r sample(name1, 1)` (a concerned voter)
+
+------------------------------------------------------------------------
+
+<b>From:</b> `r sample(email1, 1)`\_`r sample(1000:100000, size=1)`@gmail.com <br> <b>To:</b> provost\@`r city_name`.co.uk <br> <b>Cc:</b> city-council\@`r city_name`.co.uk <br> <b>Subject:</b>
+
+Dear Provost,
+
+I have just learned that my `r sample(rel1, 1)` has passed away due to the new pandemic in `r city_name`. `r sample(sent5, 1)`
+
+`r sample(sent5, 1)`
+
+`r sample(sent6, 1)`
+
+`r sample(clos1, 1, replace=TRUE)`<br> `r sample(name1, 1)`

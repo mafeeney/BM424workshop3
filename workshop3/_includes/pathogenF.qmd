@@ -1,0 +1,46 @@
+-
+```{r Neisseria, out.width="50%", out.height="50%", echo=FALSE, fig.cap="Photomicrograph of Neisseria meningitidis diplococci. Image credit: [CDC](https://phil.cdc.gov/details.aspx?pid=6423)"}
+knitr::include_graphics(rep("images/pathogenF.jpg"))
+```
+
+### Fact Sheet and General Information
+
+* [CDC Meningococcal Disease Fact Sheet](https://www.cdc.gov/meningococcal/downloads/17-275138A-MeningococcalDis-FS.pdf)
+
+* [Meningitis (WHO)](https://www.who.int/news-room/fact-sheets/detail/meningitis)
+
+* [Meningococcal Disease (CDC)](https://www.cdc.gov/meningococcal/index.html)
+
+### Clinical Microbiology and Diagnosis Resources
+
+* [UK Standards for Microbiology Investigations (UK SMI) for Screening for <i>Neisseria</i>](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/343978/B_51i2.pdf)
+
+* [Identification and Characterization of <i>Neisseria meningitidis</i> (CDC)](https://www.cdc.gov/meningitis/lab-manual/chpt07-id-characterization-nm.html)
+
+* [BMJ Best Practice - Bacterial Meningitis in Adults](https://bestpractice.bmj.com/topics/en-gb/3000104)
+
+* [Meningitis (bacterial) and meningococcal septicaemia in under 16s: recognition, diagnosis and management (NICE)](https://www.nice.org.uk/guidance/cg102)
+
+```{r Neisseria-plate, echo=FALSE, fig.cap="Neisseria meningitidis colonies on a Blood Agar plate. Image credit: [CDC](https://www.cdc.gov/meningitis/lab-manual/chpt07-id-characterization-nm.html)"}
+knitr::include_graphics(rep("images/plateF.gif"))
+```
+
+### Public Health and Epidemiology Resources
+
+* [Guidance for public health management of meningococcal disease in the UK](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/829326/PHE_meningo_disease_guideline.pdf)
+
+* [Meningococcal ACWY vaccine surveillance and data - Public Health Scotland](https://publichealthscotland.scot/our-areas-of-work/immunisations/immunisations-by-vaccine/meningococcal-acwy-vaccine-men-acwy/surveillance-and-data/)
+
+* [National enhanced surveillance of vaccination programmes targeting invasive meningococcal disease in England (UKHSA)](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1124997/UKHSA-meningococcal-surveillance-december-2022.pdf)
+
+* [Meningococcal Disease Risk Factors](https://www.cdc.gov/meningococcal/about/risk-factors.html)
+
+### Public Communications Resources
+
+* [Meningitis and septicaemia: prevention and management in higher education institutions](https://www.gov.uk/government/publications/meningitis-and-septicaemia-prevention-and-management-in-higher-education-institutions)
+
+* [WHO Initiative: Defeating Meningitis by 2030](https://www.who.int/initiatives/defeating-meningitis-by-2030)
+
+* [Meningitis Now Resources](https://www.meningitisnow.org/how-we-help/resources/)
+
+* [Meningitis Research Foundation: Help and Support Resources](https://www.meningitis.org/get-support/help-and-support-resources)

@@ -1,0 +1,43 @@
+
+```{r DISEASE, out.width="50%", out.height="50%", echo=FALSE, fig.cap="Scanning electron micrograph of Group A Streptococcus cells on a human neutrophil. Image credit: [CDC](https://phil.cdc.gov/Details.aspx?pid=18257)"}
+knitr::include_graphics(rep("images/pathogenH.jpg"))
+```
+
+### Fact Sheet and General Information
+
+* [Group A Strep Infection (CDC)](https://www.cdc.gov/group-a-strep/index.html)
+
+* [Group A Strep (UKHSA)](https://ukhsa.blog.gov.uk/2022/12/05/group-a-strep-what-you-need-to-know/)
+
+### Clinical Microbiology and Diagnosis Resources
+
+* [UK Standards for Microbiology Investigations (UK SMI): Identification of Streptococcus species, Enterococcus species and morphologically similar organisms](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1019677/ID_4i4.pdf)
+
+* [BMJ Best Practice - Toxic Shock Syndrome](https://bestpractice.bmj.com/topics/en-gb/329)
+
+* [BMJ Best Practice - Necrotising Fasciitis](https://bestpractice.bmj.com/topics/en-gb/3000241)
+
+* [Rapid tests for group A streptococcal infections in people with a sore throat (NICE)](https://www.nice.org.uk/guidance/dg38)
+
+```{r GAS-plate, echo=FALSE, fig.cap="Group A Streptococci grown on sheep's blood agar. Image credit: [CDC](https://phil.cdc.gov/details.aspx?pid=8170)"}
+knitr::include_graphics(rep("images/plateH.jpg"))
+```
+
+### Public Health and Epidemiology Resources
+
+* [Group A Streptococcal Infections (PHS)](https://www.hps.scot.nhs.uk/a-to-z-of-topics/streptococcal-infections/group-a-streptococcal-infections/)
+
+* [Group A streptococcal infections: activity during the 2022 to 2023 season (UKHSA)](https://www.gov.uk/government/publications/group-a-streptococcal-infections-activity-during-the-2022-to-2023-season)
+
+* [UK guidelines for the management of contacts of invasive group A streptococcus (iGAS) infection in community settings (UKHSA)](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1124985/management-of-contacts-of-invasive-group-a-streptococcus.pdf)
+
+* [Guidelines for the public health management of scarlet fever outbreaks in schools, nurseries and other childcare settings (UKHSA)](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1131109/guidelines-for-public-health-management-scarlet-fever-outbreaks-january-2023_.pdf)
+
+### Public Communications Resources
+
+* [UKHSA Group A streptococcus Communications Support Pack](https://www.nenc-healthiertogether.nhs.uk/application/files/8516/7033/9986/UKHSA_iGAS_stakeholder_communications_support_pack_v_1.2.pdf)
+
+* [Group A Strep Campaign Resources (UKHSA)](https://campaignresources.dhsc.gov.uk/campaigns/group-a-strep/)
+
+* [NHS Inform - Strep A](https://www.nhsinform.scot/illnesses-and-conditions/infections-and-poisoning/streptococcus-a-strep-a/)
+

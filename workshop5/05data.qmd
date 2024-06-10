@@ -1,0 +1,126 @@
+---
+webr:
+  packages: ["ggplot2", "tidyverse", "palmerpenguins", "GGally"]
+filters:
+  - webr
+---
+
+# Workshop 3 - Data Analysis
+
+```{webr-r}
+#| context: setup
+
+library(ggplot2)
+library(tidyverse)
+```
+
+## Introduction
+
+This page provides a `WebR` cell for you to use as a tool and playground to analyse data from and about your city's pandemic scenario.
+
+::: callout-tip
+If you are unfamiliar with R, or if this is your first time working with R, you may find some of the following resources helpful:
+:::
+
+This `WebR` instance has three packages installed:
+
+-   `ggplot2`
+-   `GGally`
+-   `tidyverse`
+
+::: {.callout-tip collapse="false"}
+Please note that all of these data are available remotely through a cloud server and you can work with them using the webR instance in this browser window - you do not need to install R or download any files to your own computer. However, you do need to make sure you are working with the correct data. Please make sure you carefully check the filename(s) for your particular pandemic scenario.
+:::
+
+## City Data Analysis
+
+::: {.callout-important title="Task"}
+**Use the `WebR` cell below to visualise your data with a basic plot.**
+:::
+
+```{webr-r}
+# Plot your data by entering code in this cell
+
+```
+
+## Investigate Palmer's Penguins
+
+The `penguins` dataset contains data about three different species of penguins. Take a look at the format of the dataset:
+
+``` r
+glimpse(penguins)
+```
+
+You'll see there are eight variables, including `species`, `weight`, `sex`, etc. - some of these variables are *categorical* (i.e. a category, like `species`), and others are *continuous* (i.e. numerical). You can see a visual overview of how the data is related using the `plot()` function:
+
+``` r
+plot(penguins)
+```
+
+We can visualise the number of penguins of each species in a bar chart:
+
+``` r
+fig <- ggplot(penguins, aes(species, fill=species)) +
+         geom_bar()
+fig
+```
+
+And break this down in a facet plot, by sex:
+
+``` r
+fig <- ggplot(penguins, aes(species, fill=species)) +
+         geom_bar() +
+         facet_wrap(~sex)
+fig
+```
+
+We can make a box and whisker plot of penguin body mass by species:
+
+``` r
+fig <- ggplot(penguins, aes(x=species, y=body_mass_g, fill=species)) +
+         geom_boxplot()
+fig
+```
+
+And plot the body mass for each sex side-by-side
+
+``` r
+fig <- ggplot(penguins, aes(x=species, y=body_mass_g, fill=sex)) +
+         geom_boxplot()
+fig
+```
+
+We can investigate correlations, such as between body mass and flipper length:
+
+``` r
+fig <- ggplot(penguins, aes(x=body_mass_g, y=flipper_length_mm)) +
+         geom_point()
+fig
+```
+
+We can colour datapoints by species:
+
+``` r
+fig <- ggplot(penguins, aes(x=body_mass_g, y=flipper_length_mm, colour=species)) +
+         geom_point()
+fig
+```
+
+And fit a linear regression to each species separately:
+
+``` r
+fig <- ggplot(penguins, aes(x=body_mass_g, y=flipper_length_mm, colour=species)) +
+         geom_point() +
+         geom_smooth(method="lm")
+fig
+```
+
+:::
+
+## Pandemic Data Analysis
+
+## WebR Playground
+
+```{webr-r}
+# Use this WebR cell to experiment with any additional data visualisation(s)  you would like to perform with your pandemic data
+```

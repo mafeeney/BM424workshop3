@@ -1,0 +1,32 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  navbar:
+    background: primary
+    search: true
+    left:
+    - text: "Workshop 3"
+      menu:
+        - workshop3/03workshop.qmd
+        - workshop3/03A.qmd
+
+    - text: "Workshop 4"
+      menu:
+        - workshop4/04workshop.qmd
+        - workshop4/04A.qmd
+
+    - text: "Workshop 5"
+      menu:
+        - workshop5/05workshop.qmd
+        - workshop5/05A.qmd
+          
+
+format:
+  html:
+    theme: simplex
+    css: styles.css
+    toc: true
+
+

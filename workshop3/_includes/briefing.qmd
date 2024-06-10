@@ -1,0 +1,45 @@
+```{r briefing, include=FALSE}
+# 
+```
+
+### City Pandemic Planning Resources
+
+* [Standing Committee on Pandemic Preparedness](https://www.gov.scot/groups/standing-committee-on-pandemic-preparedness/)
+
+* [UK Pandemic Preparedness plan](https://www.gov.uk/government/publications/uk-pandemic-preparedness/uk-pandemic-preparedness)
+
+* [COVID-19 health protection guidance](https://publichealthscotland.scot/our-areas-of-work/conditions-and-diseases/covid-19/covid-19-health-protection-guidance/#section-1) released by Public Health Scotland
+
+* [Tackling antimicrobial resistance 2019–2024: The UK’s five-year national action plan](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1070263/UK_AMR_5_year_national_action_plan.pdf)
+
+* [UK One Health Report - Joint report on antibiotic use and antibiotic resistance, 2013–2017 ](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/921039/Ted_Final_version__1318703-v45-One_Health_Report_2019_FINAL-accessible.pdf)
+
+* [Scottish One Health Antimicrobial Use and Antimicrobial Resistance in 2021](https://www.nss.nhs.scot/publications/scottish-one-health-antimicrobial-use-and-antimicrobial-resistance-in-2021/)
+
+* [Communicating risk in public health emergencies: A WHO guideline for emergency risk communication (ERC) policy and practice](https://apps.who.int/iris/bitstream/handle/10665/259807/9789241550208-eng.pdf?sequence=2&isAllowed=y)
+
+
+### Hospital Pandemic Preparedness and Planning
+
+* [National Infection Prevention and Control Manual](https://www.nipcm.hps.scot.nhs.uk/).
+
+As a hospital director, you are familiar with the literature surrounding hospital pandemic preparedness, and regularly read papers such as:
+
+* Mer, Mervyn et al. “Critical Care Pandemic Preparation: Considerations and Lessons Learned from COVID-19.” Critical care clinics vol. 38,4 (2022): 761-774. 
+
+* Tacconelli, Evelina et al. “Challenges of data sharing in European Covid-19 projects: A learning opportunity for advancing pandemic preparedness and response.” The Lancet regional health. Europe vol. 21 (2022): 100467. 
+
+* Adelaja, I., Sayma, M., Walton, H., McLachlan, G., de Boisanger, J., Bartlett-Pestell, S., Roche, E., Gandhi, V., Wilson, G. J., Brookes, Z., Yeen Fung, C., Macfarlane, H., Navaratnam, A., James, C., Scolding, P., & Sara, H. (2020). A comprehensive hospital agile preparedness (CHAPs) tool for pandemic preparedness, based on the COVID-19 experience. Future healthcare journal, 7(2), 165–168. 
+
+### Communications Resources
+
+* Matta, G. Science communication as a preventative tool in the COVID19 pandemic. Humanit Soc Sci Commun 7, 159 (2020).
+
+* Abdool Karim, Salim S. “Public understanding of science: Communicating in the midst of a pandemic.” Public understanding of science (Bristol, England) vol. 31,3 (2022): 282-287.
+
+* Royan, Regina et al. “Use of Twitter Amplifiers by Medical Professionals to Combat Misinformation During the COVID-19 Pandemic.” Journal of medical Internet research vol. 24,7 e38324. 22 Jul. 2022, doi:10.2196/38324
+
+* Tait, Margaret E et al. “Serving the public? A content analysis of COVID-19 public service announcements airing from March - December of 2020 in the U.S.” Preventive medicine reports vol. 29 (2022): 101971. 
+
+::: {#refs-general}
+:::

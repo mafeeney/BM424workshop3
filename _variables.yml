@@ -1,0 +1,122 @@
+- '# Data for workshop 2: characteriistics of adult and child victims of the pathogen,
+  and total count of deaths'
+- deaths_group_A_w2: 8
+  group_A_adult_chars:
+    adult_age: 55.0
+    adult_Marital_Status: Widowed
+    adult_Occupation: Blue Collar
+    adult_Education_Level: Postgraduate
+    adult_gender: Female
+  group_A_child_chars:
+    child_age: 8.0
+    child_gender: Male
+  deaths_group_B_w2: 12
+  group_B_adult_chars:
+    adult_age: 44.0
+    adult_Marital_Status: Widowed
+    adult_Occupation: Service
+    adult_Education_Level: Some College
+    adult_gender: Female
+  group_B_child_chars:
+    child_age: 9.0
+    child_gender: Female
+  deaths_group_C_w2: 9
+  group_C_adult_chars:
+    adult_age: 46.0
+    adult_Marital_Status: Single
+    adult_Occupation: Other
+    adult_Education_Level: Less than High School
+    adult_gender: Female
+  group_C_child_chars:
+    child_age: 5.0
+    child_gender: Male
+  deaths_group_D_w2: 9
+  group_D_adult_chars:
+    adult_age: 44.0
+    adult_Marital_Status: Single
+    adult_Occupation: Professional
+    adult_Education_Level: College Graduate
+    adult_gender: Male
+  group_D_child_chars:
+    child_age: 3.0
+    child_gender: Male
+  deaths_group_E_w2: 6
+  group_E_adult_chars:
+    adult_age: 58.0
+    adult_Marital_Status: Widowed
+    adult_Occupation: Blue Collar
+    adult_Education_Level: Postgraduate
+    adult_gender: Female
+  group_E_child_chars:
+    child_age: 7.0
+    child_gender: Female
+  deaths_group_F_w2: 12
+  group_F_adult_chars:
+    adult_age: 40.0
+    adult_Marital_Status: Widowed
+    adult_Occupation: Other
+    adult_Education_Level: High School Graduate
+    adult_gender: Female
+  group_F_child_chars:
+    child_age: 9.0
+    child_gender: Male
+  deaths_group_G_w2: 12
+  group_G_adult_chars:
+    adult_age: 58.0
+    adult_Marital_Status: Divorced
+    adult_Occupation: Unemployed
+    adult_Education_Level: Some College
+    adult_gender: Female
+  group_G_child_chars:
+    child_age: 1.0
+    child_gender: Male
+  deaths_group_H_w2: 12
+  group_H_adult_chars:
+    adult_age: 44.0
+    adult_Marital_Status: Married
+    adult_Occupation: Unemployed
+    adult_Education_Level: Less than High School
+    adult_gender: Female
+  group_H_child_chars:
+    child_age: 6.0
+    child_gender: Female
+  deaths_group_I_w2: 7
+  group_I_adult_chars:
+    adult_age: 44.0
+    adult_Marital_Status: Divorced
+    adult_Occupation: Other
+    adult_Education_Level: Postgraduate
+    adult_gender: Male
+  group_I_child_chars:
+    child_age: 5.0
+    child_gender: Female
+  deaths_group_J_w2: 9
+  group_J_adult_chars:
+    adult_age: 48.0
+    adult_Marital_Status: Divorced
+    adult_Occupation: Service
+    adult_Education_Level: College Graduate
+    adult_gender: Male
+  group_J_child_chars:
+    child_age: 5.0
+    child_gender: Male
+  deaths_group_K_w2: 12
+  group_K_adult_chars:
+    adult_age: 43.0
+    adult_Marital_Status: Single
+    adult_Occupation: Blue Collar
+    adult_Education_Level: Some College
+    adult_gender: Male
+  group_K_child_chars:
+    child_age: 6.0
+    child_gender: Female
+  deaths_group_L_w2: 6
+  group_L_adult_chars:
+    adult_age: 44.0
+    adult_Marital_Status: Divorced
+    adult_Occupation: Professional
+    adult_Education_Level: Some College
+    adult_gender: Female
+  group_L_child_chars:
+    child_age: 9.0
+    child_gender: Female
