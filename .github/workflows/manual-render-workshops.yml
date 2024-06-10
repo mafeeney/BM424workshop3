@@ -22,6 +22,9 @@ jobs:
 
       - name: Setup Quarto
         uses: quarto-dev/quarto-actions/setup@v2
+        
+      - name: List Files in workshop3 Directory
+        run: ls -l workshop3
 
       - name: Render Workshop Pages
         run: |
