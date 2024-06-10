@@ -32,9 +32,9 @@ jobs:
 
       - name: Change to Workshop3 Directory
         run: cd workshop3
-
-      - name: Render Workshop3 Pages
-        run: quarto render .
+        
+      - name: Render general Pages
+        run: quarto render --project ../_quarto.yml .
 
       - name: Move Rendered Files to _site Directory
         run: mv *.html _site/
