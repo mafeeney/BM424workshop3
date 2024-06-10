@@ -1,0 +1,27 @@
+name: Render Workshop3 Pages
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  render-workshop3:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Setup Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
+        with:
+          version: latest
+
+      - name: Change to Workshop3 Directory
+        run: cd workshop3
+
+      - name: Render Workshop3 Pages
+        run: quarto render .
+
+      - name: Move Rendered Files to _site Directory
+        run: mv *.html _site/
