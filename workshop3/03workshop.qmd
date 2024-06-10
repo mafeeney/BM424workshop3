@@ -4,31 +4,27 @@ title: "Workshop 3--Overview"
 
 ## BM424 Clinical Microbiology workshop 3 - Pandemic Response
 
-add news item highlighting first pandemic suspicion news article.
+
 
 ### Overview of tasks:
 
 *1. Prepare for the team meeting*
 
-There are a number of data analysis/literature search tasks that each group will need to perform in preparation for the meeting. 
+There are a number of data analysis/literature search tasks that each group will need to perform to prepare for the meeting. 
 
 ::: callout-tip
 As a group, you should decide who will be responsible for which task(s) and how to allocate the work fairly. One possible way to divide the workload amongst your group is by choosing/allocating roles based on subject specialism, e.g.: 
 
-*Epidemiologist/Public Health Tasks*
-
--   Analyse case, death, and demographic data
--   Analyse pathogen data
 -   Read briefing packets and search the literature for additional pertinent information
 
-1.	Clinical microbiologist 
--   16S_group`r group`.fasta
+*Epidemiologist/Public Health Tasks*
 
-2.	Public Health Expert: 
-- demographic data
+-   Analyse  death, and demographic data
+- Analyse pathogen sequence data and read the suggested references/search the literature (e.g., read the UK SMI document) to understand the diagnostic methods that could be useful for testing patients/residents for this particular pathogen [Clinical Microbiologist role]
 
-3.	Epidemiologist 
--   deaths_group`r group`.csv -- DONE
+- Analyse your city's demographic data and read the suggested references/search the literature to understand what demographic groups will be at higher risk from this particular pathogen [Epidemiologist role]
+
+- Analyse your city's death certificate data and read the suggested references/search the literature to understand what demographic groups will be at higher risk from this particular pathogen [Epidemiologist role]
 
 4.	Hospital director
 -   hosp_admissions_group`r group`.csv - DNE (but may require tweaking dates/#s)

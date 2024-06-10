@@ -2,17 +2,29 @@
 Workshop materials for BM424
 Dr. Morgan Feeney, AY 2024/2025
 
-
-
-
 ## How to use this repository - instructor notes
 
 ### To launch this repository for a new academic year:
 
-1. Run the scripts (in the "scripts" folder) - more details in the README.txt file in that folder.
+1. To generate the data files needed for workshop, run the scripts (in the "scripts" folder) - more details in the README.txt file in that folder.  [add details about how to load these for the webR instances where they're needed]
 
 2. Edit each of the workshop 3 group pages (e.g. 03A.qmd, 03B.qmd, etc.) to update the workshop3_date variable with the correct date for the third workshop.
 
+### Render the pages for each individual workshop
+
+#### Workshop 3
+
+#### Workshop 4 
+
+1. 
+2. add the pages for each group to the _quarto.yml navbar
+3. Render the pages for the workshop
+
+#### Workshop 5 
+
+1. 
+2. add the pages for each group to the _quarto.yml navbar
+3. Render the pages for the workshop
 
 ### To add a new group:
 
@@ -35,8 +47,7 @@ b. Add links to these pages to the _quarto.yml page in the appropriate sections,
         - 03A.qmd
         ....
         - 03Q.qmd
-
-5. Edit the workshop YAML headers/pages as needed. 
+c. Edit the workshop YAML headers/pages as needed. 
 
 Header information for each group should be as follows: 
 
@@ -48,3 +59,17 @@ inf_agent <- "Legionella pneumophila"
 hosp_name <- "Queen Rose"
 group <- "A"
 ```
+
+The groups/pathogens list (current for 2024/25) is: 
+A. Legionella pneumophila
+B. Influenza
+C. MRSA
+D. Campylobacter jejuni
+E. Listeria monocytogenes
+F. Neisseria meningitidis
+G. MDR M. tuberculosis
+H. Group A Strep
+I. Bacillus anthracis
+J. Bordetella pertusis
+K. Acinetobacter baumanii
+L. Aspergillus

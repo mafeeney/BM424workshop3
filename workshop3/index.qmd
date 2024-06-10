@@ -1,0 +1,29 @@
+---
+title: "BM424 Clinical Microbiology workshops"
+---
+
+# Overview
+
+These workshops are presented as part of BM424, and with the aim of helping students to understand the practicalities of pandemic management and disease control in real-life scenarios. Students will work in groups to attempt to control a specific pandemic outbreak.
+
+# Learning Outcomes
+
+By the end of this series of workshops, students will:
+* be able to apply the principles underlying epidemiology and pandemic management to real-world scenarios
+* develop their skills in data analysis and interpretation
+* develop their skills in literature searching and critical analysis
+* develop their skills in communication and teamwork
+
+# Assessment
+
+While these workshops are not formally assessed, participation will help to inform your written coursework (30% of your overall mark for the module). Moreover, please note that all lectures and workshops are considered examinable.
+
+# Pandemic Response Scenarios
+
+Disaster has struck - hard on the heels of the COVID-19 pandemic, another disease outbreak has hit the city that you live in. 
+
+As a member of the city's Emergency Pandemic Response Team, you have an important role to play in trying to stop the spread of the infectious agent, bring the pandemic to an end, and save lives.
+
+::: callout-important
+Each group is dealing with an outbreak in a different city - please use the dropdown menu to access your group's page, and carefully read through/analyse the data for your pandemic scenario.
+:::
