@@ -1,9 +1,15 @@
 name: Render Workshop3 Pages
 
 on:
-  push:
-    branches:
-      - main
+  workflow_dispatch:
+    inputs:
+      workshop:
+        description: 'Choose the workshop to render'
+        required: true
+        default: 'workshop3'
+        type: choice
+        options:
+          - workshop3
 
 jobs:
   render-workshop3:
@@ -12,8 +18,19 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v2
 
+      - name: Install R and dependencies
+      - uses: r-lib/actions/setup-r@v2
+        with:
+          use-public-rspm: true
+
+      - name: Install R packages
+        run: |
+          R -e "install.packages(c('rmarkdown', 'tidyverse', 'GGally'), repos='https://cloud.r-project.org/')"
+
       - name: Setup Quarto
         uses: quarto-dev/quarto-actions/setup@v2
+        with:
+          version: latest
 
       - name: Change to Workshop3 Directory
         run: cd workshop3
