@@ -22,8 +22,6 @@ jobs:
 
       - name: Setup Quarto
         uses: quarto-dev/quarto-actions/setup@v2
-        with:
-          version: 1.4.227  # Specify a version compatible with Quarto Dashboard
 
       - name: Render Workshop Pages
         run: |
