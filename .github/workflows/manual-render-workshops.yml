@@ -23,12 +23,12 @@ jobs:
       - name: Setup Quarto
         uses: quarto-dev/quarto-actions/setup@v2
         with:
-          version: latest
+          version: 1.4.190  # Specify a version compatible with Quarto Dashboard
 
       - name: Render Workshop Pages
         run: |
           if [ "${{ github.event.inputs.workshop }}" == "workshop3" ]; then
-            quarto render workshop3/03workshop.qmd workshop3/03A.qmd dashboardA.qmd workshop3/Data_16S.qmd Data_Budget.qmd Data_Deaths.qmd Data_Demographics.qmd Data_Hospital.qmd Data_Polling.qmd
+            quarto render workshop3/03workshop.qmd workshop3/03A.qmd workshop3/dashboardA.qmd
           elif [ "${{ github.event.inputs.workshop }}" == "workshop4" ]; then
             quarto render workshop4/index.qmd workshop4/page1.qmd workshop4/page2.qmd
           elif [ "${{ github.event.inputs.workshop }}" == "workshop5" ]; then
