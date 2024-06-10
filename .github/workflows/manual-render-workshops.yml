@@ -1,0 +1,42 @@
+name: Manual Render Quarto Workshops
+
+on:
+  workflow_dispatch:
+    inputs:
+      workshop:
+        description: 'Choose the workshop to render'
+        required: true
+        default: 'workshop3'
+        type: choice
+        options:
+          - workshop3
+          - workshop4
+          - workshop5
+
+jobs:
+  render-workshop:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Setup Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
+        with:
+          version: latest
+
+      - name: Render Workshop Pages
+        run: |
+          if [ "${{ github.event.inputs.workshop }}" == "workshop3" ]; then
+            quarto render workshop3/index.qmd workshop3/page1.qmd workshop3/page2.qmd
+          elif [ "${{ github.event.inputs.workshop }}" == "workshop4" ]; then
+            quarto render workshop4/index.qmd workshop4/page1.qmd workshop4/page2.qmd
+          elif [ "${{ github.event.inputs.workshop }}" == "workshop5" ]; then
+            quarto render workshop5/index.qmd workshop5/page1.qmd workshop5/page2.qmd
+          fi
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./_site
