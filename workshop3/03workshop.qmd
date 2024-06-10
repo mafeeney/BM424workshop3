@@ -24,12 +24,11 @@ As a group, you should decide who will be responsible for which task(s) and how 
 
 - Analyse your city's demographic data and read the suggested references/search the literature to understand what demographic groups will be at higher risk from this particular pathogen [Epidemiologist role]
 
-- Analyse your city's death certificate data and read the suggested references/search the literature to understand what demographic groups will be at higher risk from this particular pathogen [Epidemiologist role]
+- Analyse your city's death certificate data and read the suggested references/search the literature to understand the scope of the pandemic's effect on your city and what measures can be taken to stop the pathogen's transmission/reduce the severity of illness [Epidemiologist role]
 
-4.	Hospital director
--   hosp_admissions_group`r group`.csv - DNE (but may require tweaking dates/#s)
+- Analyse your hospital's case data and dashboard; read the suggested references/search the literature to understand the scope of the pandemic's effect on your hospital and what measures can be taken to stop the pathogen's transmission/what resources are available [Hospital director role]
 
-8.  Doctor at a major surgery 
+- [Doctor/GP role]
 
 *City Management/Planning Tasks*
 
@@ -37,8 +36,7 @@ As a group, you should decide who will be responsible for which task(s) and how 
 -   Analyse polling/opinion data, to inform your public communications/outreach strategies
 -   Read briefing packets and search the literature for additional pertinent information
 
-5.	City planner/civil servant
--   budget_group`r group`.csv -- DONE
+5.	Analyse your city's budget data to determine what resources your city has available to deal with this crisis; read the suggested references/search the literature to determine what measures have been shown to be effective (and cost-effective) for containing the spread of this particular pathogen [City planner/civil servant role]
 
 6.	Provost (head of the city council): 
 -   voting_group`r group`.csv -- DONE

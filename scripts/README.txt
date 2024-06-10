@@ -4,3 +4,5 @@ Summary of what to do every year in order to launch the quarto page with updated
 
 -Rerun budgets.R: This should update the budget_group[LETTER].csv files automatically (no need for manual 
 edits unless adding extra groups)
+
+-   hosp_admissions_group`r group`.csv - DNE (but may require tweaking dates/#s)
