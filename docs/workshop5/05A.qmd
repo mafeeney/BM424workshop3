@@ -1,0 +1,14 @@
+---
+city_name: "City Name"
+dis_name: "Disease Name"
+inf_agent: "Infectious Agent"
+hosp_name: "Hospital Name"
+---
+
+## Initial News Reports
+
+\_includes
+
+## Emails and Responses from Concerned Citizens
+
+\_includes
