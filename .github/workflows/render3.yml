@@ -32,7 +32,7 @@ jobs:
         
       - name: Render Index and Workshop3 Pages
         run: |
-          quarto render workshop3/index.qmd
+          quarto render index.qmd
           quarto render workshop3/*.qmd
 
       - name: Move Rendered Files to _site Directory
