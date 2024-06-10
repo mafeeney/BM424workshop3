@@ -35,7 +35,7 @@ jobs:
         
       - name: Render Index and Workshop3 Pages
         run: |
-          quarto render ../../index.qmd .
+          quarto render ../index.qmd .
           quarto render .
 
       - name: Move Rendered Files to _site Directory
