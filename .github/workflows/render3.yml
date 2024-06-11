@@ -33,10 +33,32 @@ jobs:
       - name: List files for debugging
         run: ls -R
         
-      - name: Render Index and Workshop3 Pages
+            - name: Render Index Page
         run: |
+          echo "Rendering index.qmd from the root directory"
           quarto render index.qmd
-          quarto render workshop3/*.qmd
+
+      - name: Render Workshop Pages
+        run: |
+          echo "Rendering pages for ${{ github.event.inputs.workshop }}"
+          if [ "${{ github.event.inputs.workshop }}" == "workshop3" ]; then
+            cd workshop3
+            quarto render 03workshop.qmd
+            quarto render *.qmd
+          elif [ "${{ github.event.inputs.workshop }}" == "workshop4" ]; then
+            cd workshop4
+            quarto render *.qmd
+          elif [ "${{ github.event.inputs.workshop }}" == "workshop5" ]; then
+            cd workshop5
+            quarto render *.qmd
+          fi
 
       - name: Move Rendered Files to _site Directory
-        run: mv *.html _site/
+        run: |
+          echo "Moving rendered HTML files to the _site directory"
+          if [ -d "_site" ]; then
+            mv workshop3/*.html _site/ || echo "No HTML files found"
+          else
+            mkdir _site
+            mv workshop3/*.html _site/ || echo "No HTML files found"
+          fi
