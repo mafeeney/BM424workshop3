@@ -49,6 +49,15 @@ jobs:
         run: |
           quarto render index.qmd
 
+      - name: List Files in Workshop Directories
+        run: |
+          echo "Listing files in workshop3"
+          ls -l workshop3
+          echo "Listing files in workshop4"
+          ls -l workshop4
+          echo "Listing files in workshop5"
+          ls -l workshop5
+
       - name: Move Rendered Files to docs Directory
         run: |
           echo "Moving rendered HTML files to the docs directory"
