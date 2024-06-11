@@ -15,34 +15,38 @@ There are a number of data analysis/literature search tasks that each group will
 ::: callout-tip
 As a group, you should decide who will be responsible for which task(s) and how to allocate the work fairly. One possible way to divide the workload amongst your group is by choosing/allocating roles based on subject specialism, e.g.: 
 
--   Read briefing packets and search the literature for additional pertinent information
+# Roles and Responsibilities
 
-*Epidemiologist/Public Health Tasks*
+## Epidemiologist/Public Health Tasks
 
--   Analyse  death, and demographic data
-- Analyse pathogen sequence data and read the suggested references/search the literature (e.g., read the UK SMI document) to understand the diagnostic methods that could be useful for testing patients/residents for this particular pathogen [Clinical Microbiologist role]
+- **Clinical Microbiologist role: diagnostic methods**
+    - Analyse the sequence data collected from the outbreak thus far to confirm the etiology of the disease in each case.
+    - Read the suggested references/search the literature (e.g., read the UK SMI document) to understand the diagnostic methods that could be useful for testing patients/residents for this particular pathogen.
 
-- Analyse your city's demographic data and read the suggested references/search the literature to understand what demographic groups will be at higher risk from this particular pathogen [Epidemiologist role]
+- **Epidemiologist role: demographics**
+    - Analyse your city's demographic data.
+    - Read the suggested references/search the literature to understand what demographic groups will be at higher risk from this particular pathogen.
 
-- Analyse your city's death certificate data and read the suggested references/search the literature to understand the scope of the pandemic's effect on your city and what measures can be taken to stop the pathogen's transmission/reduce the severity of illness [Epidemiologist role]
+- **Epidemiologist role: pandemic effect analysis**
+    - Analyse your city's death certificate data.
+    - Read the suggested references/search the literature to understand the scope of the pandemic's effect on your city and what measures can be taken to stop the pathogen's transmission/reduce the severity of illness.
 
-- Analyse your hospital's case data and dashboard; read the suggested references/search the literature to understand the scope of the pandemic's effect on your hospital and what measures can be taken to stop the pathogen's transmission/what resources are available [Hospital director role]
+- **Hospital Director role: hospital case data**
+    - Analyse your hospital's case data and dashboard.
+    - Read the suggested references/search the literature to understand the scope of the pandemic's effect on your hospital and what measures can be taken to stop the pathogen's transmission/what resources are available.
 
-- [Doctor/GP role]
+- **Doctor/GP role**
+    - Responsibilities to be defined.
 
-*City Management/Planning Tasks*
+## Resource Management/Planning Tasks
 
--   Determine the resources your city has available to deal with this pandemic (budget, hospital resources, etc.)
--   Analyse polling/opinion data, to inform your public communications/outreach strategies
--   Read briefing packets and search the literature for additional pertinent information
+- **City Planner/Civil Servant role: resource determination**
+    - Analyse your city's budget data to determine what resources your city has available to deal with this crisis.
+    - Read the suggested references/search the literature to determine what measures have been shown to be effective (and cost-effective) for containing the spread of this particular pathogen, or pathogens transmitted via similar routes.
 
-5.	Analyse your city's budget data to determine what resources your city has available to deal with this crisis; read the suggested references/search the literature to determine what measures have been shown to be effective (and cost-effective) for containing the spread of this particular pathogen [City planner/civil servant role]
-
-6.	Provost (head of the city council): 
--   voting_group`r group`.csv -- DONE
-
-7.	Public communications expert 
--   polling_group`r group`.csv -- DONE and associated metadata polling_questions\_`r group`.txt
+- **Public Communications Expert role**
+    - Analyse polling/opinion data to inform your public communications/outreach strategies.
+    - Read the suggested references/search the literature to determine what measures have been shown to be effective (and supported by the public) for containing the spread of this particular pathogen, or pathogens transmitted via similar routes.
 
 :::
 
