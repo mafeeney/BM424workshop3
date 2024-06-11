@@ -58,9 +58,9 @@ jobs:
         run: |
           echo "Moving rendered HTML files to the docs directory"
           mkdir -p docs
-          mv workshop3/*.html docs/ || echo "No HTML files found in workshop3"
-          mv workshop4/*.html docs/ || echo "No HTML files found in workshop4"
-          mv workshop5/*.html docs/ || echo "No HTML files found in workshop5"
+          mv docs/workshop3/*.html docs/ || echo "No HTML files found in workshop3"
+          mv docs/workshop4/*.html docs/ || echo "No HTML files found in workshop4"
+          mv docs/workshop5/*.html docs/ || echo "No HTML files found in workshop5"
           mv index.html docs/ || echo "No index.html found"
 
       - name: Publish to GitHub Pages
