@@ -55,7 +55,3 @@ As  you work through each task, note that there are tips and hints that you can 
 ### Epidemiological Data
 
 `r include_statement`
-
-### Any Additional Data Analyses
-
-An additional webR "playground" is available for you to use if you wish to perform any additional data analyses: [WebR](webr-example.qmd).

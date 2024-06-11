@@ -45,8 +45,12 @@ As a group, you should decide who will be responsible for which task(s) and how 
     - Read the suggested references/search the literature to determine what measures have been shown to be effective (and cost-effective) for containing the spread of this particular pathogen, or pathogens transmitted via similar routes.
 
 - **Public Communications Expert role**
-    - Analyse polling/opinion data to inform your public communications/outreach strategies.
+    - Analyse opinion data to inform your public communications/outreach strategies.
     - Read the suggested references/search the literature to determine what measures have been shown to be effective (and supported by the public) for containing the spread of this particular pathogen, or pathogens transmitted via similar routes.
+    
+- **Provost/City Council member role**
+    - Analyse polling data to inform your understanding of public support for the ciy council's policies
+    - Read the suggested references/search the literature to determine what measures the council are legally 
 
 :::
 

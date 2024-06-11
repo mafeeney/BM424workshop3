@@ -55,16 +55,16 @@ jobs:
             quarto render *.qmd
           fi
 
-      - name: Move Rendered Files to _site Directory
+      - name: Move Rendered Files to docs Directory
         run: |
-          echo "Moving rendered HTML files to the _site directory"
-          if [ -d "_site" ]; then
-            mv workshop3/*.html _site/ || echo "No HTML files found"
-            mv workshop4/*.html _site/ || echo "No HTML files found"
-            mv workshop5/*.html _site/ || echo "No HTML files found"
+          echo "Moving rendered HTML files to the docs directory"
+          if [ -d "docs" ]; then
+            mv workshop3/*.html docs/ || echo "No HTML files found"
+            mv workshop4/*.html docs/ || echo "No HTML files found"
+            mv workshop5/*.html docs/ || echo "No HTML files found"
           else
-            mkdir _site
-            mv workshop3/*.html _site/ || echo "No HTML files found"
-            mv workshop4/*.html _site/ || echo "No HTML files found"
-            mv workshop5/*.html _site/ || echo "No HTML files found"
+            mkdir docs
+            mv workshop3/*.html docs/ || echo "No HTML files found"
+            mv workshop4/*.html docs/ || echo "No HTML files found"
+            mv workshop5/*.html docs/ || echo "No HTML files found"
           fi

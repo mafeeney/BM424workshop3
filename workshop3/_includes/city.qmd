@@ -1,11 +1,4 @@
 ```{r city, include=FALSE}
-#define variables for each group
-city_name <- "Inverkeld"
-dis_name <- "Legionellosis"
-inf_agent <- "Legionella pneumophila"
-hosp_name <- "Queen Rose"
-group <- "A"
-
 # Define the link for the city centre image based on the group variable
 if (group == "A") {
   city <- "images/cityA.jpg"
@@ -38,17 +31,6 @@ if (group == "A") {
   city <- "images/cityX.jpg"
 }
 
-# Define the link for the hospital dashboard page based on the group variable
-if (group == "A") {
-  http_address <- "dashboardA.qmd"
-} else if (group == "B") {
-  http_address <- "dashboardB.qmd"
-} else {
-  # Handle other cases if needed
-  link <- "default_link"
-}
-
-
 #Define other useful variables to describe the city
 landmark <- sample(c("Ben Morven", "Loch Rannoch", "Glen Afton", "Castle Braemar", "Blackrock Beach", "Eredor Forest", "Alton Moor", "Kilraven Tower", "Glenmore Forest", "Durness Point", "Kilross Abbey", "Dunbar Hill", "Torridon Caves", "Loch Ard", "Ben Lorne", "White Sands Beach", "Loch Ailsa", "Ben Crieff", "Kilmartin Point", "Glenorchy Gorge", "Loch Bracadale", "Dunvalley Castle", "Morven Forest", "Ailsa Falls", "Strathkinness Mill", "Ben Alder", "Loch Maree", "Castle Dunrobin", "Castle Kincardine", "Loch Achray", "River Carron", "Glen Lochay"), 1)
 accomplishments <- sample(c("one of the most famous art festivals in Europe", "its significant role in the North Sea oil industry", "several UNESCO World Heritage sites", "the site of a historic battle", "its medieval cathedral ruins", "its rich maritime history", "a major port town", "its beautiful beaches", "the site of a historic abbey", "its vibrant arts scene", "its well-preserved historic buildings", "its major fishing port", "its famous distillery", "its historic bridges", "its historic castle", "the site of a well-preserved Roman fort", "its world-famous botanical gardens and nature preserves", "its annual literary festival", "its medieval abbey and annual pilgrimage", "its annual film festival", "its annual folk festival featuring traditional music and dance", "its beautiful rose gardens and annual flower shows", "its wind farm and renewable energy projects", "its ancient stone bridge and medieval architecture", "its panoramic views and hiking trails", "its historic lighthouse and coastal walks", "its ancient oak forests and nature reserve"), 1)
@@ -72,8 +54,6 @@ team_name1 <- sample(c("Blues", "Reds", "Griffins", "Lions", "Foxes", "Eagles", 
 team_name2 <- sample(c("Tigers", "Hornets", "Owls", "Robins", "Cardinals", "Falcons", "Ravens", "Hawks", "Crows", "Starlings"), 1)
 sport1 <- sample(c("football", "rugby union", "field hockey"), 1)
 sport2 <- sample(c("rugby league", "cricket"), 1)
-
-
 ```
 
 `r paste0("![The ", city_name , " city centre](", city , ")")`
