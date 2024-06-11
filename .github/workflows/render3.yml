@@ -10,6 +10,8 @@ on:
         type: choice
         options:
           - workshop3
+          - workshop4
+          - workshop5
 
 jobs:
   render-workshop3:
@@ -58,7 +60,11 @@ jobs:
           echo "Moving rendered HTML files to the _site directory"
           if [ -d "_site" ]; then
             mv workshop3/*.html _site/ || echo "No HTML files found"
+            mv workshop4/*.html _site/ || echo "No HTML files found"
+            mv workshop5/*.html _site/ || echo "No HTML files found"
           else
             mkdir _site
             mv workshop3/*.html _site/ || echo "No HTML files found"
+            mv workshop4/*.html _site/ || echo "No HTML files found"
+            mv workshop5/*.html _site/ || echo "No HTML files found"
           fi
