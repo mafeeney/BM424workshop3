@@ -38,30 +38,21 @@ jobs:
       - name: Render Specific Workshop
         run: |
           if [ "${{ github.event.inputs.workshop }}" == "workshop3" ]; then
-            quarto render workshop3
+            quarto render workshop3 --output-dir docs/workshop3
           elif [ "${{ github.event.inputs.workshop }}" == "workshop4" ]; then
-            quarto render workshop4
+            quarto render workshop4 --output-dir docs/workshop4
           elif [ "${{ github.event.inputs.workshop }}" == "workshop5" ]; then
-            quarto render workshop5
+            quarto render workshop5 --output-dir docs/workshop5
           fi
 
       - name: Render Index Page
         run: |
-          quarto render index.qmd
+          quarto render index.qmd --output-dir docs
 
       - name: List All Files in Repository
         run: |
           echo "Listing all files in the repository after rendering"
           find . -type f
-
-      - name: Move Rendered Files to docs Directory
-        run: |
-          echo "Moving rendered HTML files to the docs directory"
-          mkdir -p docs
-          mv docs/workshop3/*.html docs/ || echo "No HTML files found in workshop3"
-          mv docs/workshop4/*.html docs/ || echo "No HTML files found in workshop4"
-          mv docs/workshop5/*.html docs/ || echo "No HTML files found in workshop5"
-          mv index.html docs/ || echo "No index.html found"
 
       - name: Publish to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
