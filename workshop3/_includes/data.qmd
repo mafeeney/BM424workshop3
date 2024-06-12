@@ -10,7 +10,7 @@ if (group == "A") {
 }
 
 # Define an include_statement variable to point to the correct epidemiology data
-include_statement <- paste0('{{< include _includes/epi', type, '.qmd >}}')
+include_statement <- paste0('{{< include _includes/epi', inf_type, '.qmd >}}')
 ```
 
 ### Introduction
