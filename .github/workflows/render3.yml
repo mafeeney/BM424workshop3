@@ -49,13 +49,24 @@ jobs:
         run: |
           quarto render index.qmd --output-dir docs
 
-      - name: List All Files in Repository
+      - name: List All Files in docs Directory
         run: |
-          echo "Listing all files in the repository after rendering"
-          find . -type f
+          echo "Listing all files in the docs directory after rendering"
+          find docs -type f
 
+      - name: Debug GitHub Pages Publish Directory
+        run: |
+          echo "Publishing contents of the docs directory"
+          ls -la docs
+          
       - name: Publish to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: docs
+          
+      - name: Verify Deployment
+        run: |
+          echo "Checking if gh-pages branch has been updated"
+          git fetch origin gh-pages
+          git log -1 --pretty=oneline origin/gh-pages
