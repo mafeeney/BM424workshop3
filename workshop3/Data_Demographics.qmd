@@ -1,5 +1,5 @@
 ---
-title: Demoographic Data Analysis
+title: Demographic Data Analysis
 format:
   html:
     toc: true

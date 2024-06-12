@@ -1,0 +1,4 @@
+```{r GroupA-epidemiology, include=FALSE}
+
+```
+* You will want to understand the the infectious agent(s) responsible for the deaths due to `r dis_name`, by analysing sequences derived from ... You will find the sequence data in a file named: sequences_group`r group`.fasta, and a suggested workflow for analysing these sequences here: [Pathogen Sequence Analysis](Data_16S.qmd).
