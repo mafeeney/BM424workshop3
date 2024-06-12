@@ -1,4 +1,4 @@
-name: Render Workshop3 Pages
+name: Render Individual Workshop Pages
 
 on:
   workflow_dispatch:
