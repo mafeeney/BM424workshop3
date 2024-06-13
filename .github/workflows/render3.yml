@@ -1,4 +1,4 @@
-name: Render Individual Workshop Pages
+name: Render Workshop 3 Pages
 
 on:
   workflow_dispatch:
@@ -10,8 +10,6 @@ on:
         type: choice
         options:
           - workshop3
-          - workshop4
-          - workshop5
 
 jobs:
   render-workshop3:
@@ -36,34 +34,9 @@ jobs:
         run: ls -R
       
       - name: Render and Publish workshop 3
-        if: ${{ github.event.inputs.target == 'workshop3' }}
         uses: quarto-dev/quarto-actions/publish@v2
         with:
           target: gh-pages
           path: workshop3
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}      
-
-      - name: Render and Publish workshop 4
-        if: ${{ github.event.inputs.target == 'workshop4' }}
-        uses: quarto-dev/quarto-actions/publish@v2
-        with:
-          target: gh-pages
-          path: workshop4
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}   
-
-      - name: Render and Publish workshop 5
-        if: ${{ github.event.inputs.target == 'workshop5' }}
-        uses: quarto-dev/quarto-actions/publish@v2
-        with:
-          target: gh-pages
-          path: workshop5
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}   
-          
-      - name: Verify Deployment
-        run: |
-          echo "Checking if gh-pages branch has been updated"
-          git fetch origin gh-pages
-          git log -1 --pretty=oneline origin/gh-pages

@@ -1,0 +1,42 @@
+name: Render Workshop4 pages
+
+on:
+  workflow_dispatch:
+    inputs:
+      workshop:
+        description: 'Choose the workshop to render'
+        required: true
+        default: 'workshop4'
+        type: choice
+        options:
+          - workshop4
+
+jobs:
+  render-workshop3:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Install R and dependencies
+        uses: r-lib/actions/setup-r@v2
+        with:
+          use-public-rspm: true
+
+      - name: Install R packages
+        run: |
+          R -e "install.packages(c('rmarkdown', 'tidyverse', 'GGally', 'randomNames'), repos='https://cloud.r-project.org/')"
+
+      - name: Setup Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
+        
+      - name: List files for debugging
+        run: ls -R
+      
+      - name: Render and Publish workshop 4
+        uses: quarto-dev/quarto-actions/publish@v2
+        with:
+          target: gh-pages
+          path: workshop4
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}      
