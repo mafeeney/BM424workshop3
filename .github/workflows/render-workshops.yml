@@ -12,6 +12,7 @@ on:
           - workshop3
           - workshop4
           - workshop5
+          - index
 
 jobs:
   render-workshop3:
