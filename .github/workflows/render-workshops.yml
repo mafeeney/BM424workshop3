@@ -35,35 +35,22 @@ jobs:
       - name: List files for debugging
         run: ls -R
 
-      - name: Render Specific Workshop
-        run: |
-          if [ "${{ github.event.inputs.workshop }}" == "workshop3" ]; then
-            quarto render workshop3 --output-dir docs/workshop3
-          elif [ "${{ github.event.inputs.workshop }}" == "workshop4" ]; then
-            quarto render workshop4 --output-dir docs/workshop4
-          elif [ "${{ github.event.inputs.workshop }}" == "workshop5" ]; then
-            quarto render workshop5 --output-dir docs/workshop5
-          fi
-
-      - name: Render Index Page
-        run: |
-          quarto render index.qmd --output-dir docs
-
-      - name: List All Files in docs Directory
-        run: |
-          echo "Listing all files in the docs directory after rendering"
-          find docs -type f
-
-      - name: Debug GitHub Pages Publish Directory
-        run: |
-          echo "Publishing contents of the docs directory"
-          ls -la docs
-          
-      - name: Publish to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
+      - name: Render and Publish Workshop
+        if: ${{ github.event.inputs.target != 'index' }}
+        uses: quarto-dev/quarto-actions/publish@v2
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: docs
+          target: gh-pages
+          path: ${{ github.event.inputs.target }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Render and Publish Index Page
+        if: ${{ github.event.inputs.target == 'index' }}
+        run: |
+          quarto render index.qmd
+          mv index.html docs/
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           
       - name: Verify Deployment
         run: |
