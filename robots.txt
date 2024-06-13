@@ -1,1 +1,1 @@
-Sitemap: https://mafeeney.github.io/BM424workshops/sitemap.xml
+Sitemap: https://mafeeney.github.io/BM424workshop3/sitemap.xml

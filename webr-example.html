@@ -305,7 +305,7 @@ globalThis.qwebrCustomizedWebROptions = {
 };
 
 // Store cell data
-globalThis.qwebrCellDetails = [{"options":{"autorun":"true","fig-height":5,"out-width":"700px","fig-width":7,"label":"unnamed-chunk-1","editor-font-scale":1,"fig-cap":"","message":"true","editor-quick-suggestions":"false","read-only":"false","results":"markup","context":"setup","output":"true","classes":"","comment":"","warning":"true","dpi":72,"editor-max-height":"","out-height":""},"code":"\nlibrary(ggplot2)\nlibrary(palmerpenguins)\nlibrary(tidyverse)","id":1},{"options":{"autorun":"false","fig-height":5,"out-width":"700px","fig-width":7,"label":"unnamed-chunk-2","editor-font-scale":1,"fig-cap":"","message":"true","editor-quick-suggestions":"false","read-only":"false","results":"markup","context":"interactive","output":"true","classes":"","comment":"","warning":"true","dpi":72,"editor-max-height":"","out-height":""},"code":"# Use this WebR cell to experiment with some practice biological datasets","id":2}];
+globalThis.qwebrCellDetails = [{"id":1,"options":{"warning":"true","output":"true","editor-font-scale":1,"fig-width":7,"comment":"","out-height":"","fig-cap":"","message":"true","dpi":72,"context":"setup","label":"unnamed-chunk-1","classes":"","fig-height":5,"results":"markup","read-only":"false","autorun":"true","out-width":"700px","editor-quick-suggestions":"false","editor-max-height":""},"code":"\nlibrary(ggplot2)\nlibrary(palmerpenguins)\nlibrary(tidyverse)"},{"id":2,"options":{"warning":"true","output":"true","editor-font-scale":1,"fig-width":7,"comment":"","out-height":"","fig-cap":"","message":"true","dpi":72,"context":"interactive","label":"unnamed-chunk-2","classes":"","fig-height":5,"results":"markup","read-only":"false","autorun":"false","out-width":"700px","editor-quick-suggestions":"false","editor-max-height":""},"code":"# Use this WebR cell to experiment with some practice biological datasets"}];
 
 </script>
 <script type="module">
@@ -1639,7 +1639,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/mafeeney\.github\.io\/BM424workshops\/");
+      var filterRegex = new RegExp("https:\/\/mafeeney\.github\.io\/BM424workshop3\/");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }

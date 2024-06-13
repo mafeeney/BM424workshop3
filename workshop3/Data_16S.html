@@ -271,7 +271,7 @@ globalThis.qwebrCustomizedWebROptions = {
 };
 
 // Store cell data
-globalThis.qwebrCellDetails = [{"id":1,"code":"\n# Load required libraries\nlibrary(tidyverse)\n\n# Load required data files\n\n# demographic data files\ndownload.file('https://raw.githubusercontent.com/sipbs-compbiol/BM214-Workshop-3/main/assets/data/AM_Bay_01/AM_Bay_01_01.csv', 'AM_Bay_01_01.csv')","options":{"out-width":"700px","context":"setup","comment":"","read-only":"false","fig-width":7,"warning":"true","fig-height":5,"label":"unnamed-chunk-1","editor-max-height":"","autorun":"true","out-height":"","message":"true","editor-font-scale":1,"fig-cap":"","dpi":72,"output":"true","results":"markup","editor-quick-suggestions":"false","classes":""}}];
+globalThis.qwebrCellDetails = [{"code":"\n# Load required libraries\nlibrary(tidyverse)\n\n# Load required data files\n\n# demographic data files\ndownload.file('https://raw.githubusercontent.com/sipbs-compbiol/BM214-Workshop-3/main/assets/data/AM_Bay_01/AM_Bay_01_01.csv', 'AM_Bay_01_01.csv')","id":1,"options":{"fig-cap":"","fig-height":5,"fig-width":7,"label":"unnamed-chunk-1","out-width":"700px","read-only":"false","output":"true","classes":"","results":"markup","message":"true","warning":"true","out-height":"","editor-max-height":"","editor-quick-suggestions":"false","dpi":72,"context":"setup","editor-font-scale":1,"comment":"","autorun":"true"}}];
 
 </script>
 <script type="module">
@@ -1522,7 +1522,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/mafeeney\.github\.io\/BM424workshops\/");
+      var filterRegex = new RegExp("https:\/\/mafeeney\.github\.io\/BM424workshop3\/");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }

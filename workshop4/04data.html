@@ -305,7 +305,7 @@ globalThis.qwebrCustomizedWebROptions = {
 };
 
 // Store cell data
-globalThis.qwebrCellDetails = [{"id":1,"code":"\nlibrary(ggplot2)\nlibrary(tidyverse)","options":{"editor-quick-suggestions":"false","out-width":"700px","context":"setup","editor-font-scale":1,"read-only":"false","comment":"","fig-cap":"","warning":"true","fig-height":5,"editor-max-height":"","results":"markup","autorun":"true","output":"true","classes":"","out-height":"","label":"unnamed-chunk-1","fig-width":7,"dpi":72,"message":"true"}},{"id":2,"code":"# Plot your data by entering code in this cell","options":{"editor-quick-suggestions":"false","out-width":"700px","context":"interactive","editor-font-scale":1,"read-only":"false","comment":"","fig-cap":"","warning":"true","fig-height":5,"editor-max-height":"","results":"markup","autorun":"false","output":"true","classes":"","out-height":"","label":"unnamed-chunk-2","fig-width":7,"dpi":72,"message":"true"}},{"id":3,"code":"# Use this WebR cell to experiment with any additional data visualisation(s)  you would like to perform with your pandemic data","options":{"editor-quick-suggestions":"false","out-width":"700px","context":"interactive","editor-font-scale":1,"read-only":"false","comment":"","fig-cap":"","warning":"true","fig-height":5,"editor-max-height":"","results":"markup","autorun":"false","output":"true","classes":"","out-height":"","label":"unnamed-chunk-3","fig-width":7,"dpi":72,"message":"true"}}];
+globalThis.qwebrCellDetails = [{"options":{"context":"setup","output":"true","classes":"","dpi":72,"fig-cap":"","read-only":"false","out-height":"","results":"markup","label":"unnamed-chunk-1","editor-max-height":"","comment":"","out-width":"700px","autorun":"true","fig-width":7,"message":"true","fig-height":5,"editor-quick-suggestions":"false","editor-font-scale":1,"warning":"true"},"id":1,"code":"\nlibrary(ggplot2)\nlibrary(tidyverse)"},{"options":{"context":"interactive","output":"true","classes":"","dpi":72,"fig-cap":"","read-only":"false","out-height":"","results":"markup","label":"unnamed-chunk-2","editor-max-height":"","comment":"","out-width":"700px","autorun":"false","fig-width":7,"message":"true","fig-height":5,"editor-quick-suggestions":"false","editor-font-scale":1,"warning":"true"},"id":2,"code":"# Plot your data by entering code in this cell"},{"options":{"context":"interactive","output":"true","classes":"","dpi":72,"fig-cap":"","read-only":"false","out-height":"","results":"markup","label":"unnamed-chunk-3","editor-max-height":"","comment":"","out-width":"700px","autorun":"false","fig-width":7,"message":"true","fig-height":5,"editor-quick-suggestions":"false","editor-font-scale":1,"warning":"true"},"id":3,"code":"# Use this WebR cell to experiment with any additional data visualisation(s)  you would like to perform with your pandemic data"}];
 
 </script>
 <script type="module">
@@ -1672,7 +1672,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/mafeeney\.github\.io\/BM424workshops\/");
+      var filterRegex = new RegExp("https:\/\/mafeeney\.github\.io\/BM424workshop3\/");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
