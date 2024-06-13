@@ -37,6 +37,6 @@ jobs:
         uses: quarto-dev/quarto-actions/publish@v2
         with:
           target: gh-pages
-          path: workshop4
+          path: ./workshop4
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}      
