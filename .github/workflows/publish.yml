@@ -17,15 +17,14 @@ jobs:
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
 
-      - name: Install R
+      - name: Install R and dependencies
         uses: r-lib/actions/setup-r@v2
         with:
-          r-version: '4.2.0'
-
-      - name: Install R Dependencies
-        uses: r-lib/actions/setup-renv@v2
-        with:
-          cache-version: 1
+          use-public-rspm: true
+          
+      - name: Install R packages
+        run: |
+          R -e "install.packages(c('rmarkdown', 'tidyverse', 'GGally', 'randomNames'), repos='https://cloud.r-project.org/')"
 
       - name: Render and Publish
         uses: quarto-dev/quarto-actions/publish@v2
