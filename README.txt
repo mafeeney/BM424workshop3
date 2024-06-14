@@ -56,7 +56,7 @@ Header information for each group should be as follows:
 city_name <- "Inverkeld"
 dis_name <- "Legionellosis"
 inf_agent <- "Legionella pneumophila"
-inf_type <- "bacteria"
+inf_type <- "bact" #bact == bacteria; fun == fungi; vir == virus
 hosp_name <- "Queen Rose"
 group <- "A"
 ```

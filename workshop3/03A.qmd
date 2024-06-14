@@ -22,7 +22,7 @@ city_name <- "Inverkeld"
 hosp_name <- "Queen Rose"
 dis_name <- "Legionellosis"
 inf_agent <- "Legionella pneumophila"
-inf_type <- "bacteria"
+inf_type <- "bact"
 group <- "A"
 paper_name <- sample(c("Times", "Courier", "Express", "Chronicle", "Gazette", "Herald", "News", "Metro", "Sentinel", "Beacon", "Journal"), 1)
 
