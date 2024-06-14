@@ -99,7 +99,7 @@ times <-  sample(c("immediately", "very soon", "at once", "as soon as possible")
 <b>From:</b> `r author_data$Email[1]`
 <b>To:</b> pandemic_response@`r city_name`.co.uk 
 <b>Cc:</b> 
-<b>Subject:</b> This `r sample(adj1, 1)` Pandemic
+<b>Subject:</b> This `r adjectives` Pandemic
 <b>Date:</b> `r author_data$RandomDates[1]` `r author_data$RandomDateTime[1]`
 
 Dear Pandemic Committee,

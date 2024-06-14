@@ -14,17 +14,7 @@ Dr. Morgan Feeney, AY 2024/2025
 
 #### Workshop 3
 
-#### Workshop 4 
-
-1. 
-2. add the pages for each group to the _quarto.yml navbar
-3. Render the pages for the workshop
-
-#### Workshop 5 
-
-1. 
-2. add the pages for each group to the _quarto.yml navbar
-3. Render the pages for the workshop
+Make the necessary changes to the workshop4 and workshop5 files, as detailed in those repositories' README files.
 
 ### To add a new group:
 

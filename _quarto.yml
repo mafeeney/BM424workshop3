@@ -12,7 +12,7 @@ website:
         href: workshop3/03workshop.qmd
       - text: "Group Pages"
         menu:
-          - text: "03A"
+          - text: "Group A"
             href: workshop3/03A.qmd
       - text: "Data Analysis"
         menu: 
@@ -26,7 +26,7 @@ website:
             href: workshop3/data_analysis/Data_Deaths.qmd
           - text: "Hospital"
             href: workshop3/data_analysis/Data_Hospital.qmd
-          - text: "16S"
+          - text: "Pathogen Sequences"
             href: workshop3/data_analysis/Data_16S.qmd
     tools:
       - icon: github
@@ -44,5 +44,3 @@ format:
 
 execute:
   freeze: auto
-
-
