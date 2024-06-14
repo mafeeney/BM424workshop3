@@ -1,82 +1,372 @@
-```{r emails, echo=FALSE}
+```{r email-setup, echo=FALSE}
+# Load necessary libraries
+library(randomNames)
+library(stringr)
 
-clos1 <- c("Yours sincerely,", "Best wishes,", "Kind regards,", "All the best,", "Sincerely,", "Yours truly,", "Respectfully,")
-email1 <- c("gldk", "aptr", "bhr", "tgh", "pbr", "js", "lucy", "amd", "oirl", "jim", "ygg", "oli", "end", "lulu", "rye", "att")
-adj1 <- c("Disgraceful", "Terrible", "Horrible", "Devastating", "Sad", "Bloody")
-emotion1 <- c("outraged", "upset", "extremely vexed", "so angry", "devastated")
-sent1 <- c("As if COVID wasn't enough! Has this city not suffered enough, I ask you.", "This seems to be too much to bear on top of COVID, the cost of living crisis, and the war in Ukraine. It is just one tragedy after another.", "Too many people have already died from COVID and it seems completely cruel to have another pandemic strike our city again so soon.", "There seems to be no end to the suffering that pandemics inflict on our city in these days.", "It seems almost like the apocalypse must be upon us, with this pandemic following so close upon the heels of COVID19.", "Too many people have died and it is such a tragedy.")
-wish1 <- c("hope", "hope very much", "wish", "expect", "sincerely hope")
-state1 <- c("dreadful state of affairs", "horrible pandemic", "all of the poor people dying", "tragedy")
-time1 <- c("immediately", "very soon", "at once", "as soon as possible")
-name1 <- c("Anna", "Luke", "Siobhan", "Su", "Ailidh", "Fiona", "Graham", "Madison", "Eleanor", "Rodrigo", "Kieran", "Wilson", "Anika", "Rosemary", "Alise", "Gordon", "Roman", "Karen")
-verb1 <- c("devastate", "obliterate", "ruin", "destroy", "crush")
-business1 <- c("small coffee shop", "coffee shop", "cafe", "restaurant", "bookshop", "boutique clothing store", "records shop", "used bookstore", "toy store", "sweet shop")
-business2 <- c("The CITYNAME Shop", "Fraser & Co.", "Bella's", "Around the Corner", "Jewels")
-adj2 <- c("nearly", "almost", "virtually", "almost literally", "practically")
-conseq1 <- c("lost my business due to those pandemic lockdowns", "had to close because of all the draconian lockdowns", "went out of business", "went bankrupt", "had to shut our doors during COVID")
-sent2 <- c("I hope you realise how costly the last pandemic was for millions of people across the country, and that we can't afford another one.", "You should be ashamed to think of all the businesses that have had to close because of the coronavirus measures this city took, and all of the people who lost their jobs.", "Businesses must be free to operate, not prosecuted by some nanny state.", "Things are bad enough already with the cost of living crisis, war in Ukraine, and Brexit, we can't afford another pandemic.", "I hope you realise that you need to put businesses first now - we were unfairly forced to bear the costs of the last pandemic.", "I hope you realise how much business we have all lost in recent years, and how much businesses in this city are struggling financially.")
-subj1 <- c("Government Overreach", "Government Overstep", "Stop This Madness", "New Pandemic Measures")
-state2 <- c("awful pandemic", "terrible pandemic", "new crisis", "new pandemic", "new disease")
-conseq2 <- c("another lockdown", "a return to COVID rules", "face masks and gallons of hand sanitizer", "the draconian lockdowns you imposed during COVID", "restrictions that cripple our businesses")
-wish2 <- c("fear", "dread", "abhor the idea", "hate the idea", "am afraid")
-sent3 <- c("This last pandemic was just a typical example of what governments do when given a little too much power.", "Machiavelli said that power corrupts absolutely, and he was absolutely right - look at what happened during the last pandemic.", "I am sick and tired of government interference with my life, I have the right to go about my life without some do-gooder from a public health agency telling me that I need to wear a mask and can't visit my grandmother.", "The mental health consequences of the last pandemic were underappreciated, but very real - people suffered due to the lockdowns and children's development was affected by the wearing of face masks and the closing of schools.")
-sent4 <- c("Please do not use this disaster as another opportunity for oppressive lockdowns and government control of our lives.", "You must not allow the city to suffer through another round of lockdowns, face-masks, and other punitive restrictions that destroy people's lives.", "I hope that you will do the right thing in this time of crisis and that I will be able to vote for you again in the coming elections with a clean conscience.", "Facemasks are just the tyranny of the minority over the majority, I hope that you will not permit them again on your watch.")
-subj2 <- c("This Terrible Tragedy", "Another Terrible Loss")
-rel1 <- c("my mother-in-law", "my aunt", "my auntie", "my niece", "my nephew", "my husband's best friend", "my wife's best friend", "my sister-in-law", "my brother-in-law", "my uncle", "my granddad", "my gran", "my nana", "my nana's best friend")
-sent5 <- c("The family are all devastated as you can surely imagine.", "Words cannot begin to describe our loss.", "This is truly a tragedy.", "This is an unspeakable loss.", "The family are all devastated by this loss.", "You cannot begin to imagine the grief that we are feeling.", "This is especially terrible coming hard on the heels of all of our losses due to COVID-19.")
-sent6 <- c("I don't understand why we haven't learned how to deal with pandemics better, after all our experiences with COVID-19, I don't understand how this could have happened.", "I really wish that our government had better learned its lessons from the COVID-19 pandemic and could have prevented this terrible tragedy.", "I hope that, considering how many other families have also lost loved ones, that you and your office will be doing everything in their power to halt this pandemic and prevent more needless deaths.", "I hope that you will do everything you can to stop this pandemic so that no other families need to suffer this pain.", "I hope that you will do everything you can to stop this pandemic so that no more lives will be lost.", "I am sure that you and your office are doing your best, but I hope that in the fullness of time, there will be a public inquiry into how this pandemic was handled and why so many families have lost loved ones. Especially coming so soon after the lessons that we learned during the COVID-19 pandemic, I would have thought that this tragedy could have been prevented.")
+# Define generic variables for emails
+
+closing_phrases <- c("Yours sincerely,", "Best wishes,", "Kind regards,", "All the best,", "Sincerely,", "Yours truly,", "Respectfully,")
+
+# Generate random names for 10 authors
+author_names <- randomNames(10, which.names = "both", return.complete.data = TRUE)
+
+# Initialize an empty data frame to store names, emails, and other details
+author_data <- data.frame(
+  Name = character(0),
+  Email = character(0),
+  RandomDates = character(0),  # Initialize column for random dates
+  RandomDateTime = character(0),  # Initialize column for random date and time
+  stringsAsFactors = FALSE
+)
+
+# Iterate through each author's name to generate email addresses and add random dates
+for (i in 1:nrow(author_names)) {
+  first_name <- author_names[i, "first_name"]
+  last_name <- author_names[i, "last_name"]
+  
+  # Concatenate all last names without spaces
+  last_names_concat <- paste0(gsub(" ", "", last_name), collapse = "")
+  
+  # Choose a random domain for the email address
+  domain <- sample(c("gmail.com", "aol.com", "yahoo.com", "msn.com", "comcast.net", "mail.com", "hotmail.co.uk", "att.net"), 1)
+  
+  # Choose a random method for generating the email address
+  method <- sample(1:4, 1)  # Randomly select one of the methods
+  
+  # Initialize variable to store the email address
+  email_address <- ""
+  
+  # Generate email address based on selected method
+  if (method == 1) {
+    # Method 1: Generate a plausible email address
+    email_address <- paste0(tolower(substr(first_name, 1, 1)), tolower(substr(last_names_concat, 1, 1)), sprintf("%04d", sample(1:9999, 1)), "@", domain)
+  } else if (method == 2) {
+    # Method 2: Concatenate first and last name
+    email_address <- paste0(tolower(first_name), ".", tolower(last_names_concat), "@", domain)
+  } else if (method == 3) {
+    # Method 3: Concatenate first initial of first name with last name
+    email_address <- paste0(tolower(substr(first_name, 1, 1)), ".", tolower(last_names_concat), "@", domain)
+  } else {
+    # Method 4: Concatenate last name with a random number
+    email_address <- paste0(tolower(last_names_concat), sample(1000:9999, 1), "@", domain)
+  }
+  
+  # Append to the data frame
+  author_data <- rbind(author_data, data.frame(Name = paste(first_name, last_name),
+                                               Email = email_address,
+                                               RandomDates = NA,  # Placeholder for random dates
+                                               RandomDateTime = NA,  # Placeholder for random date and time
+                                               stringsAsFactors = FALSE))
+}
+
+# Define the workshop3_date
+workshop3_date <- as.Date("2025-01-31", format = "%Y-%m-%d")
+
+# Generate 10 random dates within 0 to 2 days before workshop3_date
+random_dates <- workshop3_date - sample(0:2, nrow(author_data), replace = TRUE)
+
+# Format the random dates
+formatted_random_dates <- format(random_dates, "%d %B %Y")
+
+# Add formatted random dates to author_data
+author_data$RandomDates <- formatted_random_dates
+
+# Generate random hours and minutes
+random_hours <- sample(1:24, nrow(author_data), replace = TRUE)
+random_minutes <- sample(0:59, nrow(author_data), replace = TRUE)
+
+# Combine random hours and minutes into HH:MM format
+random_times <- paste0(random_hours, ":", sprintf("%02d", random_minutes))
+
+# Add random times to RandomDateTime column in author_data
+author_data$RandomDateTime <- random_times
 ```
 
-Your office has recently received a great deal of correspondence regarding the pandemic in `r city_name`. A representative sample of these e-mails is shown below.
+### Emails
+
+Your committee has recently received a great deal of correspondence regarding the pandemic in `r city_name`. A representative sample of these e-mails is shown below.
+
+------------------------------------------------------------------------
+```{r email-upset, echo=FALSE}
+# Define variables to randomise e-mail content
+adjectives <- sample(c("Disgraceful", "Terrible", "Horrible", "Devastating", "Sad", "Bloody"), 1)
+angry1 <-  sample(c("outraged", "upset", "extremely vexed", "so angry", "devastated", "incandescent"), 1)
+initial_sentences <-  sample(c("As if COVID wasn't enough! Has this city not suffered enough, I ask you.", "This seems to be too much to bear on top of COVID, the cost of living crisis, and the war in Ukraine. It is just one tragedy after another.", "Too many people have already died from COVID and it seems completely cruel to have another pandemic strike our city again so soon.", "There seems to be no end to the suffering that pandemics inflict on our city in these days.", "It seems almost like the apocalypse must be upon us, with this pandemic following so close upon the heels of COVID19.", "Too many people have died and it is such a tragedy."), 1)
+hopes <-  sample(c("hope", "hope very much", "wish", "expect", "sincerely hope"), 1)
+states_of_affairs <-  sample(c("dreadful state of affairs", "horrible pandemic", "all of the poor people dying", "tragedy"), 1)
+times <-  sample(c("immediately", "very soon", "at once", "as soon as possible"), 1)
+```
+<b>From:</b> `r author_data$Email[1]`
+<b>To:</b> pandemic_response@`r city_name`.co.uk 
+<b>Cc:</b> 
+<b>Subject:</b> This `r sample(adj1, 1)` Pandemic
+<b>Date:</b> `r author_data$RandomDates[1]` `r author_data$RandomDateTime[1]`
+
+Dear Pandemic Committee,
+
+I am `r angry1` to hear about this new pandemic in `r city_name`. `r `initial_sentences`
+
+I `r wish1` that your office is going to do something about `r states_of_affairs` `r times`.
+
+`r sample(closing_phrases, 1)`<br> `r author_data$Name[1]`
+
+------------------------------------------------------------------------
+```{r email-business, echo=FALSE}
+# Define the business types and corresponding names
+business_data <- data.frame(
+  business_type = c(
+    "small coffee shop", "small coffee shop", "small coffee shop",
+    "coffee shop", "coffee shop", "coffee shop",
+    "cafe", "cafe", "cafe",
+    "restaurant", "restaurant", "restaurant",
+    "bookshop", "bookshop", "bookshop",
+    "boutique clothing store", "boutique clothing store", "boutique clothing store",
+    "records shop", "records shop", "records shop",
+    "used bookstore", "used bookstore", "used bookstore",
+    "toy store", "toy store", "toy store",
+    "sweet shop", "sweet shop", "sweet shop",
+    "bakery", "bakery", "bakery",
+    "florist", "florist", "florist",
+    "hardware store", "hardware store", "hardware store",
+    "pet store", "pet store", "pet store",
+    "art gallery", "art gallery", "art gallery",
+    "ice cream parlor", "ice cream parlor", "ice cream parlor",
+    "fitness studio", "fitness studio", "fitness studio",
+    "yoga studio", "yoga studio", "yoga studio",
+    "organic grocery store", "organic grocery store", "organic grocery store",
+    "electronics store", "electronics store", "electronics store",
+    "sports equipment store", "sports equipment store", "sports equipment store",
+    "spa", "spa", "spa",
+    "beauty salon", "beauty salon", "beauty salon",
+    "jewelry store", "jewelry store", "jewelry store",
+    "vintage clothing store", "vintage clothing store", "vintage clothing store"
+  ),
+  business_name = c(
+    "The Stop and Shop", "Cornerstone Cafe", "The Daily Grind",
+    "Fraser & Co.", "Java Junction", "Bean There",
+    "Bella's", "Cafe Delight", "Brewed Awakenings",
+    "Around the Corner", "The Gourmet Spot", "Dine Divine",
+    "Jewels", "The Book Nook", "Chapter One",
+    "Bella Boutique", "Vintage Vogue", "Retro Chic",
+    "Vinyl Paradise", "Retro Records", "Spin City",
+    "Second Chances", "Read Again", "Once More Books",
+    "Toy Town", "Kidz Korner", "Playtime Palace",
+    "Sweet Treats", "Candy Corner", "Sugar Rush",
+    "Baker's Dozen", "Bread and Butter", "The Sweet Spot",
+    "Blossom Boutique", "Flower Power", "Petal Pushers",
+    "Tool Time", "Handyman's Haven", "Fix-It Fast",
+    "Paws and Claws", "Pet Paradise", "Furry Friends",
+    "Artisan's Alley", "Gallery Gaze", "Creative Corner",
+    "Cool Scoops", "Ice Cream Dreams", "Frosty Delights",
+    "Fit & Fab", "Sweat It Out", "The Fitness Hub",
+    "Zen Zone", "Namaste Studio", "Peaceful Poses",
+    "Green Grocer", "Organic Oasis", "Nature's Basket",
+    "Tech Haven", "Gadget World", "Electro Emporium",
+    "Game On Sports", "Sporty Goods", "Active Life",
+    "Serenity Spa", "Bliss Spa", "Relaxation Retreat",
+    "Glamour Lounge", "Beauty Bliss", "The Makeover Place",
+    "Golden Gems", "Sparkle & Shine", "Jewelry Junction",
+    "Retro Threads", "Vintage Vogue", "The Thrift Shop"
+  ),
+  stringsAsFactors = FALSE
+)
+# Select a random index
+
+# Generate a random index
+random_index <- sample(1:nrow(business_data), 1)
+
+# Extract the business type and name using the random index
+business_type1 <- business_data$business_type[random_index]
+business_name1 <- business_data$business_name[random_index]
+
+# Add a second business and proprietor
+relationship <- sample(c("friend", "neighbour", "associate", "partner", "colleague"), 1)
+owner <- randomNames(which.names = "first")
+random_index2 <- sample(1:nrow(business_data), 1)
+business_type2 <- business_data$business_type[random_index2]
+business_name2 <- business_data$business_name[random_index2]
+
+# Define variables to randomise e-mail content
+Disaster <- sample(c("Disaster", "Catastrophe", "Tragedy", "Nightmare"), 1)
+devastate <- sample(c("devastate", "obliterate", "ruin", "destroy", "crush"), 1)
+pandemic_consequences <- sample(c("nearly lost my business due to those pandemic lockdowns", "had to close because of all the draconian lockdowns", "almost went out of business", "went bankrupt", "had to shut our doors and lost huge amounts of money"))
+business_concerns <- sample(c("I hope you realise how costly the last pandemic was for millions of people across the country, and that we can't afford another one.", "You should be ashamed to think of all the businesses that have had to close because of the coronavirus measures this city took, and all of the people who lost their jobs.", "Businesses must be free to operate, not prosecuted by some nanny state.", "Things are bad enough already with the cost of living crisis, war in Ukraine, and the crisis in the Middle East, we can't afford another pandemic.", "I hope you realise that you need to put businesses first now - we were unfairly forced to bear the costs of the last pandemic.", "I hope you realise how much business we have all lost in recent years, and how much businesses in this city are struggling financially."), 1)
+wish1 <- sample(c("hope", "expect", "demand", "pray"), 1)
+state <- sample(c("the pandemic", "this state of affairs", "this dreadful catastrophe", "this situation"), 1)
+unaffordable <- sample(c("another lockdown", "a return to COVID rules", "face masks and gallons of hand sanitizer", "the draconian lockdowns you imposed during COVID", "restrictions that cripple our businesses"), 1)
+```
+<b>From:</b> `r author_data$Email[2]`
+<b>To:</b> pandemic_response@`r city_name`.co.uk 
+<b>Cc:</b> BusinessSupport@`r city_name`.co.uk 
+<b>Subject:</b> Pandemic `r Disaster` for Businesses
+<b>Date:</b> `r author_data$RandomDates[2]` `r author_data$RandomDateTime[2]`
+
+Dear Pandemic Response Committee,
+
+This new pandemic in `r city_name` has the potential to `r devastate` our businesses. I run a `r business_type1` on the high street and `r pandemic_consequences[1]` due to COVID. Similarly, my `r relationship` `r owner`, who runs `rbusiness_name2`, `r pandemic_consequences[2]`.
+
+`r business_concerns`
+
+I `r wish1` that your office is going to do something about `r state` `r sample(time1, 1)`, keeping in mind the economic interests of businesses in our city and the fact that we cannot afford `r unaffordable`.<br>
+
+`r sample(closing_phrases, 1)`<br> `r author_data$Name[2]` -- (`r business_name1`, proprietor)
+
+
+------------------------------------------------------------------------
+```{r email-overreach, echo=FALSE}
+# Define variables to randomise e-mail content
+subjects_government <- sample(c("Government Overreach", "Government Overstep", "Stop This Madness", "New Pandemic Measures"), 1)
+fear1 <- sample(c("fear", "dread", "abhor the idea", "hate the idea", "am afraid"), 1)
+pandemic_government_concerns <- sample(c("This last pandemic was just a typical example of what governments do when given a little too much power.", "Machiavelli said that power corrupts absolutely, and he was absolutely right - look at what happened during the last pandemic.", "I am sick and tired of government interference with my life, I have the right to go about my life without some do-gooder from a public health agency telling me that I need to wear a mask and can't visit my grandmother.", "The mental health consequences of the last pandemic were underappreciated, but very real - people suffered due to the lockdowns and children's development was affected by the wearing of face masks and the closing of schools."), 1)
+pandemic_requests <- sample(c("Please do not use this disaster as another opportunity for oppressive lockdowns and government control of our lives.", "You must not allow the city to suffer through another round of lockdowns, face-masks, and other punitive restrictions that destroy people's lives.", "I hope that you will do the right thing in this time of crisis and that I will be able to vote for you again in the coming elections with a clean conscience.", "Facemasks are just the tyranny of the minority over the majority, I hope that you will not permit them again on your watch."), 1)
+```
+<b>From:</b> `r author_data$Email[3]`
+<b>To:</b> pandemic_response@`r city_name`.co.uk 
+<b>Cc:</b> 
+<b>Subject:</b> `r subjects_government`
+<b>Date:</b> `r author_data$RandomDates[3]` `r author_data$RandomDateTime[3]`
+
+Dear Pandemic Response Busybodies,
+
+I `r fear1` that you and your office are going to use this new pandemic as yet another excuse for government overreach into citizens' lives. `r pandemic_government_concerns`
+
+`r pandemic_requests`
+
+`r sample(closing_phrases, 1)`<br> `r author_data$Name[3]` (a concerned voter)
 
 ------------------------------------------------------------------------
 
-<b>From:</b> `r sample(email1, 1)`\_`r sample(1000:100000, size=1)`@gmail.com <br> <b>To:</b> provost\@`r city_name`.co.uk <br> <b>Cc:</b> <b>Subject:</b> This `r sample(adj1, 1)` Pandemic
+```{r email-tragedy, echo=FALSE}
+# Define variables to randomise e-mail content
+subject_personal <- sample(c("This Terrible Tragedy", "Another Terrible Loss", "Devastating Pandemic", "Tragic Loss"), 1)
+relative <- sample(c("my mother-in-law", "my aunt", "my auntie", "my niece", "my nephew", "my husband's best friend", "my wife's best friend", "my sister-in-law", "my brother-in-law", "my uncle", "my granddad", "my gran", "my nana", "my nana's best friend"), 1)
+personal_tragedy_statement <- sample(c("The family are all devastated as you can surely imagine.", "Words cannot begin to describe our loss.", "This is truly a tragedy.", "This is an unspeakable loss.", "The family are all devastated by this loss.", "You cannot begin to imagine the grief that we are feeling.", "This is especially terrible coming hard on the heels of all of our losses due to COVID-19."))
+personal_tragedy_request <- sample(c("I don't understand why we haven't learned how to deal with pandemics better, after all our experiences with COVID-19, I don't understand how this could have happened.", "I really wish that our government had better learned its lessons from the COVID-19 pandemic and could have prevented this terrible tragedy.", "I hope that, considering how many other families have also lost loved ones, that you and your office will be doing everything in their power to halt this pandemic and prevent more needless deaths.", "I hope that you will do everything you can to stop this pandemic so that no other families need to suffer this pain.", "I hope that you will do everything you can to stop this pandemic so that no more lives will be lost.", "I am sure that you and your office are doing your best, but I hope that in the fullness of time, there will be a public inquiry into how this pandemic was handled and why so many families have lost loved ones. Especially coming so soon after the lessons that we learned during the COVID-19 pandemic, I would have thought that this tragedy could have been prevented."), 1)
 
-Dear Provost,
+```
 
-I am `r sample(emotion1, 1)` to hear about this new pandemic in `r city_name`. `r sample(sent1, 1)`
+<b>From:</b> `r author_data$Email[4]`
+<b>To:</b> pandemic_response@`r city_name`.co.uk 
+<b>Cc:</b> 
+<b>Subject:</b> `r subject_personal` 
+<b>Date:</b> `r author_data$RandomDates[4]` `r author_data$RandomDateTime[4]`
 
-I `r sample(wish1, 1)` that your office is going to do something about `r sample(state1, 1)` `r sample(time1, 1)`.
+Dear Pandemic Response Committee,
 
-`r sample(clos1, 1, replace=TRUE)`<br> `r sample(name1, 1)`
+I have just learned that my `r relative` has passed away due to the new pandemic in `r city_name`. `r personal_tragedy_statement[1])`
 
-------------------------------------------------------------------------
+`r sample(personal_tragedy_statement[2])`
 
-<b>From:</b> `r sample(email1, 1)`\_`r sample(1000:100000, size=1)`@gmail.com <br> <b>To:</b> provost\@`r city_name`.co.uk <br> <b>Cc:</b> city-council\@`r city_name`.co.uk <br> <b>Subject:</b> Pandemic Disaster for Businesses
+`r personal_tragedy_request`
 
-Dear Provost,
+`r sample(closing_phrases, 1)`<br> `r author_data$Name[4]`
 
-This new pandemic in `r city_name` has the potential to `r sample(verb1, 1)` our businesses. I run a `r sample(business1, 1)` on the high street and `r sample(adj2, 1)` `r sample(conseq1, 1)` due to COVID.
+### News/Blog Posts
 
-`r sample(sent2, 1)`
-
-I `r sample(wish1, 1)` that your office is going to do something about `r sample(state1, 1)` `r sample(time1, 1)`, keeping in mind the economic interests of businesses in our city and the fact that we cannot afford `r sample(conseq2, 1)`.<br>
-
-`r sample(clos1, 1, replace=TRUE)`<br> `r sample(name1, 1)` (`r sample(business2, 1)`, proprietor)
-
-------------------------------------------------------------------------
-
-<b>From:</b> `r sample(email1, 1)`\_`r sample(1000:100000, size=1)`@gmail.com <br> <b>To:</b> provost\@`r city_name`.co.uk <br> <b>Cc:</b> city-council\@`r city_name`.co.uk <br> <b>Subject:</b> `r sample(subj1, 1)`
-
-Dear Provost,
-
-I `r sample(wish2, 1)` that you and your office are going to use this new pandemic as yet another excuse for government overreach into citizens' lives. `r sample(sent3, 1)`
-
-`r sample(sent4, 1)`
-
-`r sample(clos1, 1, replace=TRUE)`<br> `r sample(name1, 1)` (a concerned voter)
+Your committee has also been monitoring news and published blog posts about the pandemic in `r city_name`, in order to better gauge public opinion. A representative sample of these is shown below.
 
 ------------------------------------------------------------------------
+```{r news-PH, echo=FALSE}
+# Define variables for randomizing content
+positive_adjectives <- sample(c("effective", "successful", "promising", "positive", "encouraging"), 1)
+expert_titles <- sample(c("epidemiologist", "public health expert", "infectious disease specialist", "health policy analyst"), 1)
+verifications <- sample(c("confirms", "supports", "validates", "reinforces"), 1)
+protection_methods <- sample(c("mask mandates", "social distancing", "quarantine measures", "hygiene protocols"), 1)
+reliability_phrases <- sample(c("Trust in science and data is paramount", "Relying on data-driven decisions is essential", "Scientific evidence is our best guide"), 1)
+newspaper_titles <- sample(c("The Health Gazette", "Public Health and Peer Review", "The Daily Medical Digest", "Health Insights", "Wellness Weekly"), 1)
+data_sources <- sample(c("infection rates", "hospitalizations", "vaccination coverage", "testing results"), 1)
+firstname <- randomNames(which.names = "first")
+author_name <- randomNames(which.names = "last")
+topic <- sample(c("epidemiology", "public health", "infectious diseases", "health policy", "microbiology", "science and technology", "health and disease"), 1)
 
-<b>From:</b> `r sample(email1, 1)`\_`r sample(1000:100000, size=1)`@gmail.com <br> <b>To:</b> provost\@`r city_name`.co.uk <br> <b>Cc:</b> city-council\@`r city_name`.co.uk <br> <b>Subject:</b>
+# Generate and format the interview date to 
+three_days_before <- workshop3_date - 3
+interview_date <- format(three_days_before, "%A, %d/%m/%Y")
+```
 
-Dear Provost,
+<b>Data-Driven Decisions: How Public Health Measures are Mitigating the Pandemic in `r city_name`</b>
 
-I have just learned that my `r sample(rel1, 1)` has passed away due to the new pandemic in `r city_name`. `r sample(sent5, 1)`
+Published in: `r newspaper_titles`
+<b>By:</b> `r author_data$Name[4]`
+<b>Date:</b> `r author_data$RandomDates[4]`
 
-`r sample(sent5, 1)`
+As the pandemic continues to unfold in `r city_name`, public health experts emphasize the importance of data-driven decisions to protect communities and save lives. By analyzing data from various sources, including `r data_sources`, health officials can implement targeted measures to curb the spread of the disease.
 
-`r sample(sent6, 1)`
+Dr. `r firstname author_name`, a leading `r expert_titles`, explains, "Our approach relies on robust data analysis to identify hotspots and allocate resources efficiently. By understanding the patterns of transmission, we will be able to introduce interventions that are both `r positive_adjectives` and minimally disruptive."
 
-`r sample(clos1, 1, replace=TRUE)`<br> `r sample(name1, 1)`
+Recent data has shown that areas with higher vaccination rates are experiencing significantly lower infection rates and hospitalizations. "Vaccination will be our most powerful tool," says `r author_name`. "The data clearly `r verifications` for similar outbreaks that there is a correlation between implementation of public health measures and reduced severity of the disease."
+
+These public health measures, such as `r protection_methods`, will be crucial while new vaccines or treatments are developed and rolled out. "These interventions are based on solid evidence," notes `r author_name`. "They help to protect the vulnerable populations who might not yet be vaccinated or might have underlying health conditions."
+
+The public is encouraged to stay informed through reliable sources and adhere to guidelines issued by health authorities. "`r reliability_phrases`," concludes `r author_name`. "Together, we can navigate through this pandemic by making informed, sensible decisions."
+
+<b>Credits:</b> `r author_data$Name[4]` has been writing for the `r newspaper_titles` for the past `r sample(2:12, 1)` years, with a primary focus on `r topic`. `r author_data$Name[4] interviewed `r firstname author_name` on `r interview_date`.
+------------------------------------------------------------------------
+```{r news-doom, echo=FALSE}
+# Define variables for randomizing content
+negative_adjectives <- sample(c("unprecedented", "catastrophic", "devastating", "terrifying", "horrific"), 1)
+grim <- sample(c("grim", "terrible", "threatening", "bleak", "gloomy", "dark", "dreary"))
+fear_phrases <- sample(c("teetering on the edge", "spiraling out of control", "on the brink of collapse", "descending into chaos"), 1)
+end_days <- sample(c("end days", "apocalypse", "end times"), 1)
+crisis_words <- sample(c("nightmare", "disaster", "crisis", "catastrophe"), 1)
+dr_name <- randomNames(which.names = "last")
+dr_descriptions <- sample(c("frontline doctor", "emergency room physician", "critical care specialist"), 1)
+worse_phrases <- sample(c("worse", "more dire", "more hopeless", "more critical"), 1)
+mutations <- sample(c("mutating", "evolving", "becoming more aggressive", "becoming more deadly"), 1)
+scary_sources <- sample(c("The Daily Times", "The Morning Herald", "The Evening Standard", "The Chronicle", "The Gazette", "The Observer", "The Daily News", "The Tribune", "The Journal", "The Post", "The Courier", "The Sentinel", "The Advocate", "The Beacon", "The Bulletin", "The Herald", "The Register", "The Dispatch", "The Press", "The Globe"), 1)
+scary_projections <- sample(c("millions more could succumb", "the death toll could double", "the pandemic could last for years", "the virus could wipe out entire communities"), 1)
+survival_struggles <- sample(c("struggle for survival", "fight for our lives", "daily battle for safety", "constant state of fear"), 1)
+mother_name <- randomNames(gender = 1, which.names = "first")
+mother_last <- randomNames(gender = 1, which.names = "last")
+```
+<b>The Pandemic Apocalypse: Are We on the Brink of Collapse?</b>
+--`r author_data$Name[5]`, senior health correspondent for `r scary_sources`
+`r author_data$RandomDates[5]`
+
+The world is `r fear_phrases` as a new pandemic hits `r city_name`. This `r negative_adjectives` pandemic is coming right after COVID-19 and monkey pox, amongst other diseases, have already taken an outrageous toll on the citizens of `r city_name` and nearby cities. It seems like the situation is spiraling out of control. With infection rates skyrocketing and new, more deadly variants emerging, experts warn that we could be facing the `r end_days`.
+
+Hospitals are soon going to be overwhelmed, unable to cope with the sheer volume of critically ill patients. "We've never seen anything like this," says Dr. `r dr_name`, a `r dr_descriptions` at the `r hosp_name`. "After years and years of harsh cuts to the NHS, we're in a terrible state. We're running out of `r sample(c("ventilators,", "beds,", "oxygen,", "PPE,", "drugs,"), 2)` and even basic medical supplies. It's a `r crisis_words` scenario."
+
+The death toll is climbing at an alarming rate, with `r grim[1]` projections suggesting that `r scary_projections`. "We're losing this battle," states Dr. `r dr_name`. "Without immediate and drastic action, the situation will only get `r worse_phrases`." It is by no means clear that `r city_name` will be able to contain the pandemic.
+
+Panic is spreading as quickly as the virus itself. People are `r sample(c("hoarding supplies,", "stockpiling PPE,", "panic buying disinfectant,", "refusing to leave their homes,", "stocking up on canned foods,"), 2)` and fearing the worst. "I've never been so scared in my life as I was during the COVID lockdowns," says `r mother_name mother_last`, a mother of `r sample(c("two", "three", "four"), 1)`. "It brings it all back. We don't know what tomorrow will bring. Every day is a `r survival_struggles`."
+
+The future looks `r grim[2]`, with no end in sight. "This is just the beginning," warns Dr. `r dr_name`. "The pathogen is `r mutations`, making it harder to control. We'll be in for a long, dark spring." Other experts have noted that due to global warming, pandemics are likely to occur more frequently and be more severe in a warming world. 
+
+As fear and uncertainty grip the world, one thing is clear: we must prepare for the worst. The pandemic apocalypse is upon us, and there is no turning back.
+------------------------------------------------------------------------
+```{r news-AV, echo=FALSE}
+# Define variables for randomizing content
+intro_joke <- sample(c("Wake up, people!", "Buckle up, buttercups!", "Hold on to your hats!", "Get ready for this!", "Brace yourselves!", "Here's the kicker!", "Listen up, folks!", "Fasten your seatbelts!", "You won't believe this!", "Prepare to be shocked!", "Hold tight, everyone!"), 1)
+hoax_phrases <- sample(c("pandemic hoax", "scamdemic", "plandemic", "fake pandemic"), 1)
+control_phrases <- sample(c("control your lives", "make billions", "force compliance", "manipulate the masses"), 1)
+fear_phrases <- sample(c("fearmongering", "propaganda", "deception", "lies"), 1)
+chemicals <- sample(c("harmful chemicals", "toxic substances", "unknown ingredients", "dangerous compounds"), 1)
+safety_phrases <- sample(c("untested", "experimental", "rushed", "unsafe"), 1)
+alternative_phrases <- sample(c("Natural immunity", "Vitamin D", "Herbal remedies", "Healthy lifestyle"), 1)
+antivax_blog_titles <- sample(c("The Truth Exposed", "Freedom Health Blog", "Natural Health Warriors", "The Skeptic's Voice", "Health Freedom Network"), 1)
+antivax_claims <- sample(c("no worse than the common flu", "a complete fabrication", "just a scare tactic", "overblown by the media"), 1)
+side_effects <- sample(c("all kinds of side effects", "serious health issues", "long-term consequences", "dangerous reactions"), 1)
+next_article <- sample(c("a deep dive into Big Pharma's Real Motivations", "an expose on the latest vaccine trial", "a proper unveiling of the hidden dangers of vaccine ingredients", "debunking the myths surrounding vaccine safety", "an examination of the link between vaccines and chronic illness", "exploring ALL the benefits of echinacea", "challenging the narrative on herd immunity"), 1)
+```
+
+<b>The Pandemic Hoax: Why You Shouldn't Fall for the Vaccine Scam</b>
+- `r author_data$Name[6]`
+- `r author_data$RandomDates[6]`
+Published in: `r antivax_blog_titles`
+
+`r intro_joke` There's a new "pandemic" in `r city_name`. This one is supposedly due to something called `r inf_agent` (according to something the "experts" call "germ theory" and which has been proven to be another Big Fat Lie.)
+
+The so-called "`r hoax_phrases`" is nothing but a ploy by the government and Big Pharma to `r control_phrases` and make billions off their poisonous vaccines. Don't be fooled by their `r fear_phrases` tactics!
+
+First off, the virus is `r antivax_claims`. The numbers are inflated to scare you into compliance. Have you noticed how quickly they came up with new "COVID" "variants" every time people started questioning their narrative? The new pandemic in `r city_name` is just more of the same. It's all a big lie to keep you in fear and under control.
+
+And the vaccines? Don't even get me started. They're filled with `r chemicals` and `r safety_phrases` ingredients that have never been tested long-term. What even is this SO-CALLED ribonucleic acid? Why do you think they're pushing so hard to get everyone jabbed? It's not about your health, it's about making money and keeping you obedient.
+
+People who've taken the vaccine are reporting `r side_effects`, but the media won't tell you that. They're in on it too! Censorship is rampant, and anyone who dares to speak the truth is silenced. Ask yourself why they're so desperate to shut down any dissenting voices.
+
+`r alternative_phrases` is the way to go. Boost your immune system with vitamins, a healthy diet, and regular exercise. Don't let them inject you with their toxic concoctions. Do your own research and think for yourself. The truth is out there if you look beyond the mainstream propaganda.
+
+Don't be a sheep. Stand up for your rights and say no to the vaccine scam. Your health and freedom depend on it!
+
+[Keep watching this space - we'll keep you informed on all the latest health news and help keep you healthy! Coming up next week - `r next_article`!]
