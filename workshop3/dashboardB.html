@@ -91,24 +91,41 @@ ul.task-list li input[type="checkbox"] {
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-workshop-3" role="button" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Workshop 3</span>
-    </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-workshop-3">    
-        <li>
-    <a class="dropdown-item" href="../workshop3/03workshop.html">
- <span class="dropdown-text">Workshop 3–Overview</span></a>
+  <li class="dropdown-header">
+ <span class="menu-text">BM424 MyPlace</span></li>
+  <li class="nav-item">
+    <a class="nav-link" href="../workshop3/03workshop.html"> 
+<span class="menu-text">Workshop Overview/Instructions</span></a>
   </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-group-pages" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Group Pages</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-group-pages">    
         <li>
     <a class="dropdown-item" href="../workshop3/03A.html">
  <span class="dropdown-text">Workshop 3: Group A</span></a>
   </li>  
     </ul>
   </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-data-analysis" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Data Analysis</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-data-analysis">    
+        <li class="dropdown-header">Data_Demographics.qmd</li>
+        <li class="dropdown-header">Data_Polling.qmd</li>
+        <li class="dropdown-header">Data_Budget.qmd</li>
+        <li class="dropdown-header">Data_Deaths.qmd</li>
+        <li class="dropdown-header">Data_Hospital.qmd</li>
+        <li class="dropdown-header">Data_16S.qmd</li>
+    </ul>
+  </li>
 </ul>
           </div> <!-- /navcollapse -->
           <div class="quarto-navbar-tools">
+    <a href="https://github.com/mafeeney/BM424workshop3" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-github"></i></a>
+    <a href="../morgan.feeney@strath.ac.uk" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-envelope"></i></a>
 </div>
       </div> <!-- /container-fluid -->
     </nav>
@@ -140,8 +157,8 @@ ul.task-list li input[type="checkbox"] {
 <div class="bslib-grid-item html-fill-item bslib-grid" data-layout="fill" style="display: grid; grid-template-rows: minmax(3em, 1fr) minmax(3em, max-content) minmax(3em, max-content) minmax(3em, max-content) minmax(3em, 1fr) minmax(3em, max-content) minmax(3em, max-content) minmax(3em, 1fr) minmax(3em, max-content) minmax(3em, max-content) minmax(3em, 1fr) minmax(3em, max-content) minmax(3em, max-content); grid-auto-columns: minmax(0, 1fr);">
 <div class="card bslib-card html-fill-container" data-bslib-card-init="" data-require-bs-caller="card()" data-full-screen="false">
 <div class="card-body html-fill-item html-fill-container">
-<p>The Queen Rose, built in 2011, is the main hospital in Inverkeld.</p>
-<p>The Queen Rose has units specialising in coronary care, gastroenterology, radiology, gynecology and an ear, nose, and throat clinic.</p>
+<p>The Queen Rose, built in 2013, is the main hospital in Inverkeld.</p>
+<p>The Queen Rose has units specialising in coronary care, paediatric care, maternity care, oncology and an ear, nose, and throat clinic.</p>
 <div class="quarto-figure quarto-figure-center html-fill-item html-fill-container">
 <figure class="figure">
 <p><img src="images/hospitalA.jpg" class="img-fluid figure-img"></p>
@@ -168,7 +185,7 @@ grid-auto-rows: minmax(0, 1fr);">
 Hospital beds (general)
 </p>
 <p class="value-box-value">
-102
+166
 </p>
 </div>
 </div>
@@ -184,7 +201,7 @@ Hospital beds (general)
 Hospital beds (ICU)
 </p>
 <p class="value-box-value">
-15
+19
 </p>
 </div>
 </div>
@@ -200,7 +217,7 @@ Hospital beds (ICU)
 Isolation beds
 </p>
 <p class="value-box-value">
-9
+10
 </p>
 </div>
 </div>
@@ -220,7 +237,7 @@ grid-auto-rows: minmax(0, 1fr);">
 Average bed occupancy (%)
 </p>
 <p class="value-box-value">
-89
+88
 </p>
 </div>
 </div>
@@ -252,7 +269,7 @@ Average ICU bed occupancy (%)
 Average isolation bed occupancy (%)
 </p>
 <p class="value-box-value">
-98
+94
 </p>
 </div>
 </div>
@@ -272,7 +289,7 @@ grid-auto-rows: minmax(0, 1fr);">
 Number of hospital staff
 </p>
 <p class="value-box-value">
-82
+100
 </p>
 </div>
 </div>
@@ -288,7 +305,7 @@ Number of hospital staff
 Number of hospital support staff
 </p>
 <p class="value-box-value">
-15
+24
 </p>
 </div>
 </div>
@@ -304,7 +321,7 @@ Number of hospital support staff
 Clinical micro lab capacity (avg. # tests/month)
 </p>
 <p class="value-box-value">
-1229
+1325
 </p>
 </div>
 </div>
@@ -332,7 +349,7 @@ grid-auto-rows: minmax(0, 1fr);">
 </div>
 <div class="bslib-grid" style="display: grid; grid-template-columns: minmax(3em, 1fr) minmax(3em, 1fr) minmax(3em, 1fr);
 grid-auto-rows: minmax(0, 1fr);">
-<div class="card valuebox cell bslib-card html-fill-container bslib-value-box bg-primary" data-bslib-card-init="" data-require-bs-caller="card()">
+<div class="card valuebox cell bslib-card html-fill-container bslib-value-box bg-secondary" data-bslib-card-init="" data-require-bs-caller="card()">
 <div class="card-body html-fill-item html-fill-container">
 <div class="html-fill-item html-fill-container value-box-grid">
 <div class="value-box-area">
@@ -422,9 +439,9 @@ grid-auto-rows: minmax(0, 1fr);">
 <div class="card-body html-fill-item html-fill-container">
 <p>The Queen Rose hospital strives to meet stringent targets for infection control and antibiotic stewardship to ensure patient safety and combat antimicrobial resistance. Infection control protocols are critical in maintaining high standards of hygiene and patient care. Similarly, antibiotic stewardship programs are essential for optimizing the use of antimicrobials, thereby reducing the risk of resistance and ensuring effective treatments for future generations.</p>
 <ul>
-<li><p>There were 5 more hospital-acquired MRSA infections in 2024 than there were in 2023.</p></li>
-<li><p>There were 4 more hospital-acquired <em>Clostridiodes difficile</em> infections in 2024 than there were in 2023.</p></li>
-<li><p>There were 4 more hospital-acquired <em>Candida auris</em> infections in 2024 than there were in 2023.</p></li>
+<li><p>There were 2 more hospital-acquired MRSA infections in 2024 than there were in 2023.</p></li>
+<li><p>There was 1 fewer hospital-acquired <em>Clostridiodes difficile</em> infection in 2024 than there were in 2023.</p></li>
+<li><p>There were 7 more hospital-acquired <em>Candida auris</em> infections in 2024 than there were in 2023.</p></li>
 </ul>
 </div>
 <bslib-tooltip placement="auto" bsoptions="[]" data-require-bs-version="5" data-require-bs-caller="tooltip()">
@@ -447,23 +464,23 @@ grid-auto-rows: minmax(0, 1fr);">
 Number of hospital-acquired MRSA cases (this year)
 </p>
 <p class="value-box-value">
-6
+7
 </p>
 </div>
 </div>
 </div>
-<script data-bslib-card-init="">bslib.Card.initializeAllCards();</script></div><div class="card valuebox cell bslib-card html-fill-container bslib-value-box bg-danger showcase-left-center" data-bslib-card-init="" data-require-bs-caller="card()">
+<script data-bslib-card-init="">bslib.Card.initializeAllCards();</script></div><div class="card valuebox cell bslib-card html-fill-container bslib-value-box bg-success showcase-left-center" data-bslib-card-init="" data-require-bs-caller="card()">
 <div class="card-body html-fill-item html-fill-container">
-<div data-icon="arrow-up-right" class="html-fill-item html-fill-container value-box-grid">
+<div data-icon="arrow-down-right" class="html-fill-item html-fill-container value-box-grid">
 <div class="value-box-showcase html-fill-item html-fill-container">
 
-<i class="bi bi-arrow-up-right"></i></div>
+<i class="bi bi-arrow-down-right"></i></div>
 <div class="value-box-area">
 <p class="value-box-title">
 Number of hospital-acquired Clostridiodes difficile cases (this year)
 </p>
 <p class="value-box-value">
-6
+8
 </p>
 </div>
 </div>
@@ -499,7 +516,7 @@ grid-auto-rows: minmax(0, 1fr);">
 % of antibiotic prescriptions judged appropriate by an AMR steward
 </p>
 <p class="value-box-value">
-83
+88
 </p>
 </div>
 </div>
@@ -515,12 +532,12 @@ grid-auto-rows: minmax(0, 1fr);">
 Antibiotic Descalation rate (% of prescriptions switched from broad to narrow-spectrum antibiotics)
 </p>
 <p class="value-box-value">
-18
+17
 </p>
 </div>
 </div>
 </div>
-<script data-bslib-card-init="">bslib.Card.initializeAllCards();</script></div><div class="card valuebox cell bslib-card html-fill-container bslib-value-box bg-success showcase-left-center" data-bslib-card-init="" data-require-bs-caller="card()">
+<script data-bslib-card-init="">bslib.Card.initializeAllCards();</script></div><div class="card valuebox cell bslib-card html-fill-container bslib-value-box bg-warning showcase-left-center" data-bslib-card-init="" data-require-bs-caller="card()">
 <div class="card-body html-fill-item html-fill-container">
 <div data-icon="exclamation-diamond" class="html-fill-item html-fill-container value-box-grid">
 <div class="value-box-showcase html-fill-item html-fill-container">
@@ -531,7 +548,7 @@ Antibiotic Descalation rate (% of prescriptions switched from broad to narrow-sp
 Prevalence of MDR-resistant organisms (% isolated)
 </p>
 <p class="value-box-value">
-52
+34
 </p>
 </div>
 </div>
@@ -544,7 +561,7 @@ grid-auto-rows: minmax(0, 1fr);">
 <div class="card-body html-fill-item html-fill-container">
 <p>The Queen Rose monitors the prevalence of COVID-19 and other viruses in the community to ensure they are prepared for potential surges in patient admissions, enabling them to allocate resources and staff efficiently. By tracking these trends, the hospital can implement timely public health interventions and provide accurate information to the community to mitigate the spread of infections. Additionally, continuous monitoring helps in identifying emerging outbreaks early, allowing for a rapid response that minimizes the impact on public health and healthcare services.</p>
 <ul>
-<li><p>There were 26 fewer COVID-19 cases this week than in the previous week.</p></li>
+<li><p>There were 21 more COVID-19 cases this week than in the previous week.</p></li>
 <li><p>We are seeing an increase in infections caused by other respiratory viruses (e.g., influenza, adenovirus, rhinovirus, RSV).</p></li>
 </ul>
 </div>
@@ -557,7 +574,7 @@ grid-auto-rows: minmax(0, 1fr);">
 </div>
 <div class="bslib-grid" style="display: grid; grid-template-columns: minmax(3em, 1fr) minmax(3em, 1fr);
 grid-auto-rows: minmax(0, 1fr);">
-<div class="card valuebox cell bslib-card html-fill-container bslib-value-box bg-danger showcase-left-center" data-bslib-card-init="" data-require-bs-caller="card()">
+<div class="card valuebox cell bslib-card html-fill-container bslib-value-box bg-success showcase-left-center" data-bslib-card-init="" data-require-bs-caller="card()">
 <div class="card-body html-fill-item html-fill-container">
 <div data-icon="virus" class="html-fill-item html-fill-container value-box-grid">
 <div class="value-box-showcase html-fill-item html-fill-container">
@@ -568,7 +585,7 @@ grid-auto-rows: minmax(0, 1fr);">
 Number of COVID-19 cases (weekly)
 </p>
 <p class="value-box-value">
-170
+207
 </p>
 </div>
 </div>
@@ -584,7 +601,7 @@ Number of COVID-19 cases (weekly)
 Number of other respiratory virus infections (weekly)
 </p>
 <p class="value-box-value">
-99
+59
 </p>
 </div>
 </div>
@@ -604,7 +621,7 @@ grid-auto-rows: minmax(0, 1fr);">
 SARS-CoV2 vaccination rate (booster campaign)
 </p>
 <p class="value-box-value">
-64
+63
 </p>
 </div>
 </div>
@@ -620,7 +637,7 @@ SARS-CoV2 vaccination rate (booster campaign)
 Childhood vaccination rate (DTaP/IPV/Hib/HepB)
 </p>
 <p class="value-box-value">
-96
+93
 </p>
 </div>
 </div>

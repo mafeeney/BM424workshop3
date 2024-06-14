@@ -305,7 +305,7 @@ globalThis.qwebrCustomizedWebROptions = {
 };
 
 // Store cell data
-globalThis.qwebrCellDetails = [{"code":"\nlibrary(ggplot2)\nlibrary(tidyverse)","id":1,"options":{"fig-height":5,"warning":"true","editor-font-scale":1,"read-only":"false","classes":"","context":"setup","comment":"","out-height":"","message":"true","out-width":"700px","editor-quick-suggestions":"false","autorun":"true","label":"unnamed-chunk-1","output":"true","fig-width":7,"editor-max-height":"","dpi":72,"fig-cap":"","results":"markup"}},{"code":"# Plot your data by entering code in this cell","id":2,"options":{"fig-height":5,"warning":"true","editor-font-scale":1,"read-only":"false","classes":"","context":"interactive","comment":"","out-height":"","message":"true","out-width":"700px","editor-quick-suggestions":"false","autorun":"false","label":"unnamed-chunk-2","output":"true","fig-width":7,"editor-max-height":"","dpi":72,"fig-cap":"","results":"markup"}},{"code":"# Use this WebR cell to experiment with any additional data visualisation(s)  you would like to perform with your pandemic data","id":3,"options":{"fig-height":5,"warning":"true","editor-font-scale":1,"read-only":"false","classes":"","context":"interactive","comment":"","out-height":"","message":"true","out-width":"700px","editor-quick-suggestions":"false","autorun":"false","label":"unnamed-chunk-3","output":"true","fig-width":7,"editor-max-height":"","dpi":72,"fig-cap":"","results":"markup"}}];
+globalThis.qwebrCellDetails = [{"id":1,"options":{"comment":"","out-width":"700px","fig-cap":"","classes":"","editor-max-height":"","editor-font-scale":1,"output":"true","context":"setup","autorun":"true","results":"markup","warning":"true","dpi":72,"message":"true","fig-height":5,"label":"unnamed-chunk-1","editor-quick-suggestions":"false","fig-width":7,"out-height":"","read-only":"false"},"code":"\nlibrary(ggplot2)\nlibrary(tidyverse)"},{"id":2,"options":{"comment":"","out-width":"700px","fig-cap":"","classes":"","editor-max-height":"","editor-font-scale":1,"output":"true","context":"interactive","autorun":"false","results":"markup","warning":"true","dpi":72,"message":"true","fig-height":5,"label":"unnamed-chunk-2","editor-quick-suggestions":"false","fig-width":7,"out-height":"","read-only":"false"},"code":"# Plot your data by entering code in this cell"},{"id":3,"options":{"comment":"","out-width":"700px","fig-cap":"","classes":"","editor-max-height":"","editor-font-scale":1,"output":"true","context":"interactive","autorun":"false","results":"markup","warning":"true","dpi":72,"message":"true","fig-height":5,"label":"unnamed-chunk-3","editor-quick-suggestions":"false","fig-width":7,"out-height":"","read-only":"false"},"code":"# Use this WebR cell to experiment with any additional data visualisation(s)  you would like to perform with your pandemic data"}];
 
 </script>
 <script type="module">
@@ -1158,50 +1158,52 @@ globalThis.qwebrExecuteCode = async function (
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-workshop-3" role="button" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Workshop 3</span>
-    </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-workshop-3">    
-        <li>
-    <a class="dropdown-item" href="../workshop3/03workshop.html">
- <span class="dropdown-text">Workshop 3–Overview</span></a>
+  <li class="dropdown-header">
+ <span class="menu-text">BM424 MyPlace</span></li>
+  <li class="nav-item">
+    <a class="nav-link" href="../workshop3/03workshop.html"> 
+<span class="menu-text">Workshop Overview/Instructions</span></a>
   </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-group-pages" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Group Pages</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-group-pages">    
         <li>
     <a class="dropdown-item" href="../workshop3/03A.html">
  <span class="dropdown-text">Workshop 3: Group A</span></a>
   </li>  
     </ul>
   </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-data-analysis" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Data Analysis</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-data-analysis">    
+        <li class="dropdown-header">Data_Demographics.qmd</li>
+        <li class="dropdown-header">Data_Polling.qmd</li>
+        <li class="dropdown-header">Data_Budget.qmd</li>
+        <li class="dropdown-header">Data_Deaths.qmd</li>
+        <li class="dropdown-header">Data_Hospital.qmd</li>
+        <li class="dropdown-header">Data_16S.qmd</li>
+    </ul>
+  </li>
 </ul>
           </div> <!-- /navcollapse -->
           <div class="quarto-navbar-tools">
+    <a href="https://github.com/mafeeney/BM424workshop3" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-github"></i></a>
+    <a href="../morgan.feeney@strath.ac.uk" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-envelope"></i></a>
 </div>
       </div> <!-- /container-fluid -->
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#workshop-4---data-analysis" id="toc-workshop-4---data-analysis" class="nav-link active" data-scroll-target="#workshop-4---data-analysis">Workshop 4 - Data Analysis</a>
-  <ul class="collapse">
-  <li><a href="#introduction" id="toc-introduction" class="nav-link" data-scroll-target="#introduction">Introduction</a></li>
-  <li><a href="#city-data-analysis" id="toc-city-data-analysis" class="nav-link" data-scroll-target="#city-data-analysis">City Data Analysis</a></li>
-  <li><a href="#investigate-palmers-penguins" id="toc-investigate-palmers-penguins" class="nav-link" data-scroll-target="#investigate-palmers-penguins">Investigate Palmer’s Penguins</a></li>
-  <li><a href="#pandemic-data-analysis" id="toc-pandemic-data-analysis" class="nav-link" data-scroll-target="#pandemic-data-analysis">Pandemic Data Analysis</a></li>
-  <li><a href="#webr-playground" id="toc-webr-playground" class="nav-link" data-scroll-target="#webr-playground">WebR Playground</a></li>
-  </ul></li>
-  </ul>
-</nav>
-    </div>
+    
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content column-page" id="quarto-document-content">
 <script src="https://cdn.jsdelivr.net/npm/monaco-editor@0.47.0/min/vs/loader.js"></script>
 <script type="module" id="qwebr-monaco-editor-init">
 
@@ -1437,7 +1439,7 @@ globalThis.qwebrCreateMonacoEditorInstance = function (cellData) {
 
 
 
-<div class="quarto-title-meta">
+<div class="quarto-title-meta column-page">
 
     
   

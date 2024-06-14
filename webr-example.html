@@ -305,7 +305,7 @@ globalThis.qwebrCustomizedWebROptions = {
 };
 
 // Store cell data
-globalThis.qwebrCellDetails = [{"id":1,"code":"\nlibrary(ggplot2)\nlibrary(palmerpenguins)\nlibrary(tidyverse)","options":{"classes":"","comment":"","editor-max-height":"","output":"true","out-width":"700px","out-height":"","message":"true","label":"unnamed-chunk-1","context":"setup","fig-cap":"","read-only":"false","fig-width":7,"autorun":"true","warning":"true","results":"markup","editor-quick-suggestions":"false","editor-font-scale":1,"fig-height":5,"dpi":72}},{"id":2,"code":"# Use this WebR cell to experiment with some practice biological datasets","options":{"classes":"","comment":"","editor-max-height":"","output":"true","out-width":"700px","out-height":"","message":"true","label":"unnamed-chunk-2","context":"interactive","fig-cap":"","read-only":"false","fig-width":7,"autorun":"false","warning":"true","results":"markup","editor-quick-suggestions":"false","editor-font-scale":1,"fig-height":5,"dpi":72}}];
+globalThis.qwebrCellDetails = [{"code":"\nlibrary(ggplot2)\nlibrary(palmerpenguins)\nlibrary(tidyverse)","options":{"context":"setup","editor-quick-suggestions":"false","fig-width":7,"message":"true","classes":"","results":"markup","output":"true","comment":"","out-height":"","warning":"true","label":"unnamed-chunk-1","fig-cap":"","fig-height":5,"editor-font-scale":1,"dpi":72,"read-only":"false","autorun":"true","editor-max-height":"","out-width":"700px"},"id":1},{"code":"# Use this WebR cell to experiment with some practice biological datasets","options":{"context":"interactive","editor-quick-suggestions":"false","fig-width":7,"message":"true","classes":"","results":"markup","output":"true","comment":"","out-height":"","warning":"true","label":"unnamed-chunk-2","fig-cap":"","fig-height":5,"editor-font-scale":1,"dpi":72,"read-only":"false","autorun":"false","editor-max-height":"","out-width":"700px"},"id":2}];
 
 </script>
 <script type="module">
@@ -1158,48 +1158,52 @@ globalThis.qwebrExecuteCode = async function (
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-workshop-3" role="button" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Workshop 3</span>
-    </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-workshop-3">    
-        <li>
-    <a class="dropdown-item" href="./workshop3/03workshop.html">
- <span class="dropdown-text">Workshop 3–Overview</span></a>
+  <li class="dropdown-header">
+ <span class="menu-text">BM424 MyPlace</span></li>
+  <li class="nav-item">
+    <a class="nav-link" href="./workshop3/03workshop.html"> 
+<span class="menu-text">Workshop Overview/Instructions</span></a>
   </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-group-pages" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Group Pages</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-group-pages">    
         <li>
     <a class="dropdown-item" href="./workshop3/03A.html">
  <span class="dropdown-text">Workshop 3: Group A</span></a>
   </li>  
     </ul>
   </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-data-analysis" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Data Analysis</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-data-analysis">    
+        <li class="dropdown-header">Data_Demographics.qmd</li>
+        <li class="dropdown-header">Data_Polling.qmd</li>
+        <li class="dropdown-header">Data_Budget.qmd</li>
+        <li class="dropdown-header">Data_Deaths.qmd</li>
+        <li class="dropdown-header">Data_Hospital.qmd</li>
+        <li class="dropdown-header">Data_16S.qmd</li>
+    </ul>
+  </li>
 </ul>
           </div> <!-- /navcollapse -->
           <div class="quarto-navbar-tools">
+    <a href="https://github.com/mafeeney/BM424workshop3" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-github"></i></a>
+    <a href="./morgan.feeney@strath.ac.uk" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-envelope"></i></a>
 </div>
       </div> <!-- /container-fluid -->
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#r-playground" id="toc-r-playground" class="nav-link active" data-scroll-target="#r-playground"><code>R</code> Playground</a>
-  <ul class="collapse">
-  <li><a href="#introduction" id="toc-introduction" class="nav-link" data-scroll-target="#introduction">Introduction</a></li>
-  <li><a href="#playground" id="toc-playground" class="nav-link" data-scroll-target="#playground">Playground</a></li>
-  <li><a href="#things-you-can-do" id="toc-things-you-can-do" class="nav-link" data-scroll-target="#things-you-can-do">Things you can do</a></li>
-  </ul></li>
-  </ul>
-</nav>
-    </div>
+    
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content column-page" id="quarto-document-content">
 <script src="https://cdn.jsdelivr.net/npm/monaco-editor@0.47.0/min/vs/loader.js"></script>
 <script type="module" id="qwebr-monaco-editor-init">
 

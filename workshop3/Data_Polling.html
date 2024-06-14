@@ -271,7 +271,7 @@ globalThis.qwebrCustomizedWebROptions = {
 };
 
 // Store cell data
-globalThis.qwebrCellDetails = [{"options":{"fig-width":7,"results":"markup","context":"setup","read-only":"false","warning":"true","message":"true","out-height":"","fig-height":5,"editor-font-scale":1,"output":"true","classes":"","editor-max-height":"","fig-cap":"","label":"unnamed-chunk-1","out-width":"700px","editor-quick-suggestions":"false","dpi":72,"comment":"","autorun":"true"},"id":1,"code":"\n# Load required libraries\nlibrary(tidyverse)\n\n# Load required data files\n\n# demographic data files\ndownload.file('https://raw.githubusercontent.com/sipbs-compbiol/BM214-Workshop-3/main/assets/data/AM_Bay_01/AM_Bay_01_01.csv', 'AM_Bay_01_01.csv')"}];
+globalThis.qwebrCellDetails = [{"options":{"fig-height":5,"autorun":"true","editor-max-height":"","warning":"true","dpi":72,"out-height":"","label":"unnamed-chunk-1","classes":"","editor-font-scale":1,"output":"true","read-only":"false","fig-width":7,"out-width":"700px","context":"setup","comment":"","results":"markup","fig-cap":"","message":"true","editor-quick-suggestions":"false"},"id":1,"code":"\n# Load required libraries\nlibrary(tidyverse)\n\n# Load required data files\n\n# demographic data files\ndownload.file('https://raw.githubusercontent.com/sipbs-compbiol/BM214-Workshop-3/main/assets/data/AM_Bay_01/AM_Bay_01_01.csv', 'AM_Bay_01_01.csv')"}];
 
 </script>
 <script type="module">
@@ -1124,40 +1124,55 @@ globalThis.qwebrExecuteCode = async function (
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-workshop-3" role="button" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Workshop 3</span>
-    </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-workshop-3">    
-        <li>
-    <a class="dropdown-item" href="../workshop3/03workshop.html">
- <span class="dropdown-text">Workshop 3–Overview</span></a>
+  <li class="dropdown-header">
+ <span class="menu-text">BM424 MyPlace</span></li>
+  <li class="nav-item">
+    <a class="nav-link" href="../workshop3/03workshop.html"> 
+<span class="menu-text">Workshop Overview/Instructions</span></a>
   </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-group-pages" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Group Pages</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-group-pages">    
         <li>
     <a class="dropdown-item" href="../workshop3/03A.html">
  <span class="dropdown-text">Workshop 3: Group A</span></a>
   </li>  
     </ul>
   </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-data-analysis" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Data Analysis</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-data-analysis">    
+        <li class="dropdown-header">Data_Demographics.qmd</li>
+        <li class="dropdown-header">Data_Polling.qmd</li>
+        <li class="dropdown-header">Data_Budget.qmd</li>
+        <li class="dropdown-header">Data_Deaths.qmd</li>
+        <li class="dropdown-header">Data_Hospital.qmd</li>
+        <li class="dropdown-header">Data_16S.qmd</li>
+    </ul>
+  </li>
 </ul>
           </div> <!-- /navcollapse -->
           <div class="quarto-navbar-tools">
+    <a href="https://github.com/mafeeney/BM424workshop3" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-github"></i></a>
+    <a href="../morgan.feeney@strath.ac.uk" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-envelope"></i></a>
 </div>
       </div> <!-- /container-fluid -->
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
-    
-</nav>
+  
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content column-page" id="quarto-document-content">
 <script src="https://cdn.jsdelivr.net/npm/monaco-editor@0.47.0/min/vs/loader.js"></script>
 <script type="module" id="qwebr-monaco-editor-init">
 
@@ -1393,7 +1408,7 @@ globalThis.qwebrCreateMonacoEditorInstance = function (cellData) {
 
 
 
-<div class="quarto-title-meta">
+<div class="quarto-title-meta column-page">
 
     
   
