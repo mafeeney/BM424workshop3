@@ -7,20 +7,27 @@ website:
     background: primary
     search: true
     left:
-    - text: BM424 MyPlace
-    - text: Workshop Overview/Instructions
-      href: workshop3/03workshop.qmd
-    - text: "Group Pages"
-      menu:
-        - workshop3/03A.qmd
-    - text: "Data Analysis"
-      menu: 
-        - Data_Demographics.qmd
-        - Data_Polling.qmd
-        - Data_Budget.qmd
-        - Data_Deaths.qmd
-        - Data_Hospital.qmd
-        - Data_16S.qmd
+      - text: BM424 MyPlace
+      - text: Workshop Overview/Instructions
+        href: workshop3/03workshop.qmd
+      - text: "Group Pages"
+        menu:
+          - text: "03A"
+            href: workshop3/03A.qmd
+      - text: "Data Analysis"
+        menu: 
+          - text: "Demographics"
+            href: Data_Demographics.qmd
+          - text: "Polling"
+            href: Data_Polling.qmd
+          - text: "Budget"
+            href: Data_Budget.qmd
+          - text: "Deaths"
+            href: Data_Deaths.qmd
+          - text: "Hospital"
+            href: Data_Hospital.qmd
+          - text: "16S"
+            href: Data_16S.qmd
     tools:
       - icon: github
         href: https://github.com/mafeeney/BM424workshop3
