@@ -13,7 +13,7 @@ website:
     - text: "Group Pages"
       menu:
         - workshop3/03A.qmd
-    - text: Data Analysis
+    - text: "Data Analysis"
       menu: 
         - Data_Demographics.qmd
         - Data_Polling.qmd
@@ -25,7 +25,7 @@ website:
       - icon: github
         href: https://github.com/mafeeney/BM424workshop3
       - icon: envelope
-        href: morgan.feeney@strath.ac.uk
+        href: mailto:morgan.feeney@strath.ac.uk
         
 format:
   html:
@@ -33,6 +33,7 @@ format:
     css: styles.css
     toc: false
     page-layout: full
+    email-obfuscation: javascript
 
 execute:
   freeze: auto
