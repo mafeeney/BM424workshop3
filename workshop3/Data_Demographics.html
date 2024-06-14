@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.555">
+<meta name="generator" content="quarto-1.4.554">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Demographic Data Analysis</title>
+<title>Demoographic Data Analysis</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -305,7 +305,7 @@ globalThis.qwebrCustomizedWebROptions = {
 };
 
 // Store cell data
-globalThis.qwebrCellDetails = [{"options":{"comment":"","editor-quick-suggestions":"false","output":"true","warning":"true","context":"setup","dpi":72,"out-height":"","editor-max-height":"","results":"markup","autorun":"true","classes":"","label":"unnamed-chunk-1","read-only":"false","fig-width":7,"message":"true","fig-cap":"","out-width":"700px","editor-font-scale":1,"fig-height":5},"code":"\n# Load required libraries\nlibrary(tidyverse)\n\n# Load required data files\n\n# demographic data files\ndownload.file('https://raw.githubusercontent.com/sipbs-compbiol/BM214-Workshop-3/main/assets/data/AM_Bay_01/AM_Bay_01_01.csv', 'AM_Bay_01_01.csv')","id":1},{"options":{"comment":"","editor-quick-suggestions":"false","output":"true","warning":"true","context":"interactive","dpi":72,"out-height":"","editor-max-height":"","results":"markup","autorun":"false","classes":"","label":"unnamed-chunk-2","read-only":"false","fig-width":7,"message":"true","fig-cap":"","out-width":"700px","editor-font-scale":1,"fig-height":5},"code":"# Use the read_csv(), and head() or glimpse() functions to load and examine your data.","id":2},{"options":{"comment":"","editor-quick-suggestions":"false","output":"true","warning":"true","context":"interactive","dpi":72,"out-height":"","editor-max-height":"","results":"markup","autorun":"false","classes":"","label":"unnamed-chunk-3","read-only":"false","fig-width":7,"message":"true","fig-cap":"","out-width":"700px","editor-font-scale":1,"fig-height":5},"code":"# Use ggplot() to create a plot of the counts for each category over the years.","id":3},{"options":{"comment":"","editor-quick-suggestions":"false","output":"true","warning":"true","context":"interactive","dpi":72,"out-height":"","editor-max-height":"","results":"markup","autorun":"false","classes":"","label":"unnamed-chunk-4","read-only":"false","fig-width":7,"message":"true","fig-cap":"","out-width":"700px","editor-font-scale":1,"fig-height":5},"code":"# Filter your data for \"Age\" and other categories and create plots of the filtered data.\n","id":4},{"options":{"comment":"","editor-quick-suggestions":"false","output":"true","warning":"true","context":"interactive","dpi":72,"out-height":"","editor-max-height":"","results":"markup","autorun":"false","classes":"","label":"unnamed-chunk-5","read-only":"false","fig-width":7,"message":"true","fig-cap":"","out-width":"700px","editor-font-scale":1,"fig-height":5},"code":"# Filter your data for the current year, view the summarized data, and calculate the total city population.\n","id":5},{"options":{"comment":"","editor-quick-suggestions":"false","output":"true","warning":"true","context":"interactive","dpi":72,"out-height":"","editor-max-height":"","results":"markup","autorun":"false","classes":"","label":"unnamed-chunk-6","read-only":"false","fig-width":7,"message":"true","fig-cap":"","out-width":"700px","editor-font-scale":1,"fig-height":5},"code":"# Use this WebR cell to experiment with any additional data visualisation(s)  you would like to perform with your pandemic data","id":6}];
+globalThis.qwebrCellDetails = [{"id":1,"options":{"fig-cap":"","fig-height":5,"read-only":"false","editor-max-height":"","fig-width":7,"out-width":"700px","autorun":"true","message":"true","label":"unnamed-chunk-1","comment":"","editor-quick-suggestions":"false","output":"true","out-height":"","context":"setup","dpi":72,"editor-font-scale":1,"warning":"true","results":"markup","classes":""},"code":"\n# Load required libraries\nlibrary(tidyverse)\n\n# Load required data files\n\n# demographic data files\ndownload.file('https://raw.githubusercontent.com/sipbs-compbiol/BM214-Workshop-3/main/assets/data/AM_Bay_01/AM_Bay_01_01.csv', 'AM_Bay_01_01.csv')"},{"id":2,"options":{"fig-cap":"","fig-height":5,"read-only":"false","editor-max-height":"","fig-width":7,"out-width":"700px","autorun":"false","message":"true","label":"unnamed-chunk-2","comment":"","editor-quick-suggestions":"false","output":"true","out-height":"","context":"interactive","dpi":72,"editor-font-scale":1,"warning":"true","results":"markup","classes":""},"code":"# Use the read_csv(), and head() or glimpse() functions to load and examine your data."},{"id":3,"options":{"fig-cap":"","fig-height":5,"read-only":"false","editor-max-height":"","fig-width":7,"out-width":"700px","autorun":"false","message":"true","label":"unnamed-chunk-3","comment":"","editor-quick-suggestions":"false","output":"true","out-height":"","context":"interactive","dpi":72,"editor-font-scale":1,"warning":"true","results":"markup","classes":""},"code":"# Use ggplot() to create a plot of the counts for each category over the years."},{"id":4,"options":{"fig-cap":"","fig-height":5,"read-only":"false","editor-max-height":"","fig-width":7,"out-width":"700px","autorun":"false","message":"true","label":"unnamed-chunk-4","comment":"","editor-quick-suggestions":"false","output":"true","out-height":"","context":"interactive","dpi":72,"editor-font-scale":1,"warning":"true","results":"markup","classes":""},"code":"# Filter your data for \"Age\" and other categories and create plots of the filtered data.\n"},{"id":5,"options":{"fig-cap":"","fig-height":5,"read-only":"false","editor-max-height":"","fig-width":7,"out-width":"700px","autorun":"false","message":"true","label":"unnamed-chunk-5","comment":"","editor-quick-suggestions":"false","output":"true","out-height":"","context":"interactive","dpi":72,"editor-font-scale":1,"warning":"true","results":"markup","classes":""},"code":"# Filter your data for the current year, view the summarized data, and calculate the total city population.\n"},{"id":6,"options":{"fig-cap":"","fig-height":5,"read-only":"false","editor-max-height":"","fig-width":7,"out-width":"700px","autorun":"false","message":"true","label":"unnamed-chunk-6","comment":"","editor-quick-suggestions":"false","output":"true","out-height":"","context":"interactive","dpi":72,"editor-font-scale":1,"warning":"true","results":"markup","classes":""},"code":"# Use this WebR cell to experiment with any additional data visualisation(s)  you would like to perform with your pandemic data"}];
 
 </script>
 <script type="module">
@@ -1158,65 +1158,60 @@ globalThis.qwebrExecuteCode = async function (
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
-  <li class="dropdown-header">
- <span class="menu-text">BM424 MyPlace</span></li>
-  <li class="nav-item">
-    <a class="nav-link" href="../workshop3/03workshop.html"> 
-<span class="menu-text">Workshop Overview/Instructions</span></a>
-  </li>  
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-group-pages" role="button" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Group Pages</span>
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-workshop-3" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Workshop 3</span>
     </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-group-pages">    
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-workshop-3">    
+        <li>
+    <a class="dropdown-item" href="../workshop3/03workshop.html">
+ <span class="dropdown-text">Workshop 3–Overview</span></a>
+  </li>  
         <li>
     <a class="dropdown-item" href="../workshop3/03A.html">
- <span class="dropdown-text">03A</span></a>
+ <span class="dropdown-text">Workshop 3: Group A</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-data-analysis" role="button" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Data Analysis</span>
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-workshop-4" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Workshop 4</span>
     </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-data-analysis">    
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-workshop-4">    
         <li>
-    <a class="dropdown-item" href="../Data_Demographics.qmd">
- <span class="dropdown-text">Demographics</span></a>
+    <a class="dropdown-item" href="../workshop4/04workshop.html">
+ <span class="dropdown-text">Workshop 4–Overview</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../Data_Polling.qmd">
- <span class="dropdown-text">Polling</span></a>
+    <a class="dropdown-item" href="../workshop4/04A.html">
+ <span class="dropdown-text">Group A: Workshop 4</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-workshop-5" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Workshop 5</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-workshop-5">    
+        <li>
+    <a class="dropdown-item" href="../workshop5/05workshop.html">
+ <span class="dropdown-text">05workshop.html</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../Data_Budget.qmd">
- <span class="dropdown-text">Budget</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="../Data_Deaths.qmd">
- <span class="dropdown-text">Deaths</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="../Data_Hospital.qmd">
- <span class="dropdown-text">Hospital</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="../Data_16S.qmd">
- <span class="dropdown-text">16S</span></a>
+    <a class="dropdown-item" href="../workshop5/05A.html">
+ <span class="dropdown-text">Initial News Reports</span></a>
   </li>  
     </ul>
   </li>
 </ul>
           </div> <!-- /navcollapse -->
           <div class="quarto-navbar-tools">
-    <a href="https://github.com/mafeeney/BM424workshop3" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-github"></i></a>
-    <a href="mailto:morgan.feeney@strath.ac.uk" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-envelope"></i></a>
 </div>
       </div> <!-- /container-fluid -->
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
     <nav id="TOC" role="doc-toc" class="toc-active">
@@ -1236,10 +1231,10 @@ globalThis.qwebrExecuteCode = async function (
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
     </div>
 <!-- main -->
-<main class="content column-page-right" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
 <script src="https://cdn.jsdelivr.net/npm/monaco-editor@0.47.0/min/vs/loader.js"></script>
 <script type="module" id="qwebr-monaco-editor-init">
 
@@ -1470,12 +1465,12 @@ globalThis.qwebrCreateMonacoEditorInstance = function (cellData) {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Demographic Data Analysis</h1>
+<h1 class="title">Demoographic Data Analysis</h1>
 </div>
 
 
 
-<div class="quarto-title-meta column-page-right">
+<div class="quarto-title-meta">
 
     
   
@@ -1877,7 +1872,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/mafeeney\.github\.io\/BM424workshop3\/");
+      var filterRegex = new RegExp("https:\/\/mafeeney\.github\.io\/BM424workshops\/");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }

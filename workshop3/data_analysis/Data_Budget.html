@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.554">
+<meta name="generator" content="quarto-1.4.555">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Death Cerificae Data Analysis</title>
+<title>Budget Data Analysis</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -57,22 +57,22 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </style>
 
 
-<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../">
-<script src="../site_libs/quarto-html/quarto.js"></script>
-<script src="../site_libs/quarto-html/popper.min.js"></script>
-<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -305,7 +305,7 @@ globalThis.qwebrCustomizedWebROptions = {
 };
 
 // Store cell data
-globalThis.qwebrCellDetails = [{"code":"\n# Load required libraries\nlibrary(tidyverse)\n\n# Load required data files\n\n# demographic data files\ndownload.file('https://raw.githubusercontent.com/sipbs-compbiol/BM214-Workshop-3/main/assets/data/AM_Bay_01/AM_Bay_01_01.csv', 'AM_Bay_01_01.csv')","id":1,"options":{"classes":"","fig-height":5,"warning":"true","label":"unnamed-chunk-1","fig-width":7,"editor-max-height":"","output":"true","read-only":"false","context":"setup","out-height":"","message":"true","dpi":72,"fig-cap":"","results":"markup","editor-font-scale":1,"comment":"","out-width":"700px","autorun":"true","editor-quick-suggestions":"false"}},{"code":"# Use this WebR cell to experiment with any additional data visualisation(s)  you would like to perform with your pandemic data","id":2,"options":{"classes":"","fig-height":5,"warning":"true","label":"unnamed-chunk-2","fig-width":7,"editor-max-height":"","output":"true","read-only":"false","context":"interactive","out-height":"","message":"true","dpi":72,"fig-cap":"","results":"markup","editor-font-scale":1,"comment":"","out-width":"700px","autorun":"false","editor-quick-suggestions":"false"}},{"code":"# Use the read_csv(), and head() or glimpse() functions to load and examine your data.","id":3,"options":{"classes":"","fig-height":5,"warning":"true","label":"unnamed-chunk-3","fig-width":7,"editor-max-height":"","output":"true","read-only":"false","context":"interactive","out-height":"","message":"true","dpi":72,"fig-cap":"","results":"markup","editor-font-scale":1,"comment":"","out-width":"700px","autorun":"false","editor-quick-suggestions":"false"}},{"code":"# Use ggplot() to create a plot of the counts for each category over the years.","id":4,"options":{"classes":"","fig-height":5,"warning":"true","label":"unnamed-chunk-4","fig-width":7,"editor-max-height":"","output":"true","read-only":"false","context":"interactive","out-height":"","message":"true","dpi":72,"fig-cap":"","results":"markup","editor-font-scale":1,"comment":"","out-width":"700px","autorun":"false","editor-quick-suggestions":"false"}},{"code":"# Filter your data for \"Age\" and other categories and create plots of the filtered data.\n","id":5,"options":{"classes":"","fig-height":5,"warning":"true","label":"unnamed-chunk-5","fig-width":7,"editor-max-height":"","output":"true","read-only":"false","context":"interactive","out-height":"","message":"true","dpi":72,"fig-cap":"","results":"markup","editor-font-scale":1,"comment":"","out-width":"700px","autorun":"false","editor-quick-suggestions":"false"}},{"code":"# Filter your data for the current year, view the summarized data, and calculate the total city population.\n","id":6,"options":{"classes":"","fig-height":5,"warning":"true","label":"unnamed-chunk-6","fig-width":7,"editor-max-height":"","output":"true","read-only":"false","context":"interactive","out-height":"","message":"true","dpi":72,"fig-cap":"","results":"markup","editor-font-scale":1,"comment":"","out-width":"700px","autorun":"false","editor-quick-suggestions":"false"}},{"code":"# Use the read_csv(), and head() or glimpse() functions to load and examine your data.","id":7,"options":{"classes":"","fig-height":5,"warning":"true","label":"unnamed-chunk-7","fig-width":7,"editor-max-height":"","output":"true","read-only":"false","context":"interactive","out-height":"","message":"true","dpi":72,"fig-cap":"","results":"markup","editor-font-scale":1,"comment":"","out-width":"700px","autorun":"false","editor-quick-suggestions":"false"}},{"code":"# Use ggplot2 to plot the Revenue and Expenditure data separately","id":8,"options":{"classes":"","fig-height":5,"warning":"true","label":"unnamed-chunk-8","fig-width":7,"editor-max-height":"","output":"true","read-only":"false","context":"interactive","out-height":"","message":"true","dpi":72,"fig-cap":"","results":"markup","editor-font-scale":1,"comment":"","out-width":"700px","autorun":"false","editor-quick-suggestions":"false"}},{"code":"# Use filter(), and sum() to get a sum of the current year's total revenues and expenditures budgets. Use print","id":9,"options":{"classes":"","fig-height":5,"warning":"true","label":"unnamed-chunk-9","fig-width":7,"editor-max-height":"","output":"true","read-only":"false","context":"interactive","out-height":"","message":"true","dpi":72,"fig-cap":"","results":"markup","editor-font-scale":1,"comment":"","out-width":"700px","autorun":"false","editor-quick-suggestions":"false"}},{"code":"# Use the read_csv(), and head() or glimpse() functions to load and examine your data.","id":10,"options":{"classes":"","fig-height":5,"warning":"true","label":"unnamed-chunk-10","fig-width":7,"editor-max-height":"","output":"true","read-only":"false","context":"interactive","out-height":"","message":"true","dpi":72,"fig-cap":"","results":"markup","editor-font-scale":1,"comment":"","out-width":"700px","autorun":"false","editor-quick-suggestions":"false"}}];
+globalThis.qwebrCellDetails = [{"id":1,"options":{"fig-width":7,"out-width":"700px","out-height":"","editor-font-scale":1,"output":"true","editor-quick-suggestions":"false","label":"unnamed-chunk-1","fig-height":5,"comment":"","autorun":"true","fig-cap":"","warning":"true","message":"true","context":"setup","results":"markup","read-only":"false","editor-max-height":"","dpi":72,"classes":""},"code":"\n# Load required libraries\nlibrary(tidyverse)\n\n# Load required data files\n\n# demographic data files\ndownload.file('https://raw.githubusercontent.com/sipbs-compbiol/BM214-Workshop-3/main/assets/data/AM_Bay_01/AM_Bay_01_01.csv', 'AM_Bay_01_01.csv')"},{"id":2,"options":{"fig-width":7,"out-width":"700px","out-height":"","editor-font-scale":1,"output":"true","editor-quick-suggestions":"false","label":"unnamed-chunk-2","fig-height":5,"comment":"","autorun":"false","fig-cap":"","warning":"true","message":"true","context":"interactive","results":"markup","read-only":"false","editor-max-height":"","dpi":72,"classes":""},"code":"# Use this WebR cell to experiment with any additional data visualisation(s)  you would like to perform with your pandemic data"},{"id":3,"options":{"fig-width":7,"out-width":"700px","out-height":"","editor-font-scale":1,"output":"true","editor-quick-suggestions":"false","label":"unnamed-chunk-3","fig-height":5,"comment":"","autorun":"false","fig-cap":"","warning":"true","message":"true","context":"interactive","results":"markup","read-only":"false","editor-max-height":"","dpi":72,"classes":""},"code":"# Use the read_csv(), and head() or glimpse() functions to load and examine your data."},{"id":4,"options":{"fig-width":7,"out-width":"700px","out-height":"","editor-font-scale":1,"output":"true","editor-quick-suggestions":"false","label":"unnamed-chunk-4","fig-height":5,"comment":"","autorun":"false","fig-cap":"","warning":"true","message":"true","context":"interactive","results":"markup","read-only":"false","editor-max-height":"","dpi":72,"classes":""},"code":"# Use ggplot2 to plot the Revenue and Expenditure data separately"},{"id":5,"options":{"fig-width":7,"out-width":"700px","out-height":"","editor-font-scale":1,"output":"true","editor-quick-suggestions":"false","label":"unnamed-chunk-5","fig-height":5,"comment":"","autorun":"false","fig-cap":"","warning":"true","message":"true","context":"interactive","results":"markup","read-only":"false","editor-max-height":"","dpi":72,"classes":""},"code":"# Use filter(), and sum() to get a sum of the current year's total revenues and expenditures budgets. Use print"}];
 
 </script>
 <script type="module">
@@ -1143,7 +1143,7 @@ globalThis.qwebrExecuteCode = async function (
 </script>
 
 
-<link rel="stylesheet" href="../styles.css">
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
 <body class="floating nav-fixed">
@@ -1158,70 +1158,87 @@ globalThis.qwebrExecuteCode = async function (
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-workshop-3" role="button" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Workshop 3</span>
-    </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-workshop-3">    
-        <li>
-    <a class="dropdown-item" href="../workshop3/03workshop.html">
- <span class="dropdown-text">Workshop 3–Overview</span></a>
+  <li class="dropdown-header">
+ <span class="menu-text">BM424 MyPlace</span></li>
+  <li class="nav-item">
+    <a class="nav-link" href="../../workshop3/03workshop.html"> 
+<span class="menu-text">Workshop Overview/Instructions</span></a>
   </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-group-pages" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Group Pages</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-group-pages">    
         <li>
-    <a class="dropdown-item" href="../workshop3/03A.html">
- <span class="dropdown-text">Workshop 3: Group A</span></a>
+    <a class="dropdown-item" href="../../workshop3/03A.html">
+ <span class="dropdown-text">03A</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-workshop-4" role="button" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Workshop 4</span>
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-data-analysis" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Data Analysis</span>
     </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-workshop-4">    
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-data-analysis">    
         <li>
-    <a class="dropdown-item" href="../workshop4/04workshop.html">
- <span class="dropdown-text">Workshop 4–Overview</span></a>
+    <a class="dropdown-item" href="../../workshop3/data_analysis/Data_Demographics.html">
+ <span class="dropdown-text">Demographics</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../workshop4/04A.html">
- <span class="dropdown-text">Group A: Workshop 4</span></a>
-  </li>  
-    </ul>
-  </li>
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-workshop-5" role="button" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Workshop 5</span>
-    </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-workshop-5">    
-        <li>
-    <a class="dropdown-item" href="../workshop5/05workshop.html">
- <span class="dropdown-text">05workshop.html</span></a>
+    <a class="dropdown-item" href="../../workshop3/data_analysis/Data_Polling.html">
+ <span class="dropdown-text">Polling</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../workshop5/05A.html">
- <span class="dropdown-text">Initial News Reports</span></a>
+    <a class="dropdown-item" href="../../workshop3/data_analysis/Data_Budget.html">
+ <span class="dropdown-text">Budget</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../workshop3/data_analysis/Data_Deaths.html">
+ <span class="dropdown-text">Deaths</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../workshop3/data_analysis/Data_Hospital.html">
+ <span class="dropdown-text">Hospital</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../workshop3/data_analysis/Data_16S.html">
+ <span class="dropdown-text">16S</span></a>
   </li>  
     </ul>
   </li>
 </ul>
           </div> <!-- /navcollapse -->
           <div class="quarto-navbar-tools">
+    <a href="https://github.com/mafeeney/BM424workshop3" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-github"></i></a>
+    <a href="mailto:morgan.feeney@strath.ac.uk" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-envelope"></i></a>
 </div>
       </div> <!-- /container-fluid -->
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
-    
+    <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#webr-playground" id="toc-webr-playground" class="nav-link active" data-scroll-target="#webr-playground">WebR Playground</a></li>
+  <li><a href="#budget-analysis" id="toc-budget-analysis" class="nav-link" data-scroll-target="#budget-analysis">Budget Analysis</a>
+  <ul class="collapse">
+  <li><a href="#budget-data-step-1load-and-examine-your-citys-budget-data" id="toc-budget-data-step-1load-and-examine-your-citys-budget-data" class="nav-link" data-scroll-target="#budget-data-step-1load-and-examine-your-citys-budget-data">Budget Data: Step 1–Load and Examine Your City’s Budget Data</a></li>
+  <li><a href="#budget-data-step-2plot-the-data" id="toc-budget-data-step-2plot-the-data" class="nav-link" data-scroll-target="#budget-data-step-2plot-the-data">Budget Data: Step 2–Plot the Data</a></li>
+  <li><a href="#budget-data-step-3summarize-the-current-years-budget" id="toc-budget-data-step-3summarize-the-current-years-budget" class="nav-link" data-scroll-target="#budget-data-step-3summarize-the-current-years-budget">Budget Data: Step 3–Summarize the Current Year’s Budget</a></li>
+  </ul></li>
+  </ul>
+</nav>
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content column-page-right" id="quarto-document-content">
 <script src="https://cdn.jsdelivr.net/npm/monaco-editor@0.47.0/min/vs/loader.js"></script>
 <script type="module" id="qwebr-monaco-editor-init">
 
@@ -1452,12 +1469,12 @@ globalThis.qwebrCreateMonacoEditorInstance = function (cellData) {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Death Cerificae Data Analysis</h1>
+<h1 class="title">Budget Data Analysis</h1>
 </div>
 
 
 
-<div class="quarto-title-meta">
+<div class="quarto-title-meta column-page-right">
 
     
   
@@ -1471,360 +1488,13 @@ globalThis.qwebrCreateMonacoEditorInstance = function (cellData) {
 
 <div id="qwebr-insertion-location-1"></div>
 <noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
-<div class="tabset-margin-container"></div><div class="panel-tabset">
-<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true">Introduction</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">City Demographic Data Analysis</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false">Budget Analysis</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-4" role="tab" aria-controls="tabset-1-4" aria-selected="false">Polling Data Analysis</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-5-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-5" role="tab" aria-controls="tabset-1-5" aria-selected="false">Budget Analysis</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-6-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-6" role="tab" aria-controls="tabset-1-6" aria-selected="false">Pandemic Case Data</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-7-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-7" role="tab" aria-controls="tabset-1-7" aria-selected="false">Pandemic Death Data</a></li></ul>
-<div class="tab-content">
-<div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
-<p>This page provides a <code>WebR</code> cell for you to use as a tool and playground to analyse data from and about your city’s pandemic scenario. [explain why]</p>
-<div class="callout callout-style-default callout-tip callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-If you are unfamiliar with R, or if this is your first time working with R, you may find some of the following resources helpful:
-</div>
-</div>
-<div class="callout-body-container callout-body">
-
-</div>
-</div>
-<p>This <code>WebR</code> instance has the <code>tidyverse</code> package already installed for you, so you do not need to load it using the <code>library(tidyverse)</code> command. The <a href="https://www.tidyverse.org/">tidyverse</a> package contains ggplot2, dplyr, readr, and a number of other packages that make working with data in R easier.</p>
-<div class="callout callout-style-default callout-important callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="true" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Important
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-2" class="callout-2-contents callout-collapse collapse show">
-<div class="callout-body-container callout-body">
-<p>Please note that all of these data are available remotely through a cloud server and you can work with them using the webR instance in this browser window - you do not need to install R or download the files to your own computer.</p>
-<p>However, you do need to make sure you are working with the correct data. Please make sure you carefully check the filename(s) for your particular pandemic scenario.</p>
-</div>
-</div>
-</div>
-<div class="callout callout-style-default callout-tip callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Tip
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>You may divide the data analysis tasks and work through the sections in this document in any order you choose.</p>
-<p>As you work through each task, note that there are tips and hints that you can expand for additional help.</p>
-</div>
-</div>
 <section id="webr-playground" class="level2">
 <h2 class="anchored" data-anchor-id="webr-playground">WebR Playground</h2>
 <div id="qwebr-insertion-location-2"></div>
 <noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
 </section>
-</div>
-<div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
-<section id="demographic-data-step-1load-and-examine-your-citys-demographic-data" class="level2">
-<h2 class="anchored" data-anchor-id="demographic-data-step-1load-and-examine-your-citys-demographic-data">Demographic Data: Step 1–Load and Examine Your City’s Demographic Data</h2>
-<p>The demographic data for your city is in a file <code>demographics_groupX.csv</code> (where you replace X with your group letter; e.g., the file for group A will be <code>demographics_groupA.csv</code>). You can load this using the <code>read_csv()</code> function.</p>
-<p>Once you have loaded your data, you will want to examine it to ensure that it has loaded correctly, and to ensure that you understand how the data is structured. You can do this using <code>glimpse()</code>, which will summarize the number of rows and columns present in your data and give a glimpse of the columns; or by using <code>head()</code>, which will output the first part of your dataset.</p>
-<p>When you use the <code>head()</code> function, it displays the first six rows of your data by default. However, you can customize this to view a different number of rows by specifying the number of rows you want to see. The general syntax for the head() function with a specified number of rows is: head(data_frame, n) where data_frame is your data frame (in this case, demographic_data) and n is the number of rows you want to view. For example, if you want to view the first 10 rows of your data instead of the default 6, you can use the following command: <code>head(demographic_data, 10)</code></p>
-<div class="callout callout-style-default callout-important callout-titled" title="Task">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Task
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Use the <code>WebR</code> cell below to load and examine your data.</p>
-</div>
-</div>
-<div class="callout callout-style-default callout-tip callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-5-contents" aria-controls="callout-5" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-I need a hint!
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-5" class="callout-5-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
-<ul>
-<li>Use <code>read_csv()</code> to load your data.</li>
-<li>Use <code>head()</code> or <code>glimpse()</code> to examine your data.</li>
-</ul>
-</div>
-</div>
-</div>
-<div id="qwebr-insertion-location-3"></div>
-<noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
-<div class="callout callout-style-default callout-warning callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-6-contents" aria-controls="callout-6" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Help! I’m stuck!
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-6" class="callout-6-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
-<p>Use the <code>R</code> code below to load and examine your data.</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Replace 'X' with your group letter to load the correct file</span></span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>demographic_data <span class="ot">&lt;-</span> <span class="fu">read_csv</span>(<span class="st">"data_sets/demographics_groupA.csv"</span>)</span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="co"># View the first few rows of the data</span></span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="fu">head</span>(demographic_data)</span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Alternatively, you can use glimpse() to get an overview of the data</span></span>
-<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="fu">glimpse</span>(demographic_data)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-</div>
-</div>
-</section>
-<section id="demographic-data-step-2plotting-your-data" class="level2">
-<h2 class="anchored" data-anchor-id="demographic-data-step-2plotting-your-data">Demographic Data: Step 2–Plotting Your Data</h2>
-<p>Now that you have loaded and examined your data, you can visualize it by creating a plot. We’ll use <code>ggplot2</code> from the tidyverse to plot counts for each category over the years.</p>
-<div class="callout callout-style-default callout-important callout-titled" title="Task">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Task
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Use the <code>WebR</code> cell below to create a plot of the counts for each category over the years.</p>
-</div>
-</div>
-<div class="callout callout-style-default callout-tip callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-8-contents" aria-controls="callout-8" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-I need a hint!
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-8" class="callout-8-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
-<ul>
-<li>Use <code>ggplot()</code> to initialize the plot with your data and aesthetic mappings.</li>
-<li>Add <code>geom_line()</code> to create line plots.</li>
-<li>Use <code>labs()</code> to add titles and labels to your plot.</li>
-<li>Apply a theme, such as <code>theme_minimal()</code>, to control the appearance of your plot. You could also choose another <a href="https://ggplot2.tidyverse.org/reference/ggtheme.html">theme</a>.</li>
-</ul>
-</div>
-</div>
-</div>
-<div id="qwebr-insertion-location-4"></div>
-<noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
-<div class="callout callout-style-default callout-warning callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-9-contents" aria-controls="callout-9" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Help! I’m stuck!
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-9" class="callout-9-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
-<p>Use the <code>R</code> code below to create your plot.</p>
-<div class="sourceCode" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Create the plot</span></span>
-<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(demographic_data, <span class="fu">aes</span>(<span class="at">x =</span> Year, <span class="at">y =</span> Count, <span class="at">color =</span> Category)) <span class="sc">+</span> <span class="co">#This initializes the plot with `demographic_data`, mapping the `Year` to the x-axis, `Count` to the y-axis, and `Category` to the color of the lines.</span></span>
-<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_line</span>() <span class="sc">+</span> <span class="co">#This adds line plots to represent the data.</span></span>
-<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">title =</span> <span class="st">"Category Counts by Year"</span>,</span>
-<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>       <span class="at">x =</span> <span class="st">"Year"</span>,</span>
-<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>       <span class="at">y =</span> <span class="st">"Count"</span>,</span>
-<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>       <span class="at">color =</span> <span class="st">"Category"</span>) <span class="sc">+</span> <span class="co">#This adds a title and labels to the plot.</span></span>
-<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_minimal</span>() <span class="co">#This applies a minimal theme for a clean and simple plot appearance.</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-</div>
-</div>
-</section>
-<section id="demographic-data-step-3filtering-and-plotting-your-data" class="level2">
-<h2 class="anchored" data-anchor-id="demographic-data-step-3filtering-and-plotting-your-data">Demographic Data: Step 3–Filtering and Plotting Your Data</h2>
-<p>You can see from examining and plotting your data that there are three different categories present in your demographic dataset: age, gender, and employment. It may be more helpful to create a plot specifically for each of these categories. For example, you might first filter the data based on age and then plot it. You may also similarly explore the other demographic categories (employment and gender).</p>
-<div class="callout callout-style-default callout-important callout-titled" title="Task">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Task
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Use the <code>WebR</code> cell below to filter your data for age-related categories and create a plot.</p>
-</div>
-</div>
-<div class="callout callout-style-default callout-tip callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-11-contents" aria-controls="callout-11" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-I need a hint!
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-11" class="callout-11-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
-<ul>
-<li>You may find it helpful to define a new variable with an informative name to store your filtered data.</li>
-<li>Use <code>filter()</code> filter the data.</li>
-<li>Use <code>str_detect()</code> to find categories containing “Age”. Note that this will match strings quite literally (capitalisation matters!).</li>
-<li>Plot the new data with <code>ggplot()</code> and <code>geom_line()</code>. You can modify the plot (i.e.&nbsp;to add labels, adjust the theme, etc.) as you did in the previous step.</li>
-</ul>
-</div>
-</div>
-</div>
-<div id="qwebr-insertion-location-5"></div>
-<noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
-<div class="callout callout-style-default callout-warning callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-12-contents" aria-controls="callout-12" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Help! I’m stuck!
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-12" class="callout-12-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
-<p>Use the <code>R</code> code below to filter your data and create the plot.</p>
-<div class="sourceCode" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Filter data for Age categories</span></span>
-<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="co"># </span></span>
-<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>age_data <span class="ot">&lt;-</span> demographic_data <span class="sc">%&gt;%</span> <span class="fu">filter</span>(<span class="fu">str_detect</span>(Category, <span class="st">"Age"</span>))  <span class="co">#Filters the `demographic_data` to include only rows where the `Category` column contains the word "Age"</span></span>
-<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Create a plot for Age categories</span></span>
-<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(age_data, <span class="fu">aes</span>(<span class="at">x =</span> Year, <span class="at">y =</span> Count, <span class="at">color =</span> Category)) <span class="sc">+</span> <span class="co">#This will initialize a plot with the filtered `age_data`, mapping `Year` to the x-axis, `Count` to the y-axis, and `Category` to the color of the lines.</span></span>
-<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_line</span>() <span class="sc">+</span> <span class="co">#This adds line plots to represent the age-category data.</span></span>
-<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">x =</span> <span class="st">"Year"</span>,</span>
-<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a>       <span class="at">y =</span> <span class="st">"Total Count"</span>) <span class="sc">+</span> <span class="co">#This adds labels to the x and y axes.</span></span>
-<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_minimal</span>() <span class="co">#This applies a minimal theme</span></span>
-<span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a>  </span>
-<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a><span class="co"># Filter data for Gender categories</span></span>
-<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a>gender_data <span class="ot">&lt;-</span> demographic_data <span class="sc">%&gt;%</span> <span class="fu">filter</span>(<span class="fu">str_detect</span>(Category, <span class="st">"Gender"</span>))</span>
-<span id="cb3-14"><a href="#cb3-14" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-15"><a href="#cb3-15" aria-hidden="true" tabindex="-1"></a><span class="co"># Create a plot for Gender categories</span></span>
-<span id="cb3-16"><a href="#cb3-16" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(gender_data, <span class="fu">aes</span>(<span class="at">x =</span> Year, <span class="at">y =</span> Count, <span class="at">color =</span> Category)) <span class="sc">+</span> <span class="co">#This will initialize a plot with the filtered `gender_data`, mapping `Year` to the x-axis, `Count` to the y-axis, and `Category` to the color of the lines.</span></span>
-<span id="cb3-17"><a href="#cb3-17" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_line</span>() <span class="sc">+</span> <span class="co">#This adds line plots to represent the gender-category data.</span></span>
-<span id="cb3-18"><a href="#cb3-18" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">x =</span> <span class="st">"Year"</span>,</span>
-<span id="cb3-19"><a href="#cb3-19" aria-hidden="true" tabindex="-1"></a>       <span class="at">y =</span> <span class="st">"Total Count"</span>) <span class="sc">+</span> <span class="co">#This adds labels to the x and y axes.</span></span>
-<span id="cb3-20"><a href="#cb3-20" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_minimal</span>() <span class="co">#This applies a minimal theme</span></span>
-<span id="cb3-21"><a href="#cb3-21" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-22"><a href="#cb3-22" aria-hidden="true" tabindex="-1"></a><span class="co"># Filter data for Employment categories</span></span>
-<span id="cb3-23"><a href="#cb3-23" aria-hidden="true" tabindex="-1"></a>employment_data <span class="ot">&lt;-</span> demographic_data <span class="sc">%&gt;%</span> <span class="fu">filter</span>(<span class="fu">str_detect</span>(Category, <span class="st">"Employment"</span>))</span>
-<span id="cb3-24"><a href="#cb3-24" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-25"><a href="#cb3-25" aria-hidden="true" tabindex="-1"></a><span class="co"># Create a plot for Employment categories</span></span>
-<span id="cb3-26"><a href="#cb3-26" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(employment_data, <span class="fu">aes</span>(<span class="at">x =</span> Year, <span class="at">y =</span> Count, <span class="at">color =</span> Category)) <span class="sc">+</span> <span class="co">#This will initialize a plot with the filtered `employment_data`, mapping `Year` to the x-axis, `Count` to the y-axis, and `Category` to the color of the lines.</span></span>
-<span id="cb3-27"><a href="#cb3-27" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_line</span>() <span class="sc">+</span> <span class="co">#This adds line plots to represent the employment-category data.</span></span>
-<span id="cb3-28"><a href="#cb3-28" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">x =</span> <span class="st">"Year"</span>,</span>
-<span id="cb3-29"><a href="#cb3-29" aria-hidden="true" tabindex="-1"></a>       <span class="at">y =</span> <span class="st">"Total Count"</span>) <span class="sc">+</span> <span class="co">#This adds labels to the x and y axes.</span></span>
-<span id="cb3-30"><a href="#cb3-30" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_minimal</span>() <span class="co">#This applies a minimal theme</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-</div>
-</div>
-</section>
-<section id="demographic-data-step-4summarizing-data-for-the-current-year" class="level2">
-<h2 class="anchored" data-anchor-id="demographic-data-step-4summarizing-data-for-the-current-year">Demographic Data: Step 4–Summarizing Data for the Current Year</h2>
-<p>Now that you have filtered and plotted your demographic data for different categories, the next step is to focus on the data for the current year (2024). We will filter the data for the year 2024, view the summarized data, and then calculate the total city population for that year. This will give us an overall picture of the city’s population distribution in 2024.</p>
-<p>To accomplish this, we will use several functions from the <code>dplyr</code> and <code>stringr</code> packages in R:</p>
-<ul>
-<li><p><strong><code>filter()</code></strong>: This function is used to subset the rows of a data frame that meet certain conditions. In our case, we’ll use it to select rows where the year is 2024.</p></li>
-<li><p><strong><code>print()</code></strong>: This basic R function displays the data or results in the console. We’ll use it to view the filtered data for 2024.</p></li>
-<li><p><strong><code>mutate()</code></strong>: This function adds new variables or modifies existing ones in a data frame. We’ll use it to create a new column that extracts the general category from the <code>Category</code> column.</p></li>
-<li><p><strong><code>str_extract()</code></strong>: Part of the <code>stringr</code> package, this function extracts matching patterns from strings. We’ll use it to extract the part of the <code>Category</code> string before the colon (<code>:</code>).</p></li>
-<li><p><strong><code>group_by()</code></strong>: This function groups the data by one or more variables. Grouping is necessary before applying summary functions like <code>sum()</code>.</p></li>
-<li><p><strong><code>summarise()</code></strong>: This function creates summary statistics for each group defined by <code>group_by()</code>. We’ll use it to calculate the total count for each general category by summing the counts within each group.</p></li>
-</ul>
-<div class="callout callout-style-default callout-important callout-titled" title="Task">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Task
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Use the <code>WebR</code> cell below to filter your data for the year 2024, view the summarized data, and calculate the total city population.</p>
-</div>
-</div>
-<div class="callout callout-style-default callout-tip callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-14-contents" aria-controls="callout-14" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-I need a hint!
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-14" class="callout-14-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
-<ul>
-<li>Use <code>filter()</code> to select rows where the <code>Year</code> is 2024.</li>
-<li>Use <code>print()</code> to display the summarized data for 2024.</li>
-<li>To calculate the total city population, extract the general category using <code>str_extract()</code> and group by this new category.</li>
-<li>Sum the <code>Count</code> for each category using <code>summarise()</code>.</li>
-</ul>
-</div>
-</div>
-</div>
-<div id="qwebr-insertion-location-6"></div>
-<noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
-<div class="callout callout-style-default callout-warning callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-15-contents" aria-controls="callout-15" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Help! I’m stuck!
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-15" class="callout-15-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
-<p>Use the <code>R</code> code below to filter your data, view the summarized data, and calculate the total city population.</p>
-<div class="sourceCode" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Step 4: Filter data for the current year</span></span>
-<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>summary_data_2024 <span class="ot">&lt;-</span> demographic_data <span class="sc">%&gt;%</span></span>
-<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(Year <span class="sc">==</span> <span class="dv">2024</span>)  <span class="co"># Filters the data to include only rows where the Year column is 2024</span></span>
-<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a><span class="co"># View the summarized data for the current year</span></span>
-<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(summary_data_2024)  <span class="co"># Prints the filtered data for the year 2024</span></span>
-<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a><span class="co"># Calculate total city population in 2024</span></span>
-<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a><span class="co"># Extract the general category and sum the counts</span></span>
-<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a>result <span class="ot">&lt;-</span> summary_data_2024 <span class="sc">%&gt;%</span></span>
-<span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">GeneralCategory =</span> <span class="fu">str_extract</span>(Category, <span class="st">"^[^:]+"</span>)) <span class="sc">%&gt;%</span>  <span class="co"># Extracts the general category from the Category column</span></span>
-<span id="cb4-12"><a href="#cb4-12" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(GeneralCategory) <span class="sc">%&gt;%</span>  <span class="co"># Groups the data by the new GeneralCategory</span></span>
-<span id="cb4-13"><a href="#cb4-13" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarise</span>(<span class="at">TotalCount =</span> <span class="fu">sum</span>(Count))  <span class="co"># Sums the Count for each general category</span></span>
-<span id="cb4-14"><a href="#cb4-14" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-15"><a href="#cb4-15" aria-hidden="true" tabindex="-1"></a><span class="co"># Print the result</span></span>
-<span id="cb4-16"><a href="#cb4-16" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(result)  <span class="co"># Prints the summarized total counts for each general category</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-</div>
-</div>
-</section>
-</div>
-<div id="tabset-1-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-3-tab">
+<section id="budget-analysis" class="level1">
+<h1>Budget Analysis</h1>
 <section id="budget-data-step-1load-and-examine-your-citys-budget-data" class="level2">
 <h2 class="anchored" data-anchor-id="budget-data-step-1load-and-examine-your-citys-budget-data">Budget Data: Step 1–Load and Examine Your City’s Budget Data</h2>
 <p>The budget data for your city is in a file <code>budget_groupX.csv</code> (where you replace X with your group letter; e.g., the file for group A will be <code>budget_groupA.csv</code>). You can load this using the <code>read_csv()</code> function.</p>
@@ -1844,7 +1514,7 @@ Task
 </div>
 </div>
 <div class="callout callout-style-default callout-tip callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-17-contents" aria-controls="callout-17" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
@@ -1853,7 +1523,7 @@ I need a hint!
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div id="callout-17" class="callout-17-contents callout-collapse collapse">
+<div id="callout-2" class="callout-2-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <ul>
 <li>Use <code>read_csv()</code> to load your data.</li>
@@ -1862,10 +1532,10 @@ I need a hint!
 </div>
 </div>
 </div>
-<div id="qwebr-insertion-location-7"></div>
+<div id="qwebr-insertion-location-3"></div>
 <noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
 <div class="callout callout-style-default callout-warning callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-18-contents" aria-controls="callout-18" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
@@ -1874,17 +1544,17 @@ Help! I’m stuck!
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div id="callout-18" class="callout-18-contents callout-collapse collapse">
+<div id="callout-3" class="callout-3-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <p>Use the <code>R</code> code below to load and examine your data.</p>
-<div class="sourceCode" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Replace 'X' with your group letter to load the correct file</span></span>
-<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>budget <span class="ot">&lt;-</span> <span class="fu">read_csv</span>(<span class="st">"data_sets/budget_groupA.csv"</span>)</span>
-<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a><span class="co"># View the first few rows of the data</span></span>
-<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a><span class="fu">head</span>(budget)</span>
-<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Alternatively, you can use glimpse() to get an overview of the data</span></span>
-<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a><span class="fu">glimpse</span>(budget)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Replace 'X' with your group letter to load the correct file</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>budget <span class="ot">&lt;-</span> <span class="fu">read_csv</span>(<span class="st">"data_sets/budget_groupA.csv"</span>)</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="co"># View the first few rows of the data</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="fu">head</span>(budget)</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Alternatively, you can use glimpse() to get an overview of the data</span></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="fu">glimpse</span>(budget)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </div>
 </div>
@@ -1906,7 +1576,7 @@ Task
 </div>
 </div>
 <div class="callout callout-style-default callout-tip callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-20-contents" aria-controls="callout-20" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-5-contents" aria-controls="callout-5" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
@@ -1915,7 +1585,7 @@ I need a hint!
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div id="callout-20" class="callout-20-contents callout-collapse collapse">
+<div id="callout-5" class="callout-5-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <ul>
 <li>Use <code>ggplot()</code> to initialize the plot.</li>
@@ -1925,10 +1595,10 @@ I need a hint!
 </div>
 </div>
 </div>
-<div id="qwebr-insertion-location-8"></div>
+<div id="qwebr-insertion-location-4"></div>
 <noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
 <div class="callout callout-style-default callout-warning callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-21-contents" aria-controls="callout-21" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-6-contents" aria-controls="callout-6" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
@@ -1937,40 +1607,40 @@ Help! I’m stuck!
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div id="callout-21" class="callout-21-contents callout-collapse collapse">
+<div id="callout-6" class="callout-6-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <p>Use the <code>R</code> code below to plot the <code>Revenue</code> and <code>Expenditure</code> data separately.</p>
-<div class="sourceCode" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Filter out rows with NA in Revenue - this will give you your budget expenditures</span></span>
-<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>expenditure <span class="ot">&lt;-</span> budget <span class="sc">%&gt;%</span></span>
-<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(<span class="sc">!</span><span class="fu">is.na</span>(Revenue))</span>
-<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Filter out rows with NA in Expenditure - this will give you your budget revenues</span></span>
-<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a>revenue <span class="ot">&lt;-</span> budget <span class="sc">%&gt;%</span></span>
-<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(<span class="sc">!</span><span class="fu">is.na</span>(Expenditure))</span>
-<span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a>  </span>
-<span id="cb6-9"><a href="#cb6-9" aria-hidden="true" tabindex="-1"></a><span class="co"># Examine the filtered data to ensure they have been filtered correctly</span></span>
-<span id="cb6-10"><a href="#cb6-10" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(expenditure)</span>
-<span id="cb6-11"><a href="#cb6-11" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(revenue)</span>
-<span id="cb6-12"><a href="#cb6-12" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb6-13"><a href="#cb6-13" aria-hidden="true" tabindex="-1"></a><span class="co"># Plot Revenue over Year</span></span>
-<span id="cb6-14"><a href="#cb6-14" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(revenue, <span class="fu">aes</span>(<span class="at">x =</span> Year, <span class="at">y =</span> Revenue, <span class="at">color =</span> Category)) <span class="sc">+</span></span>
-<span id="cb6-15"><a href="#cb6-15" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_line</span>() <span class="sc">+</span></span>
-<span id="cb6-16"><a href="#cb6-16" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_point</span>() <span class="sc">+</span></span>
-<span id="cb6-17"><a href="#cb6-17" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">title =</span> <span class="st">"Revenue by Year"</span>,</span>
-<span id="cb6-18"><a href="#cb6-18" aria-hidden="true" tabindex="-1"></a>       <span class="at">x =</span> <span class="st">"Year"</span>,</span>
-<span id="cb6-19"><a href="#cb6-19" aria-hidden="true" tabindex="-1"></a>       <span class="at">y =</span> <span class="st">"Amount"</span>,</span>
-<span id="cb6-20"><a href="#cb6-20" aria-hidden="true" tabindex="-1"></a>       <span class="at">color =</span> <span class="st">"Category"</span>) <span class="sc">+</span></span>
-<span id="cb6-21"><a href="#cb6-21" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_minimal</span>()</span>
-<span id="cb6-22"><a href="#cb6-22" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb6-23"><a href="#cb6-23" aria-hidden="true" tabindex="-1"></a><span class="co"># Plot Expenditure over Year</span></span>
-<span id="cb6-24"><a href="#cb6-24" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(expenditure, <span class="fu">aes</span>(<span class="at">x =</span> Year, <span class="at">y =</span> Expenditure, <span class="at">color =</span> Category)) <span class="sc">+</span></span>
-<span id="cb6-25"><a href="#cb6-25" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_line</span>() <span class="sc">+</span></span>
-<span id="cb6-26"><a href="#cb6-26" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_point</span>() <span class="sc">+</span></span>
-<span id="cb6-27"><a href="#cb6-27" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">title =</span> <span class="st">"Expenditure by Year"</span>,</span>
-<span id="cb6-28"><a href="#cb6-28" aria-hidden="true" tabindex="-1"></a>       <span class="at">x =</span> <span class="st">"Year"</span>,</span>
-<span id="cb6-29"><a href="#cb6-29" aria-hidden="true" tabindex="-1"></a>       <span class="at">y =</span> <span class="st">"Amount"</span>,</span>
-<span id="cb6-30"><a href="#cb6-30" aria-hidden="true" tabindex="-1"></a>       <span class="at">color =</span> <span class="st">"Category"</span>) <span class="sc">+</span></span>
-<span id="cb6-31"><a href="#cb6-31" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_minimal</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Filter out rows with NA in Revenue - this will give you your budget expenditures</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>expenditure <span class="ot">&lt;-</span> budget <span class="sc">%&gt;%</span></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(<span class="sc">!</span><span class="fu">is.na</span>(Revenue))</span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Filter out rows with NA in Expenditure - this will give you your budget revenues</span></span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>revenue <span class="ot">&lt;-</span> budget <span class="sc">%&gt;%</span></span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(<span class="sc">!</span><span class="fu">is.na</span>(Expenditure))</span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a><span class="co"># Examine the filtered data to ensure they have been filtered correctly</span></span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(expenditure)</span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(revenue)</span>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a><span class="co"># Plot Revenue over Year</span></span>
+<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(revenue, <span class="fu">aes</span>(<span class="at">x =</span> Year, <span class="at">y =</span> Revenue, <span class="at">color =</span> Category)) <span class="sc">+</span></span>
+<span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_line</span>() <span class="sc">+</span></span>
+<span id="cb2-16"><a href="#cb2-16" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_point</span>() <span class="sc">+</span></span>
+<span id="cb2-17"><a href="#cb2-17" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">title =</span> <span class="st">"Revenue by Year"</span>,</span>
+<span id="cb2-18"><a href="#cb2-18" aria-hidden="true" tabindex="-1"></a>       <span class="at">x =</span> <span class="st">"Year"</span>,</span>
+<span id="cb2-19"><a href="#cb2-19" aria-hidden="true" tabindex="-1"></a>       <span class="at">y =</span> <span class="st">"Amount"</span>,</span>
+<span id="cb2-20"><a href="#cb2-20" aria-hidden="true" tabindex="-1"></a>       <span class="at">color =</span> <span class="st">"Category"</span>) <span class="sc">+</span></span>
+<span id="cb2-21"><a href="#cb2-21" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_minimal</span>()</span>
+<span id="cb2-22"><a href="#cb2-22" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-23"><a href="#cb2-23" aria-hidden="true" tabindex="-1"></a><span class="co"># Plot Expenditure over Year</span></span>
+<span id="cb2-24"><a href="#cb2-24" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(expenditure, <span class="fu">aes</span>(<span class="at">x =</span> Year, <span class="at">y =</span> Expenditure, <span class="at">color =</span> Category)) <span class="sc">+</span></span>
+<span id="cb2-25"><a href="#cb2-25" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_line</span>() <span class="sc">+</span></span>
+<span id="cb2-26"><a href="#cb2-26" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_point</span>() <span class="sc">+</span></span>
+<span id="cb2-27"><a href="#cb2-27" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">title =</span> <span class="st">"Expenditure by Year"</span>,</span>
+<span id="cb2-28"><a href="#cb2-28" aria-hidden="true" tabindex="-1"></a>       <span class="at">x =</span> <span class="st">"Year"</span>,</span>
+<span id="cb2-29"><a href="#cb2-29" aria-hidden="true" tabindex="-1"></a>       <span class="at">y =</span> <span class="st">"Amount"</span>,</span>
+<span id="cb2-30"><a href="#cb2-30" aria-hidden="true" tabindex="-1"></a>       <span class="at">color =</span> <span class="st">"Category"</span>) <span class="sc">+</span></span>
+<span id="cb2-31"><a href="#cb2-31" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_minimal</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </div>
 </div>
@@ -1993,7 +1663,7 @@ Task
 </div>
 </div>
 <div class="callout callout-style-default callout-tip callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-23-contents" aria-controls="callout-23" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-8-contents" aria-controls="callout-8" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
@@ -2002,7 +1672,7 @@ I need a hint!
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div id="callout-23" class="callout-23-contents callout-collapse collapse">
+<div id="callout-8" class="callout-8-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <ul>
 <li>Use <code>filter()</code> to select the data for the current year.</li>
@@ -2012,10 +1682,10 @@ I need a hint!
 </div>
 </div>
 </div>
-<div id="qwebr-insertion-location-9"></div>
+<div id="qwebr-insertion-location-5"></div>
 <noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
 <div class="callout callout-style-default callout-warning callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-24-contents" aria-controls="callout-24" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-9-contents" aria-controls="callout-9" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
@@ -2024,114 +1694,34 @@ Help! I’m stuck!
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div id="callout-24" class="callout-24-contents callout-collapse collapse">
+<div id="callout-9" class="callout-9-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <p>Use the <code>R</code> code below to get a summary of the current year’s budget.</p>
-<div class="sourceCode" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Filter the data for the current year</span></span>
-<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>current_budget <span class="ot">&lt;-</span> budget <span class="sc">%&gt;%</span></span>
-<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(Year <span class="sc">==</span> <span class="dv">2024</span>)</span>
-<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a><span class="co"># View the current year's budget</span></span>
-<span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(current_budget)</span>
-<span id="cb7-7"><a href="#cb7-7" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb7-8"><a href="#cb7-8" aria-hidden="true" tabindex="-1"></a><span class="co"># Get the sum of Revenues for the current year</span></span>
-<span id="cb7-9"><a href="#cb7-9" aria-hidden="true" tabindex="-1"></a>revenue_sum <span class="ot">&lt;-</span> <span class="fu">sum</span>(current_budget<span class="sc">$</span>Revenue, <span class="at">na.rm =</span> <span class="cn">TRUE</span>)</span>
-<span id="cb7-10"><a href="#cb7-10" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(revenue_sum)</span>
-<span id="cb7-11"><a href="#cb7-11" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb7-12"><a href="#cb7-12" aria-hidden="true" tabindex="-1"></a><span class="co"># Get the sum of Expenditures for the current year</span></span>
-<span id="cb7-13"><a href="#cb7-13" aria-hidden="true" tabindex="-1"></a>expenditure_sum <span class="ot">&lt;-</span> <span class="fu">sum</span>(current_budget<span class="sc">$</span>Expenditure, <span class="at">na.rm =</span> <span class="cn">TRUE</span>)</span>
-<span id="cb7-14"><a href="#cb7-14" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(expenditure_sum)</span>
-<span id="cb7-15"><a href="#cb7-15" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb7-16"><a href="#cb7-16" aria-hidden="true" tabindex="-1"></a><span class="co">#Print the budget for contingency expenditures for the current year</span></span>
-<span id="cb7-17"><a href="#cb7-17" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(budget<span class="sc">$</span>Expenditure[budget<span class="sc">$</span>Year <span class="sc">==</span> <span class="dv">2024</span> <span class="sc">&amp;</span> budget<span class="sc">$</span>Category <span class="sc">==</span> <span class="st">"Contingency Expenditures"</span>])</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Filter the data for the current year</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>current_budget <span class="ot">&lt;-</span> budget <span class="sc">%&gt;%</span></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(Year <span class="sc">==</span> <span class="dv">2024</span>)</span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a><span class="co"># View the current year's budget</span></span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(current_budget)</span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a><span class="co"># Get the sum of Revenues for the current year</span></span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a>revenue_sum <span class="ot">&lt;-</span> <span class="fu">sum</span>(current_budget<span class="sc">$</span>Revenue, <span class="at">na.rm =</span> <span class="cn">TRUE</span>)</span>
+<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(revenue_sum)</span>
+<span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a><span class="co"># Get the sum of Expenditures for the current year</span></span>
+<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a>expenditure_sum <span class="ot">&lt;-</span> <span class="fu">sum</span>(current_budget<span class="sc">$</span>Expenditure, <span class="at">na.rm =</span> <span class="cn">TRUE</span>)</span>
+<span id="cb3-14"><a href="#cb3-14" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(expenditure_sum)</span>
+<span id="cb3-15"><a href="#cb3-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-16"><a href="#cb3-16" aria-hidden="true" tabindex="-1"></a><span class="co">#Print the budget for contingency expenditures for the current year</span></span>
+<span id="cb3-17"><a href="#cb3-17" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(budget<span class="sc">$</span>Expenditure[budget<span class="sc">$</span>Year <span class="sc">==</span> <span class="dv">2024</span> <span class="sc">&amp;</span> budget<span class="sc">$</span>Category <span class="sc">==</span> <span class="st">"Contingency Expenditures"</span>])</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </div>
 </div>
+<p>:::</p>
+
+
 </section>
-</div>
-<div id="tabset-1-4" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-4-tab">
-<section id="polling-data-step-1load-and-examine-your-citys-polling-data" class="level2">
-<h2 class="anchored" data-anchor-id="polling-data-step-1load-and-examine-your-citys-polling-data">Polling Data: Step 1–Load and Examine Your City’s Polling Data</h2>
-<p>The budget data for your city is in a file <code>polling_groupX.csv</code> (where you replace X with your group letter; e.g., the file for group A will be <code>polling_groupA.csv</code>). You can load this using the <code>read_csv()</code> function.</p>
-<p>Once you have loaded your data, you will want to examine it to ensure that it has loaded correctly, and to ensure that you understand how the data is structured. You can do this using <code>glimpse()</code>, which will summarize the number of rows and columns present in your data and give a glimpse of the columns; or by using <code>head()</code>, which will output the first part of your dataset.</p>
-<p>When you use the <code>head()</code> function, it displays the first six rows of your data by default. However, you can customize this to view a different number of rows by specifying the number of rows you want to see. The general syntax for the head() function with a specified number of rows is: head(data_frame, n) where data_frame is your data frame (in this case, you might name your data frame something like “polls”) and n is the number of rows you want to view. For example, if you want to view the first 10 rows of your data instead of the default 6, you can use the following command: <code>head(polls, 10)</code></p>
-<div class="callout callout-style-default callout-important callout-titled" title="Task">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Task
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Use the <code>WebR</code> cell below to load and examine your data.</p>
-</div>
-</div>
-<div class="callout callout-style-default callout-tip callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-26-contents" aria-controls="callout-26" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-I need a hint!
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-26" class="callout-26-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
-<ul>
-<li>Use <code>read_csv()</code> to load your data.</li>
-<li>Use <code>head()</code> or <code>glimpse()</code> to examine your data.</li>
-</ul>
-</div>
-</div>
-</div>
-<div id="qwebr-insertion-location-10"></div>
-<noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
-<div class="callout callout-style-default callout-warning callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-27-contents" aria-controls="callout-27" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Help! I’m stuck!
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-27" class="callout-27-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
-<p>Use the <code>R</code> code below to load and examine your data.</p>
-<div class="sourceCode" id="cb8"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Replace 'X' with your group letter to load the correct file</span></span>
-<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>polls <span class="ot">&lt;-</span> <span class="fu">read_csv</span>(<span class="st">"data_sets/polling_groupA.csv"</span>)</span>
-<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a><span class="co"># View the first few rows of the data</span></span>
-<span id="cb8-5"><a href="#cb8-5" aria-hidden="true" tabindex="-1"></a><span class="fu">head</span>(polls)</span>
-<span id="cb8-6"><a href="#cb8-6" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb8-7"><a href="#cb8-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Alternatively, you can use glimpse() to get an overview of the data</span></span>
-<span id="cb8-8"><a href="#cb8-8" aria-hidden="true" tabindex="-1"></a><span class="fu">glimpse</span>(polls)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-</div>
-</div>
 </section>
-<section id="budget-data-step-2plot-the-data-1" class="level2">
-<h2 class="anchored" data-anchor-id="budget-data-step-2plot-the-data-1">Budget Data: Step 2–Plot the Data</h2>
-<p>Now that you have loaded and examined your data, you can visualize it. To begin, you might create plots for both <code>Revenue</code> and <code>Expenditure</code> over the years, using the <code>ggplot2</code> package.</p>
-</section>
-</div>
-<div id="tabset-1-5" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-5-tab">
-
-</div>
-<div id="tabset-1-6" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-6-tab">
-
-</div>
-<div id="tabset-1-7" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-7-tab">
-
-</div>
-</div>
-</div>
-
-
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -2215,7 +1805,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/mafeeney\.github\.io\/BM424workshops\/");
+      var filterRegex = new RegExp("https:\/\/mafeeney\.github\.io\/BM424workshop3\/");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
