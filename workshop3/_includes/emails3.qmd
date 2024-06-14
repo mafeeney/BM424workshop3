@@ -92,7 +92,7 @@ Your committee has recently received a great deal of correspondence regarding th
 adjectives <- sample(c("Disgraceful", "Terrible", "Horrible", "Devastating", "Sad", "Bloody"), 1)
 angry1 <-  sample(c("outraged", "upset", "extremely vexed", "so angry", "devastated", "incandescent"), 1)
 initial_sentences <-  sample(c("As if COVID wasn't enough! Has this city not suffered enough, I ask you.", "This seems to be too much to bear on top of COVID, the cost of living crisis, and the war in Ukraine. It is just one tragedy after another.", "Too many people have already died from COVID and it seems completely cruel to have another pandemic strike our city again so soon.", "There seems to be no end to the suffering that pandemics inflict on our city in these days.", "It seems almost like the apocalypse must be upon us, with this pandemic following so close upon the heels of COVID19.", "Too many people have died and it is such a tragedy."), 1)
-hopes <-  sample(c("hope", "hope very much", "wish", "expect", "sincerely hope"), 1)
+hope <-  sample(c("hope", "hope very much", "wish", "expect", "sincerely hope"), 1)
 states_of_affairs <-  sample(c("dreadful state of affairs", "horrible pandemic", "all of the poor people dying", "tragedy"), 1)
 times <-  sample(c("immediately", "very soon", "at once", "as soon as possible"), 1)
 ```
@@ -106,7 +106,7 @@ Dear Pandemic Committee,
 
 I am `r angry1` to hear about this new pandemic in `r city_name`. `r `initial_sentences`
 
-I `r wish1` that your office is going to do something about `r states_of_affairs` `r times`.
+I `r hope` that your office is going to do something about `r states_of_affairs` `r times`.
 
 `r sample(closing_phrases, 1)`<br> `r author_data$Name[1]`
 
@@ -194,6 +194,7 @@ business_concerns <- sample(c("I hope you realise how costly the last pandemic w
 wish1 <- sample(c("hope", "expect", "demand", "pray"), 1)
 state <- sample(c("the pandemic", "this state of affairs", "this dreadful catastrophe", "this situation"), 1)
 unaffordable <- sample(c("another lockdown", "a return to COVID rules", "face masks and gallons of hand sanitizer", "the draconian lockdowns you imposed during COVID", "restrictions that cripple our businesses"), 1)
+time1 <- sample(c("very soon", "immediately", "at once", "promptly", "as soon as possible"), 1)
 ```
 <b>From:</b> `r author_data$Email[2]`
 <b>To:</b> pandemic_response@`r city_name`.co.uk 
