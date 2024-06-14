@@ -17,17 +17,17 @@ website:
       - text: "Data Analysis"
         menu: 
           - text: "Demographics"
-            href: Data_Demographics.qmd
+            href: workshop3/data_analysis/Data_Demographics.qmd
           - text: "Polling"
-            href: Data_Polling.qmd
+            href: workshop3/data_analysis/Data_Polling.qmd
           - text: "Budget"
-            href: Data_Budget.qmd
+            href: workshop3/data_analysis/Data_Budget.qmd
           - text: "Deaths"
-            href: Data_Deaths.qmd
+            href: workshop3/data_analysis/Data_Deaths.qmd
           - text: "Hospital"
-            href: Data_Hospital.qmd
+            href: workshop3/data_analysis/Data_Hospital.qmd
           - text: "16S"
-            href: Data_16S.qmd
+            href: workshop3/data_analysis/Data_16S.qmd
     tools:
       - icon: github
         href: https://github.com/mafeeney/BM424workshop3
