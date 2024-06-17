@@ -256,7 +256,7 @@ Dear Pandemic Response Committee,
 
 I have just learned that my `r relative` has passed away due to the new pandemic in `r city_name`. `r personal_tragedy_statement[1]`
 
-`r sample(personal_tragedy_statement[2]`
+`r personal_tragedy_statement[2]`
 
 `r personal_tragedy_request`
 
