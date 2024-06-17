@@ -301,7 +301,7 @@ These public health measures, such as `r protection_methods`, will be crucial wh
 
 The public is encouraged to stay informed through reliable sources and adhere to guidelines issued by health authorities. "`r reliability_phrases`," concludes `r author_name`. "Together, we can navigate through this pandemic by making informed, sensible decisions."
 
-<b>Credits:</b> `r author_data$Name[4]` has been writing for the `r newspaper_titles` for the past `r sample(2:12, 1)` years, with a primary focus on `r topic`. `r author_data$Name[4] interviewed `r firstname author_name` on `r interview_date`.
+<b>Credits:</b> `r author_data$Name[4]` has been writing for the `r newspaper_titles` for the past `r sample(2:12, 1)` years, with a primary focus on `r topic`. `r author_data$Name[4]` interviewed `r firstname author_name` on `r interview_date`.
 ------------------------------------------------------------------------
 ```{r news-doom, echo=FALSE}
 # Define variables for randomizing content
