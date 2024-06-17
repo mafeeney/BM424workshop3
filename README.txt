@@ -64,3 +64,9 @@ I. Bacillus anthracis
 J. Bordetella pertusis
 K. Acinetobacter baumanii
 L. Aspergillus
+M. Corynebacterium diptheriae
+N. Enterococcus
+O. Haemophilus influenzae
+P. Norovirus
+Q. Franciscella
+

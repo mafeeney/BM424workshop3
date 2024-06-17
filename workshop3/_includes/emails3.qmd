@@ -311,6 +311,7 @@ These public health measures, such as `r protection_methods`, will be crucial wh
 The public is encouraged to stay informed through reliable sources and adhere to guidelines issued by health authorities. "`r reliability_phrases`," concludes `r author_name`. "Together, we can navigate through this pandemic by making informed, sensible decisions."
 
 <b>Credits:</b> `r author_data$Name[4]` has been writing for the `r newspaper_titles` for the past `r sample(2:12, 1)` years, with a primary focus on `r topic`. `r author_data$Name[4]` interviewed `r firstname` `r author_name` on `r interview_date`.
+
 ------------------------------------------------------------------------
 ```{r news-doom, echo=FALSE}
 # Define variables for randomizing content
@@ -351,6 +352,7 @@ Panic is spreading as quickly as the virus itself. People are `r sample(c("hoard
 The future looks `r grim[2]`, with no end in sight. "This is just the beginning," warns Dr. `r dr_name`. "The pathogen is `r mutations`, making it harder to control. We'll be in for a long, dark spring." Other experts have noted that due to global warming, pandemics are likely to occur more frequently and be more severe in a warming world. 
 
 As fear and uncertainty grip the world, one thing is clear: we must prepare for the worst. The pandemic apocalypse is upon us, and there is no turning back.
+
 ------------------------------------------------------------------------
 ```{r news-AV, echo=FALSE}
 # Define variables for randomizing content

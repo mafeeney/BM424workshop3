@@ -47,8 +47,6 @@ news_date <- format(news_date, "%d %B, %Y")
 
 ## Public Opinion: News and E-mails
 
-{{< include _includes/news3.qmd >}}
-
 {{< include _includes/emails3.qmd >}}
 
 ## Data Analysis
