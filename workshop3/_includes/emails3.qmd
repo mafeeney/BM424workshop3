@@ -269,6 +269,13 @@ Your committee has also been monitoring news and published blog posts about the 
 ------------------------------------------------------------------------
 ```{r news-PH, echo=FALSE}
 # Define variables for randomizing content
+public_health_titles <- c(
+  "Data-Driven Decisions: How Public Health Measures are Mitigating the Pandemic",
+  "The Power of Data: Protecting Communities During the Pandemic",
+  "Scientific Strategies: Effective Public Health Responses to the Pandemic",
+  "Analyzing the Pandemic: Data-Driven Public Health Approaches",
+  "Informed Actions: The Role of Data in Pandemic Response"
+)
 positive_adjectives <- sample(c("effective", "successful", "promising", "positive", "encouraging"), 1)
 expert_titles <- sample(c("epidemiologist", "public health expert", "infectious disease specialist", "health policy analyst"), 1)
 verifications <- sample(c("confirms", "supports", "validates", "reinforces"), 1)
@@ -285,7 +292,9 @@ three_days_before <- workshop3_date - 3
 interview_date <- format(three_days_before, "%A, %d/%m/%Y")
 ```
 
-<b>Data-Driven Decisions: How Public Health Measures are Mitigating the Pandemic in `r city_name`</b>
+<b>`r public_health_titles`</b>
+
+An update on the outbreak in `r city_name`
 
 Published in: `r newspaper_titles`
 <b>By:</b> `r author_data$Name[4]`
@@ -301,10 +310,17 @@ These public health measures, such as `r protection_methods`, will be crucial wh
 
 The public is encouraged to stay informed through reliable sources and adhere to guidelines issued by health authorities. "`r reliability_phrases`," concludes `r author_name`. "Together, we can navigate through this pandemic by making informed, sensible decisions."
 
-<b>Credits:</b> `r author_data$Name[4]` has been writing for the `r newspaper_titles` for the past `r sample(2:12, 1)` years, with a primary focus on `r topic`. `r author_data$Name[4]` interviewed `r firstname author_name` on `r interview_date`.
+<b>Credits:</b> `r author_data$Name[4]` has been writing for the `r newspaper_titles` for the past `r sample(2:12, 1)` years, with a primary focus on `r topic`. `r author_data$Name[4]` interviewed `r firstname` `r author_name` on `r interview_date`.
 ------------------------------------------------------------------------
 ```{r news-doom, echo=FALSE}
 # Define variables for randomizing content
+scaremongering_titles <- c(
+  "The Pandemic Apocalypse: Are We on the Brink of Collapse?",
+  "Chaos Unleashed: The Terrifying Future of the Pandemic",
+  "End Times: The Catastrophic Impact of the Pandemic",
+  "A World in Peril: The Unfolding Pandemic Disaster",
+  "The Looming Nightmare: How this Pandemic is Destroying Society"
+)
 negative_adjectives <- sample(c("unprecedented", "catastrophic", "devastating", "terrifying", "horrific"), 1)
 grim <- sample(c("grim", "terrible", "threatening", "bleak", "gloomy", "dark", "dreary"))
 fear_phrases <- sample(c("teetering on the edge", "spiraling out of control", "on the brink of collapse", "descending into chaos"), 1)
@@ -320,7 +336,7 @@ survival_struggles <- sample(c("struggle for survival", "fight for our lives", "
 mother_name <- randomNames(gender = 1, which.names = "first")
 mother_last <- randomNames(gender = 1, which.names = "last")
 ```
-<b>The Pandemic Apocalypse: Are We on the Brink of Collapse?</b>
+<b>`r scaremongering_titles`</b>
 --`r author_data$Name[5]`, senior health correspondent for `r scary_sources`
 `r author_data$RandomDates[5]`
 
@@ -338,6 +354,13 @@ As fear and uncertainty grip the world, one thing is clear: we must prepare for 
 ------------------------------------------------------------------------
 ```{r news-AV, echo=FALSE}
 # Define variables for randomizing content
+antivax_titles <- c(
+  "The Pandemic Hoax: Why You Shouldn't Fall for the Vaccine Scam",
+  "Exposing the Vaccine Lie: What They're Not Telling You",
+  "The Truth About Vaccines: What the Government Doesn't Want You to Know",
+  "Vaccines Unmasked: The Real Agenda Behind the Pandemic",
+  "Think for Yourself: The Real Risks of the Vaccine"
+)
 intro_joke <- sample(c("Wake up, people!", "Buckle up, buttercups!", "Hold on to your hats!", "Get ready for this!", "Brace yourselves!", "Here's the kicker!", "Listen up, folks!", "Fasten your seatbelts!", "You won't believe this!", "Prepare to be shocked!", "Hold tight, everyone!"), 1)
 hoax_phrases <- sample(c("pandemic hoax", "scamdemic", "plandemic", "fake pandemic"), 1)
 control_phrases <- sample(c("control your lives", "make billions", "force compliance", "manipulate the masses"), 1)
@@ -351,7 +374,7 @@ side_effects <- sample(c("all kinds of side effects", "serious health issues", "
 next_article <- sample(c("a deep dive into Big Pharma's Real Motivations", "an expose on the latest vaccine trial", "a proper unveiling of the hidden dangers of vaccine ingredients", "debunking the myths surrounding vaccine safety", "an examination of the link between vaccines and chronic illness", "exploring ALL the benefits of echinacea", "challenging the narrative on herd immunity"), 1)
 ```
 
-<b>The Pandemic Hoax: Why You Shouldn't Fall for the Vaccine Scam</b>
+<b>`r antivax_titles`</b>
 - `r author_data$Name[6]`
 - `r author_data$RandomDates[6]`
 Published in: `r antivax_blog_titles`
