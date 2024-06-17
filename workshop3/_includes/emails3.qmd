@@ -293,7 +293,7 @@ Published in: `r newspaper_titles`
 
 As the pandemic continues to unfold in `r city_name`, public health experts emphasize the importance of data-driven decisions to protect communities and save lives. By analyzing data from various sources, including `r data_sources`, health officials can implement targeted measures to curb the spread of the disease.
 
-Dr. `r firstname author_name`, a leading `r expert_titles`, explains, "Our approach relies on robust data analysis to identify hotspots and allocate resources efficiently. By understanding the patterns of transmission, we will be able to introduce interventions that are both `r positive_adjectives` and minimally disruptive."
+Dr. `r firstname` `r author_name`, a leading `r expert_titles`, explains, "Our approach relies on robust data analysis to identify hotspots and allocate resources efficiently. By understanding the patterns of transmission, we will be able to introduce interventions that are both `r positive_adjectives` and minimally disruptive."
 
 Recent data has shown that areas with higher vaccination rates are experiencing significantly lower infection rates and hospitalizations. "Vaccination will be our most powerful tool," says `r author_name`. "The data clearly `r verifications` for similar outbreaks that there is a correlation between implementation of public health measures and reduced severity of the disease."
 
