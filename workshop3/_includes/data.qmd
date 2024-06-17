@@ -42,7 +42,7 @@ As  you work through each task, note that there are tips and hints that you can 
 
 * You will want to understand public opinion in `r city_name`, including voting/voting intention data (to understand the level of public support for the city council), and polling data on various public health/epidemiological measure (to understand the level of public support for various health measures/non-pharmaceutical interventions). You will find the latest voting data in a file named: voting_group`r group`.csv, and the polling data in a file named: polling_group`r group`.csv (associated metadata saved in polling_questions\_`r group`.txt). You will find a suggested workflow for analysing these data here: [Polling Data Analysis](data_analysis/Data_Polling.qmd).
 
-* You will want to understand the budget of `r city_name`, especially the funds available for the city's contingency planning budget, which can be used to finance pandemic responses. You will find the data from the latest budget in a file named: budget_group`r group`.csv, and a suggested workflow for analysing these data here: [Demographic Data Analysis](data_analysis/Data_Budget.qmd).
+* You will want to understand the budget of `r city_name`, especially the funds available for the city's contingency planning budget, which can be used to finance pandemic responses. You will find the data from the latest budget in a file named: budget_group`r group`.csv, and a suggested workflow for analysing these data here: [Budget Data Analysis](data_analysis/Data_Budget.qmd).
 
 ### Hospital and Death Data
 

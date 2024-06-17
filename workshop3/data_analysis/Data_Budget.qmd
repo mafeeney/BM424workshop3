@@ -25,10 +25,8 @@ current_year <- format(current_date, "%Y")
 # Load required libraries
 library(tidyverse)
 
-# Load required data files
-
-# demographic data files
-download.file('https://raw.githubusercontent.com/sipbs-compbiol/BM214-Workshop-3/main/assets/data/AM_Bay_01/AM_Bay_01_01.csv', 'AM_Bay_01_01.csv')
+# Load required data files - budget data files
+download.file('https://raw.githubusercontent.com/mafeeney/BM424workshop3/main/workshop3/data_sets/budget_groupA.csv', 'budget_groupA.csv')
 ```
 
 
