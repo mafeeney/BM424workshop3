@@ -1,0 +1,15 @@
+{
+  "hash": "d51ca82afc93ccbb0cbde4cba2d132d6",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: 16S Data Analysis\nformat:\n  html:\n    toc: true\n    toc-location: left\n    number-sections: false\n\nwebr:\n  packages: [\"tidyverse\", \"GGally\"]\nfilters:\n  - webr\n---\n\n\n\n\n```{webr-r}\n#| context: setup\n\n# Load required libraries\nlibrary(tidyverse)\n\n# Load required data files\n\n# demographic data files\ndownload.file('https://raw.githubusercontent.com/sipbs-compbiol/BM214-Workshop-3/main/assets/data/AM_Bay_01/AM_Bay_01_01.csv', 'AM_Bay_01_01.csv')\n```\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

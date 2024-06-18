@@ -86,7 +86,7 @@ author_data$RandomDateTime <- random_times
 
 Your committee has recently received a great deal of correspondence regarding the pandemic in `r city_name`. A representative sample of these e-mails is shown below.
 
-::: {.callout-caution collapse="true"}
+::: {.callout-caution collapse="true" icon=false}
 ## Email #1
 ```{r email-upset, echo=FALSE}
 # Define variables to randomise e-mail content
@@ -113,7 +113,7 @@ I `r hope` that your office is going to do something about `r states_of_affairs`
 
 :::
 
-::: {.callout-caution collapse="true"}
+::: {.callout-caution collapse="true" icon=false}
 ## Email #2
 ```{r email-business, echo=FALSE}
 # Define the business types and corresponding names
@@ -218,7 +218,7 @@ I `r wish1` that your office is going to do something about `r state` `r sample(
 
 :::
 
-::: {.callout-caution collapse="true"}
+::: {.callout-caution collapse="true" icon=false}
 ## Email #3
 ```{r email-overreach, echo=FALSE}
 # Define variables to randomise e-mail content
@@ -243,7 +243,7 @@ I `r fear1` that you and your office are going to use this new pandemic as yet a
 
 :::
 
-::: {.callout-caution collapse="true"}
+::: {.callout-caution collapse="true" icon=false}
 ## Email #4
 
 ```{r email-tragedy, echo=FALSE}
@@ -277,7 +277,7 @@ I have just learned that my `r relative` has passed away due to the new pandemic
 
 Your committee has also been monitoring news and published blog posts about the pandemic in `r city_name`, in order to better gauge public opinion. A representative sample of these is shown below.
 
-::: {.callout-caution collapse="true"}
+::: {.callout-caution collapse="true" icon=false}
 ## News/blog post #1
 
 ```{r news-PH, echo=FALSE}
@@ -327,7 +327,7 @@ The public is encouraged to stay informed through reliable sources and adhere to
 
 :::
 
-::: {.callout-caution collapse="true"}
+::: {.callout-caution collapse="true" icon=false}
 ## News/blog post #2
 
 ```{r news-doom, echo=FALSE}
@@ -372,7 +372,7 @@ As fear and uncertainty grip the world, one thing is clear: we must prepare for 
 
 :::
 
-::: {.callout-caution collapse="true"}
+::: {.callout-caution collapse="true" icon=false}
 ## News/blog post #3
 ```{r news-AV, echo=FALSE}
 # Define variables for randomizing content

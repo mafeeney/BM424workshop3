@@ -1,0 +1,15 @@
+{
+  "hash": "cd04b6e0bb456935deb1811f9154c713",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: Hospital Data Analysis\nformat:\n  html:\n    toc: true\n    toc-location: left\n    number-sections: false\n\nwebr:\n  packages: [\"tidyverse\", \"GGally\"]\nfilters:\n  - webr\n---\n\n\n\n\n```{webr-r}\n#| context: setup\n\n# Load required libraries\nlibrary(tidyverse)\n\n# Load required data files\n\n# demographic data files\ndownload.file('https://raw.githubusercontent.com/mafeeney/BM424workshop3/main/workshop3/data_sets/hospital_admissions_groupA.csv', 'hospital_admissions_groupA.csv')\n```\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
