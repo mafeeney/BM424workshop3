@@ -305,7 +305,7 @@ globalThis.qwebrCustomizedWebROptions = {
 };
 
 // Store cell data
-globalThis.qwebrCellDetails = [{"code":"\n# Load required libraries\nlibrary(tidyverse)\n\n# Load required data files\n\n# demographic data files\ndownload.file('https://raw.githubusercontent.com/mafeeney/BM424workshop3/main/workshop3/data_sets/demographics_groupA.csv', 'demographics_groupA.csv')","id":1,"options":{"label":"unnamed-chunk-1","comment":"","editor-quick-suggestions":"false","context":"setup","classes":"","warning":"true","out-width":"700px","output":"true","dpi":72,"autorun":"true","results":"markup","fig-height":5,"fig-cap":"","editor-font-scale":1,"editor-max-height":"","message":"true","out-height":"","fig-width":7,"read-only":"false"}},{"code":"# Use the read_csv(), and head() or glimpse() functions to load and examine your data.","id":2,"options":{"label":"unnamed-chunk-2","comment":"","editor-quick-suggestions":"false","context":"interactive","classes":"","warning":"true","out-width":"700px","output":"true","dpi":72,"autorun":"false","results":"markup","fig-height":5,"fig-cap":"","editor-font-scale":1,"editor-max-height":"","message":"true","out-height":"","fig-width":7,"read-only":"false"}},{"code":"# Use ggplot() to create a plot of the counts for each category over the years.","id":3,"options":{"label":"unnamed-chunk-3","comment":"","editor-quick-suggestions":"false","context":"interactive","classes":"","warning":"true","out-width":"700px","output":"true","dpi":72,"autorun":"false","results":"markup","fig-height":5,"fig-cap":"","editor-font-scale":1,"editor-max-height":"","message":"true","out-height":"","fig-width":7,"read-only":"false"}},{"code":"# Filter your data for \"Age\" and other categories and create plots of the filtered data.\n","id":4,"options":{"label":"unnamed-chunk-4","comment":"","editor-quick-suggestions":"false","context":"interactive","classes":"","warning":"true","out-width":"700px","output":"true","dpi":72,"autorun":"false","results":"markup","fig-height":5,"fig-cap":"","editor-font-scale":1,"editor-max-height":"","message":"true","out-height":"","fig-width":7,"read-only":"false"}},{"code":"# Filter your data for the current year, view the summarized data, and calculate the total city population.\n","id":5,"options":{"label":"unnamed-chunk-5","comment":"","editor-quick-suggestions":"false","context":"interactive","classes":"","warning":"true","out-width":"700px","output":"true","dpi":72,"autorun":"false","results":"markup","fig-height":5,"fig-cap":"","editor-font-scale":1,"editor-max-height":"","message":"true","out-height":"","fig-width":7,"read-only":"false"}},{"code":"# Use this WebR cell to experiment with any additional data visualisation(s)  you would like to perform with your pandemic data","id":6,"options":{"label":"unnamed-chunk-6","comment":"","editor-quick-suggestions":"false","context":"interactive","classes":"","warning":"true","out-width":"700px","output":"true","dpi":72,"autorun":"false","results":"markup","fig-height":5,"fig-cap":"","editor-font-scale":1,"editor-max-height":"","message":"true","out-height":"","fig-width":7,"read-only":"false"}}];
+globalThis.qwebrCellDetails = [{"code":"\n# Load required libraries\nlibrary(tidyverse)\n\n# Load required data files\n\n# demographic data files\ndownload.file('https://raw.githubusercontent.com/mafeeney/BM424workshop3/main/workshop3/data_sets/demographics_groupA.csv', 'demographics_groupA.csv')","options":{"read-only":"false","label":"unnamed-chunk-1","fig-cap":"","results":"markup","output":"true","comment":"","message":"true","editor-font-scale":1,"fig-height":5,"warning":"true","editor-quick-suggestions":"false","editor-max-height":"","fig-width":7,"out-width":"700px","out-height":"","autorun":"true","classes":"","dpi":72,"context":"setup"},"id":1},{"code":"# Use the read.csv(), and head() or glimpse() functions to load and examine your data.","options":{"read-only":"false","label":"unnamed-chunk-2","fig-cap":"","results":"markup","output":"true","comment":"","message":"true","editor-font-scale":1,"fig-height":5,"warning":"true","editor-quick-suggestions":"false","editor-max-height":"","fig-width":7,"out-width":"700px","out-height":"","autorun":"false","classes":"","dpi":72,"context":"interactive"},"id":2},{"code":"# Use ggplot() to create a plot of the counts for each category over the years.","options":{"read-only":"false","label":"unnamed-chunk-3","fig-cap":"","results":"markup","output":"true","comment":"","message":"true","editor-font-scale":1,"fig-height":5,"warning":"true","editor-quick-suggestions":"false","editor-max-height":"","fig-width":7,"out-width":"700px","out-height":"","autorun":"false","classes":"","dpi":72,"context":"interactive"},"id":3},{"code":"# Filter your data for \"Age\" and other categories and create plots of the filtered data.\n","options":{"read-only":"false","label":"unnamed-chunk-4","fig-cap":"","results":"markup","output":"true","comment":"","message":"true","editor-font-scale":1,"fig-height":5,"warning":"true","editor-quick-suggestions":"false","editor-max-height":"","fig-width":7,"out-width":"700px","out-height":"","autorun":"false","classes":"","dpi":72,"context":"interactive"},"id":4},{"code":"# Filter your data for the current year, view the summarized data, and calculate the total city population.\n","options":{"read-only":"false","label":"unnamed-chunk-5","fig-cap":"","results":"markup","output":"true","comment":"","message":"true","editor-font-scale":1,"fig-height":5,"warning":"true","editor-quick-suggestions":"false","editor-max-height":"","fig-width":7,"out-width":"700px","out-height":"","autorun":"false","classes":"","dpi":72,"context":"interactive"},"id":5},{"code":"# Use this WebR cell to experiment with any additional data visualisation(s)  you would like to perform with your pandemic data","options":{"read-only":"false","label":"unnamed-chunk-6","fig-cap":"","results":"markup","output":"true","comment":"","message":"true","editor-font-scale":1,"fig-height":5,"warning":"true","editor-quick-suggestions":"false","editor-max-height":"","fig-width":7,"out-width":"700px","out-height":"","autorun":"false","classes":"","dpi":72,"context":"interactive"},"id":6}];
 
 </script>
 <script type="module">
@@ -1522,7 +1522,7 @@ I need a hint!
 <div id="callout-2" class="callout-2-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <ul>
-<li>Use <code>read_csv()</code> to load your data.</li>
+<li>Use <code>read.csv()</code> to load your data.</li>
 <li>Use <code>head()</code> or <code>glimpse()</code> to examine your data.</li>
 </ul>
 </div>
@@ -1530,7 +1530,7 @@ I need a hint!
 </div>
 <div id="qwebr-insertion-location-2"></div>
 <noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
-<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout callout-style-default callout-warning callout-titled" title="Help! I'm stuck!">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
@@ -1544,7 +1544,7 @@ Help! I’m stuck!
 <div class="callout-body-container callout-body">
 <p>Use the <code>R</code> code below to load and examine your data.</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Replace 'X' with your group letter to load the correct file</span></span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>demographic_data <span class="ot">&lt;-</span> <span class="fu">read_csv</span>(<span class="st">"data_sets/demographics_groupA.csv"</span>)</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>demographic_data <span class="ot">&lt;-</span> <span class="fu">read_csv</span>(<span class="st">"demographics_groupX.csv"</span>)</span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="co"># View the first few rows of the data</span></span>
 <span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="fu">head</span>(demographic_data)</span>
@@ -1554,10 +1554,50 @@ Help! I’m stuck!
 </div>
 </div>
 </div>
+<div class="callout callout-style-default callout-note callout-titled" title="Understanding your results">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-4-contents" aria-controls="callout-4" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Understanding your results
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-4" class="callout-4-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>If you ran <code>glimpse(demographic_data)</code>, your results probably look something like this:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>Rows<span class="sc">:</span> <span class="dv">60</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>Columns<span class="sc">:</span> <span class="dv">3</span></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="sc">$</span> Year     <span class="sc">&lt;</span>int<span class="sc">&gt;</span> <span class="dv">2020</span>, <span class="dv">2020</span>, <span class="dv">2020</span>, <span class="dv">2020</span>, <span class="dv">2020</span>, <span class="dv">2020</span>, <span class="dv">2020</span>, <span class="dv">2020</span>, <span class="dv">2020</span>, <span class="dv">2020</span>, <span class="dv">2</span>…</span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="sc">$</span> Category <span class="sc">&lt;</span>chr<span class="sc">&gt;</span> <span class="st">"Age: 0-14"</span>, <span class="st">"Age: 15-24"</span>, <span class="st">"Age: 25-44"</span>, <span class="st">"Age: 45-64"</span>, <span class="st">"Age: …</span></span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="st">$ Count    &lt;int&gt; 14992, 41866, 57453, 44526, 18384, 9669, 87828, 95062, 4000, …</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>While if you ran <code>head(demographic_data, 10)</code>, you will likely have seen something like this:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>   Year             Category  Count</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="dv">1</span>  <span class="dv">2020</span>            Age<span class="sc">:</span> <span class="dv">0-14</span>  <span class="dv">14992</span></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="dv">2</span>  <span class="dv">2020</span>           Age<span class="sc">:</span> <span class="dv">15-24</span>  <span class="dv">41866</span></span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a><span class="dv">3</span>  <span class="dv">2020</span>           Age<span class="sc">:</span> <span class="dv">25-44</span>  <span class="dv">57453</span></span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a><span class="dv">4</span>  <span class="dv">2020</span>           Age<span class="sc">:</span> <span class="dv">45-64</span>  <span class="dv">44526</span></span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a><span class="dv">5</span>  <span class="dv">2020</span>           Age<span class="sc">:</span> <span class="dv">65-74</span>  <span class="dv">18384</span></span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a><span class="dv">6</span>  <span class="dv">2020</span>             Age<span class="sc">:</span> <span class="dv">75</span><span class="sc">+</span>   <span class="dv">9669</span></span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a><span class="dv">7</span>  <span class="dv">2020</span>         Gender<span class="sc">:</span> Male  <span class="dv">87828</span></span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a><span class="dv">8</span>  <span class="dv">2020</span>       Gender<span class="sc">:</span> Female  <span class="dv">95062</span></span>
+<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a><span class="dv">9</span>  <span class="dv">2020</span>        Gender<span class="sc">:</span> Other   <span class="dv">4000</span></span>
+<span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a><span class="dv">10</span> <span class="dv">2020</span> Employment<span class="sc">:</span> Employed <span class="dv">127570</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>You can tell from these looks at your demographic data, that it gives the number of people (Count) in different categories over the years. You can also tell (from <code>glimpse</code>) that there are 60 rows and 3 columns in your dataset; and the <em>type</em> of data in each column (int = integer, chr = character or string values).</p>
+</div>
+</div>
+</div>
 </section>
 <section id="demographic-data-step-2plotting-your-data" class="level2">
 <h2 class="anchored" data-anchor-id="demographic-data-step-2plotting-your-data">Demographic Data: Step 2–Plotting Your Data</h2>
 <p>Now that you have loaded and examined your data, you can visualize it by creating a plot. We’ll use <code>ggplot2</code> from the tidyverse to plot counts for each category over the years.</p>
+<p>ggplot2 is an R package for creating graphics and visualizations. It uses a systematic way of thinking about and building plots called the “Grammar of Graphics”, which allows you to build graphs by combining independent components. Each graph can be built up of layers, which are added to the base plot using the + operator.</p>
+<p>You will want to point ggplot2 at the data you want to visualise (the data frame; in this case, <code>demographic_data</code>), and add geometric objects (geoms) such as points or lines showing your data. You will want to define the visual properties (aesthetics, or aes) of the plot (e.g., the x and y positions, colours/shapes/sizes of objects in the plot). You may also want to customise the graph further, for example by selecting a theme and/or editing the labels on the graph.</p>
 <div class="callout callout-style-default callout-important callout-titled" title="Task">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -1572,7 +1612,7 @@ Task
 </div>
 </div>
 <div class="callout callout-style-default callout-tip callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-5-contents" aria-controls="callout-5" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-6-contents" aria-controls="callout-6" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
@@ -1581,7 +1621,7 @@ I need a hint!
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div id="callout-5" class="callout-5-contents callout-collapse collapse">
+<div id="callout-6" class="callout-6-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <ul>
 <li>Use <code>ggplot()</code> to initialize the plot with your data and aesthetic mappings.</li>
@@ -1595,7 +1635,7 @@ I need a hint!
 <div id="qwebr-insertion-location-3"></div>
 <noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
 <div class="callout callout-style-default callout-warning callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-6-contents" aria-controls="callout-6" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-7-contents" aria-controls="callout-7" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
@@ -1604,24 +1644,57 @@ Help! I’m stuck!
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div id="callout-6" class="callout-6-contents callout-collapse collapse">
+<div id="callout-7" class="callout-7-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <p>Use the <code>R</code> code below to create your plot.</p>
-<div class="sourceCode" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Create the plot</span></span>
-<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(demographic_data, <span class="fu">aes</span>(<span class="at">x =</span> Year, <span class="at">y =</span> Count, <span class="at">color =</span> Category)) <span class="sc">+</span> <span class="co">#This initializes the plot with `demographic_data`, mapping the `Year` to the x-axis, `Count` to the y-axis, and `Category` to the color of the lines.</span></span>
-<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_line</span>() <span class="sc">+</span> <span class="co">#This adds line plots to represent the data.</span></span>
-<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">title =</span> <span class="st">"Category Counts by Year"</span>,</span>
-<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>       <span class="at">x =</span> <span class="st">"Year"</span>,</span>
-<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>       <span class="at">y =</span> <span class="st">"Count"</span>,</span>
-<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>       <span class="at">color =</span> <span class="st">"Category"</span>) <span class="sc">+</span> <span class="co">#This adds a title and labels to the plot.</span></span>
-<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_minimal</span>() <span class="co">#This applies a minimal theme for a clean and simple plot appearance.</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Create the plot</span></span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(demographic_data, <span class="fu">aes</span>(<span class="at">x =</span> Year, <span class="at">y =</span> Count, <span class="at">color =</span> Category)) <span class="sc">+</span> <span class="co">#This initializes the plot with `demographic_data`, mapping the `Year` to the x-axis, `Count` to the y-axis, and `Category` to the color of the lines.</span></span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_line</span>() <span class="sc">+</span> <span class="co">#This adds line plots to represent the data.</span></span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">title =</span> <span class="st">"Category Counts by Year"</span>,</span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>       <span class="at">x =</span> <span class="st">"Year"</span>,</span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a>       <span class="at">y =</span> <span class="st">"Count"</span>,</span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a>       <span class="at">color =</span> <span class="st">"Category"</span>) <span class="sc">+</span> <span class="co">#This adds a title and labels to the plot.</span></span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_minimal</span>() <span class="co">#This applies a minimal theme for a clean and simple plot appearance.</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</div>
+</div>
+<div class="callout callout-style-default callout-note callout-titled" title="Understanding your results">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-8-contents" aria-controls="callout-8" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Understanding your results
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-8" class="callout-8-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>If you ran the command below:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(demographic_data, <span class="fu">aes</span>(<span class="at">x =</span> Year, <span class="at">y =</span> Count, <span class="at">color =</span> Category)) <span class="sc">+</span> <span class="co">#This initializes the plot with `demographic_data`, mapping the `Year` to the x-axis, `Count` to the y-axis, and `Category` to the color of the lines.</span></span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_line</span>() <span class="sc">+</span> <span class="co">#This adds line plots to represent the data.</span></span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">title =</span> <span class="st">"Category Counts by Year"</span>,</span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a>       <span class="at">x =</span> <span class="st">"Year"</span>,</span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a>       <span class="at">y =</span> <span class="st">"Count"</span>,</span>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a>       <span class="at">color =</span> <span class="st">"Category"</span>) <span class="sc">+</span> <span class="co">#This adds a title and labels to the plot.</span></span>
+<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_minimal</span>() <span class="co">#This applies a minimal theme for a clean and simple plot appearance. </span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>you have probably generated a plot that looks something like this:</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="data-images/demog-plot1.png" style="width:75.0%;height:75.0%" class="figure-img"></p>
+<figcaption>Figure 1. Initial plot of demographic_data</figcaption>
+</figure>
+</div>
+<p>This is a reasonable first attempt at plotting these data, but you may find it difficult to interpret the data: it can be hard to interpret the colours for the different categories, and you do not get a clear idea of the total population from this graph.</p>
 </div>
 </div>
 </div>
 </section>
 <section id="demographic-data-step-3filtering-and-plotting-your-data" class="level2">
 <h2 class="anchored" data-anchor-id="demographic-data-step-3filtering-and-plotting-your-data">Demographic Data: Step 3–Filtering and Plotting Your Data</h2>
-<p>You can see from examining and plotting your data that there are three different categories present in your demographic dataset: age, gender, and employment. It may be more helpful to create a plot specifically for each of these categories. For example, you might first filter the data based on age and then plot it. You may also similarly explore the other demographic categories (employment and gender).</p>
+<p>You should have seen from examining and plotting your data that there are three different categories present in your demographic dataset: age, gender, and employment. It may be more helpful to create a plot specifically for each of these categories. For example, you might first filter the data based on age and then plot it. You may also similarly explore the other demographic categories (employment and gender).</p>
 <div class="callout callout-style-default callout-important callout-titled" title="Task">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -1636,7 +1709,7 @@ Task
 </div>
 </div>
 <div class="callout callout-style-default callout-tip callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-8-contents" aria-controls="callout-8" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-10-contents" aria-controls="callout-10" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
@@ -1645,7 +1718,7 @@ I need a hint!
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div id="callout-8" class="callout-8-contents callout-collapse collapse">
+<div id="callout-10" class="callout-10-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <ul>
 <li>You may find it helpful to define a new variable with an informative name to store your filtered data.</li>
@@ -1659,7 +1732,7 @@ I need a hint!
 <div id="qwebr-insertion-location-4"></div>
 <noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
 <div class="callout callout-style-default callout-warning callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-9-contents" aria-controls="callout-9" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-11-contents" aria-controls="callout-11" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
@@ -1668,39 +1741,55 @@ Help! I’m stuck!
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div id="callout-9" class="callout-9-contents callout-collapse collapse">
+<div id="callout-11" class="callout-11-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <p>Use the <code>R</code> code below to filter your data and create the plot.</p>
-<div class="sourceCode" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Filter data for Age categories</span></span>
-<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="co"># </span></span>
-<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>age_data <span class="ot">&lt;-</span> demographic_data <span class="sc">%&gt;%</span> <span class="fu">filter</span>(<span class="fu">str_detect</span>(Category, <span class="st">"Age"</span>))  <span class="co">#Filters the `demographic_data` to include only rows where the `Category` column contains the word "Age"</span></span>
-<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Create a plot for Age categories</span></span>
-<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(age_data, <span class="fu">aes</span>(<span class="at">x =</span> Year, <span class="at">y =</span> Count, <span class="at">color =</span> Category)) <span class="sc">+</span> <span class="co">#This will initialize a plot with the filtered `age_data`, mapping `Year` to the x-axis, `Count` to the y-axis, and `Category` to the color of the lines.</span></span>
-<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_line</span>() <span class="sc">+</span> <span class="co">#This adds line plots to represent the age-category data.</span></span>
-<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">x =</span> <span class="st">"Year"</span>,</span>
-<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a>       <span class="at">y =</span> <span class="st">"Total Count"</span>) <span class="sc">+</span> <span class="co">#This adds labels to the x and y axes.</span></span>
-<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_minimal</span>() <span class="co">#This applies a minimal theme</span></span>
-<span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a>  </span>
-<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a><span class="co"># Filter data for Gender categories</span></span>
-<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a>gender_data <span class="ot">&lt;-</span> demographic_data <span class="sc">%&gt;%</span> <span class="fu">filter</span>(<span class="fu">str_detect</span>(Category, <span class="st">"Gender"</span>))</span>
-<span id="cb3-14"><a href="#cb3-14" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-15"><a href="#cb3-15" aria-hidden="true" tabindex="-1"></a><span class="co"># Create a plot for Gender categories</span></span>
-<span id="cb3-16"><a href="#cb3-16" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(gender_data, <span class="fu">aes</span>(<span class="at">x =</span> Year, <span class="at">y =</span> Count, <span class="at">color =</span> Category)) <span class="sc">+</span> <span class="co">#This will initialize a plot with the filtered `gender_data`, mapping `Year` to the x-axis, `Count` to the y-axis, and `Category` to the color of the lines.</span></span>
-<span id="cb3-17"><a href="#cb3-17" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_line</span>() <span class="sc">+</span> <span class="co">#This adds line plots to represent the gender-category data.</span></span>
-<span id="cb3-18"><a href="#cb3-18" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">x =</span> <span class="st">"Year"</span>,</span>
-<span id="cb3-19"><a href="#cb3-19" aria-hidden="true" tabindex="-1"></a>       <span class="at">y =</span> <span class="st">"Total Count"</span>) <span class="sc">+</span> <span class="co">#This adds labels to the x and y axes.</span></span>
-<span id="cb3-20"><a href="#cb3-20" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_minimal</span>() <span class="co">#This applies a minimal theme</span></span>
-<span id="cb3-21"><a href="#cb3-21" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-22"><a href="#cb3-22" aria-hidden="true" tabindex="-1"></a><span class="co"># Filter data for Employment categories</span></span>
-<span id="cb3-23"><a href="#cb3-23" aria-hidden="true" tabindex="-1"></a>employment_data <span class="ot">&lt;-</span> demographic_data <span class="sc">%&gt;%</span> <span class="fu">filter</span>(<span class="fu">str_detect</span>(Category, <span class="st">"Employment"</span>))</span>
-<span id="cb3-24"><a href="#cb3-24" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-25"><a href="#cb3-25" aria-hidden="true" tabindex="-1"></a><span class="co"># Create a plot for Employment categories</span></span>
-<span id="cb3-26"><a href="#cb3-26" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(employment_data, <span class="fu">aes</span>(<span class="at">x =</span> Year, <span class="at">y =</span> Count, <span class="at">color =</span> Category)) <span class="sc">+</span> <span class="co">#This will initialize a plot with the filtered `employment_data`, mapping `Year` to the x-axis, `Count` to the y-axis, and `Category` to the color of the lines.</span></span>
-<span id="cb3-27"><a href="#cb3-27" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_line</span>() <span class="sc">+</span> <span class="co">#This adds line plots to represent the employment-category data.</span></span>
-<span id="cb3-28"><a href="#cb3-28" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">x =</span> <span class="st">"Year"</span>,</span>
-<span id="cb3-29"><a href="#cb3-29" aria-hidden="true" tabindex="-1"></a>       <span class="at">y =</span> <span class="st">"Total Count"</span>) <span class="sc">+</span> <span class="co">#This adds labels to the x and y axes.</span></span>
-<span id="cb3-30"><a href="#cb3-30" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_minimal</span>() <span class="co">#This applies a minimal theme</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Filter data for Age categories</span></span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a><span class="co"># </span></span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>age_data <span class="ot">&lt;-</span> demographic_data <span class="sc">%&gt;%</span> <span class="fu">filter</span>(<span class="fu">str_detect</span>(Category, <span class="st">"Age"</span>))  <span class="co">#Filters the `demographic_data` to include only rows where the `Category` column contains the word "Age"</span></span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Create a plot for Age categories</span></span>
+<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(age_data, <span class="fu">aes</span>(<span class="at">x =</span> Year, <span class="at">y =</span> Count, <span class="at">color =</span> Category)) <span class="sc">+</span> <span class="co">#This will initialize a plot with the filtered `age_data`, mapping `Year` to the x-axis, `Count` to the y-axis, and `Category` to the color of the lines.</span></span>
+<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_line</span>() <span class="sc">+</span> <span class="co">#This adds line plots to represent the age-category data.</span></span>
+<span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">x =</span> <span class="st">"Year"</span>,</span>
+<span id="cb6-9"><a href="#cb6-9" aria-hidden="true" tabindex="-1"></a>       <span class="at">y =</span> <span class="st">"Total Count"</span>) <span class="sc">+</span> <span class="co">#This adds labels to the x and y axes.</span></span>
+<span id="cb6-10"><a href="#cb6-10" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_minimal</span>() <span class="co">#This applies a minimal theme</span></span>
+<span id="cb6-11"><a href="#cb6-11" aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb6-12"><a href="#cb6-12" aria-hidden="true" tabindex="-1"></a><span class="co"># Filter data for Gender categories</span></span>
+<span id="cb6-13"><a href="#cb6-13" aria-hidden="true" tabindex="-1"></a>gender_data <span class="ot">&lt;-</span> demographic_data <span class="sc">%&gt;%</span> <span class="fu">filter</span>(<span class="fu">str_detect</span>(Category, <span class="st">"Gender"</span>))</span>
+<span id="cb6-14"><a href="#cb6-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-15"><a href="#cb6-15" aria-hidden="true" tabindex="-1"></a><span class="co"># Create a plot for Gender categories</span></span>
+<span id="cb6-16"><a href="#cb6-16" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(gender_data, <span class="fu">aes</span>(<span class="at">x =</span> Year, <span class="at">y =</span> Count, <span class="at">color =</span> Category)) <span class="sc">+</span> <span class="co">#This will initialize a plot with the filtered `gender_data`, mapping `Year` to the x-axis, `Count` to the y-axis, and `Category` to the color of the lines.</span></span>
+<span id="cb6-17"><a href="#cb6-17" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_line</span>() <span class="sc">+</span> <span class="co">#This adds line plots to represent the gender-category data.</span></span>
+<span id="cb6-18"><a href="#cb6-18" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">x =</span> <span class="st">"Year"</span>,</span>
+<span id="cb6-19"><a href="#cb6-19" aria-hidden="true" tabindex="-1"></a>       <span class="at">y =</span> <span class="st">"Total Count"</span>) <span class="sc">+</span> <span class="co">#This adds labels to the x and y axes.</span></span>
+<span id="cb6-20"><a href="#cb6-20" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_minimal</span>() <span class="co">#This applies a minimal theme</span></span>
+<span id="cb6-21"><a href="#cb6-21" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-22"><a href="#cb6-22" aria-hidden="true" tabindex="-1"></a><span class="co"># Filter data for Employment categories</span></span>
+<span id="cb6-23"><a href="#cb6-23" aria-hidden="true" tabindex="-1"></a>employment_data <span class="ot">&lt;-</span> demographic_data <span class="sc">%&gt;%</span> <span class="fu">filter</span>(<span class="fu">str_detect</span>(Category, <span class="st">"Employment"</span>))</span>
+<span id="cb6-24"><a href="#cb6-24" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-25"><a href="#cb6-25" aria-hidden="true" tabindex="-1"></a><span class="co"># Create a plot for Employment categories</span></span>
+<span id="cb6-26"><a href="#cb6-26" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(employment_data, <span class="fu">aes</span>(<span class="at">x =</span> Year, <span class="at">y =</span> Count, <span class="at">color =</span> Category)) <span class="sc">+</span> <span class="co">#This will initialize a plot with the filtered `employment_data`, mapping `Year` to the x-axis, `Count` to the y-axis, and `Category` to the color of the lines.</span></span>
+<span id="cb6-27"><a href="#cb6-27" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_line</span>() <span class="sc">+</span> <span class="co">#This adds line plots to represent the employment-category data.</span></span>
+<span id="cb6-28"><a href="#cb6-28" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">x =</span> <span class="st">"Year"</span>,</span>
+<span id="cb6-29"><a href="#cb6-29" aria-hidden="true" tabindex="-1"></a>       <span class="at">y =</span> <span class="st">"Total Count"</span>) <span class="sc">+</span> <span class="co">#This adds labels to the x and y axes.</span></span>
+<span id="cb6-30"><a href="#cb6-30" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_minimal</span>() <span class="co">#This applies a minimal theme</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</div>
+</div>
+<div class="callout callout-style-default callout-note callout-titled" title="Understanding your results">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-12-contents" aria-controls="callout-12" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Understanding your results
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-12" class="callout-12-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>If you ran the command below:</p>
 </div>
 </div>
 </div>
@@ -1731,7 +1820,7 @@ Task
 </div>
 </div>
 <div class="callout callout-style-default callout-tip callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-11-contents" aria-controls="callout-11" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-14-contents" aria-controls="callout-14" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
@@ -1740,7 +1829,7 @@ I need a hint!
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div id="callout-11" class="callout-11-contents callout-collapse collapse">
+<div id="callout-14" class="callout-14-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <ul>
 <li>Use <code>filter()</code> to select rows where the <code>Year</code> is 2024.</li>
@@ -1754,7 +1843,7 @@ I need a hint!
 <div id="qwebr-insertion-location-5"></div>
 <noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
 <div class="callout callout-style-default callout-warning callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-12-contents" aria-controls="callout-12" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-15-contents" aria-controls="callout-15" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
@@ -1763,25 +1852,25 @@ Help! I’m stuck!
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div id="callout-12" class="callout-12-contents callout-collapse collapse">
+<div id="callout-15" class="callout-15-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <p>Use the <code>R</code> code below to filter your data, view the summarized data, and calculate the total city population.</p>
-<div class="sourceCode" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Step 4: Filter data for the current year</span></span>
-<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>summary_data_2024 <span class="ot">&lt;-</span> demographic_data <span class="sc">%&gt;%</span></span>
-<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(Year <span class="sc">==</span> <span class="dv">2024</span>)  <span class="co"># Filters the data to include only rows where the Year column is 2024</span></span>
-<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a><span class="co"># View the summarized data for the current year</span></span>
-<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(summary_data_2024)  <span class="co"># Prints the filtered data for the year 2024</span></span>
-<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a><span class="co"># Calculate total city population in 2024</span></span>
-<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a><span class="co"># Extract the general category and sum the counts</span></span>
-<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a>result <span class="ot">&lt;-</span> summary_data_2024 <span class="sc">%&gt;%</span></span>
-<span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">GeneralCategory =</span> <span class="fu">str_extract</span>(Category, <span class="st">"^[^:]+"</span>)) <span class="sc">%&gt;%</span>  <span class="co"># Extracts the general category from the Category column</span></span>
-<span id="cb4-12"><a href="#cb4-12" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(GeneralCategory) <span class="sc">%&gt;%</span>  <span class="co"># Groups the data by the new GeneralCategory</span></span>
-<span id="cb4-13"><a href="#cb4-13" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarise</span>(<span class="at">TotalCount =</span> <span class="fu">sum</span>(Count))  <span class="co"># Sums the Count for each general category</span></span>
-<span id="cb4-14"><a href="#cb4-14" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-15"><a href="#cb4-15" aria-hidden="true" tabindex="-1"></a><span class="co"># Print the result</span></span>
-<span id="cb4-16"><a href="#cb4-16" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(result)  <span class="co"># Prints the summarized total counts for each general category</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Step 4: Filter data for the current year</span></span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>summary_data_2024 <span class="ot">&lt;-</span> demographic_data <span class="sc">%&gt;%</span></span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(Year <span class="sc">==</span> <span class="dv">2024</span>)  <span class="co"># Filters the data to include only rows where the Year column is 2024</span></span>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a><span class="co"># View the summarized data for the current year</span></span>
+<span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(summary_data_2024)  <span class="co"># Prints the filtered data for the year 2024</span></span>
+<span id="cb7-7"><a href="#cb7-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-8"><a href="#cb7-8" aria-hidden="true" tabindex="-1"></a><span class="co"># Calculate total city population in 2024</span></span>
+<span id="cb7-9"><a href="#cb7-9" aria-hidden="true" tabindex="-1"></a><span class="co"># Extract the general category and sum the counts</span></span>
+<span id="cb7-10"><a href="#cb7-10" aria-hidden="true" tabindex="-1"></a>result <span class="ot">&lt;-</span> summary_data_2024 <span class="sc">%&gt;%</span></span>
+<span id="cb7-11"><a href="#cb7-11" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">GeneralCategory =</span> <span class="fu">str_extract</span>(Category, <span class="st">"^[^:]+"</span>)) <span class="sc">%&gt;%</span>  <span class="co"># Extracts the general category from the Category column</span></span>
+<span id="cb7-12"><a href="#cb7-12" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(GeneralCategory) <span class="sc">%&gt;%</span>  <span class="co"># Groups the data by the new GeneralCategory</span></span>
+<span id="cb7-13"><a href="#cb7-13" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarise</span>(<span class="at">TotalCount =</span> <span class="fu">sum</span>(Count))  <span class="co"># Sums the Count for each general category</span></span>
+<span id="cb7-14"><a href="#cb7-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-15"><a href="#cb7-15" aria-hidden="true" tabindex="-1"></a><span class="co"># Print the result</span></span>
+<span id="cb7-16"><a href="#cb7-16" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(result)  <span class="co"># Prints the summarized total counts for each general category</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </div>
 </div>
